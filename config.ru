@@ -1,3 +1,2 @@
-require_relative './config/environment'
-require './app'
+require './hello'
 run Sinatra::Application
