@@ -1,2 +1,2 @@
 require_relative './config/environment'
-run Application
+run 'app.rb'
