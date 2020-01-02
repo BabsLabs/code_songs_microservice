@@ -1,5 +1,3 @@
-require './services/git_hub_service.rb'
-
 class ReposFacade
   attr_reader :message
 
