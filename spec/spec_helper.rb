@@ -18,6 +18,7 @@ VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'
   config.hook_into :webmock
   config.configure_rspec_metadata!
+  config.default_cassette_options = { record: :new_episodes }
   config.filter_sensitive_data("<GITHUB_TEST_TOKEN>") { ENV['GITHUB_TEST_TOKEN'] }
   config.filter_sensitive_data("<MUSIX_MATCH_TOKEN>") { ENV['MUSIX_MATCH_TOKEN'] }
   config.filter_sensitive_data("<WATSON_TOKEN>") { ENV['WATSON_TOKEN'] }
