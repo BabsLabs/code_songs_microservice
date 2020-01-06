@@ -8,6 +8,8 @@ class Song
     @lyrics ||= track_lyrics
   end
 
+  private
+
   def track_lyrics
     service = MusixMatchService.new(nil, @track_id)
     response = service.get_lyrics
