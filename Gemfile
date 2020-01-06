@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'faraday'
 gem 'rake'
-gem 'figaro'
+gem 'figaro', :git => 'https://github.com/bpaquet/figaro.git', :branch => 'sinatra'
 
 group :test do
   gem 'rack-test'

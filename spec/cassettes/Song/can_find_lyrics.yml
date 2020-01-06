@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985077
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1610'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '1'
+      - '1'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:20 GMT
+      X-Served-By:
+      - cache-den19650-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076760.998362,VS0,VE53
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.12468981742859},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
+        club isn''t the best place to find a lover\nSo the bar is where I go\nMe and
+        my friends at the table doing shots\nDrinking fast, and then we talk slow\n\nAnd
+        you come over and start up a conversation with just me\nAnd trust me, I''ll
+        give it a chance now\nTake my hand, stop\nPut \"Van the Man\" on the jukebox\nAnd
+        then we start to dance\nAnd now I''m singing like\n\nGirl, you know I want
+        your love\nYour love was handmade for somebody like me\nCome on now, follow
+        my lead\nI may be crazy, don''t mind me\n\nSay: \"Boy, let''s not talk too
+        much\nGrab on my waist and put that body on me\"\nCome on now, follow my lead\nCome,
+        come on now, follow my lead\n\nI''m in love with the shape of you\nWe push
+        and pull like a magnet do\nAlthough my heart is falling too\nI''m in love
+        with your body\nLast night you were in my room\nAnd now my bed sheets smell
+        like you\nEvery day discovering something brand new\n\nOh, I''m in love with
+        your body\nOh-i-oh-i-oh-i-oh-i\nOh, I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\nOh,
+        I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\n...\n\n******* This Lyrics
+        is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAAqaRsrzxM2rNMQs5HQW5bW1XAnCELYf7qH4ZsT8v3AVsFAKTlFwWZr3fnhmXj0hbWZfp5nAdAvGfx-VheYHGCkYZcISIua_aSEdUl6ffMb9ifp8nvHCPKSlhB-iIaSS7ke7Pfbqc-Zu5WGcjDVciOaIpRwfG8neXl_74G16OzI22cuQka5Vbl1Qfm1tzibRe7RliuriXcmZsR33CjGSFR_HaLmvDfHJm6aRY_kCvDYPIUWZvBGZaKj4nUa3rKHlkwQU5_nmvzWaUjdZ_OWTLhwlr8q19OUiW9LwQmeRZiPQYXm1P1VyehWPhroF5ZkW_G6ROqAe9sshBimO9Vrzhs8QtycWR-_sj67awNOUZm5MEVl9edbAYhM0K5ENE4wj3-LtXW6SCEU6UuLZ6VGXoXG97EErfj5Uzidv0k2A4xPG7QeYITyPXuH4ngN7Z8EEnOoHWzo\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAPARsadhgbrQh_na6ijJb93ml6GLg-iogRkgn0MEHpVNhpNGilpuPjrC7SaWJPAGXCwNSA79Yn4ZOLporRqf5ukp4HcVblhtHS5UDbtJ0big59Fs9bPYEFKUW98gLPxNyzNW_lApnXV3DkkvzZdVk2GHlwBf2S7xzTjR2UllT5eJF1Vz3S1Kkytv-hP2AALnXJfD0ndzkyfqCL6MEv5_3ohRAxl_kvsf3Dkl3wTWyTw6lI-iI0ZlulgUmWAn69Gm4iAaSJAzK5IACPPLzqh8zQkxLO8HmMynSO-OlsDmV2V2ylSvXfArEImoufJUqAACbsqVyS07aEMnpFWToKWO309ZSe9F8vNn_dQ0eThvOQx_puFw_xmhjCza_KRevjv5aEF8Fu8bw8STr9TureEWgYzRGJndtSCiHIlxpumdfX8pjoiuvzJyw6ZRYZDlkGBOdzfbkhE\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-09T12:36:32Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:20 GMT
+recorded_with: VCR 5.0.0
