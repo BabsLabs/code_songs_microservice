@@ -1,0 +1,427 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.search?apikey=<MUSIX_MATCH_TOKEN>&f_artist_id=38620990&f_has_lyrics=true&page=1&page_size=5&s_track_rating=desc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '986'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:18 GMT
+      X-Served-By:
+      - cache-den19635-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076758.205385,VS0,VE121
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.011243104934692,"available":283},"body":{"track_list":[{"track":{"track_id":124985077,"track_name":"Shape
+        of You","track_name_translation_list":[],"track_rating":100,"commontrack_id":69032569,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":56433,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1048,"music_genre_parent_id":17,"music_genre_name":"House","music_genre_name_extended":"Dance
+        \/ House","music_genre_vanity":"Dance-House"}},{"music_genre":{"music_genre_id":1183,"music_genre_parent_id":24,"music_genre_name":"Dancehall","music_genre_name_extended":"Reggae
+        \/ Dancehall","music_genre_vanity":"Reggae-Dancehall"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":17,"music_genre_parent_id":34,"music_genre_name":"Dance","music_genre_name_extended":"Dance","music_genre_vanity":"Dance"}}]}}},{"track":{"track_id":124985078,"track_name":"Perfect","track_name_translation_list":[],"track_rating":99,"commontrack_id":69182670,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":44672,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1022,"music_genre_parent_id":5,"music_genre_name":"Classical
+        Crossover","music_genre_name_extended":"Classical \/ Classical Crossover","music_genre_vanity":"Classical-Classical-Crossover"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109263,"track_name":"Thinking
+        Out Loud","track_name_translation_list":[],"track_rating":98,"commontrack_id":39539742,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":151562,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
+        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1143,"music_genre_parent_id":15,"music_genre_name":"Soul","music_genre_name_extended":"R&B\/Soul
+        \/ Soul","music_genre_vanity":"R-B-Soul-Soul"}}]}}},{"track":{"track_id":170774806,"track_name":"South
+        of the Border","track_name_translation_list":[],"track_rating":97,"commontrack_id":95699196,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":130,"album_id":32562576,"album_name":"No.6
+        Collaborations Project","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-07-30T14:55:38Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109257,"track_name":"Photograph","track_name_translation_list":[],"track_rating":95,"commontrack_id":39539736,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":153266,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
+        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":1289,"music_genre_parent_id":34,"music_genre_name":"Folk","music_genre_name_extended":"Folk","music_genre_vanity":"Folk"}}]}}}]}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:18 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985077
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1610'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:18 GMT
+      X-Served-By:
+      - cache-den19624-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076758.396582,VS0,VE190
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.12468981742859},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
+        club isn''t the best place to find a lover\nSo the bar is where I go\nMe and
+        my friends at the table doing shots\nDrinking fast, and then we talk slow\n\nAnd
+        you come over and start up a conversation with just me\nAnd trust me, I''ll
+        give it a chance now\nTake my hand, stop\nPut \"Van the Man\" on the jukebox\nAnd
+        then we start to dance\nAnd now I''m singing like\n\nGirl, you know I want
+        your love\nYour love was handmade for somebody like me\nCome on now, follow
+        my lead\nI may be crazy, don''t mind me\n\nSay: \"Boy, let''s not talk too
+        much\nGrab on my waist and put that body on me\"\nCome on now, follow my lead\nCome,
+        come on now, follow my lead\n\nI''m in love with the shape of you\nWe push
+        and pull like a magnet do\nAlthough my heart is falling too\nI''m in love
+        with your body\nLast night you were in my room\nAnd now my bed sheets smell
+        like you\nEvery day discovering something brand new\n\nOh, I''m in love with
+        your body\nOh-i-oh-i-oh-i-oh-i\nOh, I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\nOh,
+        I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\n...\n\n******* This Lyrics
+        is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAAqaRsrzxM2rNMQs5HQW5bW1XAnCELYf7qH4ZsT8v3AVsFAKTlFwWZr3fnhmXj0hbWZfp5nAdAvGfx-VheYHGCkYZcISIua_aSEdUl6ffMb9ifp8nvHCPKSlhB-iIaSS7ke7Pfbqc-Zu5WGcjDVciOaIpRwfG8neXl_74G16OzI22cuQka5Vbl1Qfm1tzibRe7RliuriXcmZsR33CjGSFR_HaLmvDfHJm6aRY_kCvDYPIUWZvBGZaKj4nUa3rKHlkwQU5_nmvzWaUjdZ_OWTLhwlr8q19OUiW9LwQmeRZiPQYXm1P1VyehWPhroF5ZkW_G6ROqAe9sshBimO9Vrzhs8QtycWR-_sj67awNOUZm5MEVl9edbAYhM0K5ENE4wj3-LtXW6SCEU6UuLZ6VGXoXG97EErfj5Uzidv0k2A4xPG7QeYITyPXuH4ngN7Z8EEnOoHWzo\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAPARsadhgbrQh_na6ijJb93ml6GLg-iogRkgn0MEHpVNhpNGilpuPjrC7SaWJPAGXCwNSA79Yn4ZOLporRqf5ukp4HcVblhtHS5UDbtJ0big59Fs9bPYEFKUW98gLPxNyzNW_lApnXV3DkkvzZdVk2GHlwBf2S7xzTjR2UllT5eJF1Vz3S1Kkytv-hP2AALnXJfD0ndzkyfqCL6MEv5_3ohRAxl_kvsf3Dkl3wTWyTw6lI-iI0ZlulgUmWAn69Gm4iAaSJAzK5IACPPLzqh8zQkxLO8HmMynSO-OlsDmV2V2ylSvXfArEImoufJUqAACbsqVyS07aEMnpFWToKWO309ZSe9F8vNn_dQ0eThvOQx_puFw_xmhjCza_KRevjv5aEF8Fu8bw8STr9TureEWgYzRGJndtSCiHIlxpumdfX8pjoiuvzJyw6ZRYZDlkGBOdzfbkhE\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-09T12:36:32Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:18 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985078
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1416'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:18 GMT
+      X-Served-By:
+      - cache-den19637-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076759.737207,VS0,VE163
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.052872896194458},"body":{"lyrics":{"lyrics_id":16448653,"explicit":0,"lyrics_body":"I
+        found a love for me\nOh darling, just dive right in and follow my lead\nWell,
+        I found a girl, beautiful and sweet\nOh, I never knew you were the someone
+        waiting for me\n''Cause we were just kids when we fell in love\nNot knowing
+        what it was\nI will not give you up this time\nBut darling, just kiss me slow,
+        your heart is all I own\nAnd in your eyes, you''re holding mine\n\nBaby, I''m
+        dancing in the dark with you between my arms\nBarefoot on the grass, listening
+        to our favourite song\nWhen you said you looked a mess, I whispered underneath
+        my breath\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCAFo6OdVCfx6ZBXwUzSq7Z8tc0crNUlJExlPzGLyomu_UPuBcazw8LZ-7_4YmLcuTLaABda5-J72itPRW1qwH-6MNDP7TzHEIywIzzxrytSezydiqZ4haVZmdCYk1uSnbLh28842CKYkP27gcw3T53feSpUkAX-GlozbsxwiSktXxSAqi6i9nQ03HbfWwTi5toEcGeF96s6YOUvY3wanXP-VlqI5RFt-TeKfXKDUSlIPBuwZGAcFUT2pt9Kzp1HuepJGc2aJV4ZyTi_th6jnkYUpzs5iaPU1lrTeZtEw2pmSxmJfIrqWhED14x3su2a2AsBtDL1nLM88Qne6rLuu0m_Go3iwZ-o67-rBt2NUap2wNEeboxImR1Vnfiq1f2p3bkzO_i66q0-bQbYc7fnAehpW26HSc68fdcjDwHzj07FuTfyoM89cNwOyMxaGb2q0\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCACaR4Gc5IZ5IcR9AAmiFsflky5f3cjCGbFmO8WBTboSXyIumcy6mlkjjQkLfAk2FAihjh8S3YkW0r3bWblGwPb2Xe8vhZI7z-tFDaOmz7k4Pn9Yys3zkiaRrePOzbu1Y-yeA2QGEWCFFNmw7JvwPC6-cXqhGeBLiQFbe_vZ-kYwt40zghgqs5mkYvfaRA7nyFR9c_8v1qTDBtYhAtUGrWzGJY8O_Yqusyw-ix4OCCxPEHAtfY1UOgCpC5TyFHMupFLsOGtavZrf0UrVWb1i7Y0KTDOwyOFMpCnvtVsWrQnWesi9LS5x3TUG43WUrO1V5-BEcaUvT-JpuqmEz5-VXjoV1nt9IAPrGz7WLdZvX40hr762sABQ1OuJagLy9Nmc_zCN7kuxSMIW9m79jl6Gl_nuOwS9uzqphpfyP96jqVaqLo-E9RkxtdaTro8VL5EI\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:38Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:18 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109263
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1463'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:19 GMT
+      X-Served-By:
+      - cache-den19622-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076759.042843,VS0,VE174
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.05672287940979},"body":{"lyrics":{"lyrics_id":15923957,"explicit":0,"lyrics_body":"When
+        your legs don''t work like they used to before\nAnd I can''t sweep you off
+        of your feet\nWill your mouth still remember the taste of my love?\nWill your
+        eyes still smile from your cheeks?\n\nAnd, darling, I will be loving you till
+        we''re 70\nAnd, baby, my heart could still fall as hard at 23\nAnd I''m thinking
+        ''bout how people fall in love in mysterious ways\nMaybe just the touch of
+        a hand\nWell, me, I fall in love with you every single day\nAnd I just wanna
+        tell you I am\n\nSo, honey, now\nTake me into your loving arms\nKiss me under
+        the light of a thousand stars\nPlace your head on my beating heart\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAL2F8yJyjaNsyy67kp2KR1fSK2AhsvdCJ8swjTA9mdgU8QEX8ph51dZPBZI2oWfOv7S_LVqE1CfY0CZaUIwrNwSdqixMsytOwM6A_tYO6VZyiZ8uBm_nP1-cd1NljfZLUexD1OPUDAWUUkGZbwejwGfj6akR64S9_eM0tywlCAhzX5IrQ13oQA4A4xanHUwapydl88BGhav-9u-6eyovJ6b62Of1rNTxFlLTz52eNGfjJv--c9KqjYH5nWobVTcwkyBAZA5bTRw73izc_AHDMTmqc39S6LG0cdGBcjQD-I8mXVMRygp7SGcB9GkynYlcQloD6Kg6rbU2c2Q-cQMwH3rOgnRvyUA36w646bjQ6muFgd6qnGmEW99xkpJZNz5AWQ87c9Spr_aWRSvx63DWUjY9_AgwwgClfqGlhvMyfigQwTHwry-31SYMGcUNRm8WbvEvzZC3Af6RJw\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAMoxuQH5LHO53svtAwn009eCUzk7iIpO63XhFLya2iA2UhagnbV0ieOtRswPckBBPocs5Fo97WQ9Rh5A2v91JNnTe7nvVp_we4HnPZdiB77rU3n6bsQO-XMLyrMJk2PYnAc5r7CqoNKxQy974ewJeDk6d0cyvNXGlCuLKopMeQDLVAAhzeH2I0VJdbT3TJr5R_7Zh3NnNR7WuuoBsxWPTj_LDSzt44ncVt-nh7kq1JEQfupzWUZ-d4pb3wDv8B1DWAdksXOyqF3uXY2eeBNwJVZnQnC_FAtxsUfrG_1heJnL3F7awYulARJzVFcqo7tXtR7sQ8L9Ycn3FtUND9xM5B_rgbEdwk_-HLwJMj35tJQs6MhvqFK9uyRvZV8SsJ_2o0cETmCollBnll03RoxjPEQhYvZV-DAZ2CmSu80XyD_9seOP55uCuBqW8T2u60b2Dnv1c8bj6QwgMQ\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:42Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:19 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=170774806
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1634'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:19 GMT
+      X-Served-By:
+      - cache-den19625-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076759.346285,VS0,VE236
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.12965607643127},"body":{"lyrics":{"lyrics_id":19481077,"explicit":0,"lyrics_body":"She
+        got the mmm, brown eyes, caramel thighs\nLong hair, no wedding ring, hey\nI
+        saw you lookin'' from across the way\nAnd now I really wanna know your name\n\nShe
+        got the mmm, white dress, but when she''s wearin'' less\nMan, you know that
+        she drives me crazy\nThe mmm, brown eyes, beautiful smile\nYou know I love
+        watching you do your thing\n\nI love her hips, curves, lips say the words\n\"Te
+        amo, mami, ah, te amo, mami\"\nI kiss her, this love is like a dream\n\nSo
+        join me in this bed that I''m in\nAnd push up on me and sweat, darling\nSo
+        I''m gonna put my time in\nI won''t stop until the angels sing\n\nJump in
+        that water, be free\nCome South of the border with me\nJump in that water,
+        be free\nCome South of the border with me\n\nHe got that mmm, green eyes,
+        givin'' me signs\nThat he really wants to know my name, hey\nI saw you lookin''
+        from across the way\nAnd suddenly, I''m glad I came, ay\n\nVen para ac\u00e1
+        quiero bailar, toma mi mano\nQuiero sentir tu cuerpo en mi, est\u00e1s temblando\nMmm,
+        green eyes, takin'' your time\n...\n\n******* This Lyrics is NOT for Commercial
+        use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCAFCi-exDcUr09VBolDEwFk6nuHMaRF4oaQxkavMjteZKzciXjiXnOYrb9DidmWMha6T93hBvMCrOJaorus3R_FAv0A_Q0yEhmicTSYy1YJsGC1IhzciX9fDIwFdqW5wc3A74Qmq7MlG8vr8gNqi6lklFHIIpzpRMVvhXUSzBscfiSDRj_e5xuW_MxbmqvjvLQOM2vCS96WVVvTtXemxYxIl7j5P0XR1z-3jkStvEQwebwLQw7WXrofQaMM4Pwf-Qp_a4jWvg7sZOYZpQzHtCQOBAvuIDNjfNdyi28IY3EZSueCbxuFQ12GDmeZ7OW77oIinqkYBKh9V6jvY4LHhs9jYSu6aEDRbTzcXlvFMleAKYTFJ0Gwp-DJikPelsjAYNKoC5edwv6wGJ9iE84akZK_7QqpEppb1eRLMLaj_Pc7aQ79hmB6Fh_2QUCKrwq2I_287v3BZwoa6UG7o\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCAHN6NZdI9qRJsJip6Zi3YVbO9dScx7YmdFaGVNNvwYAKmvx9L6tH0E4brprKtu4UOCaP6pmwxqD-5AYaS9hvq-9fybP9BFRWJ6_zI1us9Yuwwm4HL-dD1eyzj4Edd1im3Fb1UAfqs2dC8ciRN6Ugmq40N927aax8jX3Yo27PQfU-8XANXXW7qImUOy0bFd3x51ESa4S4mEiY-1WuZfS4SOHfwAlJ9ksAEMswKxOea_Z-NnEvZTD5EA_eLJH_P2s9pHqzMFJIozfF-5XUSt6gnUFfTHNPmahvAjRHshOgV8F3ukK24NbLtbZ1mBZpKa1jcAla_xlAsg9UQJmGidX7bzegOjyNGQAE-KihUCQmiRuLyXej2Ykx-Rcsdb_6pvrJHTlrnPom27_jINzgasmYP-591OxONc2UC2AHxI1g2Ydrmo7ouvcM3uv913WZtb48zfikExCGQqpj0do\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-30T14:55:37Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:19 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109257
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1384'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Fri, 03 Jan 2020 18:39:19 GMT
+      X-Served-By:
+      - cache-den19633-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578076760.690372,VS0,VE173
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.064146995544434},"body":{"lyrics":{"lyrics_id":11792584,"explicit":0,"lyrics_body":"Loving
+        can hurt\nLoving can hurt sometimes\nBut it''s the only thing\nThat I know.\n\nAnd
+        when it gets hard\nYou know it can get hard sometimes\nIt is the only thing
+        that makes us feel alive.\n\nWe keep this love in a photograph\nWe make these
+        memories for ourselves\nWhere our eyes are never closing\nHearts are never
+        broken\nAnd time''s forever frozen still.\n\nSo you can keep me\nInside the
+        pocket\nOf your ripped jeans\nHoldin'' me closer\nTill our eyes meet\nYou
+        won''t ever be alone\nWait for me to come home.\n\nLoving can heal\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAGU63pn8-MjAlx8JFa47YdsxVrcMGLuUG4s1U3lfMzsk7EKPbRXQpxKKjCdGRirxuYwLJbHGfQr3KlpIYGpdl4zsWN_DhKneTI03i7pbBG2EkzTUv0GoxX2XD_Pstn46e-nZ4lDaZDQxc3CAQsfx3y75Kvoim_c1d11Djuomy2JpLlvWmRqBKhsFeaBTHFi4tYpd8L6e4oThcz2-qjTpv_TelXZ6oOLga0QFWbEjnNFCsVUxO98ZA4tVzP1ttbayykcQwCbD01X0wKkTVXckUfTa0GbU-5pDYJs-zc6A-iDhs9GPO-NU27h2rW0iEdf1XdsDrhLsd3Bg60SMHmD_37XeDMm4y-k66YTKsOrhq4U8_wMBMM8pNOrJhonKA0xhge7kYNt4PxjeavqEAAiIqQ6sIM8VODu97sGn0YgjGGqIXIOrhf7E-CAB7BSbTgLbfck\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAEb60ZQCvfnkkXf9MjqSxenfsfbI6Eutr5kZCxv5oIe9s7VsOWTcFCQbgqCfFrfw6jh0YZ9y3Rdt3ID-GW59KHsX-WLBNAqjvvcr24inzUko3trRdBulbLkq8AKE8O3PG_euu3pPRM8Uko8W0AxvRO7ek5SNKKDU_EnbQzO4_fXDD3Ee4ZvJa7x56iEaZT5wmgCa-7kZjAyzaZI3EOyIpxcNWZH9drxv5r8S13BEhZV0dr6QHzTO6KWVohhgi3INtQlKBZDehtkoVuhAiM6V_7b4jbE01xKuIUAB2Jkx557verRzaWIxEPrGnN9iYgBe3qaaGYbjyREoA7jMhHWWq3W7FXjBa-NAN1Ge8f-r6tZYDvLd0-AViDlUk8Q1olhUQ51cf_hU61o-95q0iUrj_fcQqzZ-dBqr0z0fXo2WdnZPAOK_yK3KJjsTemtfTN1q5p0\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:49Z"}}}}'
+    http_version: 
+  recorded_at: Fri, 03 Jan 2020 18:39:19 GMT
+recorded_with: VCR 5.0.0

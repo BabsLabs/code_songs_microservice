@@ -5,8 +5,8 @@ describe GitHubService do
     # get '/', nil, { 'login' => 'ap2322',
     #                 'token' => ENV['GITHUB_TEST_TOKEN'],
     #                 'repo' => 'battleship',
-    #                 'artist_id' => '38620990'
-    #               }
+    #                 'artist_id' => '38620990'}
+
     login = 'ap2322'
     token = ENV['GITHUB_TEST_TOKEN']
     repo = 'battleship'
