@@ -1,5 +1,4 @@
 require 'faraday'
-require 'figaro/sinatra'
 
 class MusixMatchService
 
@@ -17,7 +16,6 @@ class MusixMatchService
       req.params['s_track_rating'] = 'desc'
       req.params['f_has_lyrics'] = 'true'
     end
-
     parsed_response = JSON.parse(response.body, symbolize_names: true)
 
     parsed_response[:message][:body][:track_list]
