@@ -1,3 +1,12 @@
 language: ruby
 rvm:
  - 2.4.1
+
+env:
+ - DB=postgresql
+
+script:
+  - RACK_ENV=test bundle exec rake db:migrate --trace
+
+before_script:
+  - psql -c 'create database codesongs_micro_test' -U postgres
