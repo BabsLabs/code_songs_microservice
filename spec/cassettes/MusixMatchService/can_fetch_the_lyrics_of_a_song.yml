@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1614'
+      - '1612'
       Accept-Ranges:
       - bytes
       - bytes
@@ -41,20 +41,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Mon, 06 Jan 2020 18:51:01 GMT
+      - Tue, 07 Jan 2020 01:45:32 GMT
       X-Served-By:
-      - cache-den19630-DEN
+      - cache-den19636-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578336661.454415,VS0,VE232
+      - S1578361532.322064,VS0,VE238
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.12287402153015},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.12701606750488},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
         club isn''t the best place to find a lover\nSo the bar is where I go\nMe and
         my friends at the table doing shots\nDrinking fast, and then we talk slow\n\nAnd
         you come over and start up a conversation with just me\nAnd trust me, I''ll
@@ -69,9 +69,9 @@ http_interactions:
         like you\nEvery day discovering something brand new\n\nOh, I''m in love with
         your body\nOh-i-oh-i-oh-i-oh-i\nOh, I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\nOh,
         I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\n...\n\n******* This Lyrics
-        is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAFvMIYyyLpIJHFa5o8xjJkRr1jEc8AouY_yiLMMqx7khSRKDRqdyKjmwrbvW9UL6BJvHHFhUnRUma4tuvdR80J9jQP7_dQj3e4bvi8NdkUC9rgP3xxoHkGt97VxC2JINUfRnCnXWkjqxnoY_VS6Y0m7fate2uvUuzqz_rtxfGQ7I-PEFaIfZqfDbo-CbINeVE9XpFFlo3TvlJ8s6L9XyqBDN_GHZZH1PoT-Ny-SzF4Gpa6cJ6h-rcib9I2NcWcTpFyKPDixwYydx-gNsQKmSpAUUL-9ATdIl_HpRHj6wvjbnms2ucXCc49EAmQl4euOIQ_EtbyXr5RF0ynkvWiUsJQxMIeQ8s-c7AGc_LLtF_ReiGzJc-stDzuOepSHcBfFIj6nuw48IAmeDq67D4uS9TCJSfIkCnlqlvc4azsHiIqdgVjNvxHaKf1EmauK-HIUNXsvKHps\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCACGD4KP9CFhTUaTmPr78LHiZVkT9DbCijaoTmGZEJKgBnXBddaVnBK0k8Zj98k7ykc21JwBP_5CsO8VfYn5LaBqp-qlwPPe_NSDBzEB4gcWfZdq1gjvZ58vxTIKM349yPcJZ8FJG6f2lM8nGIeQ6Rbj0hS7aUh28sT4h4GvGh4wGzWoBNMZ1UQ0KPqP6VLvhrHohKD9VVeFrgAIbLOS1vGpyMjHb8IH9EhaprFlmlF01xu42zrhN7RkMUx5AYOX1KXx6ocvzR9LSsxbtObeNwvIfNq57asPRrRyi30_7fkbAvR1fn-K3TeLxctNOyX276qwZPmbDxOocmqpgy6Ov19WHg9ShUUAbiUI6DeDWzH2JSMh8r0UsdnNnxkGjWZ02vlpevZ8H1a_Ve6Aa5DK4Atc1ZdFQv7_zVYNMlgI-VuTt2L04FnDjmrZFbCyFWv5QVMwGRmE\/","lyrics_copyright":"Lyrics
+        is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCALLG9HaikA92dzd1ij9OdIcPKHqdotzELWBjP_GwgtJJenaD6pCDc4_kufFKHnay_1j23NX1MMdS0PQOQwYoZ7F_WhXCfthCVbIKdpYeZ4O_UpJTJIfLCcNUy0H1rK-34nXDmzsgLqHAuOfq7CrU7FjgX-QnYhHNwvfIEkLig1T702pqPNovh3pAVSWCWxEqcBrmZ4al4pmZ6LR0k5zxRQ5OpFQ_OoYQChaB87rqA-L-uCSgRUaYMI_mFogTysKnwSRWm9l49Ol5hCAr38y6M-ycW8tR9XQeKK6W-cBCr_y0y6Zg_VY_hiAMeHsZRm-ffKato16z1PosKlSM6_7U_cMglqWYFFNzvke8-eQwn2ukhsxkVB0aBfHMTJU5zQaNfnm8bBnEqA_Nell_7eWVJNpgh0Qf1ToUJXB8qoqNxJUfsMoEq-gm-RA2FZyNGSzMOYPW1nWc\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCALjSETW_d2VRCjIfdlG6UVeAVSdJuSosUGBWDCP0_Sov0pfqEn6ZM5PomStVFTvNveX9WgL6RAc0l5TAkn1YF5oNwpJx-eSJJ324AgtWQwFQij2Y6vpUfpeeznHTDRtS-TPkZnJm4oATHsIMoP-CE92OSwWo1DQrV0DfOoScUaOTZVJ3a4fjXRt0D1FdCt7bAS3ycm1Jp8eEzNvuNCXAvhzXUeaKSzoSd8y2NnGxi_g2LkzvkViuvC8KLGTn8EHQPdLKqbii4gp2keOfbT5GCieESKxqCpcZj0OC0IzAFbwZzH34bFIo3CBMY-ZTdxQtpoIn064-XcFRINelUncHeauhBYN12mizu3bDfIttUexViWIA6nLIVi1M1nRhkCkXQScJphN500jsoBRrWPwL9BmjCj1_hpUx6dUfouRyz3csNRvP78u86R097XGB92y6lrD8DiLJ\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-07-09T12:36:32Z"}}}}'
     http_version: 
-  recorded_at: Mon, 06 Jan 2020 18:51:01 GMT
+  recorded_at: Tue, 07 Jan 2020 01:45:31 GMT
 recorded_with: VCR 5.0.0
