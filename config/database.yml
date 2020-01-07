@@ -1,0 +1,72 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: codesongs_micro_dev
+  pool: 2
+  username: babslabs
+  password: your_password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: codesongs_micro_test
+  pool: 2
+  username: babslabs
+  password: your_password
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: <%= ENV['DATABASE_HOST'] %>
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USER'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+
+
+
+
+
+
+
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: 2
+#   host: <%= ENV['DATA_DB_HOST'] %>
+#   username: <%= ENV['DATA_DB_USER'] %>
+#   password: <%= ENV['DATA_DB_PASS'] %>
+#
+# development:
+#   <<: *default
+#   database: development
+#
+# production:
+#   <<: *default
+#   database: production
+
+
+
+
+#
+# default: &default
+#   adapter: postgresql
+#   pool: 5
+#   timeout: 5000
+#
+# development:
+#   <<: *default
+#   database: db/development
+#
+# test:
+#   <<: *default
+#   database: db/test
+#
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: 5
+#   host: <%= ENV['DATABASE_HOST'] || 'db' %>
+#   database: <%= ENV['DATABASE_NAME'] || 'sinatra' %>
+#   username: <%= ENV['DATABASE_USER'] || 'sinatra' %>
+#   password: <%= ENV['DATABASE_PASSWORD'] || 'sinatra' %>

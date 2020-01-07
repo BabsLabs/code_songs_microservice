@@ -4,6 +4,12 @@ gem 'faraday'
 gem 'rake'
 gem 'figaro', :git => 'https://github.com/bpaquet/figaro.git', :branch => 'sinatra'
 
+gem 'activerecord'
+gem 'pg'
+gem 'sinatra-activerecord'
+
+gem 'tux'
+
 group :test do
   gem 'rack-test'
   gem 'rspec'
