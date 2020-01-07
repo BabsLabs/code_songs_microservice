@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'dotenv'
+Dotenv.load('config/app.env')
 require './services/git_hub_service.rb'
 require './poros/repos_facade.rb'
 require './services/musix_match_service.rb'
