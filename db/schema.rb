@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_07_231029) do
+ActiveRecord::Schema.define(version: 2020_01_08_030231) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "sentiments", force: :cascade do |t|
+    t.float "anger"
+    t.float "fear"
+    t.float "joy"
+    t.float "sadness"
+    t.float "analytical"
+    t.float "confident"
+    t.float "tentative"
+    t.bigint "track_id"
+    t.index ["track_id"], name: "index_sentiments_on_track_id"
+  end
 
   create_table "tracks", force: :cascade do |t|
     t.string "title"
@@ -22,4 +34,5 @@ ActiveRecord::Schema.define(version: 2020_01_07_231029) do
     t.string "artist_name"
   end
 
+  add_foreign_key "sentiments", "tracks"
 end
