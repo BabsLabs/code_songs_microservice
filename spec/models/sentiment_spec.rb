@@ -6,7 +6,6 @@ describe Sentiment, type: :model do
   end
 
   describe "relationships" do
-    it { should have_many :track_sentiments }
-    it { should have_many :tracks }
+    it { should belong_to :track }
   end
 end

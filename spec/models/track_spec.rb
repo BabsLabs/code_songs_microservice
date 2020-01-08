@@ -9,7 +9,6 @@ describe Track, type: :model do
   end
 
   describe "relationships" do
-    it { should have_many :track_sentiments }
     it { should have_many :sentiments }
   end
 end
