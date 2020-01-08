@@ -1,10 +1,14 @@
 require 'sinatra'
-require './services/git_hub_service.rb'
-require './poros/repos_facade.rb'
-require './services/musix_match_service.rb'
-require './poros/artists_facade.rb'
-require './poros/song.rb'
+require 'sinatra/activerecord'
+
+Dir["#{File.dirname(__FILE__)}/app/**/*.rb"].each { |f| load(f) }
 
 get '/' do
   "Hello World!"
 end
+
+get '/tracks' do
+  @tracks = Track.all
+  @tracks.first.title
+end
+

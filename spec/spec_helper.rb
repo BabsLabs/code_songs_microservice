@@ -3,6 +3,7 @@ require 'rspec'
 require 'pry'
 require 'vcr'
 require 'webmock/rspec'
+require 'shoulda/matchers'
 
 ENV['RACK_ENV'] = 'test'
 require File.expand_path '../../app.rb', __FILE__
@@ -23,4 +24,14 @@ VCR.configure do |config|
   config.filter_sensitive_data("<GITHUB_TEST_TOKEN>") { ENV['GITHUB_TEST_TOKEN'] }
   config.filter_sensitive_data("<MUSIX_MATCH_TOKEN>") { ENV['MUSIX_MATCH_TOKEN'] }
   config.filter_sensitive_data("<WATSON_TOKEN>") { ENV['WATSON_TOKEN'] }
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+
+    # Keep as many of these lines as are necessary:
+    with.library :active_record
+    with.library :active_model
+  end
 end

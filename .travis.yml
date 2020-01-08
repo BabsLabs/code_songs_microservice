@@ -1,3 +1,13 @@
+services:
+    - postgresql
+
+before_script:
+  - cp config/database.yml.travis config/database.yml
+  - psql -c 'create database travis_ci_test;' -U postgres
+
 language: ruby
 rvm:
- - 2.4.1
+  - 2.4.1
+
+script:
+  - RACK_ENV=test bundle exec rake db:migrate && RACK_ENV=test bundle exec rake db:seed
