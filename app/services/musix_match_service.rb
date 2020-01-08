@@ -1,5 +1,5 @@
 require 'faraday'
-require 'figaro/sinatra'
+require 'figaro'
 
 class MusixMatchService
 

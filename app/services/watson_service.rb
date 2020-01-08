@@ -1,5 +1,6 @@
 require 'faraday'
-require 'pry'
+require 'figaro/sinatra'
+
 class WatsonService
 
   def initialize(text)
