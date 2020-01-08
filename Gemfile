@@ -8,9 +8,10 @@ gem 'pg'
 gem 'activerecord'
 gem 'sinatra-activerecord'
 
+gem 'rspec'
+
 group :test do
   gem 'rack-test'
-  gem 'rspec'
   gem 'pry'
   gem 'shotgun'
   gem 'vcr'
