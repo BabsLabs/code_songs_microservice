@@ -1,0 +1,375 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        No clouds in my stones
+        Let it rain, I hydroplane in the bank (eh, eh, eh)
+        Coming down with the Dow Jones
+        When the clouds come, we gone, we Roc-A-Fella (eh, eh, eh, eh)
+        We fly higher than weather, in G5's or better
+        You know me
+        In anticipation for precipitation stack chips for the rainy day (eh, eh, eh)
+        Jay, Rain Man is back (eh, eh, eh)
+        With little Ms. Sunshine, Rihanna, where you at?
+
+        You have my heart
+        And we'll never be worlds apart
+        May be in magazines
+        But you'll still be my star
+        Baby, 'cause in the dark
+        You can't see shiny cars
+        And that's when you need me there
+        With you I'll always share
+
+        Because
+        When the sun shine, we shine together
+        Told you I'll be here forever
+        Said I'll always be your friend
+        Took an oath, I'mma stick it out to the end
+        Now that it's raining more than ever
+        Know that we'll still have each other
+        You can stand under my umbrella
+        You can stand under my umbrella
+
+        Ella, ella, eh, eh, eh
+        Under my umbrella
+        Ella, ella, eh, eh, eh
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3434'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - 155bfe3a69f3e6831ad033a173f58730
+      X-Dp-Watson-Tran-Id:
+      - 155bfe3a69f3e6831ad033a173f58730
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '1080'
+      Date:
+      - Wed, 08 Jan 2020 16:48:14 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.784809,"tone_id":"joy","tone_name":"Joy"},{"score":0.593306,"tone_id":"confident","tone_name":"Confident"}]},"sentences_tone":[{"sentence_id":0,"text":"No
+        clouds in my stones","tones":[]},{"sentence_id":1,"text":"Let it rain, I hydroplane
+        in the bank (eh, eh, eh)","tones":[]},{"sentence_id":2,"text":"Coming down
+        with the Dow Jones","tones":[]},{"sentence_id":3,"text":"When the clouds come,
+        we gone, we Roc-A-Fella (eh, eh, eh, eh)","tones":[]},{"sentence_id":4,"text":"We
+        fly higher than weather, in G5''s or better","tones":[{"score":0.540654,"tone_id":"joy","tone_name":"Joy"},{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":5,"text":"You
+        know me","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"In
+        anticipation for precipitation stack chips for the rainy day (eh, eh, eh)","tones":[]},{"sentence_id":7,"text":"Jay,
+        Rain Man is back (eh, eh, eh)","tones":[]},{"sentence_id":8,"text":"With little
+        Ms. Sunshine, Rihanna, where you at?","tones":[{"score":0.827103,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":9,"text":"You
+        have my heart","tones":[]},{"sentence_id":10,"text":"And we''ll never be worlds
+        apart","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":11,"text":"May
+        be in magazines","tones":[{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":12,"text":"But
+        you''ll still be my star","tones":[{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Baby,
+        ''cause in the dark","tones":[{"score":0.688855,"tone_id":"fear","tone_name":"Fear"},{"score":0.907747,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"You
+        can''t see shiny cars","tones":[]},{"sentence_id":15,"text":"And that''s when
+        you need me there","tones":[]},{"sentence_id":16,"text":"With you I''ll always
+        share","tones":[{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":17,"text":"","tones":[]},{"sentence_id":18,"text":"Because","tones":[{"score":0.997482,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"When
+        the sun shine, we shine together","tones":[{"score":0.765473,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"Told
+        you I''ll be here forever","tones":[{"score":0.620114,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":21,"text":"Said
+        I''ll always be your friend","tones":[{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":22,"text":"Took
+        an oath, I''mma stick it out to the end","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":23,"text":"Now
+        that it''s raining more than ever","tones":[{"score":0.751512,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":24,"text":"Know
+        that we''ll still have each other","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":25,"text":"You
+        can stand under my umbrella","tones":[]},{"sentence_id":26,"text":"You can
+        stand under my umbrella","tones":[]},{"sentence_id":27,"text":"","tones":[]},{"sentence_id":28,"text":"Ella,
+        ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
+        ella, eh, eh, eh","tones":[]}]}'
+    http_version: 
+  recorded_at: Wed, 08 Jan 2020 16:48:12 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        No clouds in my stones
+        Let it rain, I hydroplane in the bank (eh, eh, eh)
+        Coming down with the Dow Jones
+        When the clouds come, we gone, we Roc-A-Fella (eh, eh, eh, eh)
+        We fly higher than weather, in G5's or better
+        You know me
+        In anticipation for precipitation stack chips for the rainy day (eh, eh, eh)
+        Jay, Rain Man is back (eh, eh, eh)
+        With little Ms. Sunshine, Rihanna, where you at?
+
+        You have my heart
+        And we'll never be worlds apart
+        May be in magazines
+        But you'll still be my star
+        Baby, 'cause in the dark
+        You can't see shiny cars
+        And that's when you need me there
+        With you I'll always share
+
+        Because
+        When the sun shine, we shine together
+        Told you I'll be here forever
+        Said I'll always be your friend
+        Took an oath, I'mma stick it out to the end
+        Now that it's raining more than ever
+        Know that we'll still have each other
+        You can stand under my umbrella
+        You can stand under my umbrella
+
+        Ella, ella, eh, eh, eh
+        Under my umbrella
+        Ella, ella, eh, eh, eh
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3434'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - 51d135ebab331d85bdbe3d7943936fda
+      X-Dp-Watson-Tran-Id:
+      - 51d135ebab331d85bdbe3d7943936fda
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '450'
+      Date:
+      - Wed, 08 Jan 2020 16:48:14 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.784809,"tone_id":"joy","tone_name":"Joy"},{"score":0.593306,"tone_id":"confident","tone_name":"Confident"}]},"sentences_tone":[{"sentence_id":0,"text":"No
+        clouds in my stones","tones":[]},{"sentence_id":1,"text":"Let it rain, I hydroplane
+        in the bank (eh, eh, eh)","tones":[]},{"sentence_id":2,"text":"Coming down
+        with the Dow Jones","tones":[]},{"sentence_id":3,"text":"When the clouds come,
+        we gone, we Roc-A-Fella (eh, eh, eh, eh)","tones":[]},{"sentence_id":4,"text":"We
+        fly higher than weather, in G5''s or better","tones":[{"score":0.540654,"tone_id":"joy","tone_name":"Joy"},{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":5,"text":"You
+        know me","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"In
+        anticipation for precipitation stack chips for the rainy day (eh, eh, eh)","tones":[]},{"sentence_id":7,"text":"Jay,
+        Rain Man is back (eh, eh, eh)","tones":[]},{"sentence_id":8,"text":"With little
+        Ms. Sunshine, Rihanna, where you at?","tones":[{"score":0.827103,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":9,"text":"You
+        have my heart","tones":[]},{"sentence_id":10,"text":"And we''ll never be worlds
+        apart","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":11,"text":"May
+        be in magazines","tones":[{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":12,"text":"But
+        you''ll still be my star","tones":[{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Baby,
+        ''cause in the dark","tones":[{"score":0.688855,"tone_id":"fear","tone_name":"Fear"},{"score":0.907747,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"You
+        can''t see shiny cars","tones":[]},{"sentence_id":15,"text":"And that''s when
+        you need me there","tones":[]},{"sentence_id":16,"text":"With you I''ll always
+        share","tones":[{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":17,"text":"","tones":[]},{"sentence_id":18,"text":"Because","tones":[{"score":0.997482,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"When
+        the sun shine, we shine together","tones":[{"score":0.765473,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"Told
+        you I''ll be here forever","tones":[{"score":0.620114,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":21,"text":"Said
+        I''ll always be your friend","tones":[{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":22,"text":"Took
+        an oath, I''mma stick it out to the end","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":23,"text":"Now
+        that it''s raining more than ever","tones":[{"score":0.751512,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":24,"text":"Know
+        that we''ll still have each other","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":25,"text":"You
+        can stand under my umbrella","tones":[]},{"sentence_id":26,"text":"You can
+        stand under my umbrella","tones":[]},{"sentence_id":27,"text":"","tones":[]},{"sentence_id":28,"text":"Ella,
+        ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
+        ella, eh, eh, eh","tones":[]}]}'
+    http_version: 
+  recorded_at: Wed, 08 Jan 2020 16:48:12 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        No clouds in my stones
+        Let it rain, I hydroplane in the bank (eh, eh, eh)
+        Coming down with the Dow Jones
+        When the clouds come, we gone, we Roc-A-Fella (eh, eh, eh, eh)
+        We fly higher than weather, in G5's or better
+        You know me
+        In anticipation for precipitation stack chips for the rainy day (eh, eh, eh)
+        Jay, Rain Man is back (eh, eh, eh)
+        With little Ms. Sunshine, Rihanna, where you at?
+
+        You have my heart
+        And we'll never be worlds apart
+        May be in magazines
+        But you'll still be my star
+        Baby, 'cause in the dark
+        You can't see shiny cars
+        And that's when you need me there
+        With you I'll always share
+
+        Because
+        When the sun shine, we shine together
+        Told you I'll be here forever
+        Said I'll always be your friend
+        Took an oath, I'mma stick it out to the end
+        Now that it's raining more than ever
+        Know that we'll still have each other
+        You can stand under my umbrella
+        You can stand under my umbrella
+
+        Ella, ella, eh, eh, eh
+        Under my umbrella
+        Ella, ella, eh, eh, eh
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3434'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - ad14da9a5ab2eb6a0f2b19e4241e5211
+      X-Dp-Watson-Tran-Id:
+      - ad14da9a5ab2eb6a0f2b19e4241e5211
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '327'
+      Date:
+      - Wed, 08 Jan 2020 16:48:15 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.784809,"tone_id":"joy","tone_name":"Joy"},{"score":0.593306,"tone_id":"confident","tone_name":"Confident"}]},"sentences_tone":[{"sentence_id":0,"text":"No
+        clouds in my stones","tones":[]},{"sentence_id":1,"text":"Let it rain, I hydroplane
+        in the bank (eh, eh, eh)","tones":[]},{"sentence_id":2,"text":"Coming down
+        with the Dow Jones","tones":[]},{"sentence_id":3,"text":"When the clouds come,
+        we gone, we Roc-A-Fella (eh, eh, eh, eh)","tones":[]},{"sentence_id":4,"text":"We
+        fly higher than weather, in G5''s or better","tones":[{"score":0.540654,"tone_id":"joy","tone_name":"Joy"},{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":5,"text":"You
+        know me","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"In
+        anticipation for precipitation stack chips for the rainy day (eh, eh, eh)","tones":[]},{"sentence_id":7,"text":"Jay,
+        Rain Man is back (eh, eh, eh)","tones":[]},{"sentence_id":8,"text":"With little
+        Ms. Sunshine, Rihanna, where you at?","tones":[{"score":0.827103,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":9,"text":"You
+        have my heart","tones":[]},{"sentence_id":10,"text":"And we''ll never be worlds
+        apart","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":11,"text":"May
+        be in magazines","tones":[{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":12,"text":"But
+        you''ll still be my star","tones":[{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Baby,
+        ''cause in the dark","tones":[{"score":0.688855,"tone_id":"fear","tone_name":"Fear"},{"score":0.907747,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"You
+        can''t see shiny cars","tones":[]},{"sentence_id":15,"text":"And that''s when
+        you need me there","tones":[]},{"sentence_id":16,"text":"With you I''ll always
+        share","tones":[{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":17,"text":"","tones":[]},{"sentence_id":18,"text":"Because","tones":[{"score":0.997482,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"When
+        the sun shine, we shine together","tones":[{"score":0.765473,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"Told
+        you I''ll be here forever","tones":[{"score":0.620114,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":21,"text":"Said
+        I''ll always be your friend","tones":[{"score":0.942582,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":22,"text":"Took
+        an oath, I''mma stick it out to the end","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":23,"text":"Now
+        that it''s raining more than ever","tones":[{"score":0.751512,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":24,"text":"Know
+        that we''ll still have each other","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":25,"text":"You
+        can stand under my umbrella","tones":[]},{"sentence_id":26,"text":"You can
+        stand under my umbrella","tones":[]},{"sentence_id":27,"text":"","tones":[]},{"sentence_id":28,"text":"Ella,
+        ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
+        ella, eh, eh, eh","tones":[]}]}'
+    http_version: 
+  recorded_at: Wed, 08 Jan 2020 16:48:13 GMT
+recorded_with: VCR 5.0.0
