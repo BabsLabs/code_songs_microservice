@@ -12,3 +12,12 @@ get '/tracks' do
   @tracks = Track.all
   @tracks.first.title
 end
+
+post '/update_database' do
+  Track.create(
+    title: "Hello from rails!",
+    mm_track_id: '10',
+    mm_artist_id: '5',
+    artist_name: 'Michael Cooper'
+  )
+end
