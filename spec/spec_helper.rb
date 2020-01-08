@@ -4,6 +4,7 @@ require 'pry'
 require 'vcr'
 require 'webmock/rspec'
 require 'shoulda/matchers'
+require 'database_cleaner'
 
 ENV['RACK_ENV'] = 'test'
 require File.expand_path '../../app.rb', __FILE__
@@ -12,7 +13,25 @@ module RSpecMixin
   def app() Sinatra::Application end
 end
 # For RSpec 2.x and 3.x
-RSpec.configure { |c| c.include RSpecMixin }
+RSpec.configure do |config|
+  config.include RSpecMixin
+  config.before(:suite) do
+    DatabaseCleaner.clean_with :truncation
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.strategy = :transaction
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
+end
+
 
 VCR.configure do |config|
   config.ignore_localhost = true
