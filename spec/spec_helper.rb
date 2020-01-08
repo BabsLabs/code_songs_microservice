@@ -24,6 +24,7 @@ VCR.configure do |config|
   config.filter_sensitive_data("<GITHUB_TEST_TOKEN>") { ENV['GITHUB_TEST_TOKEN'] }
   config.filter_sensitive_data("<MUSIX_MATCH_TOKEN>") { ENV['MUSIX_MATCH_TOKEN'] }
   config.filter_sensitive_data("<WATSON_TOKEN>") { ENV['WATSON_TOKEN'] }
+  config.filter_sensitive_data("<WATSON_INSTANCE>") { ENV['WATSON_INSTANCE'] }
 end
 
 Shoulda::Matchers.configure do |config|
