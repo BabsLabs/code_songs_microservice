@@ -5,6 +5,8 @@ class CreateTracks < ActiveRecord::Migration[5.2]
      t.string :mm_track_id
      t.string :mm_artist_id
      t.string :artist_name
+
+     t.timestamps null: false
    end
   end
 end
