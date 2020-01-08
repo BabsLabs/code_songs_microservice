@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=32130011
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1621'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Wed, 08 Jan 2020 17:52:30 GMT
+      X-Served-By:
+      - cache-den19633-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578505951.643132,VS0,VE246
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.18624401092529},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
+        uh-huh (Yeah, Rihanna)\nUh-huh, uh-huh (Good girl, gone bad)\nUh-huh, uh-huh
+        (Take three, action)\nUh-huh, uh-huh (Hov)\n\nNo clouds in my stones\nLet
+        it rain, I hydroplane in the bank\nComin'' down like the Dow Jones\nWhen the
+        clouds come, we gone\nWe Roc-A-Fellas\nWe fly higher than weather\nIn G5''s
+        or better\n\nYou know me (You know me)\nIn anticipation for precipitation\nStack
+        chips for the rainy day\nJay, Rain Man is back, with Little Miss Sunshine\nRihanna,
+        where you at?\n\nYou have my heart\nAnd we''ll never be worlds apart\nMaybe
+        in magazines\nBut you''ll still be my star\nBaby, ''cause in the dark\nYou
+        can''t see shiny cars\nAnd that''s when you need me there\nWith you, I''ll
+        always share\nBecause\n\nWhen the sun shine, we shine together\nTold you I''ll
+        be here forever\nSaid I''ll always be your friend\nTook an oath, I''ma stick
+        it out to the end\nNow that it''s raining more than ever\nKnow that we''ll
+        still have each other\nYou can stand under my umbrella\n...\n\n******* This
+        Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAAzL48SXkQFrWBUW62g-knMavFaEqwKQ0SKUEzjOzPW23KIshxWo6w2-RFSMqCJXjwfLbtLEqSVEzFo0tYdpIRcV84ag_eauot_EGDNku-hev1wafvZzue-8q-2X7qgZwsuIDgrstMjWQKEqamLbdwl5uX9rnK8zFkaEz6ZWV-RNtplrNfbxPCU0eUisP2CJldMLIcTFs9k4yRW-dZyxfE1kOIKWQ7m-dSH_rxrVf0fh2lEZ45_rVTar8inKy88KCgjZy8FIa6Lw0SM2qJ2MOFs7sfU888T8ZZkhllWnJPVWs4wFkAbAUqczxwTzKWyKFdvDB3m-eccIGK4-01fodL_JkNRNYw3KJHfjGHJ5KNIOdrlW1kUu5P83iiCJgk0ypFOWh-PU3vHHgJ8ttP_L2c9xgUPpRCwaZinEE1ya8tR9MieyAwD-Vfrn\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAPMkElxJOQ__rtBZQcnUb9wjA_Scr3yKbLMDJfRvbdjyjuPXckysMQ3EqGJ7eEml1IDw2dPsUeZimNkXUxKFnDc_VRKH8jNTutyiXPdXnN4ecCXOBSLR5RrND8Qqjn9x8FNzZL0WJlGH7Cwpn2xIiOUFK90BcjTuOgPwkqr2ECUXBD2fp5ZLJrQT3dogfCd7akKqUx4Ern3l5f2In-QARFgYdqov0rPMat0ajm_7AkRvVhQfaS-RML-O_9wor8UtzG6Nyl24edPKfKBdVFh7RQN6-YLzVp3snKsq1ixnFVqD-eCuUs1qh40CV19uRXG6PWWWz8bhNhE_8s1fkmoFF4Ot6qj-VUjPytc1qCiX2jmjChUSfGS1_AUYdoZ9g6GPgUsYfzWgJtulLt06fWSskBnNVMBxZeVT5yZ7OiIBmpcDrizW3jadquvO\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2020-01-08T08:12:42Z"}}}}'
+    http_version: 
+  recorded_at: Wed, 08 Jan 2020 17:52:28 GMT
+recorded_with: VCR 5.0.0
