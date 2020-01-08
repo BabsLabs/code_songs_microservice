@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -40,7 +40,7 @@ http_interactions:
         Ella, ella, eh, eh, eh
     headers:
       Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -81,15 +81,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 155bfe3a69f3e6831ad033a173f58730
+      - 8d95b79ae6862da932f99a6035ae5a7f
       X-Dp-Watson-Tran-Id:
-      - 155bfe3a69f3e6831ad033a173f58730
+      - 8d95b79ae6862da932f99a6035ae5a7f
       X-Edgeconnect-Midmile-Rtt:
-      - '1'
+      - '25'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '1080'
+      - '382'
       Date:
-      - Wed, 08 Jan 2020 16:48:14 GMT
+      - Wed, 08 Jan 2020 17:18:59 GMT
       Connection:
       - keep-alive
     body:
@@ -123,10 +123,10 @@ http_interactions:
         ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
         ella, eh, eh, eh","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 16:48:12 GMT
+  recorded_at: Wed, 08 Jan 2020 17:18:59 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -164,7 +164,7 @@ http_interactions:
         Ella, ella, eh, eh, eh
     headers:
       Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -205,15 +205,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 51d135ebab331d85bdbe3d7943936fda
+      - ed3baae9ea0f3857c7e23d4fcec4c108
       X-Dp-Watson-Tran-Id:
-      - 51d135ebab331d85bdbe3d7943936fda
+      - ed3baae9ea0f3857c7e23d4fcec4c108
       X-Edgeconnect-Midmile-Rtt:
-      - '1'
+      - '23'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '450'
+      - '419'
       Date:
-      - Wed, 08 Jan 2020 16:48:14 GMT
+      - Wed, 08 Jan 2020 17:18:59 GMT
       Connection:
       - keep-alive
     body:
@@ -247,10 +247,10 @@ http_interactions:
         ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
         ella, eh, eh, eh","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 16:48:12 GMT
+  recorded_at: Wed, 08 Jan 2020 17:18:59 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/d29eb007-48e5-41e3-bf11-cd8b414680d0/v3/tone?version=2017-09-21
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -288,7 +288,7 @@ http_interactions:
         Ella, ella, eh, eh, eh
     headers:
       Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -329,15 +329,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - ad14da9a5ab2eb6a0f2b19e4241e5211
+      - a58992da1225e82cb4592b559c6dea9f
       X-Dp-Watson-Tran-Id:
-      - ad14da9a5ab2eb6a0f2b19e4241e5211
+      - a58992da1225e82cb4592b559c6dea9f
       X-Edgeconnect-Midmile-Rtt:
       - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '327'
+      - '530'
       Date:
-      - Wed, 08 Jan 2020 16:48:15 GMT
+      - Wed, 08 Jan 2020 17:19:00 GMT
       Connection:
       - keep-alive
     body:
@@ -371,5 +371,5 @@ http_interactions:
         ella, eh, eh, eh","tones":[]},{"sentence_id":29,"text":"Under my umbrella","tones":[]},{"sentence_id":30,"text":"Ella,
         ella, eh, eh, eh","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 16:48:13 GMT
+  recorded_at: Wed, 08 Jan 2020 17:19:00 GMT
 recorded_with: VCR 5.0.0
