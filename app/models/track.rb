@@ -1,5 +1,8 @@
-class Track < ActiveRecord::Base
+require_relative '../modules/aggregation_module'
 
+class Track < ActiveRecord::Base
+  include AggregationModule
+  
   validates_presence_of :title
   validates_presence_of :mm_track_id
   validates_presence_of :mm_artist_id
@@ -25,21 +28,21 @@ class Track < ActiveRecord::Base
   end
 
   private
-
-  def tones_hash(sentiments_data)
-    tones_hash = {}
-    sentiments_data.each do |sentences|
-      sentences[:tones].each do |tone|
-        if tones_hash[tone[:tone_id].to_sym]
-          tones_hash[tone[:tone_id].to_sym] += tone[:score]
-        else
-          tones_hash[tone[:tone_id].to_sym] = tone[:score]
-        end
-      end
-    end
-
-    tones_hash
-  end
+  #
+  # def tones_hash(sentiments_data)
+  #   tones_hash = {}
+  #   sentiments_data.each do |sentences|
+  #     sentences[:tones].each do |tone|
+  #       if tones_hash[tone[:tone_id].to_sym]
+  #         tones_hash[tone[:tone_id].to_sym] += tone[:score]
+  #       else
+  #         tones_hash[tone[:tone_id].to_sym] = tone[:score]
+  #       end
+  #     end
+  #   end
+  #
+  #   tones_hash
+  # end
 
   def lyric_sanitizer(song_lyrics)
     song_lyrics.gsub("\n\n******* This Lyrics is NOT for Commercial use *******\n", "")
