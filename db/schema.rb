@@ -10,16 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_07_231029) do
+ActiveRecord::Schema.define(version: 2020_01_08_020701) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "sentiments", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "track_sentiments", force: :cascade do |t|
+    t.integer "track_id"
+    t.integer "sentiment_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "tracks", force: :cascade do |t|
     t.string "title"
     t.string "mm_track_id"
     t.string "mm_artist_id"
     t.string "artist_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
