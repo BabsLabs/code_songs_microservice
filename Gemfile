@@ -12,8 +12,6 @@ gem 'rspec'
 
 gem 'dotenv'
 
-gem 'whenever'
-
 group :test do
   gem 'rack-test'
   gem 'pry'
