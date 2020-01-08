@@ -8,7 +8,8 @@ describe Track, type: :model do
     it { should validate_presence_of :artist_name }
   end
 
-  # describe "relationships" do
-  #   it { should have_many :sentiments }
-  # end
+  describe "relationships" do
+    it { should have_many :track_sentiments }
+    it { should have_many :sentiments }
+  end
 end
