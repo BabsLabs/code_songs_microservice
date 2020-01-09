@@ -2,7 +2,7 @@ require_relative '../modules/aggregation_module'
 
 class Track < ActiveRecord::Base
   include AggregationModule
-  
+
   validates_presence_of :title
   validates_presence_of :mm_track_id
   validates_presence_of :mm_artist_id
@@ -25,6 +25,16 @@ class Track < ActiveRecord::Base
       sentiments.create(name: k.to_s, value: v)
     end
 
+  end
+
+  def self.match_sentiments(repo_sentiments)
+    top_feel = repo_sentiments.first[:tone]
+
+    joins(:sentiments)
+    .select('tracks.*, MAX(sentiments.value) as s_value')
+    .group('tracks.id')
+    .where('sentiments.name = ?', top_feel)
+    .order('s_value desc')
   end
 
   private
