@@ -14,4 +14,8 @@ describe DatabaseUpdaterService do
     )
     expect{DatabaseUpdaterService.update_database}.to change{Track.count}.by(99)
   end
+
+  it 'creates tracks with their sentiments', :vcr do
+    expect{DatabaseUpdaterService.update_database(1)}.to change{Sentiment.count}.by(3)
+  end
 end

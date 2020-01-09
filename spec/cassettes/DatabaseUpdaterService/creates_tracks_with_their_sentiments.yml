@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/chart.tracks.get?apikey=<MUSIX_MATCH_TOKEN>&f_has_lyrics=true&page=1&page_size=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '440'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 18:26:28 GMT
+      X-Served-By:
+      - cache-den19624-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578594388.333131,VS0,VE124
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.015269994735718},"body":{"track_list":[{"track":{"track_id":190333863,"track_name":"Yummy","track_name_translation_list":[],"track_rating":100,"commontrack_id":105544714,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":338,"album_id":36270367,"album_name":"Yummy","artist_id":40664664,"artist_name":"Justin
+        Bieber","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Justin-Bieber-3\/Yummy?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Justin-Bieber-3\/Yummy\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2020-01-07T14:10:04Z","primary_genres":{"music_genre_list":[]}}}]}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 18:26:28 GMT
+recorded_with: VCR 5.0.0
