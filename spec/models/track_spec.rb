@@ -32,5 +32,19 @@ describe Track, type: :model do
 
       expect(@umbrella.sentiments.count).to eq 6
     end
+
+    it 'matches track sentiments to repo sentiments', :vcr do
+      ej_tracks = TrackFinder.new(136).top_tracks
+
+
+      repo_sentiments = [ {:tone=>"tentative", :value=>3.7023770000000003},
+                                      {:tone=>"analytical", :value=>2.923112},
+                                      {:tone=>"sadness", :value=>1.136886},
+                                      {:tone=>"confident", :value=>0.825035}]
+      sorted = ['actual sorted ej tracks']
+
+      expect(ej_tracks.match_sentiments(repo_sentiments)).to eq sorted
+
+    end
   end
 end
