@@ -41,7 +41,7 @@ class TrackFinder
 
   def check_for_youtube_link(track)
     if track.youtube_link.nil?
-      track.update!(youtube_link: found_link(track.title, track.artist_name))
+      track.update(youtube_link: found_link(track.title, track.artist_name))
     end
   end
 
