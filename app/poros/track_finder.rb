@@ -24,10 +24,11 @@ class TrackFinder
           mm_artist_id: track_info[:track][:artist_id],
           artist_name: track_info[:track][:artist_name],
       }
-      track = Track.find_or_create_by(trimmed_info)
+
+      track = Track.find_by(mm_track_id: track_info[:track][:track_id]) || Track.create(trimmed_info)
 
       if track.youtube_link.nil?
-        track.update(youtube_link: found_link(track.title, track.artist_name))
+        track.update!(youtube_link: found_link(track.title, track.artist_name))
       end
 
       check_for_sentiment(track)
@@ -42,7 +43,7 @@ class TrackFinder
   end
 
   def found_link(song_title, artist_name)
-    service = YouTubeService.new(@track_name, @artist)
+    service = YouTubeService.new(song_title, artist_name)
     service.get_youtube_link
   end
 
