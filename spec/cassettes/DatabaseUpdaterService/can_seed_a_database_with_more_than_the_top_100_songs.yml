@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.musixmatch.com/ws/1.1/chart.tracks.get?apikey=<MUSIX_MATCH_TOKEN>&f_has_lyrics=true&page=2&page_size=1
+    uri: https://api.musixmatch.com/ws/1.1/chart.tracks.get?apikey=<MUSIX_MATCH_TOKEN>&f_has_lyrics=true&page=3&page_size=1
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '514'
+      - '481'
       Accept-Ranges:
       - bytes
       - bytes
@@ -42,27 +42,26 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 22:36:24 GMT
+      - Thu, 09 Jan 2020 22:54:46 GMT
       X-Served-By:
-      - cache-den19626-DEN
+      - cache-den19635-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578609385.695002,VS0,VE116
+      - S1578610486.393758,VS0,VE121
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.0080931186676025},"body":{"track_list":[{"track":{"track_id":177501051,"track_name":"Dance
-        Monkey","track_name_translation_list":[],"track_rating":100,"commontrack_id":95351184,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":5831,"album_id":33595264,"album_name":"The
-        Kids Are Coming","artist_id":37843472,"artist_name":"Tones and I","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Tones-and-I\/Dance-Monkey?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Tones-and-I\/Dance-Monkey\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-08-29T13:37:16Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":20,"music_genre_parent_id":34,"music_genre_name":"Alternative","music_genre_name_extended":"Alternative","music_genre_vanity":"Alternative"}}]}}}]}}}'
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.014322996139526},"body":{"track_list":[{"track":{"track_id":184014421,"track_name":"Memories","track_name_translation_list":[],"track_rating":100,"commontrack_id":100364992,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":6941,"album_id":34887164,"album_name":"Memories
+        - Single","artist_id":27840,"artist_name":"Maroon 5","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Maroon-5\/Memories?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Maroon-5\/Memories\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-09-20T07:54:22Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":34,"music_genre_parent_id":0,"music_genre_name":"Music","music_genre_name_extended":"Music","music_genre_vanity":"Music"}}]}}}]}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 22:36:24 GMT
+  recorded_at: Thu, 09 Jan 2020 22:54:46 GMT
 - request:
     method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=177501051
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=184014421
     body:
       encoding: US-ASCII
       string: ''
@@ -81,7 +80,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1426'
+      - '1439'
       Accept-Ranges:
       - bytes
       - bytes
@@ -102,58 +101,63 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 22:36:25 GMT
+      - Thu, 09 Jan 2020 22:54:46 GMT
       X-Served-By:
-      - cache-den19650-DEN
+      - cache-den19631-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578609385.865081,VS0,VE163
+      - S1578610487.567700,VS0,VE200
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.055413961410522},"body":{"lyrics":{"lyrics_id":19599173,"explicit":0,"lyrics_body":"They
-        say \"Oh my god I see the way you shine\"\nTake your hand, my dear, and place
-        them both in mine\nYou know you stopped me dead when I was passing by\nAnd
-        now I beg to see you dance just one more time\n\nOoh I see you, see you, see
-        you every time\nAnd oh my I, I like your style\nYou, you make me, make me,
-        make me wanna cry\nAnd now I beg to see you dance just one more time\n\nSo
-        I say\nDance for me, dance for me, dance for me oh oh oh\nI''ve never seen
-        anybody do the things you do before\nThey say move for me, move for me, move
-        for me ay ay ay\nAnd when you''re done I''ll make you do it all again\n\nI
-        said oh my god I see you walking by\nTake my hands, my dear, and look me in
-        my eyes\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19599173\/su_0\/rs_0\/tr_3vUCAFWGUqYpEFHytfnFW-OPpnlcKtP7HNhu5z9t2q-wtSLq_2TFVclwdWgHtm6kSgp4HWwU_vI2fS6RYZLFy9o6b8PxNDDamJ0kFGsOu3IjUgzVjxXK6ubhp0FOLcKN2-UByjulafM5mUFLVFazrRbTFyqQbkJgcG2BjOV_sn5PZCTQMtSaqa17mjujbgP0-rfIx18XMlecxMa5GQmtatV351IHmMgINQHOwq8RLpoKQqX4MRKleQC0rXFM_Eum1ub9n93c6TiEtJplXf-f8NjAqsaDMYbRirrcykdBqEUOZuNKOlhJ_Vj7YVDC_Qm0lPILXgv6I8cyHhrj6LgzeWO90hXdhKkLYlcc4EpG_DlUiXUBdk83mGgeTntp28GuQKT_3qOin1Iu-TdKc6rkmg60y5ASpGXp3NbOCcE6MM4uaZ4KoNSXaJ9T02-Vzc4cfj8dAbkYbHA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19599173\/su_0\/rs_0\/tr_3vUCAH_18hmcvprO1XUG1jqOK6ZJRmmL-qOYptgON17r7PGMfeJNdl4Jt4wx9yXBX1hs6zZ3BLvO1C04cemusSanvJcFDt_PjndRO6x2FL3ruFEPJ-kfgomd1X0hY2t9sV-j6HEiJsJalBZDu-DNKb7eI2HQb6KE1r8zU0D_yWl1J3sBc_p1zkg8yO8QZVZSHvoQ7JDaipS2vD9xkMUJoVHNUdeLsYnuh985NQ3mvVLLdrdCKvm0Dezr-NTBeazb1_f8igNfRJW65ORiKVE1f6-UHc0NhQwH2FXccNI6GBx3pX6ZZEBb0bcxIPF_SVOe2naB6HOCaW5S-EZpmKXiSjYml3lMZgNvqtMR1JL1Bt5IA2rlmqgj-C8_H7UvzJnwhVhaTTutscJRyGlyMF7WqH1aEK8s5lns_mF9ns9rpfU0CdIGOka1pcWTTV2iaoOCYnMz_gQ7Ve8\/","lyrics_copyright":"Lyrics
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.087641000747681},"body":{"lyrics":{"lyrics_id":19695309,"explicit":0,"lyrics_body":"Here''s
+        to the ones that we got\nCheers to the wish you were here, but you''re not\n''Cause
+        the drinks bring back all the memories\nOf everything we''ve been through\nToast
+        to the ones here today\nToast to the ones that we lost on the way\n''Cause
+        the drinks bring back all the memories\nAnd the memories bring back, memories
+        bring back you\n\nThere''s a time that I remember, when I did not know no
+        pain\nWhen I believed in forever, and everything would stay the same\nNow
+        my heart feel like December when somebody say your name\n''Cause I can''t
+        reach out to call you, but I know I will one day, yeah\n\nEverybody hurts
+        sometimes\nEverybody hurts someday, ayy-ayy\nBut everything gon'' be alright\nGo
+        and raise a glass and say, ayy\n\nHere''s to the ones that we got\nCheers
+        to the wish you were here, but you''re not\n...\n\n******* This Lyrics is
+        NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19695309\/su_0\/rs_0\/tr_3vUCALjEa6aVF8hpp3DPdec8UEgjJDaH0rbFiYrqbc-5ShXY8q6EsGPaJ1XaYfTGpxDUIsjD6xnk3lWTdeYLsdoYF7kiEUxNGiq1G_PDUp7ThFsOEu_lynj1nfgS93CU06xdKFGlTafE9GpAacFqacq5VoJ77OEaP2S_G7vbcoGXTkVWLQ7ITk-rdj64Dgs_MRoWsM2z-MyIYnXlel1zqUKAkl1HkIyH8fG9olAeF_ftMbRbZXX2fxlg2zHNBVUfGT5BIyLXWx3vpIr_MA9TKa_jm1TiIdc8C3ASh2IKY-NXMGodRCSu0FL84qKbetNl4ysxBHSqK6Zs1jykPwzPyCZmvUseO4JbZeMySpgWi59PkfoiN7UwWbAK0w0xQDpzJpJTFdE4yP5yjmSPEzGyGRd0Z3KYCzD6N2UqJEf9C6nQ5g6ruc4iWlZZ6-_g\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19695309\/su_0\/rs_0\/tr_3vUCAFxNSL_lXo_x7ApG7aF4LadvAg8FhsyteQjyROyrYoPLlnWJ19quUzBDijfXhIR-HRDXjBxJ0FM6NUcZcwHM4qi_yeMw8gzF1QZGmnYFGFShoSUVM_5ym1HlIa1QpNY0GiurgdT6twerDTXpVnZxGtfsiWUig97OhSqfoaQaBVYviu-req79U2KOk8u1_ZswbvznKHsezAAYELGDf3iZJGsfUucuOrntfavvx2b2JCr7ssSm0GXU3OCt5DGaUs3v2z44tSt-JzRX1jtuxWJTHEl4lAcf3036FFHKhqPbnID995dgviFL1lrW8P7kY0X3skhwWFoi-7JL-ShBKELvxNdP_hj_6-Xp6qaS37gE1X8Jq_9OO_Yp4Uwjdx5EnlPx8TcrefplXYsdu4ZDNC6nO4hJn7BWcwUDQlmznOKOyT-mZi-MNMZbD5y-\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-08-29T13:37:16Z"}}}}'
+        30% of the lyrics are returned.","updated_time":"2019-09-20T07:54:21Z"}}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 22:36:25 GMT
+  recorded_at: Thu, 09 Jan 2020 22:54:46 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
-        They say "Oh my god I see the way you shine"
-        Take your hand, my dear, and place them both in mine
-        You know you stopped me dead when I was passing by
-        And now I beg to see you dance just one more time
+        Here's to the ones that we got
+        Cheers to the wish you were here, but you're not
+        'Cause the drinks bring back all the memories
+        Of everything we've been through
+        Toast to the ones here today
+        Toast to the ones that we lost on the way
+        'Cause the drinks bring back all the memories
+        And the memories bring back, memories bring back you
 
-        Ooh I see you, see you, see you every time
-        And oh my I, I like your style
-        You, you make me, make me, make me wanna cry
-        And now I beg to see you dance just one more time
+        There's a time that I remember, when I did not know no pain
+        When I believed in forever, and everything would stay the same
+        Now my heart feel like December when somebody say your name
+        'Cause I can't reach out to call you, but I know I will one day, yeah
 
-        So I say
-        Dance for me, dance for me, dance for me oh oh oh
-        I've never seen anybody do the things you do before
-        They say move for me, move for me, move for me ay ay ay
-        And when you're done I'll make you do it all again
+        Everybody hurts sometimes
+        Everybody hurts someday, ayy-ayy
+        But everything gon' be alright
+        Go and raise a glass and say, ayy
 
-        I said oh my god I see you walking by
-        Take my hands, my dear, and look me in my eyes
+        Here's to the ones that we got
+        Cheers to the wish you were here, but you're not
         ...(1409618830612)
     headers:
       Authorization:
@@ -174,7 +178,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '2294'
+      - '2908'
       X-Powered-By:
       - Servlet/3.1
       Access-Control-Allow-Origin:
@@ -198,35 +202,38 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 139d0c4f6912d793c812d7164577ff6c
+      - eadc9b563ded2bd38d77b4913132f87f
       X-Dp-Watson-Tran-Id:
-      - 139d0c4f6912d793c812d7164577ff6c
+      - eadc9b563ded2bd38d77b4913132f87f
       X-Edgeconnect-Midmile-Rtt:
-      - '19'
+      - '17'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '772'
+      - '421'
       Date:
-      - Thu, 09 Jan 2020 22:36:26 GMT
+      - Thu, 09 Jan 2020 22:54:47 GMT
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"document_tone":{"tones":[{"score":0.500783,"tone_id":"joy","tone_name":"Joy"}]},"sentences_tone":[{"sentence_id":0,"text":"They
-        say \"Oh my god I see the way you shine\"","tones":[{"score":0.510734,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":1,"text":"Take
-        your hand, my dear, and place them both in mine","tones":[]},{"sentence_id":2,"text":"You
-        know you stopped me dead when I was passing by","tones":[{"score":0.643279,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.653099,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"And
-        now I beg to see you dance just one more time","tones":[{"score":0.661352,"tone_id":"joy","tone_name":"Joy"},{"score":0.75152,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"Ooh
-        I see you, see you, see you every time","tones":[{"score":0.785915,"tone_id":"joy","tone_name":"Joy"},{"score":0.849827,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":6,"text":"And
-        oh my I, I like your style","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":7,"text":"You,
-        you make me, make me, make me wanna cry","tones":[{"score":0.800989,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":8,"text":"And
-        now I beg to see you dance just one more time","tones":[{"score":0.661352,"tone_id":"joy","tone_name":"Joy"},{"score":0.75152,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":9,"text":"","tones":[]},{"sentence_id":10,"text":"So
-        I say","tones":[]},{"sentence_id":11,"text":"Dance for me, dance for me, dance
-        for me oh oh oh","tones":[{"score":0.72267,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":12,"text":"I''ve
-        never seen anybody do the things you do before","tones":[]},{"sentence_id":13,"text":"They
-        say move for me, move for me, move for me ay ay ay","tones":[]},{"sentence_id":14,"text":"And
-        when you''re done I''ll make you do it all again","tones":[{"score":0.849827,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":15,"text":"","tones":[]},{"sentence_id":16,"text":"I
-        said oh my god I see you walking by","tones":[]},{"sentence_id":17,"text":"Take
-        my hands, my dear, and look me in my eyes","tones":[]},{"sentence_id":18,"text":"...(1409618830612)","tones":[]}]}'
+      string: '{"document_tone":{"tones":[{"score":0.754077,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.599177,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"Here''s
+        to the ones that we got","tones":[]},{"sentence_id":1,"text":"Cheers to the
+        wish you were here, but you''re not","tones":[]},{"sentence_id":2,"text":"''Cause
+        the drinks bring back all the memories","tones":[{"score":0.524515,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":3,"text":"Of
+        everything we''ve been through","tones":[]},{"sentence_id":4,"text":"Toast
+        to the ones here today","tones":[]},{"sentence_id":5,"text":"Toast to the
+        ones that we lost on the way","tones":[{"score":0.509518,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":6,"text":"''Cause
+        the drinks bring back all the memories","tones":[{"score":0.524515,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":7,"text":"And
+        the memories bring back, memories bring back you","tones":[{"score":0.901894,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":8,"text":"","tones":[]},{"sentence_id":9,"text":"There''s
+        a time that I remember, when I did not know no pain","tones":[{"score":0.821913,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":10,"text":"When
+        I believed in forever, and everything would stay the same","tones":[]},{"sentence_id":11,"text":"Now
+        my heart feel like December when somebody say your name","tones":[{"score":0.8152,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":12,"text":"''Cause
+        I can''t reach out to call you, but I know I will one day, yeah","tones":[{"score":0.546169,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.740384,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"","tones":[]},{"sentence_id":14,"text":"Everybody
+        hurts sometimes","tones":[{"score":0.825317,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.994446,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":15,"text":"Everybody
+        hurts someday, ayy-ayy","tones":[{"score":0.703776,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":16,"text":"But
+        everything gon'' be alright","tones":[]},{"sentence_id":17,"text":"Go and
+        raise a glass and say, ayy","tones":[{"score":0.51979,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":18,"text":"","tones":[]},{"sentence_id":19,"text":"Here''s
+        to the ones that we got","tones":[]},{"sentence_id":20,"text":"Cheers to the
+        wish you were here, but you''re not","tones":[]},{"sentence_id":21,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 22:36:26 GMT
+  recorded_at: Thu, 09 Jan 2020 22:54:47 GMT
 recorded_with: VCR 5.0.0
