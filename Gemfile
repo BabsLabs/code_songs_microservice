@@ -12,6 +12,8 @@ gem 'rspec'
 
 gem 'dotenv'
 
+gem "skylight"
+
 group :test do
   gem 'rack-test'
   gem 'pry'
