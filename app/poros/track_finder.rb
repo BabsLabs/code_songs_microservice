@@ -27,10 +27,7 @@ class TrackFinder
 
       track = Track.find_by(mm_track_id: track_info[:track][:track_id]) || Track.create(trimmed_info)
 
-      if track.youtube_link.nil?
-        track.update!(youtube_link: found_link(track.title, track.artist_name))
-      end
-
+      check_for_youtube_link(track)
       check_for_sentiment(track)
     end
   end
@@ -39,6 +36,12 @@ class TrackFinder
     if track.sentiments.count == 0
       lyrics = track.lyrics
       track.make_sentiments(lyrics)
+    end
+  end
+
+  def check_for_youtube_link(track)
+    if track.youtube_link.nil?
+      track.update!(youtube_link: found_link(track.title, track.artist_name))
     end
   end
 
