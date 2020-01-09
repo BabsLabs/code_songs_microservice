@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=AIzaSyBSu6YXE0QfhKV2f9wZMWDzk4vEZSWHMMc&maxResults=1&order=relevance&part=snippet&q=Rocket%20ManElton%20John&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 01:00:23 GMT
+      Date:
+      - Thu, 09 Jan 2020 01:00:23 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/xKnr8IVyUo-POMOSsOyfMRetDvI"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUveEtucjhJVnlVby1QT01PU3NPeWZNUmV0RHZJXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMjIxNjIxLAogICJyZXN1bHRzUGVyUGFnZSI6IDEKIH0sCiAiaXRlbXMiOiBbCiAgewogICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICJldGFnIjogIlwicDRWVGRsa1F2M0hRZVRFYVhndkxlUEF5ZG1VL2JYRFdsajd4eG5LT1prMHNHWEstTGxBYVdCc1wiIiwKICAgImlkIjogewogICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAidmlkZW9JZCI6ICJEdFZCQ0c2VGhEayIKICAgfSwKICAgInNuaXBwZXQiOiB7CiAgICAicHVibGlzaGVkQXQiOiAiMjAxNy0wNS0yMlQxNjowMDowMS4wMDBaIiwKICAgICJjaGFubmVsSWQiOiAiVUNJOFJ5N05kRk5MZWwtUzhkV1U3bURBIiwKICAgICJ0aXRsZSI6ICJFbHRvbiBKb2huIC0gUm9ja2V0IE1hbiAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pIiwKICAgICJkZXNjcmlwdGlvbiI6ICJJbiBoaXMgb3duIGludGVycHJldGF0aW9uIG9mIEVsdG9uIEpvaG4ncyBpY29uaWMgaGl0LCBJcmFuaWFuIGZpbG1tYWtlciBhbmQgcmVmdWdlZSBNYWppZCBBZGluIHJlaW1hZ2luZXMg4oCcUm9ja2V0IE1hbuKAnSB0byB0ZWxsIGEgbmV3IHN0b3J5IG9mIGFkdmVudHVyZSwgbG9uZWxpbmVzcyAuLi4iLAogICAgInRodW1ibmFpbHMiOiB7CiAgICAgImRlZmF1bHQiOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9kZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgImhlaWdodCI6IDkwCiAgICAgfSwKICAgICAibWVkaXVtIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvbXFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDMyMCwKICAgICAgImhlaWdodCI6IDE4MAogICAgIH0sCiAgICAgImhpZ2giOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9ocWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogNDgwLAogICAgICAiaGVpZ2h0IjogMzYwCiAgICAgfQogICAgfSwKICAgICJjaGFubmVsVGl0bGUiOiAiRWx0b25Kb2huVkVWTyIsCiAgICAibGl2ZUJyb2FkY2FzdENvbnRlbnQiOiAibm9uZSIKICAgfQogIH0KIF0KfQo=
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 01:00:23 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=AIzaSyBSu6YXE0QfhKV2f9wZMWDzk4vEZSWHMMc&maxResults=1&order=relevance&part=snippet&q=Rocket%20ManElton%20John&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 01:00:23 GMT
+      Date:
+      - Thu, 09 Jan 2020 01:00:23 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/xKnr8IVyUo-POMOSsOyfMRetDvI"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUveEtucjhJVnlVby1QT01PU3NPeWZNUmV0RHZJXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMjIxNjIxLAogICJyZXN1bHRzUGVyUGFnZSI6IDEKIH0sCiAiaXRlbXMiOiBbCiAgewogICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICJldGFnIjogIlwicDRWVGRsa1F2M0hRZVRFYVhndkxlUEF5ZG1VL2JYRFdsajd4eG5LT1prMHNHWEstTGxBYVdCc1wiIiwKICAgImlkIjogewogICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAidmlkZW9JZCI6ICJEdFZCQ0c2VGhEayIKICAgfSwKICAgInNuaXBwZXQiOiB7CiAgICAicHVibGlzaGVkQXQiOiAiMjAxNy0wNS0yMlQxNjowMDowMS4wMDBaIiwKICAgICJjaGFubmVsSWQiOiAiVUNJOFJ5N05kRk5MZWwtUzhkV1U3bURBIiwKICAgICJ0aXRsZSI6ICJFbHRvbiBKb2huIC0gUm9ja2V0IE1hbiAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pIiwKICAgICJkZXNjcmlwdGlvbiI6ICJJbiBoaXMgb3duIGludGVycHJldGF0aW9uIG9mIEVsdG9uIEpvaG4ncyBpY29uaWMgaGl0LCBJcmFuaWFuIGZpbG1tYWtlciBhbmQgcmVmdWdlZSBNYWppZCBBZGluIHJlaW1hZ2luZXMg4oCcUm9ja2V0IE1hbuKAnSB0byB0ZWxsIGEgbmV3IHN0b3J5IG9mIGFkdmVudHVyZSwgbG9uZWxpbmVzcyAuLi4iLAogICAgInRodW1ibmFpbHMiOiB7CiAgICAgImRlZmF1bHQiOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9kZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgImhlaWdodCI6IDkwCiAgICAgfSwKICAgICAibWVkaXVtIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvbXFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDMyMCwKICAgICAgImhlaWdodCI6IDE4MAogICAgIH0sCiAgICAgImhpZ2giOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9ocWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogNDgwLAogICAgICAiaGVpZ2h0IjogMzYwCiAgICAgfQogICAgfSwKICAgICJjaGFubmVsVGl0bGUiOiAiRWx0b25Kb2huVkVWTyIsCiAgICAibGl2ZUJyb2FkY2FzdENvbnRlbnQiOiAibm9uZSIKICAgfQogIH0KIF0KfQo=
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 01:00:23 GMT
+recorded_with: VCR 5.0.0
