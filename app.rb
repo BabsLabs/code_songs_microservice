@@ -42,7 +42,10 @@ get '/codesongs_matcher' do
   tracks = TrackFinder.new(request.env['artist_id']).top_tracks
 
   # Do math with repo sentiments and all artist track sentiments?
-  evaluate = CompareSentiments.new(repo_sentiments, tracks)
-  binding.pry
+  # sorted_tracks = CompareSentiments.new(repo_sentiments, tracks).sorted_tracks
+  sorted_tracks = tracks.match_sentiments(repo_sentiments)
+
+  tracks_json_builder = TracksBuilder.new(sorted_tracks)
+  tracks_json_builder.build_collection
   # expected_output [ {title: 'title', link: 'link' } ]
 end
