@@ -1,0 +1,1783 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.search?apikey=<MUSIX_MATCH_TOKEN>&f_artist_id=38620990&f_has_lyrics=true&page=1&page_size=5&s_track_rating=desc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '985'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:29 GMT
+      X-Served-By:
+      - cache-den19646-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538229.957751,VS0,VE123
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.014470100402832,"available":283},"body":{"track_list":[{"track":{"track_id":124985077,"track_name":"Shape
+        of You","track_name_translation_list":[],"track_rating":99,"commontrack_id":69032569,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":56473,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1048,"music_genre_parent_id":17,"music_genre_name":"House","music_genre_name_extended":"Dance
+        \/ House","music_genre_vanity":"Dance-House"}},{"music_genre":{"music_genre_id":1183,"music_genre_parent_id":24,"music_genre_name":"Dancehall","music_genre_name_extended":"Reggae
+        \/ Dancehall","music_genre_vanity":"Reggae-Dancehall"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":17,"music_genre_parent_id":34,"music_genre_name":"Dance","music_genre_name_extended":"Dance","music_genre_vanity":"Dance"}}]}}},{"track":{"track_id":124985078,"track_name":"Perfect","track_name_translation_list":[],"track_rating":99,"commontrack_id":69182670,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":44733,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1022,"music_genre_parent_id":5,"music_genre_name":"Classical
+        Crossover","music_genre_name_extended":"Classical \/ Classical Crossover","music_genre_vanity":"Classical-Classical-Crossover"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109263,"track_name":"Thinking
+        Out Loud","track_name_translation_list":[],"track_rating":98,"commontrack_id":39539742,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":151583,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
+        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1143,"music_genre_parent_id":15,"music_genre_name":"Soul","music_genre_name_extended":"R&B\/Soul
+        \/ Soul","music_genre_vanity":"R-B-Soul-Soul"}}]}}},{"track":{"track_id":170774806,"track_name":"South
+        of the Border","track_name_translation_list":[],"track_rating":97,"commontrack_id":95699196,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":131,"album_id":32562576,"album_name":"No.6
+        Collaborations Project","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-07-30T14:55:38Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109257,"track_name":"Photograph","track_name_translation_list":[],"track_rating":95,"commontrack_id":39539736,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":153286,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
+        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":1289,"music_genre_parent_id":34,"music_genre_name":"Folk","music_genre_name_extended":"Folk","music_genre_vanity":"Folk"}}]}}}]}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:25 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:50:29 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:50:29 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/tV0iipdb5YzCmzXE9Q70a9PZSe0"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/tV0iipdb5YzCmzXE9Q70a9PZSe0\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/d1b75c_di-lrbIC5hc8bauDxtR0\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "bfIi0gpyVFg"
+           },
+           "snippet": {
+            "publishedAt": "2019-12-30T16:00:05.000Z",
+            "channelId": "UCpi8TJfiA4lKGkaXs__YdBA",
+            "title": "The Try Guys Eat EVERY Singapore Street Food",
+            "description": "We're so excited to finally share our Singapore adventure with you guys! We were so lucky to travel, taste and try all of the beautiful food and experiences that ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/bfIi0gpyVFg/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/bfIi0gpyVFg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/bfIi0gpyVFg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "The Try Guys",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:26 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985077
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1614'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:29 GMT
+      X-Served-By:
+      - cache-den19623-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538230.531814,VS0,VE233
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.12608218193054},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
+        club isn''t the best place to find a lover\nSo the bar is where I go\nMe and
+        my friends at the table doing shots\nDrinking fast, and then we talk slow\n\nAnd
+        you come over and start up a conversation with just me\nAnd trust me, I''ll
+        give it a chance now\nTake my hand, stop\nPut \"Van the Man\" on the jukebox\nAnd
+        then we start to dance\nAnd now I''m singing like\n\nGirl, you know I want
+        your love\nYour love was handmade for somebody like me\nCome on now, follow
+        my lead\nI may be crazy, don''t mind me\n\nSay: \"Boy, let''s not talk too
+        much\nGrab on my waist and put that body on me\"\nCome on now, follow my lead\nCome,
+        come on now, follow my lead\n\nI''m in love with the shape of you\nWe push
+        and pull like a magnet do\nAlthough my heart is falling too\nI''m in love
+        with your body\nLast night you were in my room\nAnd now my bed sheets smell
+        like you\nEvery day discovering something brand new\n\nOh, I''m in love with
+        your body\nOh-i-oh-i-oh-i-oh-i\nOh, I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\nOh,
+        I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\n...\n\n******* This Lyrics
+        is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAG6bO9BvxdrrQ3yhsZjziD90TNQGT1ibWvYwviQEpFhm10Gv4I9Epca4bzeHEvdT5A_bKHzZkKDb6o5Xce1oLuqCBYXuYSUV1khX_FYaJmuIVd_8eT3t4Wq2c1FWCg2qgoN9JDAijZ37ziohYttlV1N3caHOt7NJQVq790iH9x7oo-wdAAi3uvGl6lBVy9ARXCfh0wLYFtjFuwtZTuLPDlAIsYgt5VXDtzCzOGFsWDc2ZYr1ucQJnkU3CxUTgN7U1V13Vq8rtrs7Cx30CEn6lkvOQxO18V9bbcZLxaMp4SJZW8txxO7MmZrRrZxzmnFtu_34nTRH-BsUD-rznw00-tUSoZIt5PnDy69PutftZvdEdr19oGXg0tsO42L7oZDj_8AzBQKxcAdyK2RP-XWYrAL0RHBBwdAFD2tYgzWelcer8JZYxKXGbzZuV4vV0d4K6WicOBcl\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAEP5folxr6yODw3JrAEnSld2SFx5-iJ0eKsIvcEREnFJfYGzDmNTDxEuI34u6RdES-Z6teK-V-HsprpFuvd8cQWjzpQDSpiiryvbF5nr3w4sy_bF1bbGMG0BfEG4AkVEUPfH21cnNLQHQ3C8pzKQ-y2JLYil47zdbBV1Nmjx8bmb4pk9DxS_McMN8ZVXJe3aD1VS91gQo47OvZt7IUXvz_XT_mL17gONP-HXj_dBWRc1gsUV5cwKpZ4d3_IJLsSrXZG3qupB4yvEcCtlbbWEC7BSqwbbXv2xN7_Xnyuqnihsa7D_SJmFbDlkrM4PjaNSU9Rdib1_l6gXW9vJ0XstXTK-xS8LXHCHu9Tnh3qlJrlgibrV6F-4kCNBVBqMKVV7CL71UmVfn5TZZjaunCDja5tLEyF0aa48geed_AKJW6xvNtKM7n54VcPP2s6Bq9gla2yBwU8C\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-09T12:36:32Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:26 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        The club isn't the best place to find a lover
+        So the bar is where I go
+        Me and my friends at the table doing shots
+        Drinking fast, and then we talk slow
+
+        And you come over and start up a conversation with just me
+        And trust me, I'll give it a chance now
+        Take my hand, stop
+        Put "Van the Man" on the jukebox
+        And then we start to dance
+        And now I'm singing like
+
+        Girl, you know I want your love
+        Your love was handmade for somebody like me
+        Come on now, follow my lead
+        I may be crazy, don't mind me
+
+        Say: "Boy, let's not talk too much
+        Grab on my waist and put that body on me"
+        Come on now, follow my lead
+        Come, come on now, follow my lead
+
+        I'm in love with the shape of you
+        We push and pull like a magnet do
+        Although my heart is falling too
+        I'm in love with your body
+        Last night you were in my room
+        And now my bed sheets smell like you
+        Every day discovering something brand new
+
+        Oh, I'm in love with your body
+        Oh-i-oh-i-oh-i-oh-i
+        Oh, I'm in love with your body
+        Oh-i-oh-i-oh-i-oh-i
+        Oh, I'm in love with your body
+        Oh-i-oh-i-oh-i-oh-i
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4381'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - ba5da23208cb3a0bdb75513a0e8f95b6
+      X-Dp-Watson-Tran-Id:
+      - ba5da23208cb3a0bdb75513a0e8f95b6
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '2177'
+      Date:
+      - Thu, 09 Jan 2020 02:50:32 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.754031,"tone_id":"joy","tone_name":"Joy"},{"score":0.767326,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"The
+        club isn''t the best place to find a lover","tones":[{"score":0.563139,"tone_id":"joy","tone_name":"Joy"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"So
+        the bar is where I go","tones":[{"score":0.636466,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":2,"text":"Me
+        and my friends at the table doing shots","tones":[]},{"sentence_id":3,"text":"Drinking
+        fast, and then we talk slow","tones":[{"score":0.61847,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"And
+        you come over and start up a conversation with just me","tones":[{"score":0.75152,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"And
+        trust me, I''ll give it a chance now","tones":[{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":7,"text":"Take
+        my hand, stop","tones":[]},{"sentence_id":8,"text":"Put \"Van the Man\" on
+        the jukebox","tones":[]},{"sentence_id":9,"text":"And then we start to dance","tones":[{"score":0.858888,"tone_id":"joy","tone_name":"Joy"},{"score":0.944551,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":10,"text":"And
+        now I''m singing like","tones":[{"score":0.744003,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":11,"text":"","tones":[]},{"sentence_id":12,"text":"Girl,
+        you know I want your love","tones":[{"score":0.72995,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Your
+        love was handmade for somebody like me","tones":[{"score":0.910752,"tone_id":"joy","tone_name":"Joy"},{"score":0.961411,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":14,"text":"Come
+        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":15,"text":"I
+        may be crazy, don''t mind me","tones":[{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":16,"text":"","tones":[]},{"sentence_id":17,"text":"Say:
+        \"Boy, let''s not talk too much","tones":[]},{"sentence_id":18,"text":"Grab
+        on my waist and put that body on me\"","tones":[]},{"sentence_id":19,"text":"Come
+        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":20,"text":"Come,
+        come on now, follow my lead","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":21,"text":"","tones":[]},{"sentence_id":22,"text":"I''m
+        in love with the shape of you","tones":[{"score":0.89589,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":23,"text":"We
+        push and pull like a magnet do","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":24,"text":"Although
+        my heart is falling too","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":25,"text":"I''m
+        in love with your body","tones":[{"score":0.935092,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":26,"text":"Last
+        night you were in my room","tones":[]},{"sentence_id":27,"text":"And now my
+        bed sheets smell like you","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":28,"text":"Every
+        day discovering something brand new","tones":[{"score":0.650502,"tone_id":"joy","tone_name":"Joy"},{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":29,"text":"","tones":[]},{"sentence_id":30,"text":"Oh,
+        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":31,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":32,"text":"Oh,
+        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":33,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":34,"text":"Oh,
+        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":35,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":36,"text":"...(1409618832280)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:29 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:50:32 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:50:32 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nJQm3YL18Q_9od3e-YxEDt9YDIM\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "kx7P_ENnDPE"
+           },
+           "snippet": {
+            "publishedAt": "2019-12-30T20:00:06.000Z",
+            "channelId": "UClRx3MMyYUyqOxyEqA5F2nQ",
+            "title": "JACKBOYS, Pop Smoke, Travis Scott - GATTI (Official Video)",
+            "description": "JACKBOYS OUT NOW: https://JACKBOYS.lnk.to/JACKBOYS OFFICIAL STORE: https://JACKBOYS.travisscott.com/ Directed by CACTUS JACK & WHITE TRASH ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "TravisScottVEVO",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:29 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985078
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1418'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:32 GMT
+      X-Served-By:
+      - cache-den19645-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538233.872555,VS0,VE110
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.052373886108398},"body":{"lyrics":{"lyrics_id":16448653,"explicit":0,"lyrics_body":"I
+        found a love for me\nOh darling, just dive right in and follow my lead\nWell,
+        I found a girl, beautiful and sweet\nOh, I never knew you were the someone
+        waiting for me\n''Cause we were just kids when we fell in love\nNot knowing
+        what it was\nI will not give you up this time\nBut darling, just kiss me slow,
+        your heart is all I own\nAnd in your eyes, you''re holding mine\n\nBaby, I''m
+        dancing in the dark with you between my arms\nBarefoot on the grass, listening
+        to our favourite song\nWhen you said you looked a mess, I whispered underneath
+        my breath\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCAIZ-k_UG4kj2S-qLmj-lglgjlLmnxgSwTtnvrj9K5vcSCsHQvyUvFZEkkTXFeGzZK_PFqKOkgRMtWkJ5hzpvg-kMYIgSWKKw_Y_Ff-QNqOg6Bm3ltrK7ZkX0lKlMFUevid4WKlBPT23MJpgPH5CsXYRYCrHhhGX1tOEpLy432lZltbgOkuAeLW5429jtAhusPb94DftAcKE7VZ7HsfaK8x3xouJZrYTLQ3MLuUARyaOcPD1Ui8sK3oWw4O5ge6G_LlKQLg4a98n8nDnLibRgPyGQ82CBVek2BMVgJBMyqIvgyO055g6Hed804EnkiursXtENP4zYXxSg2T96Mc9wK1Aukxcrlu993dYWVwStOOnd6koOxHw8GAWo29fo_RR3-ozo1trDJysJ8yUGcxKMGced0PE9hTMwTmJsefOPGSOi1ehzBCKQeblfiOa6y9kh\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCAMlITKrl9YryWGL3GUOhxTlkHIvMfY5nHG6KJeE0LS1MXajNvKo28s3vO7Ll-rjEaKapC6J-U2eSXYrhKkuRRdZc3zj6Zxt31-32YHrW3IAdd-lGX_opClWoK7UnT_LdOc_YEGqMEKfomqH42tqKGI00SzU08cWf_CSL8sMCoe4KevT30BZSQb3NP6x3bQt3Z_XkCauKeXay9HnhQM-Q--jHCGbetyuw88Yad3rs-hogmJelqVwcefW--BjUzwVCwW5_oPkKDgzxzu-PeOTENYjKq_ZJrPYQln4LhI-hI2zDvJR22VJ16tGZvI_x6Z52zrhyGfVI2tu-jsBvOjesv4jpN7GPLK7vhlho1i8_i2rqACs3_poSZc1yWSD0XSghjcHsB2z670BU5dv8lIPHtcr8lKf3B5WUQ3j50-Epgj2RXHHfa_nWwewmcb80KPDb\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:38Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:29 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        I found a love for me
+        Oh darling, just dive right in and follow my lead
+        Well, I found a girl, beautiful and sweet
+        Oh, I never knew you were the someone waiting for me
+        'Cause we were just kids when we fell in love
+        Not knowing what it was
+        I will not give you up this time
+        But darling, just kiss me slow, your heart is all I own
+        And in your eyes, you're holding mine
+
+        Baby, I'm dancing in the dark with you between my arms
+        Barefoot on the grass, listening to our favourite song
+        When you said you looked a mess, I whispered underneath my breath
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2022'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - dbf0e6d48d52de8f160684a633dac84e
+      X-Dp-Watson-Tran-Id:
+      - dbf0e6d48d52de8f160684a633dac84e
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '1804'
+      Date:
+      - Thu, 09 Jan 2020 02:50:34 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.759537,"tone_id":"joy","tone_name":"Joy"},{"score":0.68097,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"I
+        found a love for me","tones":[{"score":0.860682,"tone_id":"joy","tone_name":"Joy"},{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"Oh
+        darling, just dive right in and follow my lead","tones":[{"score":0.575932,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"Well,
+        I found a girl, beautiful and sweet","tones":[{"score":0.931787,"tone_id":"joy","tone_name":"Joy"},{"score":0.762356,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"Oh,
+        I never knew you were the someone waiting for me","tones":[]},{"sentence_id":4,"text":"''Cause
+        we were just kids when we fell in love","tones":[{"score":0.712527,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":5,"text":"Not
+        knowing what it was","tones":[{"score":0.882284,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"I
+        will not give you up this time","tones":[]},{"sentence_id":7,"text":"But darling,
+        just kiss me slow, your heart is all I own","tones":[{"score":0.707628,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":8,"text":"And
+        in your eyes, you''re holding mine","tones":[]},{"sentence_id":9,"text":"","tones":[]},{"sentence_id":10,"text":"Baby,
+        I''m dancing in the dark with you between my arms","tones":[{"score":0.552853,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":11,"text":"Barefoot
+        on the grass, listening to our favourite song","tones":[{"score":0.771437,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":12,"text":"When
+        you said you looked a mess, I whispered underneath my breath","tones":[]},{"sentence_id":13,"text":"...(1409618832280)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:31 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:50:35 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:50:35 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/c13SKC85BKQTLr9huqwxLeEpfzs"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/c13SKC85BKQTLr9huqwxLeEpfzs\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/20xYsBkin0auXuLI46NENmgn9q0\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "Gwv1Rkc8nYA"
+           },
+           "snippet": {
+            "publishedAt": "2020-01-04T04:50:52.000Z",
+            "channelId": "UCWJ2lWNubArHWmf3FIHbfcQ",
+            "title": "Harden GOES OFF For 44 PTS, 11 REB &amp; 11 AST",
+            "description": "James Harden GOES OFF for 44 PTS, 11 REB, 11 AST to lead the Rockets to a 118-108 win over the 76ers! Subscribe to the NBA: https://on.nba.com/2JX5gSN ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/Gwv1Rkc8nYA/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/Gwv1Rkc8nYA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/Gwv1Rkc8nYA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "NBA",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:32 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109263
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1466'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:36 GMT
+      X-Served-By:
+      - cache-den19648-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538236.043538,VS0,VE181
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.070384979248047},"body":{"lyrics":{"lyrics_id":15923957,"explicit":0,"lyrics_body":"When
+        your legs don''t work like they used to before\nAnd I can''t sweep you off
+        of your feet\nWill your mouth still remember the taste of my love?\nWill your
+        eyes still smile from your cheeks?\n\nAnd, darling, I will be loving you till
+        we''re 70\nAnd, baby, my heart could still fall as hard at 23\nAnd I''m thinking
+        ''bout how people fall in love in mysterious ways\nMaybe just the touch of
+        a hand\nWell, me, I fall in love with you every single day\nAnd I just wanna
+        tell you I am\n\nSo, honey, now\nTake me into your loving arms\nKiss me under
+        the light of a thousand stars\nPlace your head on my beating heart\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCABBjSkG7hT9wIL2_AeZgftdC4XP-DYRMrP3ZFKbncnpySDi_xUc_FM_a6vA9zjUowM53F8C4v6EmtFoi7xdEXtTsxj69TllTuVCRflSHfi2S9yLHrcjhF8Xzpwu6jSLuzx73ocXeyAP7hgg2PfB6J0SOb13KNd4D2yeG-f-s1WNULoUiRFCusM5XZzNkmx9xHmw05oLeJRJfJ4JeFpllJD2sfvqhLEeyX7moabWdPqw5c0jhuFQuDPXxsbvBxDV3eCAT5mcE6btERvFSf7Z3sFme4krxQ7HR82Iqca_irLwniUNyQFc_QvOvqry0utXa7p4oUhu50LyfYxaMOs28hxX3KOfUo3UmfnykWnVGP1kMZOwFRvnbK4Hvlv4dF2riVUX9s7gla-RhE954UAnDqW9BZA0uMf2GZCs5nqJKmqOYC0lb3wZ5JTerlZFGtoRjE17SCr53cOzehA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAGENS9cmVMV0rWZc9jsvr9ipmMga_IL7I0CgimFeFJQ5twgFFvwijUhItT49c5r4iXQU5UNCkbApxKuaopNAnGxyNOKSugZx7RT4vfK6s4rGyHSkCDHt7zYd-9iJPUKeK_OF16YpTKb9FjD-rOemKNifufmvikMCSH2mgkN6pdYeNu0zhSoSSfV5cEn9RmwRjTDfEZc21OIYRSmbbGQTRX0NoajxvjRjTJ5g9rWuzVxN5zI8nEDQzsdxkHlPtu9j7KfD4Y5PmDD-NT2X0-W8q7-7JMdrr6Rx6Ydyd_CKIA21JqnHq5-tFa8T1uesQ6NUcqyDLUER4Bqbq8BlxLyeLqaKY99f4RFUuBefWxL9hTbzHH0RdxNtpZvuW8-BydLGYqvQbmRVk-ta4M_bh-sg9K0YQgZGF0-9wK_BPadr_GdUEAEdbTVncFJUWLkXln_rmOQFw0zM1jKjdA\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:42Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:33 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        When your legs don't work like they used to before
+        And I can't sweep you off of your feet
+        Will your mouth still remember the taste of my love?
+        Will your eyes still smile from your cheeks?
+
+        And, darling, I will be loving you till we're 70
+        And, baby, my heart could still fall as hard at 23
+        And I'm thinking 'bout how people fall in love in mysterious ways
+        Maybe just the touch of a hand
+        Well, me, I fall in love with you every single day
+        And I just wanna tell you I am
+
+        So, honey, now
+        Take me into your loving arms
+        Kiss me under the light of a thousand stars
+        Place your head on my beating heart
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2316'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - 7d0133326a9a03f06e8716fb8fc39f9c
+      X-Dp-Watson-Tran-Id:
+      - 7d0133326a9a03f06e8716fb8fc39f9c
+      X-Edgeconnect-Midmile-Rtt:
+      - '21'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '404'
+      Date:
+      - Thu, 09 Jan 2020 02:50:36 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.695169,"tone_id":"joy","tone_name":"Joy"},{"score":0.803444,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"When
+        your legs don''t work like they used to before","tones":[{"score":0.741714,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":1,"text":"And
+        I can''t sweep you off of your feet","tones":[]},{"sentence_id":2,"text":"Will
+        your mouth still remember the taste of my love?","tones":[{"score":0.585539,"tone_id":"joy","tone_name":"Joy"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"Will
+        your eyes still smile from your cheeks?","tones":[{"score":0.856543,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":4,"text":"And,
+        darling, I will be loving you till we''re 70","tones":[{"score":0.874067,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":5,"text":"And,
+        baby, my heart could still fall as hard at 23","tones":[{"score":0.642708,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.786991,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"And
+        I''m thinking ''bout how people fall in love in mysterious ways","tones":[{"score":0.684635,"tone_id":"joy","tone_name":"Joy"},{"score":0.506763,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"Maybe
+        just the touch of a hand","tones":[{"score":0.990161,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":8,"text":"Well,
+        me, I fall in love with you every single day","tones":[{"score":0.7041,"tone_id":"joy","tone_name":"Joy"},{"score":0.825035,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":9,"text":"And
+        I just wanna tell you I am","tones":[{"score":0.88939,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":10,"text":"","tones":[]},{"sentence_id":11,"text":"So,
+        honey, now","tones":[]},{"sentence_id":12,"text":"Take me into your loving
+        arms","tones":[{"score":0.705407,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":13,"text":"Kiss
+        me under the light of a thousand stars","tones":[{"score":0.769288,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":14,"text":"Place
+        your head on my beating heart","tones":[{"score":0.67238,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":15,"text":"...(1409618832280)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:33 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:50:37 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:50:37 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/9b0igzDbV4Mu5g29r0if8zCANHQ"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/9b0igzDbV4Mu5g29r0if8zCANHQ\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/4D3tNyomOiIHIJj6gvjdiQ2JbZQ\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "vR16e1ryJMo"
+           },
+           "snippet": {
+            "publishedAt": "2019-12-30T14:51:13.000Z",
+            "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+            "title": "Bolton, Mulvaney Wanted Trump To Release Ukraine Aid In August: NYT | Morning Joe | MSNBC",
+            "description": "Defense Secretary Mark T. Esper joined Mike Pompeo and John Bolton in trying to convince the president that releasing the aid was in interests of the United ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/vR16e1ryJMo/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/vR16e1ryJMo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/vR16e1ryJMo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "MSNBC",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:34 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=170774806
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1638'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:37 GMT
+      X-Served-By:
+      - cache-den19620-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538237.368955,VS0,VE269
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.15678715705872},"body":{"lyrics":{"lyrics_id":19481077,"explicit":0,"lyrics_body":"She
+        got the mmm, brown eyes, caramel thighs\nLong hair, no wedding ring, hey\nI
+        saw you lookin'' from across the way\nAnd now I really wanna know your name\n\nShe
+        got the mmm, white dress, but when she''s wearin'' less\nMan, you know that
+        she drives me crazy\nThe mmm, brown eyes, beautiful smile\nYou know I love
+        watching you do your thing\n\nI love her hips, curves, lips say the words\n\"Te
+        amo, mami, ah, te amo, mami\"\nI kiss her, this love is like a dream\n\nSo
+        join me in this bed that I''m in\nAnd push up on me and sweat, darling\nSo
+        I''m gonna put my time in\nI won''t stop until the angels sing\n\nJump in
+        that water, be free\nCome South of the border with me\nJump in that water,
+        be free\nCome South of the border with me\n\nHe got that mmm, green eyes,
+        givin'' me signs\nThat he really wants to know my name, hey\nI saw you lookin''
+        from across the way\nAnd suddenly, I''m glad I came, ay\n\nVen para ac\u00e1
+        quiero bailar, toma mi mano\nQuiero sentir tu cuerpo en mi, est\u00e1s temblando\nMmm,
+        green eyes, takin'' your time\n...\n\n******* This Lyrics is NOT for Commercial
+        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCACcUst_CyIG_-72eColqyB_eA-GcuRHUUcXUEayCnx1HvYk-RS4rC097ee2kyAANxZeilpMYhWHLZ8udZnDllI7knMfhA1JBHcSiEI7yq8OIgZxsYUhpRdFgGpGKQICEMpRRmrZqHX8m2KX1Eb_bpcaRuILhs-4qS7MP8-AY30q20zSri5pXyZaxoHNiENZbpiS04psPEMyHTS6n4jbamx3PvU8OBvPdoQ-qqml2zHd4Detvm6sxt42-kVIe4fSxYhNeQb2uXmrIFN2bYnnqmcgYIKHABjmKTDYeEMej7FrmTzRvUp2Grsg9iHsg6fwQwX-f_1H3VHtJJRcG40fkuUukJxdV1Rkjh6hOiJ4KueVbzRlnw-1TsMTZOyyncHOSgby9r189CE0X-Qoz0VmO4Ah6ESIeQZSUhG-spFQWBK15ig1-qIuqYmKVsFWz_iu4IE5txQ9TsTeYSA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCABlQInZw_bjh_8CJMVBpwVFXdGmkIyjulJXC24uh5lX1vykbgqD_MEwGmUnkFHtjppd2ApolLSoGO81cc7CiGfh_f12lzKbQ8r6q7y_Mm3PnrkyNw3fE8kEcJAA74Jldd8TpZYwGqzTjndnSuW5-RV8wlh2cBuMPVBOGNw80mUsWGzBq5fyS4eel5TTBGkQUNDbWzr7_yiz5pX6rGBhgvOmOv4hSkVoJ7S8l9oauAHx4gj7FIWQKzyolpm8KfMdCxwqRx-XGqtvdDx3wcM5MkEfHRSlV9y4GahafCNSuKViKob3mL2fmO3raBGBVF6bhaEf1ZD3Vl_OiCKhQEFs6iKNbhB0sr-UtyOD6kCy6BJvQ4B_xBaAyGxeQvZKQ3WD0nGBpsd28EpeQiUBYtrPEtEYBXpAkbRVkXYQqlor4F6HOgro_zmPv8_N-1OoBi75CfQbxKDNEcieVew\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-30T14:55:37Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:34 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        She got the mmm, brown eyes, caramel thighs
+        Long hair, no wedding ring, hey
+        I saw you lookin' from across the way
+        And now I really wanna know your name
+
+        She got the mmm, white dress, but when she's wearin' less
+        Man, you know that she drives me crazy
+        The mmm, brown eyes, beautiful smile
+        You know I love watching you do your thing
+
+        I love her hips, curves, lips say the words
+        "Te amo, mami, ah, te amo, mami"
+        I kiss her, this love is like a dream
+
+        So join me in this bed that I'm in
+        And push up on me and sweat, darling
+        So I'm gonna put my time in
+        I won't stop until the angels sing
+
+        Jump in that water, be free
+        Come South of the border with me
+        Jump in that water, be free
+        Come South of the border with me
+
+        He got that mmm, green eyes, givin' me signs
+        That he really wants to know my name, hey
+        I saw you lookin' from across the way
+        And suddenly, I'm glad I came, ay
+
+        Ven para acá quiero bailar, toma mi mano
+        Quiero sentir tu cuerpo en mi, estás temblando
+        Mmm, green eyes, takin' your time
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3023'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - e288b585cce480b6a6cd96c8277cc83b
+      X-Dp-Watson-Tran-Id:
+      - e288b585cce480b6a6cd96c8277cc83b
+      X-Edgeconnect-Midmile-Rtt:
+      - '20'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '347'
+      Date:
+      - Thu, 09 Jan 2020 02:50:38 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkb2N1bWVudF90b25lIjp7InRvbmVzIjpbeyJzY29yZSI6MC44ODk5NDYsInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LCJzZW50ZW5jZXNfdG9uZSI6W3sic2VudGVuY2VfaWQiOjAsInRleHQiOiJTaGUgZ290IHRoZSBtbW0sIGJyb3duIGV5ZXMsIGNhcmFtZWwgdGhpZ2hzIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoxLCJ0ZXh0IjoiTG9uZyBoYWlyLCBubyB3ZWRkaW5nIHJpbmcsIGhleSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MiwidGV4dCI6Ikkgc2F3IHlvdSBsb29raW4nIGZyb20gYWNyb3NzIHRoZSB3YXkiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjMsInRleHQiOiJBbmQgbm93IEkgcmVhbGx5IHdhbm5hIGtub3cgeW91ciBuYW1lIiwidG9uZXMiOlt7InNjb3JlIjowLjUzODUzMywidG9uZV9pZCI6InNhZG5lc3MiLCJ0b25lX25hbWUiOiJTYWRuZXNzIn1dfSx7InNlbnRlbmNlX2lkIjo0LCJ0ZXh0IjoiIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjo1LCJ0ZXh0IjoiU2hlIGdvdCB0aGUgbW1tLCB3aGl0ZSBkcmVzcywgYnV0IHdoZW4gc2hlJ3Mgd2VhcmluJyBsZXNzIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjo2LCJ0ZXh0IjoiTWFuLCB5b3Uga25vdyB0aGF0IHNoZSBkcml2ZXMgbWUgY3JhenkiLCJ0b25lcyI6W3sic2NvcmUiOjAuNzYyMzU2LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjcsInRleHQiOiJUaGUgbW1tLCBicm93biBleWVzLCBiZWF1dGlmdWwgc21pbGUiLCJ0b25lcyI6W3sic2NvcmUiOjAuOTM3NzAzLCJ0b25lX2lkIjoiam95IiwidG9uZV9uYW1lIjoiSm95In1dfSx7InNlbnRlbmNlX2lkIjo4LCJ0ZXh0IjoiWW91IGtub3cgSSBsb3ZlIHdhdGNoaW5nIHlvdSBkbyB5b3VyIHRoaW5nIiwidG9uZXMiOlt7InNjb3JlIjowLjgxMTU5NiwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9LHsic2NvcmUiOjAuNzI0MjM2LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjksInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjEwLCJ0ZXh0IjoiSSBsb3ZlIGhlciBoaXBzLCBjdXJ2ZXMsIGxpcHMgc2F5IHRoZSB3b3JkcyIsInRvbmVzIjpbeyJzY29yZSI6MC43MzczNDEsInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LHsic2VudGVuY2VfaWQiOjExLCJ0ZXh0IjoiXCJUZSBhbW8sIG1hbWksIGFoLCB0ZSBhbW8sIG1hbWlcIiIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MTIsInRleHQiOiJJIGtpc3MgaGVyLCB0aGlzIGxvdmUgaXMgbGlrZSBhIGRyZWFtIiwidG9uZXMiOlt7InNjb3JlIjowLjkxODU5OSwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9LHsic2NvcmUiOjAuNTUzOCwidG9uZV9pZCI6InRlbnRhdGl2ZSIsInRvbmVfbmFtZSI6IlRlbnRhdGl2ZSJ9XX0seyJzZW50ZW5jZV9pZCI6MTMsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjE0LCJ0ZXh0IjoiU28gam9pbiBtZSBpbiB0aGlzIGJlZCB0aGF0IEknbSBpbiIsInRvbmVzIjpbeyJzY29yZSI6MC43MjIzNjksInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LHsic2VudGVuY2VfaWQiOjE1LCJ0ZXh0IjoiQW5kIHB1c2ggdXAgb24gbWUgYW5kIHN3ZWF0LCBkYXJsaW5nIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoxNiwidGV4dCI6IlNvIEknbSBnb25uYSBwdXQgbXkgdGltZSBpbiIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MTcsInRleHQiOiJJIHdvbid0IHN0b3AgdW50aWwgdGhlIGFuZ2VscyBzaW5nIiwidG9uZXMiOlt7InNjb3JlIjowLjc0ODUxNiwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9XX0seyJzZW50ZW5jZV9pZCI6MTgsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjE5LCJ0ZXh0IjoiSnVtcCBpbiB0aGF0IHdhdGVyLCBiZSBmcmVlIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyMCwidGV4dCI6IkNvbWUgU291dGggb2YgdGhlIGJvcmRlciB3aXRoIG1lIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyMSwidGV4dCI6Ikp1bXAgaW4gdGhhdCB3YXRlciwgYmUgZnJlZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjIsInRleHQiOiJDb21lIFNvdXRoIG9mIHRoZSBib3JkZXIgd2l0aCBtZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjMsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI0LCJ0ZXh0IjoiSGUgZ290IHRoYXQgbW1tLCBncmVlbiBleWVzLCBnaXZpbicgbWUgc2lnbnMiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI1LCJ0ZXh0IjoiVGhhdCBoZSByZWFsbHkgd2FudHMgdG8ga25vdyBteSBuYW1lLCBoZXkiLCJ0b25lcyI6W3sic2NvcmUiOjAuOTAxODk0LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjI2LCJ0ZXh0IjoiSSBzYXcgeW91IGxvb2tpbicgZnJvbSBhY3Jvc3MgdGhlIHdheSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjcsInRleHQiOiJBbmQgc3VkZGVubHksIEknbSBnbGFkIEkgY2FtZSwgYXkiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI4LCJ0ZXh0IjoiIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyOSwidGV4dCI6IlZlbiBwYXJhIGFjw6EgcXVpZXJvIGJhaWxhciwgdG9tYSBtaSBtYW5vIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjozMCwidGV4dCI6IlF1aWVybyBzZW50aXIgdHUgY3VlcnBvIGVuIG1pLCBlc3TDoXMgdGVtYmxhbmRvIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjozMSwidGV4dCI6Ik1tbSwgZ3JlZW4gZXllcywgdGFraW4nIHlvdXIgdGltZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MzIsInRleHQiOiIuLi4oMTQwOTYxODgzMjI4MCkiLCJ0b25lcyI6W119XX0=
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:34 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:50:38 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:50:38 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nJQm3YL18Q_9od3e-YxEDt9YDIM\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "kx7P_ENnDPE"
+           },
+           "snippet": {
+            "publishedAt": "2019-12-30T20:00:06.000Z",
+            "channelId": "UClRx3MMyYUyqOxyEqA5F2nQ",
+            "title": "JACKBOYS, Pop Smoke, Travis Scott - GATTI (Official Video)",
+            "description": "JACKBOYS OUT NOW: https://JACKBOYS.lnk.to/JACKBOYS OFFICIAL STORE: https://JACKBOYS.travisscott.com/ Directed by CACTUS JACK & WHITE TRASH ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "TravisScottVEVO",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:35 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109257
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1391'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:50:38 GMT
+      X-Served-By:
+      - cache-den19645-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578538239.599072,VS0,VE113
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.055030107498169},"body":{"lyrics":{"lyrics_id":11792584,"explicit":0,"lyrics_body":"Loving
+        can hurt\nLoving can hurt sometimes\nBut it''s the only thing\nThat I know.\n\nAnd
+        when it gets hard\nYou know it can get hard sometimes\nIt is the only thing
+        that makes us feel alive.\n\nWe keep this love in a photograph\nWe make these
+        memories for ourselves\nWhere our eyes are never closing\nHearts are never
+        broken\nAnd time''s forever frozen still.\n\nSo you can keep me\nInside the
+        pocket\nOf your ripped jeans\nHoldin'' me closer\nTill our eyes meet\nYou
+        won''t ever be alone\nWait for me to come home.\n\nLoving can heal\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAK8aNMzfLOHnzblsXDF0VYOihSkM2n85F_g2Q6ybzVbJQohkf2_Z6GrGBqpQlyLRKqOYyp1EEm1HwYkVWQ5D8tMBq2Q92bV6P229HO9ZCe9Y-L4MWYNrmJ2KIt0FVYRuTHTzbRof2xTbT8hh_1k6bPef9qg7eoK1hHmxel6mgvYt4j3YzFK-d1HtmYVWsaxoZm3-4pitXdIAF4xop9-0oWPLiw8C6d-R_-7J4Pg1AD9ogocULuKPKCYJO-pfRFPlvsIIjqiYwVqW5j0yoA_g8wH8UvYpN0U-QcLm41BJMwgTbjLCv4VWQUYl0L4W7DS1CDsRpp_YqPnVdUT90NlNuEN-mW1KeFcucxkA1IVm1x7vwu9_LcoxYnN220E5uxdMz61YTOxqKJVkYqoUvoSKhQNdd42EeaKNU1BluChwUiDkY3zK3HSUvTc9AnK-hq6YKRzJ\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAI-Zp2HEOWU4jpvp4DLXl7MmzTbwQNPN81eaHi8JFFninXqo4ZR-24iUEJ5bz2XW3oxfZYFIq0QUO-ZA6vnelAj25itRVb0lDmPYb-wSzdBFbKPt7zHahiJ3Zi3sc654lJchw1EJAKY2DEPKi-8_6gkEevI5MjsBdf2v4gr9imv0GW0fnP9tqVPiywyo4bG10uBh-XsWyPYccYeqh1rFq_0SXlPsxAAEcUP3aYCjVm3TV8_Bg25zXeb_x7hCg4K2-PcxZhp5nWPcUZPNU4D1hILRObGhRQHpzhVRHlutGj5D7r8EQULEs95Izbx9knnpXc39k4pc2VnWP-hVYVTzZ99chxv6HCY3kx_RFH0o10CZeYGKb2TXLi8WLHnm2N2fig5qx0Pph6nzn0txkkwJy9XPDhC7jhqfR5-k_aIgtG7U8GKEzk08v0lyjwQm7dXKTTl6\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:49Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:35 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        Loving can hurt
+        Loving can hurt sometimes
+        But it's the only thing
+        That I know.
+
+        And when it gets hard
+        You know it can get hard sometimes
+        It is the only thing that makes us feel alive.
+
+        We keep this love in a photograph
+        We make these memories for ourselves
+        Where our eyes are never closing
+        Hearts are never broken
+        And time's forever frozen still.
+
+        So you can keep me
+        Inside the pocket
+        Of your ripped jeans
+        Holdin' me closer
+        Till our eyes meet
+        You won't ever be alone
+        Wait for me to come home.
+
+        Loving can heal
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2773'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - d9799730839f232b671ce779efe25852
+      X-Dp-Watson-Tran-Id:
+      - d9799730839f232b671ce779efe25852
+      X-Edgeconnect-Midmile-Rtt:
+      - '20'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '317'
+      Date:
+      - Thu, 09 Jan 2020 02:50:39 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.658191,"tone_id":"sadness","tone_name":"Sadness"}]},"sentences_tone":[{"sentence_id":0,"text":"Loving
+        can hurt","tones":[{"score":0.713751,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":1,"text":"Loving
+        can hurt sometimes","tones":[{"score":0.81679,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"But
+        it''s the only thing","tones":[{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"That
+        I know.","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"And
+        when it gets hard","tones":[{"score":0.692321,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":5,"text":"You
+        know it can get hard sometimes","tones":[{"score":0.669571,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"It
+        is the only thing that makes us feel alive.","tones":[{"score":0.633257,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":7,"text":"We
+        keep this love in a photograph","tones":[{"score":0.913335,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":8,"text":"We
+        make these memories for ourselves","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"Where
+        our eyes are never closing","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":10,"text":"Hearts
+        are never broken","tones":[{"score":0.717268,"tone_id":"joy","tone_name":"Joy"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":11,"text":"And
+        time''s forever frozen still.","tones":[{"score":0.772051,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":12,"text":"So
+        you can keep me","tones":[]},{"sentence_id":13,"text":"Inside the pocket","tones":[]},{"sentence_id":14,"text":"Of
+        your ripped jeans","tones":[{"score":0.802931,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":15,"text":"Holdin''
+        me closer","tones":[]},{"sentence_id":16,"text":"Till our eyes meet","tones":[{"score":0.531514,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":17,"text":"You
+        won''t ever be alone","tones":[{"score":0.785487,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.650466,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":18,"text":"Wait
+        for me to come home.","tones":[]},{"sentence_id":19,"text":"Loving can heal","tones":[{"score":0.743301,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"...(1409618832280)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:35 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/ap2322/battleship/commits?access_token=<GITHUB_TEST_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 09 Jan 2020 02:50:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1578541839'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"89e80e901b06dc96007e9a7d1f9110cd"
+      Last-Modified:
+      - Thu, 29 Aug 2019 00:24:05 GMT
+      X-Oauth-Scopes:
+      - public_repo, read:user, repo:status
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Link:
+      - <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=2>;
+        rel="next", <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=3>;
+        rel="last"
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - C245:4A2C:66DAC:ECDCD:5E1694FF
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"sha":"d64692f5ebd125c807f9c1d60994e53d02ea118f","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmQ2NDY5MmY1ZWJkMTI1YzgwN2Y5YzFkNjA5OTRlNTNkMDJlYTExOGY=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-29T00:24:05Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-29T00:24:05Z"},"message":"Merge
+        pull request #24 from ap2322/cleanup_ap2\n\nClean up comments and confusing
+        variable names","tree":{"sha":"ab5b022e749c236734a36fbebf246fa5ce2cbc28","url":"https://api.github.com/repos/ap2322/battleship/git/trees/ab5b022e749c236734a36fbebf246fa5ce2cbc28"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/d64692f5ebd125c807f9c1d60994e53d02ea118f","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZxslCRBK7hj4Ov3rIwAAdHIIAE0RTGzE21uALfVwfPJiAwZL\n6hAVC8Dl76eO7eliaMWsLqSlOBZmLWEhqcb9oNxLU3kd6vosiyzq152x3DDqiqKE\nQoAkvbEMrTThndx51281we5/vUg5bdV4VVzQZJuWt5KVq76V2p/QHZlonr4AWp0f\nKq4arITPw1xrfio0cLkvrdzG4P08FBiITCYfffrbBhuo7fqSvkCsJoI6V3lJikxO\nW4j5HCoNf72+reC/KcqANKiXdHYPI/W0qhYfivtA5Co/Jge24EUIYAgzygBm6phd\nI0IKMu31SOrppJvrByRf7osbOnwSSIwaUrDvov9n9RB+glmxiFevpcHtIHZZzfM=\n=mTop\n-----END
+        PGP SIGNATURE-----\n","payload":"tree ab5b022e749c236734a36fbebf246fa5ce2cbc28\nparent
+        e90a85aabafb218a686da828b92be84df063bf02\nparent 305666366d7435eceb3a476f3ca9870e92053aeb\nauthor
+        Alice Post <alicep2322@gmail.com> 1567038245 -0600\ncommitter GitHub <noreply@github.com>
+        1567038245 -0600\n\nMerge pull request #24 from ap2322/cleanup_ap2\n\nClean
+        up comments and confusing variable names"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/d64692f5ebd125c807f9c1d60994e53d02ea118f","html_url":"https://github.com/ap2322/battleship/commit/d64692f5ebd125c807f9c1d60994e53d02ea118f","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/d64692f5ebd125c807f9c1d60994e53d02ea118f/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"e90a85aabafb218a686da828b92be84df063bf02","url":"https://api.github.com/repos/ap2322/battleship/commits/e90a85aabafb218a686da828b92be84df063bf02","html_url":"https://github.com/ap2322/battleship/commit/e90a85aabafb218a686da828b92be84df063bf02"},{"sha":"305666366d7435eceb3a476f3ca9870e92053aeb","url":"https://api.github.com/repos/ap2322/battleship/commits/305666366d7435eceb3a476f3ca9870e92053aeb","html_url":"https://github.com/ap2322/battleship/commit/305666366d7435eceb3a476f3ca9870e92053aeb"}]},{"sha":"305666366d7435eceb3a476f3ca9870e92053aeb","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjMwNTY2NjM2NmQ3NDM1ZWNlYjNhNDc2ZjNjYTk4NzBlOTIwNTNhZWI=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-29T00:23:02Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-29T00:23:02Z"},"message":"Clean
+        up comments and confusing variable names","tree":{"sha":"ab5b022e749c236734a36fbebf246fa5ce2cbc28","url":"https://api.github.com/repos/ap2322/battleship/git/trees/ab5b022e749c236734a36fbebf246fa5ce2cbc28"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/305666366d7435eceb3a476f3ca9870e92053aeb","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/305666366d7435eceb3a476f3ca9870e92053aeb","html_url":"https://github.com/ap2322/battleship/commit/305666366d7435eceb3a476f3ca9870e92053aeb","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/305666366d7435eceb3a476f3ca9870e92053aeb/comments","author":null,"committer":null,"parents":[{"sha":"e90a85aabafb218a686da828b92be84df063bf02","url":"https://api.github.com/repos/ap2322/battleship/commits/e90a85aabafb218a686da828b92be84df063bf02","html_url":"https://github.com/ap2322/battleship/commit/e90a85aabafb218a686da828b92be84df063bf02"}]},{"sha":"e90a85aabafb218a686da828b92be84df063bf02","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmU5MGE4NWFhYmFmYjIxOGE2ODZkYTgyOGI5MmJlODRkZjA2M2JmMDI=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T23:40:28Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T23:40:28Z"},"message":"Comment
+        out custom board tests","tree":{"sha":"ef771845e7af2e4e0f93268f133ec6aeef40f70e","url":"https://api.github.com/repos/ap2322/battleship/git/trees/ef771845e7af2e4e0f93268f133ec6aeef40f70e"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/e90a85aabafb218a686da828b92be84df063bf02","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/e90a85aabafb218a686da828b92be84df063bf02","html_url":"https://github.com/ap2322/battleship/commit/e90a85aabafb218a686da828b92be84df063bf02","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/e90a85aabafb218a686da828b92be84df063bf02/comments","author":null,"committer":null,"parents":[{"sha":"c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","url":"https://api.github.com/repos/ap2322/battleship/commits/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","html_url":"https://github.com/ap2322/battleship/commit/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61"}]},{"sha":"c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmMzZTJlMGU3MWVjN2U0NjEwMjVmOWFkNWIwNzNlYTM2Y2RkNTJiNjE=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-28T23:18:09Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-28T23:18:09Z"},"message":"Merge
+        pull request #23 from ap2322/cleanup_ap1\n\nMethod calls instead of @instances
+        in ship and cell classes","tree":{"sha":"43763e772dad535fb97f1b9b4a8affdd607fff1f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/43763e772dad535fb97f1b9b4a8affdd607fff1f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZwuxCRBK7hj4Ov3rIwAAdHIIAKuCv64c0YYGZltegmNAmNGb\nDxu8vPynk+DLi5xuiq4Rg04HJNLbDbUemH2STU0xWy8fhYQ1OYn2kC75OZTqk2at\nAQve2P/IHb/KF9aFMfqz7h6pnYPQCwRhapk0eeWTOu/f8BdDIWFIdR+aDtdlFPi2\nC5ba5RbRiqHTH+ZmOFdG1iyfOKfH4KYZhkWPdeLWhR7xlSyWyqDmut9K2wFgaBd0\nd58yofJC+ftryuF+UXjHiEgvB1WV7J9f725qf2J+HBeWgBA+K3ZJGrnJvIjNGlJS\nDA5ZcXiwzLEd2jW7T41AYbxh01eXbujhLcDwWQfHoJ8b6ygU+18citddXEYZoz0=\n=DMbp\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 43763e772dad535fb97f1b9b4a8affdd607fff1f\nparent
+        c69e0043b4ba76995c59853150e6d328f2ff34de\nparent 22602addcf77e140da62e9e62548e370dfa5f181\nauthor
+        Alice Post <alicep2322@gmail.com> 1567034289 -0600\ncommitter GitHub <noreply@github.com>
+        1567034289 -0600\n\nMerge pull request #23 from ap2322/cleanup_ap1\n\nMethod
+        calls instead of @instances in ship and cell classes"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","html_url":"https://github.com/ap2322/battleship/commit/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/c3e2e0e71ec7e461025f9ad5b073ea36cdd52b61/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"c69e0043b4ba76995c59853150e6d328f2ff34de","url":"https://api.github.com/repos/ap2322/battleship/commits/c69e0043b4ba76995c59853150e6d328f2ff34de","html_url":"https://github.com/ap2322/battleship/commit/c69e0043b4ba76995c59853150e6d328f2ff34de"},{"sha":"22602addcf77e140da62e9e62548e370dfa5f181","url":"https://api.github.com/repos/ap2322/battleship/commits/22602addcf77e140da62e9e62548e370dfa5f181","html_url":"https://github.com/ap2322/battleship/commit/22602addcf77e140da62e9e62548e370dfa5f181"}]},{"sha":"22602addcf77e140da62e9e62548e370dfa5f181","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjIyNjAyYWRkY2Y3N2UxNDBkYTYyZTllNjI1NDhlMzcwZGZhNWYxODE=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T22:19:44Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T22:19:44Z"},"message":"Method
+        calls instead of @instances in ship and cell classes","tree":{"sha":"43763e772dad535fb97f1b9b4a8affdd607fff1f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/43763e772dad535fb97f1b9b4a8affdd607fff1f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/22602addcf77e140da62e9e62548e370dfa5f181","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/22602addcf77e140da62e9e62548e370dfa5f181","html_url":"https://github.com/ap2322/battleship/commit/22602addcf77e140da62e9e62548e370dfa5f181","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/22602addcf77e140da62e9e62548e370dfa5f181/comments","author":null,"committer":null,"parents":[{"sha":"c69e0043b4ba76995c59853150e6d328f2ff34de","url":"https://api.github.com/repos/ap2322/battleship/commits/c69e0043b4ba76995c59853150e6d328f2ff34de","html_url":"https://github.com/ap2322/battleship/commit/c69e0043b4ba76995c59853150e6d328f2ff34de"}]},{"sha":"c69e0043b4ba76995c59853150e6d328f2ff34de","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmM2OWUwMDQzYjRiYTc2OTk1YzU5ODUzMTUwZTZkMzI4ZjJmZjM0ZGU=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-28T21:38:19Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-28T21:38:19Z"},"message":"Merge
+        pull request #22 from ap2322/intelligent_computer\n\nIntelligent computer
+        (but like, only kinda)","tree":{"sha":"34076753837fc291a6ec62355ba94725a98b210f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/34076753837fc291a6ec62355ba94725a98b210f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/c69e0043b4ba76995c59853150e6d328f2ff34de","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZvRLCRBK7hj4Ov3rIwAAdHIIAGW9I82kJ+MKOqvGOXkpq9Ep\nJZ57O8rfK7Ftgyk9erPnh6P+cQlhhYoqZrarpNsbHisdUiw0UQ3IFWTLio/rTXik\n6J5bt2d1VwLPJSSQBOEXyG9jt4TxoX6o0jV1z6oajwgc4TfnkvbnGe/RxB4pZ+kv\nCzkKLcJ/aoNHm3p8P4ZfpA2kyahnH2E1G671cSprJPjze+uE5aYND7jWJwgwAQq4\nVOw9a7gYrV4b7nfuojaqKRBOMxXJkfzIRE55Ax4Cun1EDQJG01VNnpjjfApxjQgh\niM4Fhj0juFGIEwgNnJHhsdosUZePaOfuV/Sq3u3NJYyjYHoRFnPlF70mgdWNkxU=\n=aCX1\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 34076753837fc291a6ec62355ba94725a98b210f\nparent
+        bf0695755dfc4228ccbf34940a1040feac154562\nparent 0afd657da2ad981be7d2ec8e62a7d7feeb33c402\nauthor
+        Alice Post <alicep2322@gmail.com> 1567028299 -0600\ncommitter GitHub <noreply@github.com>
+        1567028299 -0600\n\nMerge pull request #22 from ap2322/intelligent_computer\n\nIntelligent
+        computer (but like, only kinda)"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/c69e0043b4ba76995c59853150e6d328f2ff34de","html_url":"https://github.com/ap2322/battleship/commit/c69e0043b4ba76995c59853150e6d328f2ff34de","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/c69e0043b4ba76995c59853150e6d328f2ff34de/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"bf0695755dfc4228ccbf34940a1040feac154562","url":"https://api.github.com/repos/ap2322/battleship/commits/bf0695755dfc4228ccbf34940a1040feac154562","html_url":"https://github.com/ap2322/battleship/commit/bf0695755dfc4228ccbf34940a1040feac154562"},{"sha":"0afd657da2ad981be7d2ec8e62a7d7feeb33c402","url":"https://api.github.com/repos/ap2322/battleship/commits/0afd657da2ad981be7d2ec8e62a7d7feeb33c402","html_url":"https://github.com/ap2322/battleship/commit/0afd657da2ad981be7d2ec8e62a7d7feeb33c402"}]},{"sha":"0afd657da2ad981be7d2ec8e62a7d7feeb33c402","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjBhZmQ2NTdkYTJhZDk4MWJlN2QyZWM4ZTYyYTdkN2ZlZWIzM2M0MDI=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-28T21:33:06Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-28T21:33:06Z"},"message":"Merge
+        branch ''master'' into intelligent_computer","tree":{"sha":"34076753837fc291a6ec62355ba94725a98b210f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/34076753837fc291a6ec62355ba94725a98b210f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/0afd657da2ad981be7d2ec8e62a7d7feeb33c402","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZvMSCRBK7hj4Ov3rIwAAdHIIACD8ngIr1LPU7ogdDayqJuY4\n6OrJqIZ+ea+cjDkUZ/XoMH2jh9eZnu8icnnBuWvRM452gwPM5yOROsKo9I7udeXq\nHSQgWRyA70zsC6QzigHXchrbecM9uXHo4lfJMLS3qP6pgGh9CftckqfxspSbYBj9\ngeJgKAE1wrFd3FL0XuKED2GTvOiAVJHuPrzqlERVURNhTXRf8XHXwfRwp3B9eZx+\nj/cAM//O5/+FAhHVNKE5jWtfrcHiEyq4P3Qrh9k5rcH8LCx/rdxN0o9eUwqMwXF/\nhjhHT3P2tER015mTgPrtdFnxT/vTG8PVsofREpFhLbaxooNPZyD9H9oIfs8hJpo=\n=3EsZ\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 34076753837fc291a6ec62355ba94725a98b210f\nparent
+        c7078d53314d1729bb9712dbbe5900e196343bfb\nparent bf0695755dfc4228ccbf34940a1040feac154562\nauthor
+        Alice Post <alicep2322@gmail.com> 1567027986 -0600\ncommitter GitHub <noreply@github.com>
+        1567027986 -0600\n\nMerge branch ''master'' into intelligent_computer"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/0afd657da2ad981be7d2ec8e62a7d7feeb33c402","html_url":"https://github.com/ap2322/battleship/commit/0afd657da2ad981be7d2ec8e62a7d7feeb33c402","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/0afd657da2ad981be7d2ec8e62a7d7feeb33c402/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"c7078d53314d1729bb9712dbbe5900e196343bfb","url":"https://api.github.com/repos/ap2322/battleship/commits/c7078d53314d1729bb9712dbbe5900e196343bfb","html_url":"https://github.com/ap2322/battleship/commit/c7078d53314d1729bb9712dbbe5900e196343bfb"},{"sha":"bf0695755dfc4228ccbf34940a1040feac154562","url":"https://api.github.com/repos/ap2322/battleship/commits/bf0695755dfc4228ccbf34940a1040feac154562","html_url":"https://github.com/ap2322/battleship/commit/bf0695755dfc4228ccbf34940a1040feac154562"}]},{"sha":"c7078d53314d1729bb9712dbbe5900e196343bfb","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmM3MDc4ZDUzMzE0ZDE3MjliYjk3MTJkYmJlNTkwMGUxOTYzNDNiZmI=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T21:29:59Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T21:29:59Z"},"message":"Fix
+        computer_test and player_test\n\nCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"f9c957d50735fed857440bd593af4afd48efe7de","url":"https://api.github.com/repos/ap2322/battleship/git/trees/f9c957d50735fed857440bd593af4afd48efe7de"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/c7078d53314d1729bb9712dbbe5900e196343bfb","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/c7078d53314d1729bb9712dbbe5900e196343bfb","html_url":"https://github.com/ap2322/battleship/commit/c7078d53314d1729bb9712dbbe5900e196343bfb","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/c7078d53314d1729bb9712dbbe5900e196343bfb/comments","author":null,"committer":null,"parents":[{"sha":"8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","url":"https://api.github.com/repos/ap2322/battleship/commits/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","html_url":"https://github.com/ap2322/battleship/commit/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47"}]},{"sha":"8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjhhMzZhMWZiYmIyNmQ2N2Y2MDJhM2U3YmE1ODNkYzI1MmRlYzBhNDc=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T21:22:16Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T21:22:16Z"},"message":"Computer
+        is slightly smarter","tree":{"sha":"48e78ec3467ad972a0ae7446362c250f0f1a51b2","url":"https://api.github.com/repos/ap2322/battleship/git/trees/48e78ec3467ad972a0ae7446362c250f0f1a51b2"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","html_url":"https://github.com/ap2322/battleship/commit/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/8a36a1fbbb26d67f602a3e7ba583dc252dec0a47/comments","author":null,"committer":null,"parents":[{"sha":"e7292bf2f4326ab892093af7b37e3450456921b0","url":"https://api.github.com/repos/ap2322/battleship/commits/e7292bf2f4326ab892093af7b37e3450456921b0","html_url":"https://github.com/ap2322/battleship/commit/e7292bf2f4326ab892093af7b37e3450456921b0"}]},{"sha":"bf0695755dfc4228ccbf34940a1040feac154562","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmJmMDY5NTc1NWRmYzQyMjhjY2JmMzQ5NDBhMTA0MGZlYWMxNTQ1NjI=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-28T18:13:18Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-28T18:13:18Z"},"message":"Merge
+        pull request #21 from ap2322/fix_player_ap\n\nFix player placement","tree":{"sha":"7134c5ae2beadf508c57c40a30b37d862b1998df","url":"https://api.github.com/repos/ap2322/battleship/git/trees/7134c5ae2beadf508c57c40a30b37d862b1998df"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/bf0695755dfc4228ccbf34940a1040feac154562","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZsQ+CRBK7hj4Ov3rIwAAdHIIAAvkvJRvdrAr7Km+j/vghvuk\nIYwJraWGByZi+x/BGKAC1pZ7pU5r7BtUtRdl11snUjjZLK3KSORIacZKfm/GAGfG\nRfS8NLDrbTHnom1NWGoYlR9dktEFWcMEyCbMX3kcMzWZ0Em+NZRMEVh5KhxUjnmf\nseWp1toBTaK5MdTqYq1mzjPSODdlpNMhQjNITTAVxLlu3Lz27KaAzo8kMcht9K45\nmi6Gdn95x/GQSIfKiNJHNn8LANVI29iJ47y9vJqXAQpSMyU7gC8edJWr5q6OiecV\n0uCSI7gLEMuIBLX3s9E9G0X/vr28ZRGgNB/soJ9kXcNc6fkOc0y94Qd48ZP88Nw=\n=+D6T\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 7134c5ae2beadf508c57c40a30b37d862b1998df\nparent
+        5c6612786dd2f6401cf77ad8b7c401897ea40200\nparent 0a4f18c97bd908bf7598b82ec8a65094b89dc0c5\nauthor
+        Alice Post <alicep2322@gmail.com> 1567015998 -0600\ncommitter GitHub <noreply@github.com>
+        1567015998 -0600\n\nMerge pull request #21 from ap2322/fix_player_ap\n\nFix
+        player placement"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/bf0695755dfc4228ccbf34940a1040feac154562","html_url":"https://github.com/ap2322/battleship/commit/bf0695755dfc4228ccbf34940a1040feac154562","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/bf0695755dfc4228ccbf34940a1040feac154562/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"5c6612786dd2f6401cf77ad8b7c401897ea40200","url":"https://api.github.com/repos/ap2322/battleship/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200","html_url":"https://github.com/ap2322/battleship/commit/5c6612786dd2f6401cf77ad8b7c401897ea40200"},{"sha":"0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","url":"https://api.github.com/repos/ap2322/battleship/commits/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","html_url":"https://github.com/ap2322/battleship/commit/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5"}]},{"sha":"0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjBhNGYxOGM5N2JkOTA4YmY3NTk4YjgyZWM4YTY1MDk0Yjg5ZGMwYzU=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T18:11:27Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T18:11:27Z"},"message":"Fix
+        player placement\n\nCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"7134c5ae2beadf508c57c40a30b37d862b1998df","url":"https://api.github.com/repos/ap2322/battleship/git/trees/7134c5ae2beadf508c57c40a30b37d862b1998df"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","html_url":"https://github.com/ap2322/battleship/commit/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/0a4f18c97bd908bf7598b82ec8a65094b89dc0c5/comments","author":null,"committer":null,"parents":[{"sha":"5c6612786dd2f6401cf77ad8b7c401897ea40200","url":"https://api.github.com/repos/ap2322/battleship/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200","html_url":"https://github.com/ap2322/battleship/commit/5c6612786dd2f6401cf77ad8b7c401897ea40200"}]},{"sha":"e7292bf2f4326ab892093af7b37e3450456921b0","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmU3MjkyYmYyZjQzMjZhYjg5MjA5M2FmN2IzN2UzNDUwNDU2OTIxYjA=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T17:56:58Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-28T17:56:58Z"},"message":"Fix
+        player input bug and break computer smart shot\n\nCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"b91d26078d146c54acdf6230081f96571b11361f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/b91d26078d146c54acdf6230081f96571b11361f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/e7292bf2f4326ab892093af7b37e3450456921b0","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/e7292bf2f4326ab892093af7b37e3450456921b0","html_url":"https://github.com/ap2322/battleship/commit/e7292bf2f4326ab892093af7b37e3450456921b0","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/e7292bf2f4326ab892093af7b37e3450456921b0/comments","author":null,"committer":null,"parents":[{"sha":"2e4428016266ba9e92d97d3f3ebc2153d2b7d395","url":"https://api.github.com/repos/ap2322/battleship/commits/2e4428016266ba9e92d97d3f3ebc2153d2b7d395","html_url":"https://github.com/ap2322/battleship/commit/2e4428016266ba9e92d97d3f3ebc2153d2b7d395"}]},{"sha":"2e4428016266ba9e92d97d3f3ebc2153d2b7d395","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjJlNDQyODAxNjI2NmJhOWU5MmQ5N2QzZjNlYmMyMTUzZDJiN2QzOTU=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T23:23:31Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T23:23:31Z"},"message":"Smart(er)
+        shot enabled for computer","tree":{"sha":"37074a13a5592f4d200db54875261dfb073527b5","url":"https://api.github.com/repos/ap2322/battleship/git/trees/37074a13a5592f4d200db54875261dfb073527b5"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/2e4428016266ba9e92d97d3f3ebc2153d2b7d395","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/2e4428016266ba9e92d97d3f3ebc2153d2b7d395","html_url":"https://github.com/ap2322/battleship/commit/2e4428016266ba9e92d97d3f3ebc2153d2b7d395","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/2e4428016266ba9e92d97d3f3ebc2153d2b7d395/comments","author":null,"committer":null,"parents":[{"sha":"796df6a0586e22af5214616ac82c79410cdac5f9","url":"https://api.github.com/repos/ap2322/battleship/commits/796df6a0586e22af5214616ac82c79410cdac5f9","html_url":"https://github.com/ap2322/battleship/commit/796df6a0586e22af5214616ac82c79410cdac5f9"}]},{"sha":"796df6a0586e22af5214616ac82c79410cdac5f9","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4Ojc5NmRmNmEwNTg2ZTIyYWY1MjE0NjE2YWM4MmM3OTQxMGNkYWM1Zjk=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T23:03:52Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T23:03:52Z"},"message":"Add
+        more smarts to computer shot and runner file\n\nCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"555cc664084c31a5a0da82dbf119950d247b4ae4","url":"https://api.github.com/repos/ap2322/battleship/git/trees/555cc664084c31a5a0da82dbf119950d247b4ae4"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/796df6a0586e22af5214616ac82c79410cdac5f9","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/796df6a0586e22af5214616ac82c79410cdac5f9","html_url":"https://github.com/ap2322/battleship/commit/796df6a0586e22af5214616ac82c79410cdac5f9","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/796df6a0586e22af5214616ac82c79410cdac5f9/comments","author":null,"committer":null,"parents":[{"sha":"5c6612786dd2f6401cf77ad8b7c401897ea40200","url":"https://api.github.com/repos/ap2322/battleship/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200","html_url":"https://github.com/ap2322/battleship/commit/5c6612786dd2f6401cf77ad8b7c401897ea40200"}]},{"sha":"5c6612786dd2f6401cf77ad8b7c401897ea40200","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjVjNjYxMjc4NmRkMmY2NDAxY2Y3N2FkOGI3YzQwMTg5N2VhNDAyMDA=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-27T21:11:44Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-27T21:11:44Z"},"message":"Merge
+        pull request #20 from ap2322/player_test_fix\n\nPlayer test fix and check
+        iteration 3 test requirements","tree":{"sha":"448af014fc39fcc90e7797ba487c05ef37766660","url":"https://api.github.com/repos/ap2322/battleship/git/trees/448af014fc39fcc90e7797ba487c05ef37766660"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZZyQCRBK7hj4Ov3rIwAAdHIIAGeEJN3jptesa8fp9JkxnGhv\nQsMfLMI3bpaA9CJPu1E8MJMLsjy1sXtSEnHWtWiu+uzP+oKfcLnWm9rhDVu34PLD\nTnR8lZo7O8YMCRr5FJST/9ITAr+g2eas/Q2a6zO3wMWVGOA3Amgl9fwETeRQ1NqY\nJE09b4VRLMT0SyBSDuO71lF0twUKmgP6J2xVfNr+Yp37mc+hSRT8/Z966QkRa4wJ\nV4/JjN/IOSAjtDokyC54wJJNEtwDYTxnFEkRDBBVcFHWgK8wCPtwKgMsEzrhTSEA\nu+cD+tXNhtuq4wvX4eWqh1MKqok2htB73i3r+ri3nLQRUxYt8DiXHz/H2Ue6n7g=\n=2sg6\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 448af014fc39fcc90e7797ba487c05ef37766660\nparent
+        17792745f41b24368228ed0fa818792c13366661\nparent fa363dc30a5fb96d58ddcae70e2799536774cb25\nauthor
+        Alice Post <alicep2322@gmail.com> 1566940304 -0600\ncommitter GitHub <noreply@github.com>
+        1566940304 -0600\n\nMerge pull request #20 from ap2322/player_test_fix\n\nPlayer
+        test fix and check iteration 3 test requirements"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200","html_url":"https://github.com/ap2322/battleship/commit/5c6612786dd2f6401cf77ad8b7c401897ea40200","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/5c6612786dd2f6401cf77ad8b7c401897ea40200/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"17792745f41b24368228ed0fa818792c13366661","url":"https://api.github.com/repos/ap2322/battleship/commits/17792745f41b24368228ed0fa818792c13366661","html_url":"https://github.com/ap2322/battleship/commit/17792745f41b24368228ed0fa818792c13366661"},{"sha":"fa363dc30a5fb96d58ddcae70e2799536774cb25","url":"https://api.github.com/repos/ap2322/battleship/commits/fa363dc30a5fb96d58ddcae70e2799536774cb25","html_url":"https://github.com/ap2322/battleship/commit/fa363dc30a5fb96d58ddcae70e2799536774cb25"}]},{"sha":"fa363dc30a5fb96d58ddcae70e2799536774cb25","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmZhMzYzZGMzMGE1ZmI5NmQ1OGRkY2FlNzBlMjc5OTUzNjc3NGNiMjU=","commit":{"author":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T21:06:45Z"},"committer":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T21:06:45Z"},"message":"Test
+        all tests\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"448af014fc39fcc90e7797ba487c05ef37766660","url":"https://api.github.com/repos/ap2322/battleship/git/trees/448af014fc39fcc90e7797ba487c05ef37766660"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/fa363dc30a5fb96d58ddcae70e2799536774cb25","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/fa363dc30a5fb96d58ddcae70e2799536774cb25","html_url":"https://github.com/ap2322/battleship/commit/fa363dc30a5fb96d58ddcae70e2799536774cb25","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/fa363dc30a5fb96d58ddcae70e2799536774cb25/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"7dd14627b51322d4fb427f85180a5930efc3f80d","url":"https://api.github.com/repos/ap2322/battleship/commits/7dd14627b51322d4fb427f85180a5930efc3f80d","html_url":"https://github.com/ap2322/battleship/commit/7dd14627b51322d4fb427f85180a5930efc3f80d"}]},{"sha":"7dd14627b51322d4fb427f85180a5930efc3f80d","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjdkZDE0NjI3YjUxMzIyZDRmYjQyN2Y4NTE4MGE1OTMwZWZjM2Y4MGQ=","commit":{"author":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T20:40:49Z"},"committer":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T20:40:49Z"},"message":"Fix
+        player take shot test\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"30bc8b2d504dcdee1d8fe29cbcce33ecf854c087","url":"https://api.github.com/repos/ap2322/battleship/git/trees/30bc8b2d504dcdee1d8fe29cbcce33ecf854c087"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/7dd14627b51322d4fb427f85180a5930efc3f80d","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/7dd14627b51322d4fb427f85180a5930efc3f80d","html_url":"https://github.com/ap2322/battleship/commit/7dd14627b51322d4fb427f85180a5930efc3f80d","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/7dd14627b51322d4fb427f85180a5930efc3f80d/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"17792745f41b24368228ed0fa818792c13366661","url":"https://api.github.com/repos/ap2322/battleship/commits/17792745f41b24368228ed0fa818792c13366661","html_url":"https://github.com/ap2322/battleship/commit/17792745f41b24368228ed0fa818792c13366661"}]},{"sha":"17792745f41b24368228ed0fa818792c13366661","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjE3NzkyNzQ1ZjQxYjI0MzY4MjI4ZWQwZmE4MTg3OTJjMTMzNjY2NjE=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-27T19:47:16Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-27T19:47:16Z"},"message":"Merge
+        pull request #19 from ap2322/standardize_player_input\n\nStandardize player
+        input","tree":{"sha":"5046aa920fdd031a8c39beb1f59cc72c68f5f275","url":"https://api.github.com/repos/ap2322/battleship/git/trees/5046aa920fdd031a8c39beb1f59cc72c68f5f275"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/17792745f41b24368228ed0fa818792c13366661","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZYjECRBK7hj4Ov3rIwAAdHIIAGELFfbgfL3yqPzm28KUXzIO\nmERWAFC52f147BBL6nzyCBTdKPDR37ArPDIif4C9/AytUWiBMYrOllwC26AhsycB\nJu53Lajc6w6WV6r0L2GGae2i5nTt6Tf9RqvORh03RR9i0SLZ5QjhC2hlXZy8N92A\nmgttWN0VfiRnfdbVyTRTO5Yw3MiuYy4oy6wDvs2z0YSCu8Y/nVBCizwowX50FUbv\nkJdq72AnKyn40Wcn9iTCVUL2DpmyYSmB+dUNiE0cRzGcYCU3iR03vIANhztW6Ylq\nhHPVs97g30aPrIFLQBEnRDqtT4bx2EhSO/GFecgQHnu/fGaj4rxXOp9LMOH0kIA=\n=YJV2\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 5046aa920fdd031a8c39beb1f59cc72c68f5f275\nparent
+        206fe7d8628182871c90d03fea046dfda1de7588\nparent ac015757834a730744bca06b15654d1a3d247251\nauthor
+        Alice Post <alicep2322@gmail.com> 1566935236 -0600\ncommitter GitHub <noreply@github.com>
+        1566935236 -0600\n\nMerge pull request #19 from ap2322/standardize_player_input\n\nStandardize
+        player input"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/17792745f41b24368228ed0fa818792c13366661","html_url":"https://github.com/ap2322/battleship/commit/17792745f41b24368228ed0fa818792c13366661","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/17792745f41b24368228ed0fa818792c13366661/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"206fe7d8628182871c90d03fea046dfda1de7588","url":"https://api.github.com/repos/ap2322/battleship/commits/206fe7d8628182871c90d03fea046dfda1de7588","html_url":"https://github.com/ap2322/battleship/commit/206fe7d8628182871c90d03fea046dfda1de7588"},{"sha":"ac015757834a730744bca06b15654d1a3d247251","url":"https://api.github.com/repos/ap2322/battleship/commits/ac015757834a730744bca06b15654d1a3d247251","html_url":"https://github.com/ap2322/battleship/commit/ac015757834a730744bca06b15654d1a3d247251"}]},{"sha":"ac015757834a730744bca06b15654d1a3d247251","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmFjMDE1NzU3ODM0YTczMDc0NGJjYTA2YjE1NjU0ZDFhM2QyNDcyNTE=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T19:44:55Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T19:44:55Z"},"message":"Clean
+        up game appearance in runner file\n\nCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"5046aa920fdd031a8c39beb1f59cc72c68f5f275","url":"https://api.github.com/repos/ap2322/battleship/git/trees/5046aa920fdd031a8c39beb1f59cc72c68f5f275"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/ac015757834a730744bca06b15654d1a3d247251","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/ac015757834a730744bca06b15654d1a3d247251","html_url":"https://github.com/ap2322/battleship/commit/ac015757834a730744bca06b15654d1a3d247251","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/ac015757834a730744bca06b15654d1a3d247251/comments","author":null,"committer":null,"parents":[{"sha":"343189b0f8cb9d94754229aafca19b93dda5bc84","url":"https://api.github.com/repos/ap2322/battleship/commits/343189b0f8cb9d94754229aafca19b93dda5bc84","html_url":"https://github.com/ap2322/battleship/commit/343189b0f8cb9d94754229aafca19b93dda5bc84"}]},{"sha":"343189b0f8cb9d94754229aafca19b93dda5bc84","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjM0MzE4OWIwZjhjYjlkOTQ3NTQyMjlhYWZjYTE5YjkzZGRhNWJjODQ=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T18:05:13Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T18:05:13Z"},"message":"Upcased
+        player input - now need to fix player_test\n\nCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"8b7994d1d89b723ba6bef29d477068603da48376","url":"https://api.github.com/repos/ap2322/battleship/git/trees/8b7994d1d89b723ba6bef29d477068603da48376"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/343189b0f8cb9d94754229aafca19b93dda5bc84","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/343189b0f8cb9d94754229aafca19b93dda5bc84","html_url":"https://github.com/ap2322/battleship/commit/343189b0f8cb9d94754229aafca19b93dda5bc84","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/343189b0f8cb9d94754229aafca19b93dda5bc84/comments","author":null,"committer":null,"parents":[{"sha":"206fe7d8628182871c90d03fea046dfda1de7588","url":"https://api.github.com/repos/ap2322/battleship/commits/206fe7d8628182871c90d03fea046dfda1de7588","html_url":"https://github.com/ap2322/battleship/commit/206fe7d8628182871c90d03fea046dfda1de7588"}]},{"sha":"206fe7d8628182871c90d03fea046dfda1de7588","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjIwNmZlN2Q4NjI4MTgyODcxYzkwZDAzZmVhMDQ2ZGZkYTFkZTc1ODg=","commit":{"author":{"name":"Alice
+        Post","email":"alicep2322@gmail.com","date":"2019-08-27T17:43:26Z"},"committer":{"name":"GitHub","email":"noreply@github.com","date":"2019-08-27T17:43:26Z"},"message":"Merge
+        pull request #18 from ap2322/player_shot2_ap\n\nPlayer shot2 ap branch with
+        minimum viable iteration 3 runner file","tree":{"sha":"27b07d98dce4ba05e50d2cc014b8bdcfa2869ceb","url":"https://api.github.com/repos/ap2322/battleship/git/trees/27b07d98dce4ba05e50d2cc014b8bdcfa2869ceb"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/206fe7d8628182871c90d03fea046dfda1de7588","comment_count":0,"verification":{"verified":true,"reason":"valid","signature":"-----BEGIN
+        PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJdZWu+CRBK7hj4Ov3rIwAAdHIIAIwQCWgtWwJD0tMmRjMYg6gU\nBMbrVdawkrNc+ZzR0zsxfBykfm3bMe+YG43IBPsuTmA8snbsh26m+TlfIsye4Tca\nQ1J/rG7ViZXDsfPIDcYdWRjnDDCBlVGPnR7Z6WX0gGGIpT0BHPcQt+hevLsNNSuP\ng+Cu0hFjWVv1ldFrEv21orEEQw5chFa10Ykx1T5UdKqBHfEJPNupHhvfUO34kmy1\niT0FoB78vep7szo40/N0H99vYgI8sfn2TGEy/h/K9W3AgdVWOIKaFnV7YeIfvL5F\n65mmPXshKJ1SazmyUi2t6OTItUrhWex6+yCgEGVZdoR/umllbi2H2IyH5y6iYcY=\n=Gffs\n-----END
+        PGP SIGNATURE-----\n","payload":"tree 27b07d98dce4ba05e50d2cc014b8bdcfa2869ceb\nparent
+        7cd64e4753128b4a3263c875dd1c1060ae149af7\nparent 08ffca65ad44c5e43f54420334b6c96e7d2623f8\nauthor
+        Alice Post <alicep2322@gmail.com> 1566927806 -0600\ncommitter GitHub <noreply@github.com>
+        1566927806 -0600\n\nMerge pull request #18 from ap2322/player_shot2_ap\n\nPlayer
+        shot2 ap branch with minimum viable iteration 3 runner file"}},"url":"https://api.github.com/repos/ap2322/battleship/commits/206fe7d8628182871c90d03fea046dfda1de7588","html_url":"https://github.com/ap2322/battleship/commit/206fe7d8628182871c90d03fea046dfda1de7588","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/206fe7d8628182871c90d03fea046dfda1de7588/comments","author":{"login":"ap2322","id":26877629,"node_id":"MDQ6VXNlcjI2ODc3NjI5","avatar_url":"https://avatars0.githubusercontent.com/u/26877629?v=4","gravatar_id":"","url":"https://api.github.com/users/ap2322","html_url":"https://github.com/ap2322","followers_url":"https://api.github.com/users/ap2322/followers","following_url":"https://api.github.com/users/ap2322/following{/other_user}","gists_url":"https://api.github.com/users/ap2322/gists{/gist_id}","starred_url":"https://api.github.com/users/ap2322/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ap2322/subscriptions","organizations_url":"https://api.github.com/users/ap2322/orgs","repos_url":"https://api.github.com/users/ap2322/repos","events_url":"https://api.github.com/users/ap2322/events{/privacy}","received_events_url":"https://api.github.com/users/ap2322/received_events","type":"User","site_admin":false},"committer":{"login":"web-flow","id":19864447,"node_id":"MDQ6VXNlcjE5ODY0NDQ3","avatar_url":"https://avatars3.githubusercontent.com/u/19864447?v=4","gravatar_id":"","url":"https://api.github.com/users/web-flow","html_url":"https://github.com/web-flow","followers_url":"https://api.github.com/users/web-flow/followers","following_url":"https://api.github.com/users/web-flow/following{/other_user}","gists_url":"https://api.github.com/users/web-flow/gists{/gist_id}","starred_url":"https://api.github.com/users/web-flow/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/web-flow/subscriptions","organizations_url":"https://api.github.com/users/web-flow/orgs","repos_url":"https://api.github.com/users/web-flow/repos","events_url":"https://api.github.com/users/web-flow/events{/privacy}","received_events_url":"https://api.github.com/users/web-flow/received_events","type":"User","site_admin":false},"parents":[{"sha":"7cd64e4753128b4a3263c875dd1c1060ae149af7","url":"https://api.github.com/repos/ap2322/battleship/commits/7cd64e4753128b4a3263c875dd1c1060ae149af7","html_url":"https://github.com/ap2322/battleship/commit/7cd64e4753128b4a3263c875dd1c1060ae149af7"},{"sha":"08ffca65ad44c5e43f54420334b6c96e7d2623f8","url":"https://api.github.com/repos/ap2322/battleship/commits/08ffca65ad44c5e43f54420334b6c96e7d2623f8","html_url":"https://github.com/ap2322/battleship/commit/08ffca65ad44c5e43f54420334b6c96e7d2623f8"}]},{"sha":"08ffca65ad44c5e43f54420334b6c96e7d2623f8","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjA4ZmZjYTY1YWQ0NGM1ZTQzZjU0NDIwMzM0YjZjOTZlN2QyNjIzZjg=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T17:41:09Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T17:41:09Z"},"message":"Look
+        through runner file for minimum functionality per iteration 3\n\nCo-authored-by:
+        Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>","tree":{"sha":"27b07d98dce4ba05e50d2cc014b8bdcfa2869ceb","url":"https://api.github.com/repos/ap2322/battleship/git/trees/27b07d98dce4ba05e50d2cc014b8bdcfa2869ceb"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/08ffca65ad44c5e43f54420334b6c96e7d2623f8","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/08ffca65ad44c5e43f54420334b6c96e7d2623f8","html_url":"https://github.com/ap2322/battleship/commit/08ffca65ad44c5e43f54420334b6c96e7d2623f8","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/08ffca65ad44c5e43f54420334b6c96e7d2623f8/comments","author":null,"committer":null,"parents":[{"sha":"66b28301b64965bfa17e86affd8d91425f6163c2","url":"https://api.github.com/repos/ap2322/battleship/commits/66b28301b64965bfa17e86affd8d91425f6163c2","html_url":"https://github.com/ap2322/battleship/commit/66b28301b64965bfa17e86affd8d91425f6163c2"}]},{"sha":"66b28301b64965bfa17e86affd8d91425f6163c2","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjY2YjI4MzAxYjY0OTY1YmZhMTdlODZhZmZkOGQ5MTQyNWY2MTYzYzI=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T04:19:11Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T04:19:11Z"},"message":"Move
+        comment into take_turns method","tree":{"sha":"5a09fcd9087e8a7a431cff9b22afabbba73fe523","url":"https://api.github.com/repos/ap2322/battleship/git/trees/5a09fcd9087e8a7a431cff9b22afabbba73fe523"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/66b28301b64965bfa17e86affd8d91425f6163c2","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/66b28301b64965bfa17e86affd8d91425f6163c2","html_url":"https://github.com/ap2322/battleship/commit/66b28301b64965bfa17e86affd8d91425f6163c2","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/66b28301b64965bfa17e86affd8d91425f6163c2/comments","author":null,"committer":null,"parents":[{"sha":"f174ed731ca6b0fc8ce5d8789315e7bb7e345571","url":"https://api.github.com/repos/ap2322/battleship/commits/f174ed731ca6b0fc8ce5d8789315e7bb7e345571","html_url":"https://github.com/ap2322/battleship/commit/f174ed731ca6b0fc8ce5d8789315e7bb7e345571"}]},{"sha":"f174ed731ca6b0fc8ce5d8789315e7bb7e345571","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmYxNzRlZDczMWNhNmIwZmM4Y2U1ZDg3ODkzMTVlN2JiN2UzNDU1NzE=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T04:10:59Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T04:10:59Z"},"message":"Add
+        take_turns loop and moved player shot into player class","tree":{"sha":"6e32ed6605628107879714a56a584eee18960632","url":"https://api.github.com/repos/ap2322/battleship/git/trees/6e32ed6605628107879714a56a584eee18960632"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/f174ed731ca6b0fc8ce5d8789315e7bb7e345571","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/f174ed731ca6b0fc8ce5d8789315e7bb7e345571","html_url":"https://github.com/ap2322/battleship/commit/f174ed731ca6b0fc8ce5d8789315e7bb7e345571","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/f174ed731ca6b0fc8ce5d8789315e7bb7e345571/comments","author":null,"committer":null,"parents":[{"sha":"1941ec7ced891f6cf5e42a49c72be16e75a18d03","url":"https://api.github.com/repos/ap2322/battleship/commits/1941ec7ced891f6cf5e42a49c72be16e75a18d03","html_url":"https://github.com/ap2322/battleship/commit/1941ec7ced891f6cf5e42a49c72be16e75a18d03"}]},{"sha":"1941ec7ced891f6cf5e42a49c72be16e75a18d03","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjE5NDFlYzdjZWQ4OTFmNmNmNWU0MmE0OWM3MmJlMTZlNzVhMThkMDM=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T02:33:29Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T02:33:29Z"},"message":"Merge
+        branch ''player_shot2'' of github.com:ap2322/battleship into player_shot2_ap","tree":{"sha":"ed58494b7811230d32fd095d54678345094f5306","url":"https://api.github.com/repos/ap2322/battleship/git/trees/ed58494b7811230d32fd095d54678345094f5306"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/1941ec7ced891f6cf5e42a49c72be16e75a18d03","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/1941ec7ced891f6cf5e42a49c72be16e75a18d03","html_url":"https://github.com/ap2322/battleship/commit/1941ec7ced891f6cf5e42a49c72be16e75a18d03","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/1941ec7ced891f6cf5e42a49c72be16e75a18d03/comments","author":null,"committer":null,"parents":[{"sha":"699fde418c7c327782f8dec951a4e2d2f316e785","url":"https://api.github.com/repos/ap2322/battleship/commits/699fde418c7c327782f8dec951a4e2d2f316e785","html_url":"https://github.com/ap2322/battleship/commit/699fde418c7c327782f8dec951a4e2d2f316e785"},{"sha":"464cbc6505a9f9aaadb11f92a2808a063c373736","url":"https://api.github.com/repos/ap2322/battleship/commits/464cbc6505a9f9aaadb11f92a2808a063c373736","html_url":"https://github.com/ap2322/battleship/commit/464cbc6505a9f9aaadb11f92a2808a063c373736"}]},{"sha":"464cbc6505a9f9aaadb11f92a2808a063c373736","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjQ2NGNiYzY1MDVhOWY5YWFhZGIxMWY5MmEyODA4YTA2M2MzNzM3MzY=","commit":{"author":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T01:55:16Z"},"committer":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-27T01:55:16Z"},"message":"Fix
+        computer results render","tree":{"sha":"51f4307ff4d8d1f006f78c9561a7005284edbddc","url":"https://api.github.com/repos/ap2322/battleship/git/trees/51f4307ff4d8d1f006f78c9561a7005284edbddc"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/464cbc6505a9f9aaadb11f92a2808a063c373736","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/464cbc6505a9f9aaadb11f92a2808a063c373736","html_url":"https://github.com/ap2322/battleship/commit/464cbc6505a9f9aaadb11f92a2808a063c373736","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/464cbc6505a9f9aaadb11f92a2808a063c373736/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"652c327e3a14deb5b57edc15a16978da8db1e635","url":"https://api.github.com/repos/ap2322/battleship/commits/652c327e3a14deb5b57edc15a16978da8db1e635","html_url":"https://github.com/ap2322/battleship/commit/652c327e3a14deb5b57edc15a16978da8db1e635"}]},{"sha":"699fde418c7c327782f8dec951a4e2d2f316e785","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjY5OWZkZTQxOGM3YzMyNzc4MmY4ZGVjOTUxYTRlMmQyZjMxNmU3ODU=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T01:29:41Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-27T01:29:41Z"},"message":"Add
+        computer tests and clean computer all_possible_placements method","tree":{"sha":"c7d9944c15b7614370a22065a3c31343c91627e7","url":"https://api.github.com/repos/ap2322/battleship/git/trees/c7d9944c15b7614370a22065a3c31343c91627e7"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/699fde418c7c327782f8dec951a4e2d2f316e785","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/699fde418c7c327782f8dec951a4e2d2f316e785","html_url":"https://github.com/ap2322/battleship/commit/699fde418c7c327782f8dec951a4e2d2f316e785","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/699fde418c7c327782f8dec951a4e2d2f316e785/comments","author":null,"committer":null,"parents":[{"sha":"d840fad28098f919d5031550704625909b96e2bb","url":"https://api.github.com/repos/ap2322/battleship/commits/d840fad28098f919d5031550704625909b96e2bb","html_url":"https://github.com/ap2322/battleship/commit/d840fad28098f919d5031550704625909b96e2bb"}]},{"sha":"d840fad28098f919d5031550704625909b96e2bb","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmQ4NDBmYWQyODA5OGY5MTlkNTAzMTU1MDcwNDYyNTkwOWI5NmUyYmI=","commit":{"author":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-26T23:43:49Z"},"committer":{"name":"Alice
+        Post","email":"ap2322@gmail.com","date":"2019-08-26T23:43:49Z"},"message":"Changes
+        from sitdown with mentor, runner_file and minor changes in board","tree":{"sha":"9763a0809ed35af1b0a2c069fdce80e8f361d9a3","url":"https://api.github.com/repos/ap2322/battleship/git/trees/9763a0809ed35af1b0a2c069fdce80e8f361d9a3"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/d840fad28098f919d5031550704625909b96e2bb","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/d840fad28098f919d5031550704625909b96e2bb","html_url":"https://github.com/ap2322/battleship/commit/d840fad28098f919d5031550704625909b96e2bb","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/d840fad28098f919d5031550704625909b96e2bb/comments","author":null,"committer":null,"parents":[{"sha":"652c327e3a14deb5b57edc15a16978da8db1e635","url":"https://api.github.com/repos/ap2322/battleship/commits/652c327e3a14deb5b57edc15a16978da8db1e635","html_url":"https://github.com/ap2322/battleship/commit/652c327e3a14deb5b57edc15a16978da8db1e635"}]},{"sha":"652c327e3a14deb5b57edc15a16978da8db1e635","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OjY1MmMzMjdlM2ExNGRlYjViNTdlZGMxNWExNjk3OGRhOGRiMWU2MzU=","commit":{"author":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:52Z"},"committer":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:52Z"},"message":"Add
+        results methods for player and computer\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"627d8c6dea9ffde8b96d27bca565cb6747994225","url":"https://api.github.com/repos/ap2322/battleship/git/trees/627d8c6dea9ffde8b96d27bca565cb6747994225"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/652c327e3a14deb5b57edc15a16978da8db1e635","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/652c327e3a14deb5b57edc15a16978da8db1e635","html_url":"https://github.com/ap2322/battleship/commit/652c327e3a14deb5b57edc15a16978da8db1e635","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/652c327e3a14deb5b57edc15a16978da8db1e635/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"b0cb01845cce4ec7b9781549f6ad83d040549d1a","url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","html_url":"https://github.com/ap2322/battleship/commit/b0cb01845cce4ec7b9781549f6ad83d040549d1a"}]},{"sha":"b0cb01845cce4ec7b9781549f6ad83d040549d1a","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmIwY2IwMTg0NWNjZTRlYzdiOTc4MTU0OWY2YWQ4M2QwNDA1NDlkMWE=","commit":{"author":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:10Z"},"committer":{"name":"Zac
+        Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:10Z"},"message":"Fix
+        player shot methods and added tests\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"42cd945753b82c49d4090a07f3ad4b484b95e93f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/42cd945753b82c49d4090a07f3ad4b484b95e93f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","html_url":"https://github.com/ap2322/battleship/commit/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"7cd64e4753128b4a3263c875dd1c1060ae149af7","url":"https://api.github.com/repos/ap2322/battleship/commits/7cd64e4753128b4a3263c875dd1c1060ae149af7","html_url":"https://github.com/ap2322/battleship/commit/7cd64e4753128b4a3263c875dd1c1060ae149af7"}]}]'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:36 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: 'Merge pull request #24 from ap2322/cleanup_ap2Clean up comments and
+        confusing variable names. Clean up comments and confusing variable names.
+        Comment out custom board tests. Merge pull request #23 from ap2322/cleanup_ap1Method
+        calls instead of @instances in ship and cell classes. Method calls instead
+        of @instances in ship and cell classes. Merge pull request #22 from ap2322/intelligent_computerIntelligent
+        computer (but like, only kinda). Merge branch ''master'' into intelligent_computer.
+        Fix computer_test and player_testCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.
+        Computer is slightly smarter. Merge pull request #21 from ap2322/fix_player_apFix
+        player placement. Fix player placementCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.
+        Fix player input bug and break computer smart shotCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>. Smart(er) shot enabled for
+        computer. Add more smarts to computer shot and runner fileCo-authored-by:
+        Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>. Merge pull request
+        #20 from ap2322/player_test_fixPlayer test fix and check iteration 3 test
+        requirements. Test all testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.
+        Fix player take shot testCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.
+        Merge pull request #19 from ap2322/standardize_player_inputStandardize player
+        input. Clean up game appearance in runner fileCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>. Upcased player input - now
+        need to fix player_testCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.
+        Merge pull request #18 from ap2322/player_shot2_apPlayer shot2 ap branch with
+        minimum viable iteration 3 runner file. Look through runner file for minimum
+        functionality per iteration 3Co-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.
+        Move comment into take_turns method. Add take_turns loop and moved player
+        shot into player class. Merge branch ''player_shot2'' of github.com:ap2322/battleship
+        into player_shot2_ap. Fix computer results render. Add computer tests and
+        clean computer all_possible_placements method. Changes from sitdown with mentor,
+        runner_file and minor changes in board. Add results methods for player and
+        computerCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.
+        Fix player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>. '
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4498'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - 3ba004b06f93cc14c160d74d483d5523
+      X-Dp-Watson-Tran-Id:
+      - 3ba004b06f93cc14c160d74d483d5523
+      X-Edgeconnect-Midmile-Rtt:
+      - '20'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '950'
+      Date:
+      - Thu, 09 Jan 2020 02:50:40 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[]},"sentences_tone":[{"sentence_id":0,"text":"Merge
+        pull request #24 from ap2322/cleanup_ap2Clean up comments and confusing variable
+        names.","tones":[{"score":0.933436,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":1,"text":"Clean
+        up comments and confusing variable names.","tones":[{"score":0.990161,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"Comment
+        out custom board tests.","tones":[]},{"sentence_id":3,"text":"Merge pull request
+        #23 from ap2322/cleanup_ap1Method calls instead of @instances in ship and
+        cell classes.","tones":[]},{"sentence_id":4,"text":"Method calls instead of
+        @instances in ship and cell classes.","tones":[{"score":0.579367,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":5,"text":"Merge
+        pull request #22 from ap2322/intelligent_computerIntelligent computer (but
+        like, only kinda).","tones":[{"score":0.88939,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"Merge
+        branch ''master'' into intelligent_computer.","tones":[]},{"sentence_id":7,"text":"Fix
+        computer_test and player_testCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[]},{"sentence_id":8,"text":"Computer
+        is slightly smarter.","tones":[{"score":0.88939,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":9,"text":"Merge
+        pull request #21 from ap2322/fix_player_apFix player placement.","tones":[]},{"sentence_id":10,"text":"Fix
+        player placementCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[]},{"sentence_id":11,"text":"Fix
+        player input bug and break computer smart shotCo-authored-by: Zac Isaacson
+        <50255174+zacisaacson@users.noreply.github.com>.","tones":[{"score":0.564558,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":12,"text":"Smart(er)
+        shot enabled for computer.","tones":[]},{"sentence_id":13,"text":"Add more
+        smarts to computer shot and runner fileCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[]},{"sentence_id":14,"text":"Merge
+        pull request #20 from ap2322/player_test_fixPlayer test fix and check iteration
+        3 test requirements.","tones":[{"score":0.802757,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":15,"text":"Test
+        all testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[{"score":0.825035,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":16,"text":"Fix
+        player take shot testCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[]},{"sentence_id":17,"text":"Merge
+        pull request #19 from ap2322/standardize_player_inputStandardize player input.","tones":[]},{"sentence_id":18,"text":"Clean
+        up game appearance in runner fileCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[]},{"sentence_id":19,"text":"Upcased
+        player input - now need to fix player_testCo-authored-by: Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[{"score":0.572328,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":20,"text":"Merge
+        pull request #18 from ap2322/player_shot2_apPlayer shot2 ap branch with minimum
+        viable iteration 3 runner file.","tones":[]},{"sentence_id":21,"text":"Look
+        through runner file for minimum functionality per iteration 3Co-authored-by:
+        Zac Isaacson <50255174+zacisaacson@users.noreply.github.com>.","tones":[]},{"sentence_id":22,"text":"Move
+        comment into take_turns method.","tones":[]},{"sentence_id":23,"text":"Add
+        take_turns loop and moved player shot into player class.","tones":[]},{"sentence_id":24,"text":"Merge
+        branch ''player_shot2'' of github.com:ap2322/battleship","tones":[]},{"sentence_id":25,"text":"into
+        player_shot2_ap.","tones":[]},{"sentence_id":26,"text":"Fix computer results
+        render.","tones":[{"score":0.952999,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":27,"text":"Add
+        computer tests and clean computer all_possible_placements method.","tones":[]},{"sentence_id":28,"text":"Changes
+        from sitdown with mentor, runner_file and minor changes in board.","tones":[]},{"sentence_id":29,"text":"Add
+        results methods for player and computerCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[{"score":0.587989,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":30,"text":"Fix
+        player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:50:37 GMT
+recorded_with: VCR 5.0.0
