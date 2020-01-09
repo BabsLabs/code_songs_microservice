@@ -21,7 +21,8 @@ class DatabaseUpdaterService
   end
 
   def self.create_track(track_data)
-    Track.create(track_params(track_data))
+    new_track = Track.create(track_params(track_data))
+    new_track.make_sentiments(new_track.lyrics)
   end
 
   def self.track_params(track_data)
