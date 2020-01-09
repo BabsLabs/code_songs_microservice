@@ -4,6 +4,7 @@ require 'pry'
 require 'vcr'
 require 'webmock/rspec'
 require 'shoulda/matchers'
+require 'database_cleaner'
 
 ENV['RACK_ENV'] = 'test'
 require File.expand_path '../../app.rb', __FILE__
@@ -12,7 +13,25 @@ module RSpecMixin
   def app() Sinatra::Application end
 end
 # For RSpec 2.x and 3.x
-RSpec.configure { |c| c.include RSpecMixin }
+RSpec.configure do |config|
+  config.include RSpecMixin
+  config.before(:suite) do
+    DatabaseCleaner.clean_with :truncation
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.strategy = :transaction
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
+end
+
 
 VCR.configure do |config|
   config.ignore_localhost = true
@@ -20,11 +39,12 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.configure_rspec_metadata!
   config.default_cassette_options = { :match_requests_on => [:method,
-    VCR.request_matchers.uri_without_param(:access_token, :apikey)] }
+    VCR.request_matchers.uri_without_param(:access_token, :apikey, :key)] }
   config.filter_sensitive_data("<GITHUB_TEST_TOKEN>") { ENV['GITHUB_TEST_TOKEN'] }
   config.filter_sensitive_data("<MUSIX_MATCH_TOKEN>") { ENV['MUSIX_MATCH_TOKEN'] }
   config.filter_sensitive_data("<WATSON_TOKEN>") { ENV['WATSON_TOKEN'] }
   config.filter_sensitive_data("<WATSON_INSTANCE>") { ENV['WATSON_INSTANCE'] }
+  config.filter_sensitive_data("<YOUTUBE_API_TOKEN>") { ENV['YOUTUBE_API_TOKEN'] }
 end
 
 Shoulda::Matchers.configure do |config|
