@@ -12,10 +12,10 @@ gem 'rspec'
 
 gem 'dotenv'
 
+gem "skylight"
+
 group :test do
   gem 'rack-test'
-  gem 'pry'
-  gem 'shotgun'
   gem 'vcr'
   gem 'webmock'
   gem 'shoulda-matchers'
@@ -23,5 +23,7 @@ group :test do
 end
 
 group :development, :test do
+  gem 'shotgun'
   gem 'tux'
+  gem 'pry'
 end

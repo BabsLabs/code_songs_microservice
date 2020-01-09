@@ -9,6 +9,6 @@ describe YouTubeService do
     expect(youtube_service).to be_a YouTubeService
 
     expect(youtube_service.get_youtube_link).to be_a String
-    expect(youtube_service.get_youtube_link).to eq("https://www.youtube.com/watch?v=DtVBCG6ThDk")
+    expect(youtube_service.get_youtube_link).to eq("https://www.youtube.com/embed/DtVBCG6ThDk")
   end
 end

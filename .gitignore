@@ -2,6 +2,7 @@ application.yml
 
 # Ignore application configuration
 /config/application.yml
+/config/skylight.yml
 
 # Used by dotenv library to load environment variables.
 *.env
