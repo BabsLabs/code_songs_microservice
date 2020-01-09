@@ -34,17 +34,13 @@ post '/update_database' do
 end
 
 get '/codesongs_matcher' do
-  repo = ReposFacade.new(request.env['login'], request.env['token'], request.env['repo'])
-
+  # In Postman, to replicate this endpoint, use 'login', 'token', 'repo', and 'artist_id' in headers without 'HTTP_'
+  repo = ReposFacade.new(request.env['HTTP_LOGIN'], request.env['HTTP_TOKEN'], request.env['HTTP_REPO'])
   repo_sentiments = repo.sentiments
-
   # Get tracks_data from artist_id
-  tracks = TrackFinder.new(request.env['artist_id']).top_tracks
-
-  # Do math with repo sentiments and all artist track sentiments?
-  # sorted_tracks = CompareSentiments.new(repo_sentiments, tracks).sorted_tracks
+  tracks = TrackFinder.new(request.env['HTTP_ARTIST_ID']).top_tracks
   sorted_tracks = tracks.match_sentiments(repo_sentiments)
-
+  
   tracks_json_builder = TracksBuilder.new(sorted_tracks)
   tracks_json_builder.build_collection
   # expected_output [ {title: 'title', link: 'link' } ]
