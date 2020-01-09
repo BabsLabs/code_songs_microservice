@@ -4,7 +4,7 @@ describe CompareSentiments do
 
   it 'initializes with repo_sentiments and collection of tracks', :vcr do
     tracks = TrackFinder.new(38620990).top_tracks
-    
+
     repo_sentiments = [ {:tone=>"tentative", :value=>3.7023770000000003},
                                     {:tone=>"analytical", :value=>2.923112},
                                     {:tone=>"sadness", :value=>1.136886},
@@ -16,7 +16,7 @@ describe CompareSentiments do
 
   end
 
-  it 'compares the repo to tracks and returns a sorted array of track info', :vcr do
+  xit 'compares the repo to tracks and returns a sorted array of track info', :vcr do
     tracks = TrackFinder.new(38620990).top_tracks
     repo = ReposFacade.new('ap2322', ENV['GITHUB_TEST_TOKEN'], 'battleship')
     comparison = CompareSentiments.new(repo.sentiments, tracks)
