@@ -31,10 +31,10 @@ class Track < ActiveRecord::Base
     top_feel = repo_sentiments.first[:tone]
 
     joins(:sentiments)
-    .select('tracks.*, MAX(sentiments.value) as s_value')
-    .group('tracks.id')
-    .where('sentiments.name = ?', top_feel)
-    .order('s_value desc')
+      .select('tracks.*, MAX(sentiments.value) as s_value')
+      .group('tracks.id')
+      .where('sentiments.name = ?', top_feel)
+      .order('s_value desc')
   end
 
   private
