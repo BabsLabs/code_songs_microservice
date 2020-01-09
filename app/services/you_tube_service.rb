@@ -21,12 +21,11 @@ class YouTubeService
     request["Accept"] = "application/json"
 
     response = https.request(request)
-    # puts response.read_body
 
     parsed_response = JSON.parse(response.body, symbolize_names: true)
     video_id = parsed_response[:items][0][:id][:videoId]
 
-    youtube_link = "https://www.youtube.com/watch?v=#{video_id}"
+    "https://www.youtube.com/embed/#{video_id}"
   end
 
 end

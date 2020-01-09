@@ -25,6 +25,6 @@ describe Song do
 
     song = Song.new(info)
 
-    expect(song.youtube_link).to eq("https://www.youtube.com/watch?v=DtVBCG6ThDk")
+    expect(song.youtube_link).to eq("https://www.youtube.com/embed/DtVBCG6ThDk")
   end
 end
