@@ -27,6 +27,7 @@ class Track < ActiveRecord::Base
   private
 
   def tones_hash(sentiments_data)
+    return {} if sentiments_data.nil?
     tones_hash = {}
     sentiments_data.each do |sentences|
       sentences[:tones].each do |tone|
