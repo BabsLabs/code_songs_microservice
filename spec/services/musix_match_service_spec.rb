@@ -24,6 +24,17 @@ describe MusixMatchService do
     expect(lyrics).to be_a Hash
     expect(lyrics[:message][:body][:lyrics]).to have_key :lyrics_body
     expect(lyrics[:message][:body][:lyrics][:lyrics_body].include?("The club isn't the best place to find a lover\nSo the bar is where I go")).to be_truthy
+  end
 
+  it 'can fetch the top 100 tracks', :vcr do
+    tracks = MusixMatchService.get_top_songs[:message][:body][:track_list]
+
+    expect(tracks.first[:track][:track_name]).to eq('Dance Monkey')
+    expect(tracks.first[:track][:track_id]).to eq(177501051)
+    expect(tracks.first[:track][:artist_id]).to eq(37843472)
+
+    expect(tracks.last[:track][:track_name]).to eq('Muévelo')
+    expect(tracks.last[:track][:track_id]).to eq(190389856)
+    expect(tracks.last[:track][:artist_id]).to eq(43177211)
   end
 end

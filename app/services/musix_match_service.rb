@@ -1,6 +1,8 @@
 require 'faraday'
 require 'figaro'
 
+MUSIX_MATCH_API_URL = 'https://api.musixmatch.com/ws/1.1/'.freeze
+
 class MusixMatchService
 
   def initialize(artist_id = nil, track_id = nil)
@@ -33,8 +35,28 @@ class MusixMatchService
 
   def conn
     Faraday.new(
-      url: 'https://api.musixmatch.com/ws/1.1/',
+      url: MUSIX_MATCH_API_URL,
       params: {apikey: ENV['MUSIX_MATCH_TOKEN']}
+    )
+  end
+
+  # Get the top songs by with no artist
+  def self.get_top_songs(page_size = 100, page_num = 1)
+    response = conn.get('chart.tracks.get') do |req|
+      req.params['page_size']    = page_size
+      req.params['page']         = page_num
+      req.params['f_has_lyrics'] = 'true'
+    end
+
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
+  private_class_method
+
+  def self.conn
+    Faraday.new(
+      url: MUSIX_MATCH_API_URL,
+      params: { apikey: ENV['MUSIX_MATCH_TOKEN'] }
     )
   end
 end

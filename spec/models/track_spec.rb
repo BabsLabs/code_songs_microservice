@@ -14,7 +14,7 @@ describe Track, type: :model do
 
   describe "methods" do
     before(:all) do
-      @umbrella = Track.find_by(title: 'Umbrella')
+      @umbrella = Track.create(title: 'Umbrella', mm_track_id: '32130011', mm_artist_id: '33491890', artist_name: 'Rhianna')
     end
     it 'finds lyrics', :vcr do
       umbrella_lyrics = @umbrella.lyrics
