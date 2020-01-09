@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '872'
+      - '865'
       Accept-Ranges:
       - bytes
       - bytes
@@ -42,35 +42,35 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 03:32:02 GMT
+      - Thu, 09 Jan 2020 17:00:17 GMT
       X-Served-By:
-      - cache-den19649-DEN
+      - cache-den19646-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578540722.967313,VS0,VE121
+      - S1578589217.070812,VS0,VE133
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.012777090072632,"available":1283},"body":{"track_list":[{"track":{"track_id":139906958,"track_name":"Tiny
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.02764892578125,"available":1283},"body":{"track_list":[{"track":{"track_id":139906958,"track_name":"Tiny
         Dancer - Remastered","track_name_translation_list":[],"track_rating":80,"commontrack_id":81177515,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":20,"album_id":27397759,"album_name":"Diamonds
-        (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Tiny-Dancer-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Tiny-Dancer-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-06-04T13:18:10Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906965,"track_name":"Candle
+        (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Tiny-Dancer-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Tiny-Dancer-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-06-04T13:18:10Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906976,"track_name":"I''m
+        Still Standing - Remastered","track_name_translation_list":[],"track_rating":79,"commontrack_id":81177480,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":15,"album_id":27397759,"album_name":"Diamonds
+        (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/I-m-Still-Standing-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/I-m-Still-Standing-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2018-02-23T10:50:41Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906965,"track_name":"Candle
         In The Wind - Remastered","track_name_translation_list":[],"track_rating":76,"commontrack_id":81177491,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":0,"num_favourite":4,"album_id":27397759,"album_name":"Diamonds
         (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Candle-In-the-Wind-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Candle-In-the-Wind-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-12-19T11:41:50Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":30212784,"track_name":"Rocket
-        Man (I Think It''s Going to Be a Long, Long Time)","track_name_translation_list":[],"track_rating":73,"commontrack_id":39773597,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":634,"album_id":13761540,"album_name":"Honky
-        Ch\u00e2teau","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Rocket-Man-I-Think-It-s-Going-to-Be-a-Long-Long-Time?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Rocket-Man-I-Think-It-s-Going-to-Be-a-Long-Long-Time\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-11-25T01:05:42Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906976,"track_name":"I''m
-        Still Standing - Remastered","track_name_translation_list":[],"track_rating":71,"commontrack_id":81177480,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":15,"album_id":27397759,"album_name":"Diamonds
-        (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/I-m-Still-Standing-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/I-m-Still-Standing-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2018-02-23T10:50:41Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906962,"track_name":"Daniel
+        Man (I Think It''s Going to Be a Long, Long Time)","track_name_translation_list":[],"track_rating":72,"commontrack_id":39773597,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":635,"album_id":13761540,"album_name":"Honky
+        Ch\u00e2teau","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Rocket-Man-I-Think-It-s-Going-to-Be-a-Long-Long-Time?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Rocket-Man-I-Think-It-s-Going-to-Be-a-Long-Long-Time\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2019-11-25T01:05:42Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":139906962,"track_name":"Daniel
         - Remastered","track_name_translation_list":[],"track_rating":69,"commontrack_id":81177104,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":9,"album_id":27397759,"album_name":"Diamonds
         (Deluxe)","artist_id":136,"artist_name":"Elton John","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Daniel-Remastered?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Elton-John\/Daniel-Remastered\/edit?utm_source=application&utm_campaign=api&utm_medium=Code+Songs%3A1409618832280","restricted":0,"updated_time":"2018-02-23T10:50:34Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}}]}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:31:58 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:14 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Tiny%20Dancer%20-%20Remastered%20Elton%20John&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -89,13 +89,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Thu, 09 Jan 2020 03:32:02 GMT
+      - Thu, 09 Jan 2020 17:00:17 GMT
       Date:
-      - Thu, 09 Jan 2020 03:32:02 GMT
+      - Thu, 09 Jan 2020 17:00:17 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk"'
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/2al9JphoHG53M6ZNcWA4s3XmOSQ"'
       Vary:
       - Origin
       - X-Origin
@@ -117,54 +117,10 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: |
-        {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nJQm3YL18Q_9od3e-YxEDt9YDIM\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "kx7P_ENnDPE"
-           },
-           "snippet": {
-            "publishedAt": "2019-12-30T20:00:06.000Z",
-            "channelId": "UClRx3MMyYUyqOxyEqA5F2nQ",
-            "title": "JACKBOYS, Pop Smoke, Travis Scott - GATTI (Official Video)",
-            "description": "JACKBOYS OUT NOW: https://JACKBOYS.lnk.to/JACKBOYS OFFICIAL STORE: https://JACKBOYS.travisscott.com/ Directed by CACTUS JACK & WHITE TRASH ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "TravisScottVEVO",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
-        }
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvMmFsOUpwaG9IRzUzTTZaTmNXQTRzM1htT1NRXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogOTcwMzEsCiAgInJlc3VsdHNQZXJQYWdlIjogMQogfSwKICJpdGVtcyI6IFsKICB7CiAgICJraW5kIjogInlvdXR1YmUjc2VhcmNoUmVzdWx0IiwKICAgImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvVDRqVEdpVENjTWdMZVY4bXc4ZEIxS3FiT3JrXCIiLAogICAiaWQiOiB7CiAgICAia2luZCI6ICJ5b3V0dWJlI3ZpZGVvIiwKICAgICJ2aWRlb0lkIjogIjY1Q050YXA2Ym93IgogICB9LAogICAic25pcHBldCI6IHsKICAgICJwdWJsaXNoZWRBdCI6ICIyMDE4LTEwLTMwVDA2OjM3OjI3LjAwMFoiLAogICAgImNoYW5uZWxJZCI6ICJVQ245aTRjZExlMTRDYnNPeWNUYktNb0EiLAogICAgInRpdGxlIjogIlRpbnkgRGFuY2VyIChSZW1hc3RlcmVkKSIsCiAgICAiZGVzY3JpcHRpb24iOiAiUHJvdmlkZWQgdG8gWW91VHViZSBieSBVbml2ZXJzYWwgTXVzaWMgR3JvdXAgVGlueSBEYW5jZXIgKFJlbWFzdGVyZWQpIMK3IEVsdG9uIEpvaG4gRGlhbW9uZHMg4oSXIDIwMTYgVGhpcyBSZWNvcmQgQ29tcGFueSBMdGQuIFJlbGVhc2VkIG9uOiAyMDE3LTExLTEwIC4uLiIsCiAgICAidGh1bWJuYWlscyI6IHsKICAgICAiZGVmYXVsdCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpLzY1Q050YXA2Ym93L2RlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMTIwLAogICAgICAiaGVpZ2h0IjogOTAKICAgICB9LAogICAgICJtZWRpdW0iOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS82NUNOdGFwNmJvdy9tcWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMzIwLAogICAgICAiaGVpZ2h0IjogMTgwCiAgICAgfSwKICAgICAiaGlnaCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpLzY1Q050YXA2Ym93L2hxZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiA0ODAsCiAgICAgICJoZWlnaHQiOiAzNjAKICAgICB9CiAgICB9LAogICAgImNoYW5uZWxUaXRsZSI6ICJFbHRvbiBKb2huIC0gVG9waWMiLAogICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiCiAgIH0KICB9CiBdCn0K
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:31:59 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:14 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=139906958
@@ -186,7 +142,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1404'
+      - '1405'
       Accept-Ranges:
       - bytes
       - bytes
@@ -207,31 +163,31 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 03:32:02 GMT
+      - Thu, 09 Jan 2020 17:00:17 GMT
       X-Served-By:
-      - cache-den19648-DEN
+      - cache-den19640-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578540722.436182,VS0,VE172
+      - S1578589218.584334,VS0,VE165
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.061742067337036},"body":{"lyrics":{"lyrics_id":19248072,"explicit":0,"lyrics_body":"Blue
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.056068897247314},"body":{"lyrics":{"lyrics_id":19248072,"explicit":0,"lyrics_body":"Blue
         Jean Baby\nL.A. Lady, seamstress for the band\nPretty eyed, pirate smile\nYou''ll
         marry a music man\n\nBallerina, you must have seen her\nDancing in the sand\nNow
         she''s in me, always with me\nTiny dancer in my hand\n\nJesus freaks, out
         in the street\nHanding tickets out for God\nTurning back, she just laughs\nThe
         boulevard is not that bad\n\nPiano man he makes his stand\nIn the auditorium\nLooking
         on, she sings the songs\nThe words she knows, tune she hums\n\n...\n\n*******
-        This Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19248072\/su_0\/rs_0\/tr_3vUCAP101Y_7z4bY1IEiaWXpvDUdc-LX1mujA6XgD96vg-bun3A19Y5dvMCxBrQSEIjHFKDjKwW1otVlxB98ghIVRY-SW4CyozUW5GhgOTd3ScDTG8PapVis0avawn7yQa_HoHDZw-1yiP-3YL4y8glfMgs9-CNMJ0EHLsH5UrbuhJE0nuS5pleHEJqP302SpL_JHKZVCEK-O5BMJrJseb7KDG2yEALyeVYSyJnqTyh_1SVP7wRk9k8ZNJs9tey63xvykRNwtyoTiF9iaJmNNbnV_o28M25ADXZ1lcB6FJhgikQ0yv84YNoUzPnP8FxRIkU0Chp5F8Ipr10oU0zyVkXf0W_d2ol1cfWVVxIGiwAswOR9HhSNf6fpDI9FYpVabm_lPVuk5E1zw_ckPCJYuLp-cChKjlHvAQyKG_nY4pjbmMG05iKMHcL5bLvuN7-n-jvFmWk2vKjvuKHIPw\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19248072\/su_0\/rs_0\/tr_3vUCADO12-TRSMb_rHH68YxT15RTDgzBp4l3rMVsMy0hfCRPW-0IhRxa_-9XIMce2mlcH9CBdcNvFel_W7H_JSTK1jzW1UVWbw6KirZKJ_eFw7Yjg42sdOhAH85HPnlnBHjZoWu1MzawpRr_lW0sz_mDp7npO-QuLADKIakNtQyl847ZLtisbPh-Qfc0KhE-7KprWMWJdFHwFN33upfLofVHZv03SnMOmvxFqOhryL8HXSnuKQEpdmXcJCyLri_p3haUVrvhKCvBzd-U1irx37wEOOSH3z318HSTs2aL1aMqjZeAkciAhlMpQaHc-YUc0DiQ8emN0otpl5GKe4i64MC5RCiU-_mj4TuQCsdj-k9DW43wOXTE5O4mjAwO-DuYcTDTIyeJWYnUr4nZ0dg9bxxuZbbI9jrXnSSMvV7UY2E2wTOCxwAU942UYTktLgBgA0GN4FIC3z6crmcdjw\/","lyrics_copyright":"Lyrics
+        This Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19248072\/su_0\/rs_0\/tr_3vUCAP6LE0k3i_fEpbgw90eYdgi0V047CLqIL6gFDCuE33HCGQRJ24qajGnb-O0SHwPmvwvt6gSZRxSIjguU8u3AJk4mBPRbsyQSL16Z6qMS6OBHAfaTjm5yzMmJUfiu3ICeM-20DQsKV8U9gbU1t37m3Q2wCgpypug3QglZl7onm6peXn8uzfk8tvC3FASoa6LMKLf5dIXwcT3s_gOgK2gaq6_J8PDMqwTaKFK7JtqpVAX8LdVYKdw5Hb6Fmsu0dRFpTGq2SKlmOOo3dNVq03g7jp6MIL1b9HnDBw1Iu-U79uldwxdbl1ZBAjVsr1CF6sk6q904iYs5QRXgfamSnlRDK8_pEjXX17Pk4-yeu5T-NTLgiiOzVM5ApTewzMTn3pMAbo17HotxwOHEsuerUbZw9XV8NgO9O0c6Y58eMFQIxHuUkLLwymurWd48oEZS0isPuSSyjLVjKpGM9A\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19248072\/su_0\/rs_0\/tr_3vUCACGNGrzN8WCBZ3ieJYXb7QIUsKrhlEsosyX4iYWa_UQzmI0qMSavx6LU8MxFjUYFEtHAVVbQqjXTsjo_SdxHaZUO_VQX2TJQ3sfKLcW6hVrEysg1e5aQENasUk3hJzHOHzn1liU9Ffnk7aCA3z4bRm7pSp-9AzJmAJClGbLquphQCIazoELYxnM96wYvJ_ICwXZ87MVBGZL5AQwsp0ZutppGSG2j5KwyoItSuFh9qzTmcKNaSGaOuZtpLJ-nllcN1_09x1C6X1MOXW-6__O3UG9Cd17RyY-UVfu3bTZnZYPVb3i0a8HOjJRVw1zUHrxSZ-mq2fOp4nIJ0WqkNzFzVzZcfiiIZejqyzyfV23IgptrHXxd2I8wSrNTSha5ff081S8pRboS27yQzL41n4qaCZwzoknuc788wAXrXiKMRhA4NYRF4DbaYxSO7bPO4ZUAZkZfVrLvirzBxw\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-07-01T15:15:58Z"}}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:31:59 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:15 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -302,15 +258,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - c6043dbd5105f9101fa81dd398b6e55e
+      - a256ef30e13107eb98c1ed8fef6822a5
       X-Dp-Watson-Tran-Id:
-      - c6043dbd5105f9101fa81dd398b6e55e
+      - a256ef30e13107eb98c1ed8fef6822a5
       X-Edgeconnect-Midmile-Rtt:
-      - '28'
+      - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '488'
+      - '279'
       Date:
-      - Thu, 09 Jan 2020 03:32:03 GMT
+      - Thu, 09 Jan 2020 17:00:18 GMT
       Connection:
       - keep-alive
     body:
@@ -333,10 +289,10 @@ http_interactions:
         the songs","tones":[{"score":0.787774,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":18,"text":"The
         words she knows, tune she hums","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"","tones":[]},{"sentence_id":20,"text":"...(1409618832280)","tones":[]}]}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:00 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:15 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=I%27m%20Still%20Standing%20-%20Remastered%20Elton%20John&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -355,13 +311,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Thu, 09 Jan 2020 03:32:03 GMT
+      - Thu, 09 Jan 2020 17:00:18 GMT
       Date:
-      - Thu, 09 Jan 2020 03:32:03 GMT
+      - Thu, 09 Jan 2020 17:00:18 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/bKj4mBVtGIsBK2eCWkWeLPqC7mU"'
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/t9I3DgFFHVbJDB9kGNZxhk-bb_4"'
       Vary:
       - Origin
       - X-Origin
@@ -383,54 +339,230 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: |
-        {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/bKj4mBVtGIsBK2eCWkWeLPqC7mU\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/-3lTSR0iOiyHBI4uGunRPReGceM\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "CrKRDEZExyU"
-           },
-           "snippet": {
-            "publishedAt": "2019-12-30T16:00:04.000Z",
-            "channelId": "UCYzPXprvl5Y-Sf0g4vX-m6g",
-            "title": "I Turned Grand Theft Auto 5 Into Star Wars",
-            "description": "GTA V is a special game that sort of started it all for me back in the day. I was uploading 2 grand theft auto V videos everyday for about 2 weeks and no one was ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "jacksepticeye",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
-        }
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvdDlJM0RnRkZIVmJKREI5a0dOWnhoay1iYl80XCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMjYwOTQxLAogICJyZXN1bHRzUGVyUGFnZSI6IDEKIH0sCiAiaXRlbXMiOiBbCiAgewogICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICJldGFnIjogIlwicDRWVGRsa1F2M0hRZVRFYVhndkxlUEF5ZG1VL2xmWkZvOURtYU1ucDdrTlZhOFp6T3lLTTRJa1wiIiwKICAgImlkIjogewogICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAidmlkZW9JZCI6ICJzd3V6a3EwUThudyIKICAgfSwKICAgInNuaXBwZXQiOiB7CiAgICAicHVibGlzaGVkQXQiOiAiMjAxOC0xMC0zMFQwNjozNzoyOC4wMDBaIiwKICAgICJjaGFubmVsSWQiOiAiVUNuOWk0Y2RMZTE0Q2JzT3ljVGJLTW9BIiwKICAgICJ0aXRsZSI6ICJJJiMzOTttIFN0aWxsIFN0YW5kaW5nIChSZW1hc3RlcmVkKSIsCiAgICAiZGVzY3JpcHRpb24iOiAiUHJvdmlkZWQgdG8gWW91VHViZSBieSBVbml2ZXJzYWwgTXVzaWMgR3JvdXAgSSdtIFN0aWxsIFN0YW5kaW5nIChSZW1hc3RlcmVkKSDCtyBFbHRvbiBKb2huIERpYW1vbmRzIOKElyAyMDE2IE1lcmN1cnkgUmVjb3JkcyBMaW1pdGVkIFJlbGVhc2VkIG9uOiAuLi4iLAogICAgInRodW1ibmFpbHMiOiB7CiAgICAgImRlZmF1bHQiOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9zd3V6a3EwUThudy9kZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgImhlaWdodCI6IDkwCiAgICAgfSwKICAgICAibWVkaXVtIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvc3d1emtxMFE4bncvbXFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDMyMCwKICAgICAgImhlaWdodCI6IDE4MAogICAgIH0sCiAgICAgImhpZ2giOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9zd3V6a3EwUThudy9ocWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogNDgwLAogICAgICAiaGVpZ2h0IjogMzYwCiAgICAgfQogICAgfSwKICAgICJjaGFubmVsVGl0bGUiOiAiRWx0b24gSm9obiAtIFRvcGljIiwKICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIgogICB9CiAgfQogXQp9Cg==
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:00 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:15 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=139906976
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1488'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 17:00:18 GMT
+      X-Served-By:
+      - cache-den19625-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578589219.661363,VS0,VE106
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.04912805557251},"body":{"lyrics":{"lyrics_id":17572580,"explicit":0,"lyrics_body":"You
+        could never know what it''s like\nYour blood like winter freezes just like
+        ice\nAnd there''s a cold lonely light that shines from you\nYou''ll wind up
+        like the wreck you hide behind that mask you use\n\nAnd did you think this
+        fool could never win?\nWell look at me, I''m a-coming back again\nI got a
+        taste of love in a simple way\nAnd if you need to know while I''m still standing,
+        you just fade away\n\nDon''t you know I''m still standing better than I ever
+        did\nLooking like a true survivor, feeling like a little kid\nI''m still standing
+        after all this time\nPicking up the pieces of my life without you on my mind\n\nI''m
+        still standing\n(Yeah yeah yeah)\n...\n\n******* This Lyrics is NOT for Commercial
+        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_17572580\/su_0\/rs_0\/tr_3vUCAO0ZQNVfjpyopQB6XodcyKexwRPXyQWYwixtpvyAMgDXqli8w3Wk5ZexOELKkINmQHipAq4Yw6kBKJ2HNQdjxK2fPl1sJ-isGyyrYdmDxXOCttSiIBptbQNuG5dhbm2gCC4dMON9rcizNFc8VKaJJvRG5u4hM6XbbtUwXP75hsET8dsmetUFBmnvo2k4NLNJ0sat5hJ_cEGTwcg3jH0P4IRnTrm52FmCVLo0CIGK5IjqntAaCYwZ0Bx9X_SyS9K4zlfFi7usYDvTX4REDEqNh5jfPq2uXAM2gRZNHf6q0rCQcxfOiG0XPTiXRRJ6kCwC505znFB6Wf7PoGM9NROWtTWYKBBm_54DCdoDNGxhNdZFmVlCMnB1HEb9qnbR22pVFua6ugEcw44aZ_QBJJg2x-zvhDAI666A26XBQ7BXZjzyPq7antkUBhlDX4MJigm-iTqQQxC14yzNxpHNFsaJORrU\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_17572580\/su_0\/rs_0\/tr_3vUCAPq13XHUimp_D3iZaxsqMmjkZbOwaO87IAybMH9nF9bbyXq2t_vA4PL5U1izk3R0Y530aqwHnjQwOUrPMf9FaHH2BRWWApVMhuS9ociKG2nosaecz7p1g4JpeySNK6PUR2pbpphzW6Sd39hiwERHI5I8XXbekK8J2Ui3YKLhOjEH9YYBZpoovHKDQIfZnaExTFAy0_uP9pQoRJ79lCLuTDs6udCmCTQcVqKYSXUqUaYZtBPhhEGk5LSbzHvH-wd7SeaAdJ7QTR3ddpXSVrLyR1CgQf-_YJaEfEcVvbfYOmK1f3RxMaSJL-y4CVUsFGJJuwuxyKZlUz4dU-JfWP9dmaDOy3CGqbJ4ytM6G9d_Q3dbfObR3hf1IX-2SX6jD6Q1apyMwPUxVNyMDve8EPgeJIQZHdDJUonESUUwNXcwHOIfkfV2Iufe8lYTFD0GTKKAQMkLFMDhIrpckZt8hQUBs9_a\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2018-02-23T10:50:41Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 17:00:16 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        You could never know what it's like
+        Your blood like winter freezes just like ice
+        And there's a cold lonely light that shines from you
+        You'll wind up like the wreck you hide behind that mask you use
+
+        And did you think this fool could never win?
+        Well look at me, I'm a-coming back again
+        I got a taste of love in a simple way
+        And if you need to know while I'm still standing, you just fade away
+
+        Don't you know I'm still standing better than I ever did
+        Looking like a true survivor, feeling like a little kid
+        I'm still standing after all this time
+        Picking up the pieces of my life without you on my mind
+
+        I'm still standing
+        (Yeah yeah yeah)
+        ...(1409618832280)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2782'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - d618376c5a999d37afb99ef92ad303b7
+      X-Dp-Watson-Tran-Id:
+      - d618376c5a999d37afb99ef92ad303b7
+      X-Edgeconnect-Midmile-Rtt:
+      - '1'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '323'
+      Date:
+      - Thu, 09 Jan 2020 17:00:19 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.781741,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.85781,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.628008,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"You
+        could never know what it''s like","tones":[{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"Your
+        blood like winter freezes just like ice","tones":[{"score":0.6091,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"And
+        there''s a cold lonely light that shines from you","tones":[{"score":0.878754,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":3,"text":"You''ll
+        wind up like the wreck you hide behind that mask you use","tones":[{"score":0.6639,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"And
+        did you think this fool could never win?","tones":[{"score":0.5538,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.724236,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"Well
+        look at me, I''m a-coming back again","tones":[{"score":0.974578,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"I
+        got a taste of love in a simple way","tones":[{"score":0.872788,"tone_id":"joy","tone_name":"Joy"},{"score":0.522484,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":8,"text":"And
+        if you need to know while I''m still standing, you just fade away","tones":[{"score":0.696833,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.681699,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.833126,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"","tones":[]},{"sentence_id":10,"text":"Don''t
+        you know I''m still standing better than I ever did","tones":[{"score":0.502502,"tone_id":"joy","tone_name":"Joy"},{"score":0.579436,"tone_id":"confident","tone_name":"Confident"},{"score":0.731735,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":11,"text":"Looking
+        like a true survivor, feeling like a little kid","tones":[]},{"sentence_id":12,"text":"I''m
+        still standing after all this time","tones":[{"score":0.985675,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Picking
+        up the pieces of my life without you on my mind","tones":[]},{"sentence_id":14,"text":"","tones":[]},{"sentence_id":15,"text":"I''m
+        still standing","tones":[{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":16,"text":"(Yeah
+        yeah yeah)","tones":[]},{"sentence_id":17,"text":"...(1409618832280)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 17:00:16 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Candle%20In%20The%20Wind%20-%20Remastered%20Elton%20John&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 17:00:19 GMT
+      Date:
+      - Thu, 09 Jan 2020 17:00:19 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/uBrQhD89AVVVnLjYfcLnj5bh--4"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvdUJyUWhEODlBVlZWbkxqWWZjTG5qNWJoLS00XCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogNTkyMDEsCiAgInJlc3VsdHNQZXJQYWdlIjogMQogfSwKICJpdGVtcyI6IFsKICB7CiAgICJraW5kIjogInlvdXR1YmUjc2VhcmNoUmVzdWx0IiwKICAgImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvcXdJcmY0amkyVjhZdlgtQTFWcWVsYVNkUmpZXCIiLAogICAiaWQiOiB7CiAgICAia2luZCI6ICJ5b3V0dWJlI3ZpZGVvIiwKICAgICJ2aWRlb0lkIjogIk1ZVTNGOHVVR2l3IgogICB9LAogICAic25pcHBldCI6IHsKICAgICJwdWJsaXNoZWRBdCI6ICIyMDE4LTEwLTEzVDA4OjU3OjQzLjAwMFoiLAogICAgImNoYW5uZWxJZCI6ICJVQ245aTRjZExlMTRDYnNPeWNUYktNb0EiLAogICAgInRpdGxlIjogIkNhbmRsZSBJbiBUaGUgV2luZCAoUmVtYXN0ZXJlZCAyMDE0KSIsCiAgICAiZGVzY3JpcHRpb24iOiAiUHJvdmlkZWQgdG8gWW91VHViZSBieSBVbml2ZXJzYWwgTXVzaWMgR3JvdXAgQ2FuZGxlIEluIFRoZSBXaW5kIChSZW1hc3RlcmVkIDIwMTQpIMK3IEVsdG9uIEpvaG4gR29vZGJ5ZSBZZWxsb3cgQnJpY2sgUm9hZCDihJcgMjAxNCBUaGlzIFJlY29yZCAuLi4iLAogICAgInRodW1ibmFpbHMiOiB7CiAgICAgImRlZmF1bHQiOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9NWVUzRjh1VUdpdy9kZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgImhlaWdodCI6IDkwCiAgICAgfSwKICAgICAibWVkaXVtIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvTVlVM0Y4dVVHaXcvbXFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDMyMCwKICAgICAgImhlaWdodCI6IDE4MAogICAgIH0sCiAgICAgImhpZ2giOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9NWVUzRjh1VUdpdy9ocWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogNDgwLAogICAgICAiaGVpZ2h0IjogMzYwCiAgICAgfQogICAgfSwKICAgICJjaGFubmVsVGl0bGUiOiAiRWx0b24gSm9obiAtIFRvcGljIiwKICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIgogICB9CiAgfQogXQp9Cg==
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 17:00:16 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=139906965
@@ -452,7 +584,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1426'
+      - '1425'
       Accept-Ranges:
       - bytes
       - bytes
@@ -473,20 +605,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 03:32:04 GMT
+      - Thu, 09 Jan 2020 17:00:19 GMT
       X-Served-By:
-      - cache-den19644-DEN
+      - cache-den19631-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578540724.069260,VS0,VE157
+      - S1578589220.685190,VS0,VE159
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.047684192657471},"body":{"lyrics":{"lyrics_id":20131187,"explicit":1,"lyrics_body":"Goodbye,
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.050820112228394},"body":{"lyrics":{"lyrics_id":20131187,"explicit":1,"lyrics_body":"Goodbye,
         Norma Jeane\nThough I never knew you at all\nYou had the grace to hold yourself\nWhile
         those around you crawled\nThey crawled out of the woodwork\nAnd they whispered
         into your brain\nThey set you on the treadmill\nAnd they made you change your
@@ -494,11 +626,11 @@ http_interactions:
         knowing who to cling to\nWhen the rain set in\nAnd I would have liked to know
         you\nBut I was just a kid\nYour candle burned out long before\nYour legend
         ever did\n\nLoneliness was tough\n...\n\n******* This Lyrics is NOT for Commercial
-        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20131187\/su_0\/rs_0\/tr_3vUCAERD56N8A7nY5PdBBeNGFukOlv3pPjMx0nFnt939sp-KJ8ij0D0ZzSIECfTiUmHj1ekt1DzsZNKtr4mKNFYxfiAV4HtB6M8LegwyxXAHBsYpG63V61IneWY3bvpazkEdNeZbrQ-b7L9k0uvcZoMaoST2OaFBiVwiWwfXfCxKBF7rrMYz-5NqIlVHWkkmRm4yGkjqKQMVltxtTAY8F0lAEamE4U4HMVLgaoREcYLjFtcsbtoqKVmZ9C0ijgnnvMeno6Yw8EWXy1DLygX20DvmaWt0n0t71DKHve2-QmpMuGo1pUeD6FctAH7FF08VuuKJEB_C5oCas77L-mq4osml3AROzoqY0wet-L7K7ziIgT1SNpcf5GEJVIbgRR27-DmrWBQ-hrDF89eY2YJ1XBd3CXE0ukRwxWdb_GQHHXqIvctuOyRjN35FEAw41gy_d6ORhvuxCqNuNmNrz-ltjESem4N7Jw\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20131187\/su_0\/rs_0\/tr_3vUCALyutfznC1zfjKT8peCeoR8uLYIv-OsgXQNyNVxaAvq_c7myw_N0Tj0ZVsXJzJJkmmbc3WTOETyFc-2Vvc0VlCGBkmvFD8ihgkBwHlRg2oTEEKVXWSEC1KMKae3KOytlf7Tii4EVp-J2nSI_Wcj6Kkc-moaUakaILRifpsfBJoSRAPAjjKONGwWWVqGiOnNSJuaPJ2zF6vODTNy0SY3IDVJ5n7xcZAYaNlwMsCimP80aF3BOg3E_n6cvEkxLqCbILQdXzh6csJnEXZGdRm_e4ZeiEALQRczyPq9Ony6TFXYb9K2-Aim-an7ltuqgq0dGOApDmzpYlBetsKCtkT25ChU8SqcjF5CKGtdnRERz7cNI3TsRx-Kbn9Hg8D54u2EX0lmuQ6z0S_XMI_xv2du-KC6Qn6HI4YmxhCUFs8slxYhOS7wlMJ8DZ4ll-gQ2jr_Ea2Kvmt8C3X1PYcje_DVIAuazPA\/","lyrics_copyright":"Lyrics
+        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20131187\/su_0\/rs_0\/tr_3vUCAGMN9UL-pgwzJwKDtdO7jE8_7jTjniNmc7IYk_94jmpaVA6N4py5jxMuro5LEgrwHu4XEtXmKbi1QTI5xg4tAoqgJkY2Hg97ylkVjA2Qqp5jK_uF6VGghF1L1FYWNH6efwsmThXDLBX5xJru3ZGll4TZD-QMSF-KRLpvz0nTNY3W2NdRSXnMEZD08MkvRrlmIfFYyoD3SaIZpLbRVyz_spiFqw2ZMlqlODBse6vcSPbAWnVdIkwzD7nGsQxCWAIzQBpUmEWOpLtyJGCWLLRFp43r26ztJ0ybO1ElwBcHzFNv0LFRLYBGWhw-AmxqPEGH8dnl8r6pJcT2jPv9nbCyDFh_UQSYL6TpnXMcCQIavU1hvSW23DCtDZ5JHwyOomJmA4y2618FEdGUTiAE2kkHGvd0q855-m_k19nXC-JYrNx3Q8t8fAWZhq4K5O5wHJzXBjZfTPchpgHWZhT10ZH7YnlXew\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20131187\/su_0\/rs_0\/tr_3vUCADHQgHiipKr2BXA6taTNJYfVkbEUzKuUim9wCBmIbG9fVk-B6MleehvNLfT5oc4OKLXn9XvyxMrX9XWpsYa9BxdYnVpNfiJXm09PBcic56NAXkque6-gPH8nEDEb3PSsHYbMt6eS44ZSWTDaVPWSEehO3Ev3yB-AX_xDRJT0TKMdbUykycsLJKSENpy8eV3ToTvd2okTm-I92n-R8B1b4ZdnphU4uKMfgqgkOnqFi9-IHRp9WhV8msWTO2Zh6SrP4IokWNbTe_ZGx_K6xzjptruXbLPLK5bAXCiTYC7ptbnu9wYKR2o3WcqLy1Ojc5OZHkxAC6P_qCVPOxqNTiIYv6dEM_rV8jLO8oDQteZSB-lniAlFRblxJdW-e1q9h-_oT6L7Sxdpl6GFMamzDwIUskw9AcBW-VX5ZlL0Q6JDXoLUuhTLyEk3Bq_0IiJzOSF0jjlAIT-ybmg3Tn0p05AA4NPkXA\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-12-19T11:41:49Z"}}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:00 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:17 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -568,22 +700,22 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 110957d0cdc128c17350bbb2a467b170
+      - eae4332bb7164af3c3fce895c0735418
       X-Dp-Watson-Tran-Id:
-      - 110957d0cdc128c17350bbb2a467b170
+      - eae4332bb7164af3c3fce895c0735418
       X-Edgeconnect-Midmile-Rtt:
-      - '18'
+      - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '439'
+      - '327'
       Date:
-      - Thu, 09 Jan 2020 03:32:05 GMT
+      - Thu, 09 Jan 2020 17:00:20 GMT
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
       string: '{"document_tone":{"tones":[{"score":0.71241,"tone_id":"sadness","tone_name":"Sadness"}]},"sentences_tone":[{"sentence_id":0,"text":"Goodbye,
         Norma Jeane","tones":[{"score":0.916849,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":1,"text":"Though
-        I never knew you at all","tones":[{"score":0.967339,"tone_id":"confident","tone_name":"Confident"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":2,"text":"You
+        I never knew you at all","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.967339,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":2,"text":"You
         had the grace to hold yourself","tones":[]},{"sentence_id":3,"text":"While
         those around you crawled","tones":[{"score":0.968123,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":4,"text":"They
         crawled out of the woodwork","tones":[]},{"sentence_id":5,"text":"And they
@@ -592,7 +724,7 @@ http_interactions:
         your name","tones":[]},{"sentence_id":8,"text":"","tones":[]},{"sentence_id":9,"text":"And
         it seems to me you lived your life","tones":[{"score":0.615986,"tone_id":"joy","tone_name":"Joy"},{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":10,"text":"Like
         a candle in the wind","tones":[{"score":0.75152,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":11,"text":"Never
-        knowing who to cling to","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"},{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":12,"text":"When
+        knowing who to cling to","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":12,"text":"When
         the rain set in","tones":[]},{"sentence_id":13,"text":"And I would have liked
         to know you","tones":[{"score":0.762356,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"But
         I was just a kid","tones":[{"score":0.946222,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":15,"text":"Your
@@ -600,10 +732,10 @@ http_interactions:
         legend ever did","tones":[{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":17,"text":"","tones":[]},{"sentence_id":18,"text":"Loneliness
         was tough","tones":[{"score":0.953576,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":19,"text":"...(1409618832280)","tones":[]}]}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:01 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:17 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Rocket%20Man%20(I%20Think%20It%27s%20Going%20to%20Be%20a%20Long,%20Long%20Time)%20Elton%20John&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -622,13 +754,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Thu, 09 Jan 2020 03:32:05 GMT
+      - Thu, 09 Jan 2020 17:00:20 GMT
       Date:
-      - Thu, 09 Jan 2020 03:32:05 GMT
+      - Thu, 09 Jan 2020 17:00:20 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk"'
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/yARMp5wmYjd7bsWh681DZsRST0U"'
       Vary:
       - Origin
       - X-Origin
@@ -653,51 +785,51 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk\"",
+         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/yARMp5wmYjd7bsWh681DZsRST0U\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
-          "totalResults": 1000000,
+          "totalResults": 480643,
           "resultsPerPage": 1
          },
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nJQm3YL18Q_9od3e-YxEDt9YDIM\"",
+           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/rHq-lZj5yiZMIIzBjaQnwYsc8dE\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "kx7P_ENnDPE"
+            "videoId": "nA7ZyJqq5WI"
            },
            "snippet": {
-            "publishedAt": "2019-12-30T20:00:06.000Z",
-            "channelId": "UClRx3MMyYUyqOxyEqA5F2nQ",
-            "title": "JACKBOYS, Pop Smoke, Travis Scott - GATTI (Official Video)",
-            "description": "JACKBOYS OUT NOW: https://JACKBOYS.lnk.to/JACKBOYS OFFICIAL STORE: https://JACKBOYS.travisscott.com/ Directed by CACTUS JACK & WHITE TRASH ...",
+            "publishedAt": "2013-09-11T14:29:37.000Z",
+            "channelId": "UCxl27R0eGa8XaFx1jyUapaA",
+            "title": "Rocket Man (I think it&#39;s going to be a long, long time) - Elton John lyrics",
+            "description": "",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/default.jpg",
+              "url": "https://i.ytimg.com/vi/nA7ZyJqq5WI/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nA7ZyJqq5WI/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/nA7ZyJqq5WI/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "TravisScottVEVO",
+            "channelTitle": "Michele Francesco Penna",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:02 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:18 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=30212784
@@ -719,7 +851,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1422'
+      - '1425'
       Accept-Ranges:
       - bytes
       - bytes
@@ -740,20 +872,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 03:32:05 GMT
+      - Thu, 09 Jan 2020 17:00:21 GMT
       X-Served-By:
-      - cache-den19646-DEN
+      - cache-den19627-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578540726.503091,VS0,VE157
+      - S1578589221.916494,VS0,VE155
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.048282861709595},"body":{"lyrics":{"lyrics_id":20008374,"explicit":1,"lyrics_body":"She
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.048449039459229},"body":{"lyrics":{"lyrics_id":20008374,"explicit":1,"lyrics_body":"She
         packed my bags last night pre-flight\nZero hour nine a.m.\nAnd I''m gonna
         be high as a kite by then\nI miss the Earth so much\nI miss my wife\nIt''s
         lonely out in space\nOn such a timeless flight\n\nAnd I think it''s gonna
@@ -762,11 +894,11 @@ http_interactions:
         man\nBurning out his fuse up here alone\n\nAnd I think it''s gonna be a long,
         long time\nTill touch down brings me ''round again to find\nI''m not the man
         they think I am at home\n...\n\n******* This Lyrics is NOT for Commercial
-        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCANlrzNu5UXG8PkKNWN0bviPu3OSWvZnL00WT98QitCKQCijrZvcDCEggf5V4KFncopDhanlq4RpBhldOVUb7BELZEeiN5OUrV3q4Bl-bZzmbshq5Gy2im_FvL7kRNBGFlD5m1tTCAiNerpbcVjn_A3pm7ddL0-B7Y2xp9Be4vsHhO8XGOHthEei3CNh7NOrkYZy8kyejAKmvh-uAmdoAOfUO3St4pJ0ZB0HNdVCeAjeO1bNguLjK-E8CNRysxkgRm7IUoQ8PuzlhhnbsgwSf5Ae6NDL403xSMtHdUoHmrYAA7PwAhckeDCTXLSUfZpntxPuuR3_1lsDfRR09tvg8vDfmMfmygqL-w6vnr9JaKLvFuTnJXVKnpiHUReVTxpIRlerBbj0JBVvbPPtyJGZ_QB_XkMyXyB97L6sNo_NOg_9-cFoidatOb8VciVXr_OlC0BlNnMkRn58VV9k9XSe7KenFa99IziijONmOEiMGqT1_DX3lGsXAmYQ\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCAO3YSfc5M1SxbS9AfNxHFJQuDhjXsAL6e_3RY0CmPLUhGW1IC35fzJsMezhXPGisTl-D3wSLJkyo5jXhtZ8LPt8fGCc4uz7eY_g6YG9XoFKStnpoFghiHmdo_D9NQb4dXltet6ElQCwZ-n2pPI3_5H560pHh4N6IUgC3foqrtuGcrHCHv-OecSlaxpyMKw1dtLgape4wUH8NN2rfhpvY69mtRGkpN3inC4sbeEiPcXNN6HUVOYFAVnT_eXjbfRKgm-3YSht2NRcaSKXf-nn6vtBsqo5u1u-VaOEAC11rVRo-wrZ_0X6fJD_g-fXMozOwznGuoblehaYfyC1KQ-R7dLhj4gB69eAHY41Dl95VPLvSWMaS3Ipqozq86_OWzFCvugnIc9BJDFfuOPQnhrLhhYaE5SqxXDWh8MmFI0p4XD_pJMtsj5C0fQ4_r1W6JVmAbVV6lh5cyYLIVmLdj1afWnbOfblzCR98Ok3MB8tU4JNAnf_keeszrzY\/","lyrics_copyright":"Lyrics
+        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCAE3_Fo42sEhhuA_BS_jmvxMkzwHORfmENS-l1x-ya_BnR7jWEbpqWw9pDHxw6-XyRzYyeGtyGQnon5r5anWorfqzS6RHz766_tR-sNUzZ0RUeLPgnIp8ENqPB6YpTeRXzQbqgtAWyPygsgKuRFUyknUiW1KqDL3c0KTB8XrliC8lsHllPm9iqAILyjzyRqmYgder1apVN8PzREHSeOWMbFRjl__MW-E76r4NbMVHlq2-4ucH6DS_n7jE20z-0ixdhqfjzv9YRBj1OQO6ywoFiHdq0IV2f0ntCsOoroWdsOawfkEkI2lxWznDYMtzDhE3hZnSeZzJVPd0ikz3Ye7TNqPo0nQ-8ubglVJCasEjoKt99rq0ParYcw8R_Cz_bveptoZSmqqfLIy30yRii4haxQ79vO4EyY138yzIGVTqDZeNwcWC7sknFrTYgWPBBEaUy8X5d5FuxZz5tifFv3qeAO7CIEBCOdsrBwAHAAQz0FJIBvr6m9lEtZU\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCAKui1aB0JbF7lD_dvhyM09bxzpafg4OQtr0LnAX82s8evBhJzbLCLt2SC4U4P6M8S0rx_GftjK1OS_irNR6HPQB23a7p8Br1EKccFrH9txDXwcWmM19TqlemdACC0l9LtP3liSI0JsWCswjtF7MOKXhWcte-znYdKJ3d2xelUg9ZWXwwBHdqvOzOf_8Ee1CINC27nVNX34fd8THM-RQx4961VLromX9uDx5Sr3eOd8Zn9ZKzPbK0lOWEsCP-f67EhM0X12_moVHWoIu-NAwXnsM69FwHJvPfhqoOmYTKMKOmGVp6NpOVGoKckXALhwAQnxLX3-eyXVOSUNJfz9NSM8KzXoPEmrmXfYgthKOSypnrN7kzJu7SSwyEatjLg7QgHf_egkdHP3PRcPU9aX2nBngwP6gDFo6xQ7VYP4zM_Wn4vSeWYD5o9PXaK9HDpIpfySjirhP4-wQsHBxOn0WqnSnDtiQbnbT3sdJRgSoNcY0MQXY72BmUTtQ\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-11-25T01:05:41Z"}}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:02 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:18 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -836,15 +968,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 2c424d20dc3fe27d566a2b7dc61ba61c
+      - f1e4c5efbc683cb9ca07ccccb301625e
       X-Dp-Watson-Tran-Id:
-      - 2c424d20dc3fe27d566a2b7dc61ba61c
+      - f1e4c5efbc683cb9ca07ccccb301625e
       X-Edgeconnect-Midmile-Rtt:
-      - '18'
+      - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '880'
+      - '294'
       Date:
-      - Thu, 09 Jan 2020 03:32:06 GMT
+      - Thu, 09 Jan 2020 17:00:21 GMT
       Connection:
       - keep-alive
     body:
@@ -866,10 +998,10 @@ http_interactions:
         touch down brings me ''round again to find","tones":[{"score":0.515596,"tone_id":"joy","tone_name":"Joy"},{"score":0.724236,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":18,"text":"I''m
         not the man they think I am at home","tones":[{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"...(1409618832280)","tones":[]}]}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:03 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:18 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Daniel%20-%20Remastered%20Elton%20John&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -888,13 +1020,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Thu, 09 Jan 2020 03:32:07 GMT
+      - Thu, 09 Jan 2020 17:00:21 GMT
       Date:
-      - Thu, 09 Jan 2020 03:32:07 GMT
+      - Thu, 09 Jan 2020 17:00:21 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/bKj4mBVtGIsBK2eCWkWeLPqC7mU"'
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/EPafNvclOD_RHf2qXkuOdo2OTVo"'
       Vary:
       - Origin
       - X-Origin
@@ -916,318 +1048,10 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: |
-        {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/bKj4mBVtGIsBK2eCWkWeLPqC7mU\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/-3lTSR0iOiyHBI4uGunRPReGceM\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "CrKRDEZExyU"
-           },
-           "snippet": {
-            "publishedAt": "2019-12-30T16:00:04.000Z",
-            "channelId": "UCYzPXprvl5Y-Sf0g4vX-m6g",
-            "title": "I Turned Grand Theft Auto 5 Into Star Wars",
-            "description": "GTA V is a special game that sort of started it all for me back in the day. I was uploading 2 grand theft auto V videos everyday for about 2 weeks and no one was ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/CrKRDEZExyU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "jacksepticeye",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
-        }
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvRVBhZk52Y2xPRF9SSGYycVhrdU9kbzJPVFZvXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMTA5ODgxLAogICJyZXN1bHRzUGVyUGFnZSI6IDEKIH0sCiAiaXRlbXMiOiBbCiAgewogICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICJldGFnIjogIlwicDRWVGRsa1F2M0hRZVRFYVhndkxlUEF5ZG1VL2pRRFFZeEJOZUxrVkVoaGhtTjNPNDN5UE95c1wiIiwKICAgImlkIjogewogICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAidmlkZW9JZCI6ICJJQmlieWlselVLNCIKICAgfSwKICAgInNuaXBwZXQiOiB7CiAgICAicHVibGlzaGVkQXQiOiAiMjAxOC0xMC0zMFQwNjozNzoyNy4wMDBaIiwKICAgICJjaGFubmVsSWQiOiAiVUNuOWk0Y2RMZTE0Q2JzT3ljVGJLTW9BIiwKICAgICJ0aXRsZSI6ICJEYW5pZWwgKFJlbWFzdGVyZWQpIiwKICAgICJkZXNjcmlwdGlvbiI6ICJQcm92aWRlZCB0byBZb3VUdWJlIGJ5IFVuaXZlcnNhbCBNdXNpYyBHcm91cCBEYW5pZWwgKFJlbWFzdGVyZWQpIMK3IEVsdG9uIEpvaG4gRGlhbW9uZHMg4oSXIDIwMTcgVGhpcyBSZWNvcmQgQ29tcGFueSBMdGQuIFJlbGVhc2VkIG9uOiAyMDE3LTExLTEwIC4uLiIsCiAgICAidGh1bWJuYWlscyI6IHsKICAgICAiZGVmYXVsdCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0lCaWJ5aWx6VUs0L2RlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMTIwLAogICAgICAiaGVpZ2h0IjogOTAKICAgICB9LAogICAgICJtZWRpdW0iOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9JQmlieWlselVLNC9tcWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMzIwLAogICAgICAiaGVpZ2h0IjogMTgwCiAgICAgfSwKICAgICAiaGlnaCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0lCaWJ5aWx6VUs0L2hxZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiA0ODAsCiAgICAgICJoZWlnaHQiOiAzNjAKICAgICB9CiAgICB9LAogICAgImNoYW5uZWxUaXRsZSI6ICJFbHRvbiBKb2huIC0gVG9waWMiLAogICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiCiAgIH0KICB9CiBdCn0K
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:03 GMT
-- request:
-    method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=139906976
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.0.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '1489'
-      Accept-Ranges:
-      - bytes
-      - bytes
-      - bytes
-      Age:
-      - '0'
-      - '0'
-      - '0'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Server:
-      - nginx
-      Via:
-      - 1.1 varnish
-      - 1.1 varnish
-      X-Restarts:
-      - '0'
-      X-Varnish-Instance:
-      - api
-      Date:
-      - Thu, 09 Jan 2020 03:32:07 GMT
-      X-Served-By:
-      - cache-den19621-DEN
-      X-Cache:
-      - MISS
-      X-Cache-Hits:
-      - '0'
-      X-Timer:
-      - S1578540727.144461,VS0,VE156
-      Vary:
-      - Accept-Encoding
-    body:
-      encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.049172878265381},"body":{"lyrics":{"lyrics_id":17572580,"explicit":0,"lyrics_body":"You
-        could never know what it''s like\nYour blood like winter freezes just like
-        ice\nAnd there''s a cold lonely light that shines from you\nYou''ll wind up
-        like the wreck you hide behind that mask you use\n\nAnd did you think this
-        fool could never win?\nWell look at me, I''m a-coming back again\nI got a
-        taste of love in a simple way\nAnd if you need to know while I''m still standing,
-        you just fade away\n\nDon''t you know I''m still standing better than I ever
-        did\nLooking like a true survivor, feeling like a little kid\nI''m still standing
-        after all this time\nPicking up the pieces of my life without you on my mind\n\nI''m
-        still standing\n(Yeah yeah yeah)\n...\n\n******* This Lyrics is NOT for Commercial
-        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_17572580\/su_0\/rs_0\/tr_3vUCAGce5OA8G1fihjWL_X7DG6HHrmP8Eeeifj6NszfmOtP2ORwl2RVoJVfTp5h46TWJn_juNZUw17Rq0EpnRusrwWZLvCtUHtdfOZEQ33jAjv4VO57GCVHHz12-JIggTuHkJrNlWzE_2OxHSMC9Hz7m0ILtWvZPZkqcb_hwj0bjeRAILHQScQR6p6Tv-3eeGuXt-ZYuys2Z789kPPn93_BgjvDncq4hdFbL4uKLYtWDPRQXKfX-xddMGQvKPe0OSmZCBMQrgllBD8AJxF5FmgAiCOazby2EJwq_oCGO6wedqLRv60Inex45Itl0C5GqC2wEJqCOmaYR_wTbc98c1PvSfF0KTfk3_rqiW4lqaBkXnlSVRaKfKiKhjGLHi3053sVXKqbd4H2g1he-XETjeFVM4YwMN10CdSnQjvOWgLgF0dikj7glamV3bcbqvY6MQMrCPJJ86gSayW0DfBPtPTasqSer\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_17572580\/su_0\/rs_0\/tr_3vUCAL6GpT770fxd4PMM6WOBSwIrlmakG1py0f8nXO-o3Ozu5v9RNYEa2Z286Ez_nNHJoHxqF5_LOL362fJFeV5i6xaNK2JtHBigXls7NPPLsrAvoUMg-N1NpIGwOugwfwzFQIekdRkoiRTypPG3Mvj1r2X5VGXGFakBghupHRSzmnUJj5Quc7J6Acld2f78mVN-ErqqMnr2000VC87fJgf3S-OqQSKabCi_HcH8ghmemN9f7hodkclffzTo6GQfzFRY9bI5eY-A3i8Fiq9pccpp4swYl9G8xWuCw0khcbyCbjcSh53yEeJ6C96bokAGklFi6hxKzFqNO9pAnK7-Hsg8mMDjxGWTIDDS3MWfBliarAWJjKrpl7o1xm3hP077gRLnA8YPax-Mwgn-I14h1BjMg_rqKCmyjEdctRlgQRh5RwlWg5_9YuHfO7ehQfv_yVJywcYEDHFLNOIRTk3ED5RxKos0\/","lyrics_copyright":"Lyrics
-        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2018-02-23T10:50:41Z"}}}}'
-    http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:04 GMT
-- request:
-    method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
-    body:
-      encoding: UTF-8
-      string: |-
-        You could never know what it's like
-        Your blood like winter freezes just like ice
-        And there's a cold lonely light that shines from you
-        You'll wind up like the wreck you hide behind that mask you use
-
-        And did you think this fool could never win?
-        Well look at me, I'm a-coming back again
-        I got a taste of love in a simple way
-        And if you need to know while I'm still standing, you just fade away
-
-        Don't you know I'm still standing better than I ever did
-        Looking like a true survivor, feeling like a little kid
-        I'm still standing after all this time
-        Picking up the pieces of my life without you on my mind
-
-        I'm still standing
-        (Yeah yeah yeah)
-        ...(1409618832280)
-    headers:
-      Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
-      User-Agent:
-      - Faraday v1.0.0
-      Content-Type:
-      - text/plain
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '2782'
-      X-Powered-By:
-      - Servlet/3.1
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Service-Api-Version:
-      - null; 2017-09-21
-      X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
-      Cache-Control:
-      - no-store
-      Pragma:
-      - no-cache
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      Content-Security-Policy:
-      - default-src 'none'
-      Content-Language:
-      - en-US
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains;
-      X-Global-Transaction-Id:
-      - eb8282c55d3525e7087dcfa5f68ab0df
-      X-Dp-Watson-Tran-Id:
-      - eb8282c55d3525e7087dcfa5f68ab0df
-      X-Edgeconnect-Midmile-Rtt:
-      - '18'
-      X-Edgeconnect-Origin-Mex-Latency:
-      - '813'
-      Date:
-      - Thu, 09 Jan 2020 03:32:08 GMT
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: '{"document_tone":{"tones":[{"score":0.781741,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.85781,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.628008,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"You
-        could never know what it''s like","tones":[{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"Your
-        blood like winter freezes just like ice","tones":[{"score":0.6091,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"And
-        there''s a cold lonely light that shines from you","tones":[{"score":0.878754,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":3,"text":"You''ll
-        wind up like the wreck you hide behind that mask you use","tones":[{"score":0.6639,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"And
-        did you think this fool could never win?","tones":[{"score":0.5538,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.724236,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"Well
-        look at me, I''m a-coming back again","tones":[{"score":0.974578,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"I
-        got a taste of love in a simple way","tones":[{"score":0.872788,"tone_id":"joy","tone_name":"Joy"},{"score":0.522484,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":8,"text":"And
-        if you need to know while I''m still standing, you just fade away","tones":[{"score":0.696833,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.681699,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.833126,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"","tones":[]},{"sentence_id":10,"text":"Don''t
-        you know I''m still standing better than I ever did","tones":[{"score":0.502502,"tone_id":"joy","tone_name":"Joy"},{"score":0.579436,"tone_id":"confident","tone_name":"Confident"},{"score":0.731735,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":11,"text":"Looking
-        like a true survivor, feeling like a little kid","tones":[]},{"sentence_id":12,"text":"I''m
-        still standing after all this time","tones":[{"score":0.985675,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Picking
-        up the pieces of my life without you on my mind","tones":[]},{"sentence_id":14,"text":"","tones":[]},{"sentence_id":15,"text":"I''m
-        still standing","tones":[{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":16,"text":"(Yeah
-        yeah yeah)","tones":[]},{"sentence_id":17,"text":"...(1409618832280)","tones":[]}]}'
-    http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:05 GMT
-- request:
-    method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=&type=video
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - application/json
-      User-Agent:
-      - Ruby
-      Host:
-      - www.googleapis.com
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Expires:
-      - Thu, 09 Jan 2020 03:32:08 GMT
-      Date:
-      - Thu, 09 Jan 2020 03:32:08 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk"'
-      Vary:
-      - Origin
-      - X-Origin
-      Content-Type:
-      - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
-      Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: ASCII-8BIT
-      string: |
-        {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/1ZlWptILGlLiwn9xQS4SID7tFKk\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"p4VTdlkQv3HQeTEaXgvLePAydmU/nJQm3YL18Q_9od3e-YxEDt9YDIM\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "kx7P_ENnDPE"
-           },
-           "snippet": {
-            "publishedAt": "2019-12-30T20:00:06.000Z",
-            "channelId": "UClRx3MMyYUyqOxyEqA5F2nQ",
-            "title": "JACKBOYS, Pop Smoke, Travis Scott - GATTI (Official Video)",
-            "description": "JACKBOYS OUT NOW: https://JACKBOYS.lnk.to/JACKBOYS OFFICIAL STORE: https://JACKBOYS.travisscott.com/ Directed by CACTUS JACK & WHITE TRASH ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/kx7P_ENnDPE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "TravisScottVEVO",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
-        }
-    http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:05 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:19 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=139906962
@@ -1249,7 +1073,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1305'
+      - '1309'
       Accept-Ranges:
       - bytes
       - bytes
@@ -1270,30 +1094,30 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Thu, 09 Jan 2020 03:32:08 GMT
+      - Thu, 09 Jan 2020 17:00:22 GMT
       X-Served-By:
-      - cache-den19651-DEN
+      - cache-den19622-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578540729.683246,VS0,VE147
+      - S1578589222.044065,VS0,VE148
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.037394046783447},"body":{"lyrics":{"lyrics_id":17572569,"explicit":0,"lyrics_body":"Daniel
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.035370111465454},"body":{"lyrics":{"lyrics_id":17572569,"explicit":0,"lyrics_body":"Daniel
         is traveling tonight on a plane\nI can see the red tail lights heading for
         Spain\nOh, and I can see Daniel waving goodbye\nGod, it looks like Daniel,
         must be the clouds in my eyes\n\nThey say Spain is pretty though I''ve never
         been\nAnd Daniel says it''s the best place that he''s ever seen\nOh, and he
         should know, he''s been there enough\n...\n\n******* This Lyrics is NOT for
-        Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_17572569\/su_0\/rs_0\/tr_3vUCAJgjBbkoCWaAFNcrIBHMixK5Jsfee1YJGblCExwDTaD6kqEvza6XH2s1irsmgsbApMtYYiCpq4Gvw76DF8y49u35jLGki3NMGUt_dVp7f7YZ5tockUiscWgTcF9klbgSaCpwxa28Kq2HYl4ztJcgpJlZk53oIVtWIjhSEOnyKIIB8kRXBkFaeTSzZl9vZkWSK_04ACZYnYkmceqkTqjwIcwZlmNQrZC5ftc7zZIq3S75DYX3KHQuOGXw7FENXqLV3wlQcKH-kOFbBUrleDoQDoKJ0GMYh6bl2QHLVpkgN_sn8QWWQGND7vUbLN0GX-9gGZyGMUsil-3wSLYVadw62nAAYrWFITeZAI4V4yY5GnNW4UF2Q9_iPRQT1coAE3ivCq2eQglSzo4PbIHw7But4A4dJu8qPemm8LQpUzuiNiiCpnbddsNQ2eI6GsE-EggfDCUVMYWp\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_17572569\/su_0\/rs_0\/tr_3vUCAGPvfEgihKRc1H41a8MRSllt9TPIOm1ARn9uTs7KGc7iEuLrI5wgQlg1UsWI213x4Oh9a3KfrgvDO075KAHo4kUxgzZkiLNSQV-y0zVLAn9jgYBw4CIESub5p_wSV7R3MNnNw7KNshP4r5Hnnc-NO2nGG9GE6XeOUi3zeHWhcWn9NTZYaQyJs7cxmQSdN7FXH39xcRrWD-fCUfoIg5Rw0S_SseiaqzcEtEWUrQqxd0lefBqv9KUZ-Z9wLnw48bxHEOMnOQLDxMTztt7c21ACFhUYWfcvlkkueSLV33F5UgAtwlUGO3MGu1UQImdJHwZ0QnzR7AB04BpdttKbXwFpsPbxx6JtEpcLpAZ5XsqErGjq0kFnYuqrkZ8e4wn0Qqx6pHK5NXmMqclO3C_Tf1fzbH-DlRXkbDxZDrG-euAnjR7uKrjX3T9rO-3x1jiFrKLO7I21nsD1\/","lyrics_copyright":"Lyrics
+        Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_17572569\/su_0\/rs_0\/tr_3vUCALoH9OzwG4f_LCSsHMEAFWGyFWp_GqhCwYQp_7Lb7W8DaikqMz1awweNfqF9fi_zixCdJaT450xG6bQ8IsfpdA06dNGw4B9weCoj2ASGbUh2qF3hi8JDaHXl6WchZnCjm8211A0p5LQB8XF1R0vkTyocvcg9rkgYfhmNX3DVe7oXtS8N0VWZmnm1OGqUeqWV2FVC0UCcH91acFeDT0PPaTHBkAt9P77OSW5ID5CWNZnEoWkgWJWxCzfF-ricOsFQfQN05H01z-IjjCS2ouD3MCacooxOLYeIWryIl7J8jzLVCEMn2oEczSRCHNxUKyWzKk9BWKQIQJL9Ov9O7pvWhiXjD1N69EEZ1DLm5dmZSeD2zURccMElmZfw0wUq-DcTyaDTPCQqbCw6V5gFHWGIgvsd9NlhpjHS0Gw63rPC6x3NN7JWtIpa8X3YrSVaUVIR5LD9KH2c\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_17572569\/su_0\/rs_0\/tr_3vUCABkpNnxeYWlHfvzHNy4B3MMzET19t8S9P5WuIzO6ahLrYL4QfAMOWuTfqdDJCcD4VosXtrfKLkEJdPD3P76atlURVXyojrkPeHMQcLxS6Tj34IU6VvoveySCiP8cdi7E3ym3KrEs3a7n-iV5EdJKiS9SHO1z0UH9e5XGm-9LnHbyrnW5E5txCKfFFjmELNm9TTwyCQcFjbLYT6LKp4xYd_8Z-A2rfGnC-wTiLASRkkJI3UcUzd_LVTyWNTVeYaoK7U0Hg5_pdFXH4He7zhfuSDdxiyc_ia9zoLNptTXAjcc9RPrQDU9FCliFPI4hgMEbierdzOWGAY2jcsEzxYw_uZqFlqOaJTgY-ib5VLvman3dySz7cJVmKKgVBBqqsGMjVo8J7G-0YymLMw3po3SrDAev3ZXOe3coQDFbs2fMHImURNwyr3mPh_j2natPYAsao8GU-21U\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2018-02-23T10:50:34Z"}}}}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:05 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:19 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -1352,15 +1176,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 105d2a400c39774a45fe6b72c740bc52
+      - 870149d7061b0827b588dc57d6328dfa
       X-Dp-Watson-Tran-Id:
-      - 105d2a400c39774a45fe6b72c740bc52
+      - 870149d7061b0827b588dc57d6328dfa
       X-Edgeconnect-Midmile-Rtt:
-      - '17'
+      - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '308'
+      - '332'
       Date:
-      - Thu, 09 Jan 2020 03:32:09 GMT
+      - Thu, 09 Jan 2020 17:00:22 GMT
       Connection:
       - keep-alive
     body:
@@ -1374,5 +1198,5 @@ http_interactions:
         Daniel says it''s the best place that he''s ever seen","tones":[{"score":0.647566,"tone_id":"joy","tone_name":"Joy"},{"score":0.579436,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":7,"text":"Oh,
         and he should know, he''s been there enough","tones":[]},{"sentence_id":8,"text":"...(1409618832280)","tones":[]}]}'
     http_version: 
-  recorded_at: Thu, 09 Jan 2020 03:32:06 GMT
+  recorded_at: Thu, 09 Jan 2020 17:00:19 GMT
 recorded_with: VCR 5.0.0

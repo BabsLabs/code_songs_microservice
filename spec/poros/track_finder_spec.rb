@@ -15,14 +15,15 @@ describe TrackFinder do
     expect(tracks).to be_a(ar_relation)
   end
 
-  it "can find youtube_link", :vcr do
+  it "can update or find youtube_link", :vcr do
 
-    info = { "track": { "track_id": 30212784,
-                         "track_name": "Rocket Man",
-                         "artist_name": "Elton John" }}
+    existing_track = Track.new(title: 'Umbrella', mm_track_id: 32130011, mm_artist_id: 33491890, artist_name: 'Rhianna')
+    expect(existing_track.youtube_link).to be_nil
 
-    song = Song.new(info)
+    found_tracks = TrackFinder.new(33491890)
 
-    expect(song.youtube_link).to eq("https://www.youtube.com/watch?v=DtVBCG6ThDk")
+    found_tracks.top_tracks.each do |track|
+      expect(track.reload.youtube_link).to be_truthy
+    end
   end
 end
