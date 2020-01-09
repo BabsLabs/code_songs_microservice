@@ -41,10 +41,20 @@ describe Track, type: :model do
                                       {:tone=>"analytical", :value=>2.923112},
                                       {:tone=>"sadness", :value=>1.136886},
                                       {:tone=>"confident", :value=>0.825035}]
-      sorted = ['actual sorted ej tracks']
+      first_track = ej_tracks.match_sentiments(repo_sentiments).first
+      second_track = ej_tracks.match_sentiments(repo_sentiments).second
+      third_track = ej_tracks.match_sentiments(repo_sentiments).third
 
-      expect(ej_tracks.match_sentiments(repo_sentiments)).to eq sorted
+      expect(first_track.title).to eq "Candle In The Wind - Remastered"
+      expect(second_track.title).to eq "I'm Still Standing - Remastered"
+      expect(third_track.title).to eq "Tiny Dancer - Remastered"
 
+      first_track_tentative = first_track.sentiments.find_by(name: 'tentative')
+      second_track_tentative = second_track.sentiments.find_by(name: 'tentative')
+      third_track_tentative = third_track.sentiments.find_by(name: 'tentative')
+
+      expect(first_track_tentative.value).to be > second_track_tentative.value
+      expect(second_track_tentative.value).to be > third_track_tentative.value
     end
   end
 end
