@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'When a post request is triggered to /update_database' do
+describe 'When a post request is triggered to /update_top_one_hundred' do
   it 'should add a track to the database', :vcr do
-    expect{post '/update_database'}.to change{Track.count}.by(100)
+    expect{post '/update_top_one_hundred'}.to change{Track.count}.by(100)
   end
 
   it 'should only add tracks if they do not exist already', :vcr do
@@ -12,6 +12,6 @@ describe 'When a post request is triggered to /update_database' do
       mm_artist_id: 37843472,
       artist_name: 'Tones and I'
     )
-    expect{post '/update_database'}.to change{Track.count}.by(99)
+    expect{post '/update_top_one_hundred'}.to change{Track.count}.by(99)
   end
 end
