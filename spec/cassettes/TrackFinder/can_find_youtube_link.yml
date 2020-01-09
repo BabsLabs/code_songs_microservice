@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=30212784
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1426'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 02:26:57 GMT
+      X-Served-By:
+      - cache-den19623-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578536817.266043,VS0,VE166
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.055937051773071},"body":{"lyrics":{"lyrics_id":20008374,"explicit":1,"lyrics_body":"She
+        packed my bags last night pre-flight\nZero hour nine a.m.\nAnd I''m gonna
+        be high as a kite by then\nI miss the Earth so much\nI miss my wife\nIt''s
+        lonely out in space\nOn such a timeless flight\n\nAnd I think it''s gonna
+        be a long, long time\nTill touch down brings me ''round again to find\nI''m
+        not the man they think I am at home\nOh no no no\nI''m a rocket man\nRocket
+        man\nBurning out his fuse up here alone\n\nAnd I think it''s gonna be a long,
+        long time\nTill touch down brings me ''round again to find\nI''m not the man
+        they think I am at home\n...\n\n******* This Lyrics is NOT for Commercial
+        use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCAA_0FvsXYIxscCGg7fcff6u4F-PI1N1f7ZwML5178FkMoyeCJ7ii7xm1b-wbZ3-8xlpUGc8GWt8ixFhJeKJ7DAdC9FfP3_9pLP_IbP3gTFaPAD2hxC2JAcNiwYipz5KDhLFJpibWW3DC_9P1Ir_cc4X7g0ogi1vAm1UG_C0Rv5mVPg5DHBDBq7Cbv2M6uNx63wgmzbXNzK7qW20gYTz2VlXV31TRo-yRdIqlgijZE7VGmNfTeJYz1cb_jP2Y0csRComXW6fOLcS5oJX9EjNFZeCHtlF3F8fw1HhFRQVGSAhkR6EkfAZI2TCVnU_SiuPFQRTwh7yJ9QAdtUYGe7O9Ns-apNY1jsE2T0eVCq1ut7OpA4JmrfW22pj8tksvFxiUm2gbT4y3ENXJQU_cdCSnPk-2_ct6qhbP-A0BzM1ItgPI9UqejKIj6DYPTRdfr1_HdSppewpxPWwg_-RkifntukO4koJOTyF9P9ZirU3x_tUZ61eTHyveyh0\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20008374\/su_0\/rs_0\/tr_3vUCALI9oRw4S5LTAXhfQDnxrcakDAPe4goTo8eEUQw3DuC6tc6LT4tbFNJkqs7Kq55EEyUIcod_Y6okne5ctBRu4ZoDuCr2O6raZGrF95HY-7L2OxtxLt7X4d7VtCUhfyRPTj5f1IWOJZ3aa1USABInphG1aUGyLaoAyns_Bgj99vMeVFc-KfotoEoE0S-BWSbPgs_Xo8xUElkB1sqHbestAg20UjpynKSkbjZdZn1ZcLRhToNZbAX1vLeYnocuXunIWLYrDV5ej1atOod8I1MwVdnE1smXSooVH7vopgYLsgJOo7-K4fG7byFHfURBl2_uQ5o2Pt6Tnst055SoL9MWcm9LRBSWID5_T1wdwk-4cYBRChf5PZOwvdeQcOqAxaELZSPA0g1Oy8E_8cqgWth5D_maoN1H76NOikHM7s58IhGPNbj0Ik64bE6FkBLpxE_M1_OwKFw1oziq4_VWIB_QUuEL4NG-mk1TDMvHSnGzEUfOYnabnj3i_Zg\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-11-25T01:05:41Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:26:54 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Rocket%20ManElton%20John&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Host:
+      - www.googleapis.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 09 Jan 2020 02:26:57 GMT
+      Date:
+      - Thu, 09 Jan 2020 02:26:57 GMT
+      Cache-Control:
+      - private, max-age=120, must-revalidate, no-transform
+      Etag:
+      - '"p4VTdlkQv3HQeTEaXgvLePAydmU/BxlEt3P_eNjWzcgaNoMBOaJUh9s"'
+      Vary:
+      - Origin
+      - X-Origin
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJwNFZUZGxrUXYzSFFlVEVhWGd2TGVQQXlkbVUvQnhsRXQzUF9lTmpXemNnYU5vTUJPYUpVaDlzXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMjIxNzY1LAogICJyZXN1bHRzUGVyUGFnZSI6IDEKIH0sCiAiaXRlbXMiOiBbCiAgewogICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICJldGFnIjogIlwicDRWVGRsa1F2M0hRZVRFYVhndkxlUEF5ZG1VL2JYRFdsajd4eG5LT1prMHNHWEstTGxBYVdCc1wiIiwKICAgImlkIjogewogICAgImtpbmQiOiAieW91dHViZSN2aWRlbyIsCiAgICAidmlkZW9JZCI6ICJEdFZCQ0c2VGhEayIKICAgfSwKICAgInNuaXBwZXQiOiB7CiAgICAicHVibGlzaGVkQXQiOiAiMjAxNy0wNS0yMlQxNjowMDowMS4wMDBaIiwKICAgICJjaGFubmVsSWQiOiAiVUNJOFJ5N05kRk5MZWwtUzhkV1U3bURBIiwKICAgICJ0aXRsZSI6ICJFbHRvbiBKb2huIC0gUm9ja2V0IE1hbiAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pIiwKICAgICJkZXNjcmlwdGlvbiI6ICJJbiBoaXMgb3duIGludGVycHJldGF0aW9uIG9mIEVsdG9uIEpvaG4ncyBpY29uaWMgaGl0LCBJcmFuaWFuIGZpbG1tYWtlciBhbmQgcmVmdWdlZSBNYWppZCBBZGluIHJlaW1hZ2luZXMg4oCcUm9ja2V0IE1hbuKAnSB0byB0ZWxsIGEgbmV3IHN0b3J5IG9mIGFkdmVudHVyZSwgbG9uZWxpbmVzcyAuLi4iLAogICAgInRodW1ibmFpbHMiOiB7CiAgICAgImRlZmF1bHQiOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9kZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgImhlaWdodCI6IDkwCiAgICAgfSwKICAgICAibWVkaXVtIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvbXFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDMyMCwKICAgICAgImhlaWdodCI6IDE4MAogICAgIH0sCiAgICAgImhpZ2giOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9EdFZCQ0c2VGhEay9ocWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogNDgwLAogICAgICAiaGVpZ2h0IjogMzYwCiAgICAgfQogICAgfSwKICAgICJjaGFubmVsVGl0bGUiOiAiRWx0b25Kb2huVkVWTyIsCiAgICAibGl2ZUJyb2FkY2FzdENvbnRlbnQiOiAibm9uZSIKICAgfQogIH0KIF0KfQo=
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 02:26:54 GMT
+recorded_with: VCR 5.0.0

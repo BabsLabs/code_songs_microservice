@@ -14,4 +14,15 @@ describe TrackFinder do
     ar_relation = Track.const_get(:ActiveRecord_Relation)
     expect(tracks).to be_a(ar_relation)
   end
+
+  it "can find youtube_link", :vcr do
+
+    info = { "track": { "track_id": 30212784,
+                         "track_name": "Rocket Man",
+                         "artist_name": "Elton John" }}
+
+    song = Song.new(info)
+
+    expect(song.youtube_link).to eq("https://www.youtube.com/watch?v=DtVBCG6ThDk")
+  end
 end
