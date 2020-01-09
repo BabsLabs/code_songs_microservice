@@ -8,7 +8,8 @@ describe "when the endpoint '/codesongs_matcher' is hit" do
 
     expect(last_response).to be_ok
     # expect(last_response.body).to be_a JSON
-    expected_output = "[{\"title\":\"Shape of You\",\"link\":\"https://www.youtube.com/watch?v=kx7P_ENnDPE\"},{\"title\":\"Thinking Out Loud\",\"link\":\"https://www.youtube.com/watch?v=kx7P_ENnDPE\"},{\"title\":\"Photograph\",\"link\":\"https://www.youtube.com/watch?v=kx7P_ENnDPE\"},{\"title\":\"Perfect\",\"link\":\"https://www.youtube.com/watch?v=CrKRDEZExyU\"},{\"title\":\"South of the Border\",\"link\":\"https://www.youtube.com/watch?v=kx7P_ENnDPE\"}]"
+
+    expected_output = "[{\"title\":\"Shape of You\",\"link\":\"https://www.youtube.com/watch?v=JGwWNGJdvx8\"},{\"title\":\"Thinking Out Loud\",\"link\":\"https://www.youtube.com/watch?v=lp-EO5I60KA\"},{\"title\":\"Photograph\",\"link\":\"https://www.youtube.com/watch?v=qgmXPCX4VzU\"},{\"title\":\"Perfect\",\"link\":\"https://www.youtube.com/watch?v=UDDMYw_IZnE\"},{\"title\":\"South of the Border\",\"link\":\"https://www.youtube.com/watch?v=UPOT2tgY9QQ\"}]"
     expect(last_response.body).to eq expected_output
   end
 end
