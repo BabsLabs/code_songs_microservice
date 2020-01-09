@@ -18,4 +18,9 @@ describe DatabaseUpdaterService do
   it 'creates tracks with their sentiments', :vcr do
     expect{DatabaseUpdaterService.update_database(1)}.to change{Sentiment.count}.by(2)
   end
+
+  it 'can seed a database with more than the top 100 songs', :vcr do 
+    expect{DatabaseUpdaterService.seed_database(1)}.to change{Track.count}.by(1)
+      .and change{DatabaseUpdaterService.current_page}.by(1)
+  end
 end
