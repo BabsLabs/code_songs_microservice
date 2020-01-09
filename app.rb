@@ -25,8 +25,8 @@ get '/codesongs_matcher' do
   # Get tracks_data from artist_id
   tracks = TrackFinder.new(request.env['HTTP_ARTIST_ID']).top_tracks
   sorted_tracks = tracks.match_sentiments(repo_sentiments)
-  
-  tracks_json_builder = TracksBuilder.new(sorted_tracks)
-  tracks_json_builder.build_collection
+
+  tracks_json_builder = TracksBuilder.build_collection(sorted_tracks)
+  # tracks_json_builder.build_collection
   # expected_output [ {title: 'title', link: 'link' } ]
 end
