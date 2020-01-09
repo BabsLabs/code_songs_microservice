@@ -1,4 +1,5 @@
 class DatabaseUpdaterService
+  @@page_num = 2
 
   def self.update_database(page_size = 100, page_num = 1)
     tracks_data = get_track_data(page_size, page_num)
@@ -7,6 +8,15 @@ class DatabaseUpdaterService
       track_data = track_data[:track]
       create_track(track_data) unless track_exists?(track_data[:track_id])
     end
+  end
+
+  def self.seed_database(page_size = 100)
+    update_database(page_size, current_page)
+    @@page_num += 1
+  end
+
+  def self.current_page
+    @@page_num
   end
 
   private_class_method
