@@ -12,7 +12,7 @@ class YouTubeService
     require "uri"
     require "net/http"
 
-    url = URI("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q=#{@song_title}#{@artist_name}&type=video&key=#{ENV['YOUTUBE_API_TOKEN']}")
+    url = URI("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q=#{song_title} #{artist_name}&type=video&key=#{ENV['YOUTUBE_API_TOKEN']}")
 
     https = Net::HTTP.new(url.host, url.port);
     https.use_ssl = true
@@ -28,5 +28,8 @@ class YouTubeService
 
     youtube_link = "https://www.youtube.com/watch?v=#{video_id}"
   end
+
+  private
+  attr_reader :song_title, :artist_name
 
 end

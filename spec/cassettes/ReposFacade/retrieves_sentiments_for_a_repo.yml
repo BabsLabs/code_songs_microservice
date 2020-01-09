@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 08 Jan 2020 23:19:11 GMT
+      - Wed, 08 Jan 2020 23:30:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4999'
+      - '4997'
       X-Ratelimit-Reset:
-      - '1578529151'
+      - '1578529810'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -71,7 +71,7 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - FC99:3077:6AAC99:ECBE76:5E16636F
+      - FCB5:5E59:429646:A2EDA2:5E16660C
     body:
       encoding: ASCII-8BIT
       string: '[{"sha":"d64692f5ebd125c807f9c1d60994e53d02ea118f","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmQ2NDY5MmY1ZWJkMTI1YzgwN2Y5YzFkNjA5OTRlNTNkMDJlYTExOGY=","commit":{"author":{"name":"Alice
@@ -215,7 +215,7 @@ http_interactions:
         Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:10Z"},"message":"Fix
         player shot methods and added tests\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"42cd945753b82c49d4090a07f3ad4b484b95e93f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/42cd945753b82c49d4090a07f3ad4b484b95e93f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","html_url":"https://github.com/ap2322/battleship/commit/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"7cd64e4753128b4a3263c875dd1c1060ae149af7","url":"https://api.github.com/repos/ap2322/battleship/commits/7cd64e4753128b4a3263c875dd1c1060ae149af7","html_url":"https://github.com/ap2322/battleship/commit/7cd64e4753128b4a3263c875dd1c1060ae149af7"}]}]'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 23:19:08 GMT
+  recorded_at: Wed, 08 Jan 2020 23:30:17 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -294,15 +294,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - e37706818063e24ca69f30c44c5f9c3d
+      - 585cf8143425f565f8a84993800278a4
       X-Dp-Watson-Tran-Id:
-      - e37706818063e24ca69f30c44c5f9c3d
+      - 585cf8143425f565f8a84993800278a4
       X-Edgeconnect-Midmile-Rtt:
-      - '2'
+      - '1'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '639'
+      - '641'
       Date:
-      - Wed, 08 Jan 2020 23:19:12 GMT
+      - Wed, 08 Jan 2020 23:30:21 GMT
       Connection:
       - keep-alive
     body:
@@ -347,5 +347,5 @@ http_interactions:
         results methods for player and computerCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[{"score":0.587989,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":30,"text":"Fix
         player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 23:19:08 GMT
+  recorded_at: Wed, 08 Jan 2020 23:30:18 GMT
 recorded_with: VCR 5.0.0

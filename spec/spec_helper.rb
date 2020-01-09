@@ -39,7 +39,7 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.configure_rspec_metadata!
   config.default_cassette_options = { :match_requests_on => [:method,
-    VCR.request_matchers.uri_without_param(:access_token, :apikey, :key)] }
+    VCR.request_matchers.uri_without_param(:access_token, :apikey, :key, :track_id)] }
   config.filter_sensitive_data("<GITHUB_TEST_TOKEN>") { ENV['GITHUB_TEST_TOKEN'] }
   config.filter_sensitive_data("<MUSIX_MATCH_TOKEN>") { ENV['MUSIX_MATCH_TOKEN'] }
   config.filter_sensitive_data("<WATSON_TOKEN>") { ENV['WATSON_TOKEN'] }
