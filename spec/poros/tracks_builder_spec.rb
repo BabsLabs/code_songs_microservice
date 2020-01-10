@@ -6,10 +6,10 @@ describe TracksBuilder do
 
     t2 = Track.create(title: 'Umbrella', mm_track_id: 32130011, mm_artist_id: 33491890, artist_name: 'Rhianna', youtube_link: 'umbrella_link')
 
-    expected_output = [
+    expected_output = {songs: [
       {title: "Rocket Man (I Think It's Going to Be a Long, Long Time)", link: 'rocket_man_link' },
       {title: "Umbrella", link: 'umbrella_link' },
-    ].to_json
+    ]}.to_json
     expect(TracksBuilder.build_collection([t1, t2])).to eq expected_output
   end
 end
