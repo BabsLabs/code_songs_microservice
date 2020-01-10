@@ -23,9 +23,6 @@ describe YouTubeService do
     expect(youtube_service.get_youtube_link).to eq("https://www.youtube.com/embed/TvnYmWpD_T8")
   end
   it 'fetches the correct video link again', :vcr do
-    WebMock.enable_net_connect!
-    VCR.eject_cassette
-    VCR.turn_off!(ignore_cassettes: true)
 
     song_title = 'Such Great Heights'
     artist_name = 'Joy Kill Sorrow'
