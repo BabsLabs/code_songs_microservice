@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Rocket%20Man%20Elton%20John&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Who%20Will%20Save%20Your%20Soul,%20Jewel&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 05:12:16 GMT
+      - Fri, 10 Jan 2020 06:10:14 GMT
       Date:
-      - Fri, 10 Jan 2020 05:12:16 GMT
+      - Fri, 10 Jan 2020 06:10:14 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/XziHEq108dt6MH11urSARp6d1WM"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA"'
       Vary:
       - Origin
       - X-Origin
@@ -47,13 +47,57 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJPT0ZmM1p3MmpEYnh4SHNqSjNsOHUxVThkejQvWHppSEVxMTA4ZHQ2TUgxMXVyU0FScDZkMVdNXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMTAwMDAwMCwKICAicmVzdWx0c1BlclBhZ2UiOiAxCiB9LAogIml0ZW1zIjogWwogIHsKICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAiZXRhZyI6ICJcIk9PRmYzWncyakRieHhIc2pKM2w4dTFVOGR6NC9iWERXbGo3eHhuS09aazBzR1hLLUxsQWFXQnNcIiIsCiAgICJpZCI6IHsKICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgInZpZGVvSWQiOiAiRHRWQkNHNlRoRGsiCiAgIH0sCiAgICJzbmlwcGV0IjogewogICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMDUtMjJUMTY6MDA6MDEuMDAwWiIsCiAgICAiY2hhbm5lbElkIjogIlVDSThSeTdOZEZOTGVsLVM4ZFdVN21EQSIsCiAgICAidGl0bGUiOiAiRWx0b24gSm9obiAtIFJvY2tldCBNYW4gKE9mZmljaWFsIE11c2ljIFZpZGVvKSIsCiAgICAiZGVzY3JpcHRpb24iOiAiSW4gaGlzIG93biBpbnRlcnByZXRhdGlvbiBvZiBFbHRvbiBKb2huJ3MgaWNvbmljIGhpdCwgSXJhbmlhbiBmaWxtbWFrZXIgYW5kIHJlZnVnZWUgTWFqaWQgQWRpbiByZWltYWdpbmVzIOKAnFJvY2tldCBNYW7igJ0gdG8gdGVsbCBhIG5ldyBzdG9yeSBvZiBhZHZlbnR1cmUsIGxvbmVsaW5lc3MgLi4uIiwKICAgICJ0aHVtYm5haWxzIjogewogICAgICJkZWZhdWx0IjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAxMjAsCiAgICAgICJoZWlnaHQiOiA5MAogICAgIH0sCiAgICAgIm1lZGl1bSI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0R0VkJDRzZUaERrL21xZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAzMjAsCiAgICAgICJoZWlnaHQiOiAxODAKICAgICB9LAogICAgICJoaWdoIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvaHFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDQ4MCwKICAgICAgImhlaWdodCI6IDM2MAogICAgIH0KICAgIH0sCiAgICAiY2hhbm5lbFRpdGxlIjogIkVsdG9uSm9oblZFVk8iLAogICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiCiAgIH0KICB9CiBdCn0K
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BazV24ZGWgdZsXIa3ZBzhV25mU0\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "0wBDDAZkNtk"
+           },
+           "snippet": {
+            "publishedAt": "2009-10-27T02:47:38.000Z",
+            "channelId": "UCqny-wGJIaPfAkwPp_OlYKA",
+            "title": "Jewel - Who Will Save Your Soul (Official Music Video)",
+            "description": "\"Who Will Save Your Soul\" from the album 'Pieces Of You' - stream/download: https://Jewel.lnk.to/piecesofyou Subscribe to Jewel's channel: ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "Jewel",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 05:12:14 GMT
+  recorded_at: Fri, 10 Jan 2020 06:10:15 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Rocket%20Man%20Elton%20John&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Who%20Will%20Save%20Your%20Soul,%20Jewel&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -70,13 +114,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 05:12:16 GMT
+      - Fri, 10 Jan 2020 06:10:15 GMT
       Date:
-      - Fri, 10 Jan 2020 05:12:16 GMT
+      - Fri, 10 Jan 2020 06:10:15 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/XziHEq108dt6MH11urSARp6d1WM"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA"'
       Vary:
       - Origin
       - X-Origin
@@ -98,8 +142,52 @@ http_interactions:
       - chunked
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJPT0ZmM1p3MmpEYnh4SHNqSjNsOHUxVThkejQvWHppSEVxMTA4ZHQ2TUgxMXVyU0FScDZkMVdNXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMTAwMDAwMCwKICAicmVzdWx0c1BlclBhZ2UiOiAxCiB9LAogIml0ZW1zIjogWwogIHsKICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAiZXRhZyI6ICJcIk9PRmYzWncyakRieHhIc2pKM2w4dTFVOGR6NC9iWERXbGo3eHhuS09aazBzR1hLLUxsQWFXQnNcIiIsCiAgICJpZCI6IHsKICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgInZpZGVvSWQiOiAiRHRWQkNHNlRoRGsiCiAgIH0sCiAgICJzbmlwcGV0IjogewogICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMDUtMjJUMTY6MDA6MDEuMDAwWiIsCiAgICAiY2hhbm5lbElkIjogIlVDSThSeTdOZEZOTGVsLVM4ZFdVN21EQSIsCiAgICAidGl0bGUiOiAiRWx0b24gSm9obiAtIFJvY2tldCBNYW4gKE9mZmljaWFsIE11c2ljIFZpZGVvKSIsCiAgICAiZGVzY3JpcHRpb24iOiAiSW4gaGlzIG93biBpbnRlcnByZXRhdGlvbiBvZiBFbHRvbiBKb2huJ3MgaWNvbmljIGhpdCwgSXJhbmlhbiBmaWxtbWFrZXIgYW5kIHJlZnVnZWUgTWFqaWQgQWRpbiByZWltYWdpbmVzIOKAnFJvY2tldCBNYW7igJ0gdG8gdGVsbCBhIG5ldyBzdG9yeSBvZiBhZHZlbnR1cmUsIGxvbmVsaW5lc3MgLi4uIiwKICAgICJ0aHVtYm5haWxzIjogewogICAgICJkZWZhdWx0IjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAxMjAsCiAgICAgICJoZWlnaHQiOiA5MAogICAgIH0sCiAgICAgIm1lZGl1bSI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0R0VkJDRzZUaERrL21xZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAzMjAsCiAgICAgICJoZWlnaHQiOiAxODAKICAgICB9LAogICAgICJoaWdoIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvRHRWQkNHNlRoRGsvaHFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDQ4MCwKICAgICAgImhlaWdodCI6IDM2MAogICAgIH0KICAgIH0sCiAgICAiY2hhbm5lbFRpdGxlIjogIkVsdG9uSm9oblZFVk8iLAogICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiCiAgIH0KICB9CiBdCn0K
+      string: |
+        {
+         "kind": "youtube#searchListResponse",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA\"",
+         "nextPageToken": "CAEQAA",
+         "regionCode": "US",
+         "pageInfo": {
+          "totalResults": 1000000,
+          "resultsPerPage": 1
+         },
+         "items": [
+          {
+           "kind": "youtube#searchResult",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BazV24ZGWgdZsXIa3ZBzhV25mU0\"",
+           "id": {
+            "kind": "youtube#video",
+            "videoId": "0wBDDAZkNtk"
+           },
+           "snippet": {
+            "publishedAt": "2009-10-27T02:47:38.000Z",
+            "channelId": "UCqny-wGJIaPfAkwPp_OlYKA",
+            "title": "Jewel - Who Will Save Your Soul (Official Music Video)",
+            "description": "\"Who Will Save Your Soul\" from the album 'Pieces Of You' - stream/download: https://Jewel.lnk.to/piecesofyou Subscribe to Jewel's channel: ...",
+            "thumbnails": {
+             "default": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/default.jpg",
+              "width": 120,
+              "height": 90
+             },
+             "medium": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+             },
+             "high": {
+              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+             }
+            },
+            "channelTitle": "Jewel",
+            "liveBroadcastContent": "none"
+           }
+          }
+         ]
+        }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 05:12:14 GMT
+  recorded_at: Fri, 10 Jan 2020 06:10:16 GMT
 recorded_with: VCR 5.0.0
