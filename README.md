@@ -62,6 +62,9 @@ The following Ruby Gems are used in this project:
   - `bundle exec rake db:migrate`
   - `bundle exec rake db:seed`
 
+### Run Locally:
+  - `bundle exec rackup config.ru`
+
 #### Test Environment:
   - `RACK_ENV=test bundle exec rake db:{migrate,seed}`
 
@@ -71,7 +74,7 @@ The following Ruby Gems are used in this project:
   - You can run an individual test using `bundle exec rspec <path-to-file>`
 
 ### Using Fiagro or DOTENV in development and testing:
-Keep enviornment variables secure by using Figaro to generate an `appliation.yml` file or by saving a `.env` file in the root directory. See more information about using the figaro gem at or https://github.com/laserlemon/figaro the dotenv gem at https://github.com/bkeepers/.
+Keep environment variables secure by using Figaro to generate an `appliation.yml` file or by saving a `.env` file in the root directory. See more information about using the figaro gem at or https://github.com/laserlemon/figaro the dotenv gem at https://github.com/bkeepers/.
 
 ### Required Environment Variables
 Environment variables and required API keys/tokens (in Figaro format) :
