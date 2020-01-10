@@ -5,6 +5,7 @@ class CodesongsMatcher
     repo_sentiments = repo.sentiments
 
     tracks = TrackFinder.new(artist_id).top_tracks
+    return [{ error: 'Artist has no tracks.'}].to_json if tracks.empty?
     sorted_tracks = tracks.match_sentiments(repo_sentiments)
 
     tracks_json_builder = TracksBuilder.build_collection(sorted_tracks)

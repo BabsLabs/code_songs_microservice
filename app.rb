@@ -13,8 +13,13 @@ get '/tracks' do
   @tracks.first.title
 end
 
-post '/update_database' do
+post '/update_top_one_hundred' do
   DatabaseUpdaterService.update_database
+  return 0
+end
+
+post '/seed_database' do
+  DatabaseUpdaterService.seed_database
   return 0
 end
 

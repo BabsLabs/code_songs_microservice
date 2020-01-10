@@ -1,0 +1,239 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/chart.tracks.get?apikey=<MUSIX_MATCH_TOKEN>&f_has_lyrics=true&page=3&page_size=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '481'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 22:54:46 GMT
+      X-Served-By:
+      - cache-den19635-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578610486.393758,VS0,VE121
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.014322996139526},"body":{"track_list":[{"track":{"track_id":184014421,"track_name":"Memories","track_name_translation_list":[],"track_rating":100,"commontrack_id":100364992,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":6941,"album_id":34887164,"album_name":"Memories
+        - Single","artist_id":27840,"artist_name":"Maroon 5","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Maroon-5\/Memories?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Maroon-5\/Memories\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-09-20T07:54:22Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":34,"music_genre_parent_id":0,"music_genre_name":"Music","music_genre_name_extended":"Music","music_genre_vanity":"Music"}}]}}}]}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 22:54:46 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=184014421
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1439'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 09 Jan 2020 22:54:46 GMT
+      X-Served-By:
+      - cache-den19631-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1578610487.567700,VS0,VE200
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.087641000747681},"body":{"lyrics":{"lyrics_id":19695309,"explicit":0,"lyrics_body":"Here''s
+        to the ones that we got\nCheers to the wish you were here, but you''re not\n''Cause
+        the drinks bring back all the memories\nOf everything we''ve been through\nToast
+        to the ones here today\nToast to the ones that we lost on the way\n''Cause
+        the drinks bring back all the memories\nAnd the memories bring back, memories
+        bring back you\n\nThere''s a time that I remember, when I did not know no
+        pain\nWhen I believed in forever, and everything would stay the same\nNow
+        my heart feel like December when somebody say your name\n''Cause I can''t
+        reach out to call you, but I know I will one day, yeah\n\nEverybody hurts
+        sometimes\nEverybody hurts someday, ayy-ayy\nBut everything gon'' be alright\nGo
+        and raise a glass and say, ayy\n\nHere''s to the ones that we got\nCheers
+        to the wish you were here, but you''re not\n...\n\n******* This Lyrics is
+        NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19695309\/su_0\/rs_0\/tr_3vUCALjEa6aVF8hpp3DPdec8UEgjJDaH0rbFiYrqbc-5ShXY8q6EsGPaJ1XaYfTGpxDUIsjD6xnk3lWTdeYLsdoYF7kiEUxNGiq1G_PDUp7ThFsOEu_lynj1nfgS93CU06xdKFGlTafE9GpAacFqacq5VoJ77OEaP2S_G7vbcoGXTkVWLQ7ITk-rdj64Dgs_MRoWsM2z-MyIYnXlel1zqUKAkl1HkIyH8fG9olAeF_ftMbRbZXX2fxlg2zHNBVUfGT5BIyLXWx3vpIr_MA9TKa_jm1TiIdc8C3ASh2IKY-NXMGodRCSu0FL84qKbetNl4ysxBHSqK6Zs1jykPwzPyCZmvUseO4JbZeMySpgWi59PkfoiN7UwWbAK0w0xQDpzJpJTFdE4yP5yjmSPEzGyGRd0Z3KYCzD6N2UqJEf9C6nQ5g6ruc4iWlZZ6-_g\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19695309\/su_0\/rs_0\/tr_3vUCAFxNSL_lXo_x7ApG7aF4LadvAg8FhsyteQjyROyrYoPLlnWJ19quUzBDijfXhIR-HRDXjBxJ0FM6NUcZcwHM4qi_yeMw8gzF1QZGmnYFGFShoSUVM_5ym1HlIa1QpNY0GiurgdT6twerDTXpVnZxGtfsiWUig97OhSqfoaQaBVYviu-req79U2KOk8u1_ZswbvznKHsezAAYELGDf3iZJGsfUucuOrntfavvx2b2JCr7ssSm0GXU3OCt5DGaUs3v2z44tSt-JzRX1jtuxWJTHEl4lAcf3036FFHKhqPbnID995dgviFL1lrW8P7kY0X3skhwWFoi-7JL-ShBKELvxNdP_hj_6-Xp6qaS37gE1X8Jq_9OO_Yp4Uwjdx5EnlPx8TcrefplXYsdu4ZDNC6nO4hJn7BWcwUDQlmznOKOyT-mZi-MNMZbD5y-\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-09-20T07:54:21Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 22:54:46 GMT
+- request:
+    method: post
+    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        Here's to the ones that we got
+        Cheers to the wish you were here, but you're not
+        'Cause the drinks bring back all the memories
+        Of everything we've been through
+        Toast to the ones here today
+        Toast to the ones that we lost on the way
+        'Cause the drinks bring back all the memories
+        And the memories bring back, memories bring back you
+
+        There's a time that I remember, when I did not know no pain
+        When I believed in forever, and everything would stay the same
+        Now my heart feel like December when somebody say your name
+        'Cause I can't reach out to call you, but I know I will one day, yeah
+
+        Everybody hurts sometimes
+        Everybody hurts someday, ayy-ayy
+        But everything gon' be alright
+        Go and raise a glass and say, ayy
+
+        Here's to the ones that we got
+        Cheers to the wish you were here, but you're not
+        ...(1409618830612)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5OnFCTnA0c3pKcEdnSDVlcDl3MXB5NWdhNV9DWjZUamlTSGtaTWdHalFlWmxi
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2908'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-01-06T06:04:45'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - eadc9b563ded2bd38d77b4913132f87f
+      X-Dp-Watson-Tran-Id:
+      - eadc9b563ded2bd38d77b4913132f87f
+      X-Edgeconnect-Midmile-Rtt:
+      - '17'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '421'
+      Date:
+      - Thu, 09 Jan 2020 22:54:47 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.754077,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.599177,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"Here''s
+        to the ones that we got","tones":[]},{"sentence_id":1,"text":"Cheers to the
+        wish you were here, but you''re not","tones":[]},{"sentence_id":2,"text":"''Cause
+        the drinks bring back all the memories","tones":[{"score":0.524515,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":3,"text":"Of
+        everything we''ve been through","tones":[]},{"sentence_id":4,"text":"Toast
+        to the ones here today","tones":[]},{"sentence_id":5,"text":"Toast to the
+        ones that we lost on the way","tones":[{"score":0.509518,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":6,"text":"''Cause
+        the drinks bring back all the memories","tones":[{"score":0.524515,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":7,"text":"And
+        the memories bring back, memories bring back you","tones":[{"score":0.901894,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":8,"text":"","tones":[]},{"sentence_id":9,"text":"There''s
+        a time that I remember, when I did not know no pain","tones":[{"score":0.821913,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":10,"text":"When
+        I believed in forever, and everything would stay the same","tones":[]},{"sentence_id":11,"text":"Now
+        my heart feel like December when somebody say your name","tones":[{"score":0.8152,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":12,"text":"''Cause
+        I can''t reach out to call you, but I know I will one day, yeah","tones":[{"score":0.546169,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.740384,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"","tones":[]},{"sentence_id":14,"text":"Everybody
+        hurts sometimes","tones":[{"score":0.825317,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.994446,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":15,"text":"Everybody
+        hurts someday, ayy-ayy","tones":[{"score":0.703776,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":16,"text":"But
+        everything gon'' be alright","tones":[]},{"sentence_id":17,"text":"Go and
+        raise a glass and say, ayy","tones":[{"score":0.51979,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":18,"text":"","tones":[]},{"sentence_id":19,"text":"Here''s
+        to the ones that we got","tones":[]},{"sentence_id":20,"text":"Cheers to the
+        wish you were here, but you''re not","tones":[]},{"sentence_id":21,"text":"...(1409618830612)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 09 Jan 2020 22:54:47 GMT
+recorded_with: VCR 5.0.0
