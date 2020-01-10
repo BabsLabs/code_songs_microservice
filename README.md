@@ -55,7 +55,6 @@ The following Ruby Gems are used in this project:
 ### Database Diagram
 ![Database Diagram](https://raw.githubusercontent.com/BabsLabs/code_songs_microservice/readme_bb/app/lib/images/Screen%20Shot%202020-01-09%20at%206.09.45%20PM.png)
 
-
 ### Database Setup
 
 #### Local Environment:
