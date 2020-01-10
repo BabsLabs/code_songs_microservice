@@ -10,6 +10,8 @@ class TrackFinder
     service = MusixMatchService.new(@artist_id, nil)
     @top_five_songs ||= service.top_songs
 
+    return [] if @top_five_songs.empty?
+
     find_or_create_tracks_and_sentiments_with_youtube(@top_five_songs)
 
     Track.where(mm_artist_id: @artist_id)
