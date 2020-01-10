@@ -50,21 +50,23 @@ The following Ruby Gems are used in this project:
 * [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
 * [skylight](https://www.skylight.io/)
 
-## Database Diagram
+## Database
+
+### Database Diagram
 ![Database Diagram](https://raw.githubusercontent.com/BabsLabs/code_songs_microservice/readme_bb/app/lib/images/Screen%20Shot%202020-01-09%20at%206.09.45%20PM.png)
 
 
-## Database Setup
+### Database Setup
 
-### Local Environment:
+#### Local Environment:
   - `bundle exec rake db:create`
   - `bundle exec rake db:migrate`
   - `bundle exec rake db:seed`
 
-### Test Environment:
+#### Test Environment:
   - `RACK_ENV=test bundle exec rake db:{migrate,seed}`
 
-## Running Tests:
+### Running Tests:
   - You can run the full testing suite with the command `bundle exec rspec`
 
   - You can run an individual test using `bundle exec rspec <path-to-file>`
