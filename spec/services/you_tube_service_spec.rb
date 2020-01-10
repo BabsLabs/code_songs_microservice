@@ -18,6 +18,6 @@ describe YouTubeService do
     artist_name = 'Michael Bublé'
     youtube_service = YouTubeService.new(song_title, artist_name)
 
-    expect(youtube_service.name_sanatazier(artist_name)).to eq("Michael Bubl")
+    expect(youtube_service.name_sanitizer(artist_name)).to eq("Michael Bubl")
   end
 end

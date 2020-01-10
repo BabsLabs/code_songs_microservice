@@ -5,7 +5,7 @@ class YouTubeService
 
   def initialize(song_title, artist_name)
     @song_title = song_title
-    @artist_name = name_sanatazier(artist_name)
+    @artist_name = name_sanitizer(artist_name)
   end
 
   def get_youtube_link
@@ -28,7 +28,7 @@ class YouTubeService
     "https://www.youtube.com/embed/#{video_id}"
   end
 
-  def name_sanatazier(name)
+  def name_sanitizer(name)
     encoding_options = {
       :invalid           => :replace,  # Replace invalid byte sequences
       :undef             => :replace,  # Replace anything not defined in ASCII
@@ -38,7 +38,7 @@ class YouTubeService
 
     name.encode(Encoding.find('ASCII'), encoding_options)
   end
-  
+
   private
   attr_reader :song_title, :artist_name
 
