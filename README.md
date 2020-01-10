@@ -4,21 +4,26 @@
 
 Find the perfect song for your codebase with CodeSongs!
 
-CodeSongs allows a user to select a GitHub repository and a musical artist and then "Songify" their code to find that artists best matching songs for the code. To do so CodeSongs uses IBM's Watson Tone Analyzer to identify the occurring sentiments in the code as well as in the selected artists top songs. CodeSongs then uses a proprietary algorithm to match the repo with the songs.
+CodeSongs allows a user to select a GitHub repository and a musical artist and then "Songify" their code to find that artists best matching songs for the code. To do so CodeSongs uses IBM's Watson Tone Analyzer to identify the occurring sentiments in the code as well as in the selected artists top songs. CodeSongs then uses a proprietary algorithm to match the repo with the best suited songs.
+
+This repository is for the CodeSongs Microservice. For the other part of CodeSongs see the repository page on [GitHub](https://github.com/BabsLabs/code_songs).
 
 ## Purpose
 
 The purpose of this project was to practice OAuth, Database Design, Background Workers / Cron Tasks, and API calls, and to build a postgresql database with Sinatra.
 
 ## Focus Areas
+
 * Consuming a number of various APIs
-* Authentication using OAuth
 * Authenticated API calls
 * Building features on Greenfield Code
 * Building a Microservice
+* Building a postgresql database in Sinatra
+* Writing a cron task to automatically make API calls to seed and update database
+* Test driven development
+* Project planning
 * Work with a deadline
 * Prioritizing code functionality vs best practices
-* Writing a cron task to automatically make api calls to seed and update the database
 
 ## APIs Used
 * [GitHub API](https://developer.github.com/v3)
@@ -28,10 +33,10 @@ The purpose of this project was to practice OAuth, Database Design, Background W
 
 ## Tech/Framework Used
 
-CodeSongs is written in Ruby and uses Ruby On Rails and Sinatra. It uses a postgresql database and is hosted on Heroku with the Travis CI integration tool.
+The CodeSongs Microservice is written in Sinatra, uses a postgresql database, and is hosted on Heroku with the Travis CI integration tool.
 
 ### Gems
-The following Ruby Gems were used for this project:
+The following Ruby Gems are used in this project:
 
 * [faraday](https://github.com/lostisland/faraday)
 * [figaro](https://github.com/laserlemon/figaro)
@@ -45,9 +50,9 @@ The following Ruby Gems were used for this project:
 * [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
 * [skylight](https://www.skylight.io/)
 
-## Database Diagrams
+## Database Diagram
+![Database Diagram](https://raw.githubusercontent.com/BabsLabs/code_songs_microservice/readme_bb/app/lib/images/Screen%20Shot%202020-01-09%20at%206.09.45%20PM.png)
 
-DIAGRAMS GO HERE!
 
 ## Database Setup
 
@@ -64,7 +69,7 @@ DIAGRAMS GO HERE!
 
   - You can run an individual test using `bundle exec rspec <path-to-file>`
 
-## Using Fiagro or DOTENV in development and testing:
+### Using Fiagro or DOTENV in development and testing:
 Keep enviornment variables secure by using Figaro to generate an `appliation.yml` file or by saving a `.env` file in the root directory. See more information about using the figaro gem at or https://github.com/laserlemon/figaro the dotenv gem at https://github.com/bkeepers/.
 
 ### Required Environment Variables
