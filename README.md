@@ -78,7 +78,7 @@ Environment variables and required API keys/tokens (in Figaro format) :
 1. YouTube API key defined as `ENV['YOUTUBE_API_TOKEN']`
 1. GitHub Token defined as `ENV['GITHUB_TEST_TOKEN']`
 1. MusixMatch Token defined as `ENV['MUSIX_MATCH_TOKEN']`
-1. Watson Token defined as `ENV['MUSIX_MATCH_TOKEN']`
+1. Watson Token defined as `ENV['WATSON_TOKEN']`
 1. Watson Instance defined as `ENV['WATSON_INSTANCE']`
 
 ### Refreshing VCR Test Cassettes
