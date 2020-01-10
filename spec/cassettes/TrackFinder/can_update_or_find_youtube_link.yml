@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1033'
+      - '1022'
       Accept-Ranges:
       - bytes
       - bytes
@@ -42,28 +42,27 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:03 GMT
+      - Fri, 10 Jan 2020 19:13:22 GMT
       X-Served-By:
-      - cache-den19645-DEN
+      - cache-den19627-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636724.559914,VS0,VE123
+      - S1578683602.442889,VS0,VE133
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.013556957244873,"available":778},"body":{"track_list":[{"track":{"track_id":97315475,"track_name":"Love
-        on the Brain","track_name_translation_list":[{"track_name_translation":{"language":"JA","translation":"\u30e9\u30f4\u30fb\u30aa\u30f3\u30fb\u30b6\u30fb\u30d6\u30ec\u30a4\u30f3"}}],"track_rating":89,"commontrack_id":53788034,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":14499,"album_id":21809511,"album_name":"ANTI","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Love-On-The-Brain?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Love-On-The-Brain\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-11-20T18:41:17Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":34,"music_genre_parent_id":0,"music_genre_name":"Music","music_genre_name_extended":"Music","music_genre_vanity":"Music"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":18655045,"track_name":"Diamonds","track_name_translation_list":[{"track_name_translation":{"language":"JA","translation":"\u30c0\u30a4\u30e4\u30e2\u30f3\u30ba"}}],"track_rating":88,"commontrack_id":46513824,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":23841,"album_id":14267790,"album_name":"Unapologetic","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Diamonds?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Diamonds\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2017-04-28T14:15:27Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":32130011,"track_name":"Umbrella","track_name_translation_list":[],"track_rating":86,"commontrack_id":7754516,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":0,"num_favourite":5863,"album_id":11346111,"album_name":"Good
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.022182941436768,"available":778},"body":{"track_list":[{"track":{"track_id":97315475,"track_name":"Love
+        on the Brain","track_name_translation_list":[{"track_name_translation":{"language":"JA","translation":"\u30e9\u30f4\u30fb\u30aa\u30f3\u30fb\u30b6\u30fb\u30d6\u30ec\u30a4\u30f3"}}],"track_rating":89,"commontrack_id":53788034,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":14500,"album_id":21809511,"album_name":"ANTI","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Love-On-The-Brain?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Love-On-The-Brain\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-11-20T18:41:17Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":34,"music_genre_parent_id":0,"music_genre_name":"Music","music_genre_name_extended":"Music","music_genre_vanity":"Music"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":18655045,"track_name":"Diamonds","track_name_translation_list":[{"track_name_translation":{"language":"JA","translation":"\u30c0\u30a4\u30e4\u30e2\u30f3\u30ba"}}],"track_rating":88,"commontrack_id":46513824,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":23841,"album_id":14267790,"album_name":"Unapologetic","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Diamonds?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Diamonds\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2017-04-28T14:15:27Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":32130011,"track_name":"Umbrella","track_name_translation_list":[],"track_rating":86,"commontrack_id":7754516,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":0,"num_favourite":5863,"album_id":11346111,"album_name":"Good
         Girl Gone Bad: Reloaded","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Umbrella?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Umbrella\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2020-01-08T08:12:45Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":15,"music_genre_parent_id":34,"music_genre_name":"R&B\/Soul","music_genre_name_extended":"R&B\/Soul","music_genre_vanity":"R-B-Soul"}}]}}},{"track":{"track_id":129734008,"track_name":"Only
-        Girl (In the World) [Extended Club]","track_name_translation_list":[],"track_rating":82,"commontrack_id":12459513,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":0,"has_richsync":0,"num_favourite":11,"album_id":26102781,"album_name":"Only
-        Girl (In the World)","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Only-Girl-in-the-World-extended-club?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Only-Girl-in-the-World-extended-club\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2017-04-28T14:15:27Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":19814955,"track_name":"We
-        Found Love","track_name_translation_list":[],"track_rating":79,"commontrack_id":12087092,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":8617,"album_id":14327386,"album_name":"Devil
-        in a Blue Dress","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/We-Found-Love?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/We-Found-Love\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-06-29T19:46:34Z","primary_genres":{"music_genre_list":[]}}}]}}}'
+        Girl (In the World) [Extended Club]","track_name_translation_list":[],"track_rating":82,"commontrack_id":12459513,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":0,"num_favourite":11,"album_id":26102781,"album_name":"Only
+        Girl (In the World)","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Only-Girl-in-the-World-extended-club?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Only-Girl-in-the-World-extended-club\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2017-04-28T14:15:27Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":83431454,"track_name":"Bitch
+        better have my money","track_name_translation_list":[],"track_rating":80,"commontrack_id":45966670,"instrumental":0,"explicit":1,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":31785,"album_id":20802394,"album_name":"Wildflower","artist_id":33491890,"artist_name":"Rihanna","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Bitch-better-have-my-money?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Rhianna\/Bitch-better-have-my-money\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2017-04-28T14:15:27Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}}]}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:03 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:22 GMT
 - request:
     method: get
     uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Love%20on%20the%20Brain,%20Rihanna&type=video
@@ -83,9 +82,9 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:12:04 GMT
+      - Fri, 10 Jan 2020 19:13:22 GMT
       Date:
-      - Fri, 10 Jan 2020 06:12:04 GMT
+      - Fri, 10 Jan 2020 19:13:22 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
@@ -158,7 +157,7 @@ http_interactions:
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:04 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:22 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=97315475
@@ -180,7 +179,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1381'
+      - '1383'
       Accept-Ranges:
       - bytes
       - bytes
@@ -201,20 +200,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:05 GMT
+      - Fri, 10 Jan 2020 19:13:23 GMT
       X-Served-By:
-      - cache-den19620-DEN
+      - cache-den19632-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636725.081428,VS0,VE167
+      - S1578683603.020832,VS0,VE161
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.058525085449219},"body":{"lyrics":{"lyrics_id":19882601,"explicit":0,"lyrics_body":"And
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.053848028182983},"body":{"lyrics":{"lyrics_id":19882601,"explicit":0,"lyrics_body":"And
         you got me like oh\nWhat you want from me?\n(What you want from me?)\nAnd
         tried to buy your pretty heart\nBut the price too high\n\nBaby you got me
         like oh\nYou love when I fall apart\n(Fall apart)\nSo you can put me together\nAnd
@@ -223,11 +222,11 @@ http_interactions:
         loving me\n(Loving me)\n\nOh, and babe I''m fist fighting with fire\nJust
         to get close to you\nCan we burn something babe?\nAnd I''ll run for miles
         just to get a taste\n\n...\n\n******* This Lyrics is NOT for Commercial use
-        *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19882601\/su_0\/rs_0\/tr_3vUCAGF2uylw9SyqGvRvhvtedmCBEu9Vr0YGYemiE0ycQ5_zFfe3oxLrrUVq4wsaFX6xhpaTz0yx_McCyzFck8FD6_-rGKG4BS7UAlFxjfrK1uitAgRzUhxNEiJHYKt5StpK3w8KxUl3uVFIhUDVQ240N2KgdwjMGhOCpZbnq1KOfCWPc3TJJxQ6DGK7osP5iaIciOre710k2MCp9jy3a9BmYeXStbe_QEO8MQ-YNYgRPr0mz-uXETRTpVep-1q8l3dcu2jA0AKU9DdgHtSq5p-XQs0-UKVqzRSbfGWHNHjRSN3TorWFn0lVYKGv6Ghe9uKrT_vfBnIFWRY4H_0ulPz1uaAm7b1Aky--ZZcG90IhUDSVJXadpmxcFCJ3PxYixyWXM-ZO6OfM4WPAWKsOZTz1kcS8LeHFhxHwSWtFU9CTrRrCkx294wS_MOFeKT-V0l5vu5-H6Y6w\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19882601\/su_0\/rs_0\/tr_3vUCACmUAeykLTvrKVQ6pnsOjJKw1HbjV-dDU6jERBOUMc_KgcMaGzkDx94vl3javxKW_onfLt2gTQcbIs-LudZV68XT7m4ztk57yEUI_UJtYViRJqxQedTYRMdiPtr_gpKJarPcC0cptg7u2lb9ojzGF-lj3eJ3F9ZN12eN5lu8zbU6SP9ImnmyCfJEfu6l8JExnmtDZBiVUH3_SWLMRT95CtgR5sGlNqGg9h2i-o-31gBXX7d-2WceQi6ZDdPRK4B1eNajfiuxGoo1uqBAjY577YZJ_sXTroqZIKYwpcRkgaZ2U8Ri04TIv4jsfXlkzwn-rUau0OmLZGyfxbiWH-qx1eTblhPbaIEdMwalV9GYQ_TY7N3a3qxgUfoFuYu0A3Bz6x6XfSQmDTGHykUsQ7Tt5nZiJFT4X-v7cOim2Jnisvqtno6ojV1wErVLlOZYsYeFMFnxcHC9\/","lyrics_copyright":"Lyrics
+        *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19882601\/su_0\/rs_0\/tr_3vUCANCfUUE4CdlOgYpdTrvAqV7-hKsxxRzt2csgUTuYXtRwLWhKpYSPyew2gNAetJiWi6gOSds5WmxkxAKnSsFVPYzoN1HjotrqM04tHjFLuMAql09JBznGpfvz_PR38G1FcgPgI48HmGgp6iv0RUANW4oLJX4cF-0nMWIOliomipMrvIbj0u_4KkCiH8tgFf1K5FVKzVytQoUfxYFHdyvdcrjOymZcz3OvRuyVZ48TGH_YQ8uIH4VA0MZpwh4Dl358HaBVMmeak7JQR80rsHNXsDA4Reyg53y6LCsgL1eMKjjEUkGPqnq68GOxG0vE4Kci84o-HoRDwjaAChxydXHUDwK-RpicKnmrewfxxu3sRUte9XZDHI4BSes6YFv2djzdgNMwbY-Og7inDSLqQc6V1nkkFVwaiBTjWp2Hacfg8pNIk4UQaYlOeij48xNKBu2BSVDw1pvq\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19882601\/su_0\/rs_0\/tr_3vUCACMlIefjJwyG88ITML-XcbdsNz6NbnZI-vvMBaKIYL3onrjxmp4dFUFIqf71MmICrxfu75FwT3uckQiQtLGifLbohKiHo-x1PVRFS7o6Nl57M8VpAP3cYQI5o5cvF3Je-XOX-E5DXTDn8nRPygvewa08E9FCr_PJm5glgtpTTbvEq-drWOsagnyVnA3FdpGSJdDLDRPM7kcaqgYnu6HBsSq4GkI1-Tg3GhAVo3XASVhG_mJLckxWAOJyJN0CJaBYWRv8ilFr1_C-V2YmQUUgbekcKsstBfqIEsDBUsZ8PSmKUW9Eo2RK--W69UTe8jO2_BWag5fTtcqXHAJX3AAvoLzyu2MoHdRVi5t7kuQ9v6nwk4lmi5OvxkoMvo5T9_1ts80WqNMhQLbC6opoCe6Hw5YlBdCAzmZ2ZMUMAoihtOEoMRom_I_ntElmp_xUBz_DgHYyi7mp\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-10-29T09:02:30Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:05 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:23 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -301,15 +300,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - aed21ef04091ff328cbae0f4debda9c7
+      - d4a7f147eb37edd30d261eec13d60e0e
       X-Dp-Watson-Tran-Id:
-      - aed21ef04091ff328cbae0f4debda9c7
+      - d4a7f147eb37edd30d261eec13d60e0e
       X-Edgeconnect-Midmile-Rtt:
-      - '0'
+      - '2'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '332'
+      - '341'
       Date:
-      - Fri, 10 Jan 2020 06:12:06 GMT
+      - Fri, 10 Jan 2020 19:13:23 GMT
       Connection:
       - keep-alive
     body:
@@ -334,10 +333,10 @@ http_interactions:
         we burn something babe?","tones":[{"score":0.968123,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":21,"text":"And
         I''ll run for miles just to get a taste","tones":[{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":22,"text":"","tones":[]},{"sentence_id":23,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:06 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:23 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Love%20on%20the%20Brain,%20Rihanna&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Diamonds,%20Rihanna&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -354,13 +353,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:12:06 GMT
+      - Fri, 10 Jan 2020 19:13:24 GMT
       Date:
-      - Fri, 10 Jan 2020 06:12:06 GMT
+      - Fri, 10 Jan 2020 19:13:24 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/k3h-qidPVvWQxzvU_hwTp_LwG38"'
       Vary:
       - Origin
       - X-Origin
@@ -385,7 +384,7 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/k3h-qidPVvWQxzvU_hwTp_LwG38\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
@@ -395,41 +394,41 @@ http_interactions:
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/gHqQkvNydvrZQQn7chrwliiEIA8\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/yPsIFOW6oFUEQqgFJ9BHs_iI9AQ\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0RyInjfgNc4"
+            "videoId": "lWA2pjMjpBs"
            },
            "snippet": {
-            "publishedAt": "2016-06-26T13:24:36.000Z",
-            "channelId": "UCuJt_oBsyBgq5d8JBJeJ8Vg",
-            "title": "Rihanna - Love On The Brain",
-            "description": "Get Rihanna's eighth studio album ANTI featuring Love On The Brain now: TIDAL: http://smarturl.it/downloadANTI iTunes: http://smarturl.it/i_dlx_ANTI Google ...",
+            "publishedAt": "2012-11-09T00:18:50.000Z",
+            "channelId": "UC2xskkQVFEpLcGFnNSLQY0A",
+            "title": "Rihanna - Diamonds",
+            "description": "Get Rihanna's eighth studio album ANTI now: Download on TIDAL: http://smarturl.it/downloadANTI Stream on TIDAL: http://smarturl.it/streamANTIdlx Download ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/default.jpg",
+              "url": "https://i.ytimg.com/vi/lWA2pjMjpBs/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/lWA2pjMjpBs/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/lWA2pjMjpBs/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Lenn Beauty",
+            "channelTitle": "RihannaVEVO",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:07 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:24 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=18655045
@@ -451,7 +450,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1347'
+      - '1350'
       Accept-Ranges:
       - bytes
       - bytes
@@ -472,20 +471,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:07 GMT
+      - Fri, 10 Jan 2020 19:13:24 GMT
       X-Served-By:
-      - cache-den19642-DEN
+      - cache-den19629-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636728.532551,VS0,VE163
+      - S1578683604.192603,VS0,VE188
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.056265830993652},"body":{"lyrics":{"lyrics_id":14632566,"explicit":0,"lyrics_body":"Shine
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.076059103012085},"body":{"lyrics":{"lyrics_id":14632566,"explicit":0,"lyrics_body":"Shine
         bright like a diamond\nShine bright like a diamond\n\nFind light in the beautiful
         sea\nI choose to be happy\nYou and I, you and I\n\nWe''re like diamonds in
         the sky\nYou''re a shooting star I see\nA vision of ecstasy\nWhen you hold
@@ -494,11 +493,11 @@ http_interactions:
         saw the life inside your eyes\nSo shine bright, tonight you and I\nWe''re
         beautiful like diamonds in the sky\nEye to eye, so alive\n\nWe''re beautiful
         like diamonds in the sky\nShine bright like a diamond\nShine bright like a
-        diamond\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_14632566\/su_0\/rs_0\/tr_3vUCAFjOW87XfnGMJEY8JMwjR7zTDvXHc8MzbXnJbal3nZCQFdAxRHjBOnwvzHAa1FDfbtjB5W5qW2VQjVl7rGJXD4rjRTwGsbCsfRyzdCM8uh4LNMlOqOw-LPMlLRDmR2uh1w2IAqa62FqmGq0k6RzpWBPebOPDhn2cw8TmvjGrVeh85rp3CvUoZVHKPP0TDaJPqDga0mLIGPfxn9W-Mj1OKdcAbvAph5CA8LG9rweNzHFU9dyiItABarTohPye_se9Ms5pt11urk7b2DJ7-cSDp-juG2c6fg8ltbp22HF8N2Lurc-Z4boyWDw5YcOltOuSKTFBxvG1wYCxHrUbhXQcR5hxRUok-1y6JpSv4YInJALPZLNHmW3iJyiFdx6ZS8DGlrGmnuj88wX5VOxwU79NfCBunve58_54aS3gUThNBxSdynxPCwtz38LVGQA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_14632566\/su_0\/rs_0\/tr_3vUCAOqr1IY4IJFKEy-2637ZSEDceIAztatcAHIh3NI65ZuvMlsxoxxacxN5FCSnwWkrTst3o3ueS1UHt3RL251Vvg3TQhM2ugYvFHzYspPV0UBCG-EfQPe9uvNHBF40wseZHW4sBJfbF6EcWmgr-Zn-8FxM40buqQKO3ewq4pXajP0BSAM5FGkZImt3F9B1EaW-m4p5_N9wgfuyjxgmw2S83XA07lS8DKo0NW_V-mCIv7rMzUekhb8DgdPzaICzUsNi8ho3vHJ4eSquyWq-1SQozHU0DqfUsHaUcRikFYnO4wv9ZGdrxX9Mdg2JMpNyW-WzkrA4dprip1KdbHYy3Sn9et3p1_ZNUpPQDklrIUaqLPtuUJs7evA9K69dHjrczMYoBRKr4oiV27fEtaAPG5ilERe8zwiXHoIICC2Yk5YvR9vt2gNLcz3F8DxtFQE\/","lyrics_copyright":"Lyrics
+        diamond\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_14632566\/su_0\/rs_0\/tr_3vUCAOnF-UNwMO4inzWNCMxdJyuL6LEmNFhmY6IyEYwChftLloazuBAu1vuNShvlSAkh0Sj5EPzZxIzWlfH8-k_qbRwTOx_8IxhxlLUkLB-lpyuR6RZyuwhtVtS_lKCuk29vRAM8f_N_d1XUTxG4AAPKUpevvcxwWZS8jPMkXtfMdXlsV8l2IUSml3UzNr1d8AFOQ9T_MEGPIpjktdHgMFpTUovpr1cTgXikYMqNUvCSCHwOemA2kUEoYr_JsSVYWxwvj0U8JPL37NT1HO98Oc-Ya7FjEJ0mJWlpQn4IEzJ7lpuSEuWKJquiq5cOwri10jK7d8UxQDJAZTstLrFBGOz4DsUElbQgRUSu1o4Dh6rCFkjYXlZiftMdQMJz7bRMZzcqppb3741I-F1eQbwuQP_LNvfGcc6SQPp2cijgNmQc6NKdDq7jLKotxRLHuuY\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_14632566\/su_0\/rs_0\/tr_3vUCAM4DpLLXBYBOKNhM7U8LMLeYG_bB1v08-9HD07914bUKdU8HHZUfmY4uUH5gqfXOaHZBdwHIMcF9P4GNeUx5eQAEaQzh-YvGwkyqvArgLBl2-ji_tXo81u04HyhYCzoSRSGLfiCwwElNkKgP1Gw2joNRB5LhgtujPvfRcQXM4mkwwR2ikwW5FIRZxXuXR45dwuN4MZbbASavq8mDUno7xr01THakpjSF4AuwhslDIPPTjZxDFOtln7X2pM3lVCoDfpd_ctpx6AX6IdZ2uo7LQgzuuZ04B_reaJF7t9Fa0XJ8U6hzRCuVJUNXMJ2GZDsPIqDP36yBST2Y5ptym49UsylJZPz2UDqkNHdQwNOYOWjNLtBspZnpk7ppLVka8CzdGk82sxDct3ALWRZu_MertvDEwJKGhSP73lsNWZE7Og2mth-AN2C-qWKsyoQ\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-03-13T11:57:44Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:07 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:24 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -574,15 +573,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - b2ac48a3609d488300b734fcab5f84cd
+      - 407a138b83ed83fc044363a29eb063a9
       X-Dp-Watson-Tran-Id:
-      - b2ac48a3609d488300b734fcab5f84cd
+      - 407a138b83ed83fc044363a29eb063a9
       X-Edgeconnect-Midmile-Rtt:
-      - '0'
+      - '6'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '311'
+      - '357'
       Date:
-      - Fri, 10 Jan 2020 06:12:08 GMT
+      - Fri, 10 Jan 2020 19:13:24 GMT
       Connection:
       - keep-alive
     body:
@@ -608,10 +607,10 @@ http_interactions:
         bright like a diamond","tones":[{"score":0.854634,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":24,"text":"Shine
         bright like a diamond","tones":[{"score":0.854634,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":25,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:08 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:24 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Love%20on%20the%20Brain,%20Rihanna&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Umbrella,%20Rhianna&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -628,13 +627,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:12:09 GMT
+      - Fri, 10 Jan 2020 19:13:25 GMT
       Date:
-      - Fri, 10 Jan 2020 06:12:09 GMT
+      - Fri, 10 Jan 2020 19:13:25 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/8E_GfNM6JGmdJ0FpYvpzZnkvpSM"'
       Vary:
       - Origin
       - X-Origin
@@ -659,51 +658,51 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/8E_GfNM6JGmdJ0FpYvpzZnkvpSM\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
-          "totalResults": 1000000,
+          "totalResults": 254712,
           "resultsPerPage": 1
          },
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/gHqQkvNydvrZQQn7chrwliiEIA8\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/VczMPnsz0bCo0pb6P2_49EUxPpk\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0RyInjfgNc4"
+            "videoId": "CvBfHwUxHIk"
            },
            "snippet": {
-            "publishedAt": "2016-06-26T13:24:36.000Z",
-            "channelId": "UCuJt_oBsyBgq5d8JBJeJ8Vg",
-            "title": "Rihanna - Love On The Brain",
-            "description": "Get Rihanna's eighth studio album ANTI featuring Love On The Brain now: TIDAL: http://smarturl.it/downloadANTI iTunes: http://smarturl.it/i_dlx_ANTI Google ...",
+            "publishedAt": "2009-12-14T03:28:47.000Z",
+            "channelId": "UC2xskkQVFEpLcGFnNSLQY0A",
+            "title": "Rihanna - Umbrella (Orange Version) ft. JAY-Z",
+            "description": "Get Rihanna's eighth studio album ANTI now: Download on TIDAL: http://smarturl.it/downloadANTI Stream on TIDAL: http://smarturl.it/streamANTIdlx Download ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/default.jpg",
+              "url": "https://i.ytimg.com/vi/CvBfHwUxHIk/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/CvBfHwUxHIk/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/CvBfHwUxHIk/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Lenn Beauty",
+            "channelTitle": "RihannaVEVO",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:09 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:25 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=32130011
@@ -725,7 +724,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1617'
+      - '1618'
       Accept-Ranges:
       - bytes
       - bytes
@@ -746,20 +745,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:09 GMT
+      - Fri, 10 Jan 2020 19:13:25 GMT
       X-Served-By:
-      - cache-den19641-DEN
+      - cache-den19647-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636730.511616,VS0,VE214
+      - S1578683605.369694,VS0,VE221
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.10303092002869},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.11270904541016},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
         uh-huh (Yeah, Rihanna)\nUh-huh, uh-huh (Good girl, gone bad)\nUh-huh, uh-huh
         (Take three, action)\nUh-huh, uh-huh (Hov)\n\nNo clouds in my stones\nLet
         it rain, I hydroplane in the bank\nComin'' down like the Dow Jones\nWhen the
@@ -773,11 +772,11 @@ http_interactions:
         be here forever\nSaid I''ll always be your friend\nTook an oath, I''ma stick
         it out to the end\nNow that it''s raining more than ever\nKnow that we''ll
         still have each other\nYou can stand under my umbrella\n...\n\n******* This
-        Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAFSAicIsB3ErRZDPkrUYpU43FmEOwK84KrSXMPxBwxrcwU8Io2a3g8zZQdRwvJjY2wvC-moxL9MdxuZ9ag4pmlrQGsa2vlzEB0nzHygJl_iG9ibWq8x27t5O1nG-E_kFQ51t4VaUmQM9Sms1uKqhdjmTHUv07pg_FvtVlcogf7YFchQj3i9EllqV9facHj16cqYsiQ7fsWhLpDMxgVNkYo_S5jd-DsrT-22-wqs0B_ScRZomLZGSAVfvpbjIIANe18PEKF5-ybvq6_mb7lVAJknpPDFgH66fkxY-ULUZJM7D8DQrpVB9HZtFRfjf23Ybsepc4vDqHwW3_RwCTMY85luVv5QqyiqIQsfwQJmT9JsExvvo1ZRx3-4gApd0AAiekZf6xXM1_y0sgeYUbxT_rLKJP5zE6iS0G3hoS1EiFQYZzIQv54W5IdM\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAJNzwBgFKkf7HL4-zTACUniZYhwal_ywjMOYYn7cUlTC8GWLoUSagGUvW7_2Iegbxb5NFuQqNlaglYfFe8T5VYOadgA8iOjF_JwkcdA2-_gpCw9WB-P8EOPBp7Oq54uvduQtXfZAQO3O6dNH6kdCoLujVmAb_SFr_teYcwS8pH9u9ZxuZO5ANeL7o2b7OxHjduqXbZGzTsrJdh5pgFNmzlcdHAoAvnpzFcARJYmjnqHg_svmSmkNcZy5ftrZvjYnbt2x-EN0CJclnueejH5wwJWyPSgJk-qTDt6FMnR8w3nojs9UfBxg5uM64RgFU8SH3Le8oDuO53mi3a2XrBlIp216_XaMLnir2pA5cYo9qvms7PxoPdEJQIg8nKWsTRnym53Oz0jJqSsA9p3yM7B10-hCJNct_1QVo1vzpGBagPfEiv2JetMdYUA\/","lyrics_copyright":"Lyrics
+        Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCADidHjbanf0Z1kVa-398Rq5wPbUcfAaKHMNsk5gAhaWGjhkhw_r84u7E1u0GnvaF0H3RiNkQ5Ris7THRYEvp9YdtiAtjhN8xd1TodtZx2kulpQsINO-eMXrS6LhoYrr5OipJ2Jp4p1sRGyK8M_H0NeU2nfTByfMsq4eI_zMk-Zll_z5T2Ra1xaCmWm-okbSAUDfs-TK_KlZsgDQZSywjskLwgb2ALn6bBySLRFCjPbIStL-JOdgz2mt1cKA0V3TV9aB3-JHMLLHwjEeO-JynKXN93zzE9toXPzbjTRqJ56oz35b9PP6JTohVzxd86GXXQKR2hk2topCyGBcekRjqz3imFZlihxq_yI7icBTNhO1CY1xVUM3eR9edSN5SyJ1-t90WzvJI5HWnfyGI7HbCmBC4FW3HWc9toWQlTVRKZJsIUhJn0tx2Uo4\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAApfEXiceS8PvW2xeWOtLrtJ0OGfUzgDs8L7vmZ1t1RR3uYVs-BisUUFPZL-h1No1yWKX_ier7RniSQ8THclYYLpMuPRc1nyKR-gP6nsvr6hqERsKQN0X7WjGgT2etIVnc52k9cUTl8OOgN4sspG8GSHNVHfjyzZVOzIsPpmzsI98_btPoHoUyWDYWrN7wSGbPv9zFAbW4q9o1QAfuklE_rrsQC_B6H5iCeLVYDncafk9Qqy5iZjuhvG7ImcIAwU4DnsuJAyyzJLBT07cpKeLn_LLrB46jjZ8PlXxVQFpl0T69BV9PYGU9_iFNK2zAMder3WJ4L6WJUnJo9djho92Bmyz0Lsaav1kIBT5jHrmazfxKLmWWTeKb8seDxX0tvEBeafsNIfjFW0hPVK9sGYmbnSgfVeDtBDxrr_06P6SRNLpj1P8MV5jU4\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2020-01-08T08:12:42Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:09 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:25 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -864,15 +863,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 91752eb65789c76c9aa49421696bc89b
+      - de062d494c9b2f0aeb973c2afbfa59b6
       X-Dp-Watson-Tran-Id:
-      - 91752eb65789c76c9aa49421696bc89b
+      - de062d494c9b2f0aeb973c2afbfa59b6
       X-Edgeconnect-Midmile-Rtt:
-      - '0'
+      - '4'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '362'
+      - '307'
       Date:
-      - Fri, 10 Jan 2020 06:12:10 GMT
+      - Fri, 10 Jan 2020 19:13:26 GMT
       Connection:
       - keep-alive
     body:
@@ -908,10 +907,10 @@ http_interactions:
         that we''ll still have each other","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":34,"text":"You
         can stand under my umbrella","tones":[]},{"sentence_id":35,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:10 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:26 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Love%20on%20the%20Brain,%20Rihanna&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Only%20Girl%20(In%20the%20World)%20%5BExtended%20Club%5D,%20Rihanna&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -928,13 +927,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:12:11 GMT
+      - Fri, 10 Jan 2020 19:13:26 GMT
       Date:
-      - Fri, 10 Jan 2020 06:12:11 GMT
+      - Fri, 10 Jan 2020 19:13:26 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/QDM0Vs3Ohj4XTnBXvslMGKT4Y8s"'
       Vary:
       - Origin
       - X-Origin
@@ -959,51 +958,51 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/QDM0Vs3Ohj4XTnBXvslMGKT4Y8s\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
-          "totalResults": 1000000,
+          "totalResults": 894191,
           "resultsPerPage": 1
          },
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/gHqQkvNydvrZQQn7chrwliiEIA8\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/2KAjauVixZ2iZeSU5KiaQXOi7_4\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0RyInjfgNc4"
+            "videoId": "ezgdI53vTYA"
            },
            "snippet": {
-            "publishedAt": "2016-06-26T13:24:36.000Z",
-            "channelId": "UCuJt_oBsyBgq5d8JBJeJ8Vg",
-            "title": "Rihanna - Love On The Brain",
-            "description": "Get Rihanna's eighth studio album ANTI featuring Love On The Brain now: TIDAL: http://smarturl.it/downloadANTI iTunes: http://smarturl.it/i_dlx_ANTI Google ...",
+            "publishedAt": "2010-10-21T15:29:26.000Z",
+            "channelId": "UCBRKQuHmLKMd1yPfICZoA9Q",
+            "title": "Rihanna - Only Girl (In The World) Extended Club Mix",
+            "description": "La la la la La la la la La la la la I want you to love me, like I'm a hot pie Keep thinkin' of me, doin' what you like So boy forget about the world cuz it's gon' be me ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/default.jpg",
+              "url": "https://i.ytimg.com/vi/ezgdI53vTYA/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ezgdI53vTYA/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/ezgdI53vTYA/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Lenn Beauty",
+            "channelTitle": "MinaPrettyApril",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:11 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:26 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=129734008
@@ -1025,7 +1024,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1421'
+      - '1420'
       Accept-Ranges:
       - bytes
       - bytes
@@ -1046,20 +1045,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:11 GMT
+      - Fri, 10 Jan 2020 19:13:26 GMT
       X-Served-By:
-      - cache-den19620-DEN
+      - cache-den19643-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636732.742898,VS0,VE161
+      - S1578683607.601546,VS0,VE162
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.055958986282349},"body":{"lyrics":{"lyrics_id":7161843,"explicit":0,"lyrics_body":"La
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.053775072097778},"body":{"lyrics":{"lyrics_id":7161843,"explicit":0,"lyrics_body":"La
         la la la\nLa la la la\nLa la la la\nLa la la la\n\nI want you to love me,
         like I''m a hot ride\nBe thinkin'' of me, doin'' what you like\n\nSo boy forget
         about the world ''cause it''s gon'' be me and you tonight\nI wanna make you
@@ -1069,11 +1068,11 @@ http_interactions:
         in the world\n\nLike I''m the only one that''s in command\n''Cause I''m the
         only one who understands\nHow to make you feel like a man, yeah\n\nWant you
         to make me feel like I''m the only girl in the world\n...\n\n******* This
-        Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_7161843\/su_0\/rs_0\/tr_3vUCAE5LsW23vpNNlXTHqRixtv_fbNtX19Masq4AREVUiR2C0EFIpIUrTxU6a4eTBk7yXLjprXEHE1VcokVLwIiUQjH_znlKaooIprPqT-9m5K4CxLiDfrG0vsZ0oGQxaZtbYBNmO6z_-Vs6xbtPMzc4K19WeFVyVikjV1aJ9mQiGqed6iEce-L23fJmiDp5WoIdjLT-11AcBymC6w-RpyWCNx2AyGTyQPlJO12nCXUDaFmwFeZAqpgePA6gjFJjBiOYUqw-P3-tTbCwJcsEOQOQrpSuS490lVBimZthF7amFnsqoSbRLn3xYZmfQRhj72woBV-74MBJV7UDhJvduPw2faVzf4R-jZlRGhVua_hLaL-QY9fjkqC51Gm73dI8iH9V3zXxlD_F6dYh_IrTUEMmE_Xb3o5hkJvIiRfouyYJlc8E41iAQjr9Rk3-wZ7WyNvPJDEzHSDR6Imq90kS-KB38pmuzwGI7pjGeXL8nF5tQac\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_7161843\/su_0\/rs_0\/tr_3vUCAOc7SQoH0Zcssu3QLPYXORouaV40o5YrD9Nrq_cgvvLJdFAsas_-BIShmec0dC4eAFkJWNmcx6O3vlBdsj7i97SRowuf0nfAxSyMmRq88FGGvX1Ym21sBHDKz586cj3Y7Sxxn8QdbXUnRXwxST7s5sAakuPDleOFHsWo1Jzw-2iB7GpwvrcN8t49PFWO_RnnZVGJ5YGqGetvhh3-dAhr8E2ZwW1wPKl9QHYhH24KJi_XBVDuW3kM34nebYoHLTKxmvU8_1hrvQAFqfAi602k3s8Lg8iErIbhvyERUN9MvJEO9V6pYh8PrL_aJ-aHiXhnm_T8L8t1ZYY-sItBdJrmPBtd4v69XTWW5GeH9FydYFECZppTD8sexx7OR0yl0DIgq_jrslsLuCx0u09tC6utdlkJFTqY5Tze6e5_nhZgy0pfkjrokHmYMxWPme1duMgIr3cZtVo2PPSQ5kmIZ-2dYiJaH_lYCa2AFzx9m6V3OXk\/","lyrics_copyright":"Lyrics
+        Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_7161843\/su_0\/rs_0\/tr_3vUCADsd3FIP8hc0PUb3r3fXQJ36HkOJqWvwTBtaJPLSeDrjMne3PDtbAd3TG821b-IAjfvEcgX-p6F6AOZfhedJjka49RjQvwRnDZiIfugKo_PYdUzYJ-JzG3z5zlpgEd5cstmf4jWvVfj5Jec6bLlvn-_AbQbTju8CzV1RrTy1Xg95SXMy7H_N3ZJM8QNik0wUaY9xOs-nEqtXG-X-1M8nMgpQhYVcf05k6wtqu10lKr6AU_zyzXHrKfR1CB81uHttlikXHtK1Xa9lMAFs7lPcUc2p-cKbEUnfmu9W7G2eFvriwjAW7JqZNS_z2sAqt2FetGvfy2w9i9O0uZmaBMr3d2_zh4ILMFHi7d7WxZSqH5-Bw5cH-0QjlkQoM-cSTkN5YNThKxFnqYdh_wk_AfKIY_nuLrwsOTGdqfnRRSrbUtg5nZ0B4WJ72Oikq9He2I8pBLVf7EfqD6GZSQqorYvtCZ3VNLxGzGg5eSS2vdo5MSE\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_7161843\/su_0\/rs_0\/tr_3vUCAJ0th0HQVkGq7RNrDR-meYIgHk5VwPE9QO161JJ6VVa7_an23ZC0T5jiPM4QVh4sbAI9jgCe167VdaF-ImZgpnR_Cxxirwb5EpSN-qPzcDH1IQEZM0CRgBAVvJNEqTeto3VywhbyFluJ9P1AmF9WiY0uZg0_ddhpIJm7ydkS4tzHo5DpzcbFA2OhOxXCKvCjDh8JPgwhN3SX1uxW0aII4eva_eW3MTUjKMYp2ks9gSxN9eYOQOX57OeibmyG_5MAKUVgP2utn9d8en12qAXmwQ8pUNxfj_cir1YAC6SKM2aGcsT9zQhOAfUxXq_0Fw90UBDQKWssqlw7YBltW3J9n-mRX8uW_cK-IPQNujAmVMtS2KXMUJF1lS3YZJipGg5g0PS-z5ASLq5MepmfIw3sW9ihqiVmL2AT3RWWgUntcDWAve0H2T9obaqXzNqVODzAnIiy914T47WheA9cdbOREsloI6sAWUoD8vnh3roTPH0\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-07-29T10:29:51Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:11 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:26 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
@@ -1145,20 +1144,20 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 80d5c62b37cda4d6676a297c44a921a7
+      - a3bc726ba36a22927ca1d6772ec3e69e
       X-Dp-Watson-Tran-Id:
-      - 80d5c62b37cda4d6676a297c44a921a7
+      - a3bc726ba36a22927ca1d6772ec3e69e
       X-Edgeconnect-Midmile-Rtt:
-      - '0'
+      - '2'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '334'
+      - '335'
       Date:
-      - Fri, 10 Jan 2020 06:12:12 GMT
+      - Fri, 10 Jan 2020 19:13:27 GMT
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"document_tone":{"tones":[{"score":0.502832,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.698664,"tone_id":"analytical","tone_name":"Analytical"}]},"sentences_tone":[{"sentence_id":0,"text":"La
+      string: '{"document_tone":{"tones":[{"score":0.698664,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.502832,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"La
         la la la","tones":[]},{"sentence_id":1,"text":"La la la la","tones":[]},{"sentence_id":2,"text":"La
         la la la","tones":[]},{"sentence_id":3,"text":"La la la la","tones":[]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"I
         want you to love me, like I''m a hot ride","tones":[{"score":0.788345,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":6,"text":"Be
@@ -1167,17 +1166,17 @@ http_interactions:
         wanna make you beg for it, then im gon'' make you swallow your pride","tones":[{"score":0.509584,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":10,"text":"","tones":[]},{"sentence_id":11,"text":"Want
         you to make me feel like I''m the only girl in the world","tones":[{"score":0.513587,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.821913,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":12,"text":"Like
         I''m the only one that you''ll ever love","tones":[{"score":0.782873,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":13,"text":"Like
-        I''m the only one who knows your heart","tones":[{"score":0.5538,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"Only
+        I''m the only one who knows your heart","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.5538,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":14,"text":"Only
         girl in the world","tones":[{"score":0.604634,"tone_id":"joy","tone_name":"Joy"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":15,"text":"","tones":[]},{"sentence_id":16,"text":"Like
         I''m the only one that''s in command","tones":[{"score":0.610552,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":17,"text":"''Cause
         I''m the only one who understands","tones":[{"score":0.961593,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":18,"text":"How
         to make you feel like a man, yeah","tones":[]},{"sentence_id":19,"text":"","tones":[]},{"sentence_id":20,"text":"Want
         you to make me feel like I''m the only girl in the world","tones":[{"score":0.513587,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.821913,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":21,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:12 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:27 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Love%20on%20the%20Brain,%20Rihanna&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Bitch%20better%20have%20my%20money,%20Rihanna&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -1194,13 +1193,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:12:13 GMT
+      - Fri, 10 Jan 2020 19:13:27 GMT
       Date:
-      - Fri, 10 Jan 2020 06:12:13 GMT
+      - Fri, 10 Jan 2020 19:13:27 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/ppc99Y7NuUiKsEbDKeK3hAwbMi8"'
       Vary:
       - Origin
       - X-Origin
@@ -1225,7 +1224,7 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/GJ-hE0tBi9aiKVvpH4gBvOTimaA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/ppc99Y7NuUiKsEbDKeK3hAwbMi8\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
@@ -1235,44 +1234,44 @@ http_interactions:
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/gHqQkvNydvrZQQn7chrwliiEIA8\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/9c1xQTz7KQ0y0DozP20Uuv7ZqY4\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0RyInjfgNc4"
+            "videoId": "B3eAMGXFw1o"
            },
            "snippet": {
-            "publishedAt": "2016-06-26T13:24:36.000Z",
-            "channelId": "UCuJt_oBsyBgq5d8JBJeJ8Vg",
-            "title": "Rihanna - Love On The Brain",
-            "description": "Get Rihanna's eighth studio album ANTI featuring Love On The Brain now: TIDAL: http://smarturl.it/downloadANTI iTunes: http://smarturl.it/i_dlx_ANTI Google ...",
+            "publishedAt": "2015-07-02T04:00:01.000Z",
+            "channelId": "UC2xskkQVFEpLcGFnNSLQY0A",
+            "title": "Rihanna - Bitch Better Have My Money (Explicit)",
+            "description": "Get Rihanna's eighth studio album ANTI now: Download on TIDAL: http://smarturl.it/downloadANTI Stream on TIDAL: http://smarturl.it/streamANTIdlx Download ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/default.jpg",
+              "url": "https://i.ytimg.com/vi/B3eAMGXFw1o/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/B3eAMGXFw1o/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0RyInjfgNc4/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/B3eAMGXFw1o/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Lenn Beauty",
+            "channelTitle": "RihannaVEVO",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:13 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:27 GMT
 - request:
     method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=19814955
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=83431454
     body:
       encoding: US-ASCII
       string: ''
@@ -1291,7 +1290,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1254'
+      - '1433'
       Accept-Ranges:
       - bytes
       - bytes
@@ -1312,49 +1311,61 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 06:12:14 GMT
+      - Fri, 10 Jan 2020 19:13:28 GMT
       X-Served-By:
-      - cache-den19620-DEN
+      - cache-den19645-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578636734.960928,VS0,VE136
+      - S1578683608.833259,VS0,VE168
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.028401136398315},"body":{"lyrics":{"lyrics_id":19353029,"explicit":0,"lyrics_body":"Yellow
-        diamonds in the light\nAnd we''re standing side by side\nAs your shadow crosses
-        mine\nWhat it takes to come alive\n\nIt''s the way I''m feeling, I just can''t
-        deny\nBut I''ve gotta let it go\n\nWe found love in a hopeless place\nWe found
-        love in a hopeless place\nWe found love in a hopeless place\nWe found love
-        in a hopeless place\n\n...\n\n******* This Lyrics is NOT for Commercial use
-        *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19353029\/su_0\/rs_0\/tr_3vUCAGI13Md5n498OgDnW9_r3-jHH2g1DGnyZqVm40-uJjPsdmbEVMwyHQl7GVRwoMAdWogwbiJvehIGF1OwPQGsl7bpOOVOiLdPbAnP3isKJcBSc07ImI2JA6J8Lhjc4BaTm7O1xqBC3fiS-6DDLFK3Nmu8L8BH6d7Uj50vFgtj0v1eDd6_lFri-7m8_0k-9oPX6_ZtsLUQT2kkZ3Q0F3h0fFeasuXHK4rbqodMgD9Yv_PPNuPIE_IxZTw38NFAT3gPlh7mMODFoPmeNYAzTpFcXXeir00KETNkPCUO6IX3lqzjfX164RxrO43WgOOwkqrIg77Yrkdj6S6Ubc2lKwRs1nFhpvFcRCTaxAHmef1zhH-KvVQG6ufsbRK-EoUAFRsqm-1cwphxuB0ZDzP-R4gZf_CPAvnFnC9Z9Dmtj5XGVPi-TzQQwBVZWoSxtUU4YbOGzDQ\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19353029\/su_0\/rs_0\/tr_3vUCANfM_qLXUUDvIHey_spcCrL8n9ovW-mpPDJTCiBMd9UbpP7D0GHjHyGeJstxWCF8Aavzn5xyyPoPS80o0KMH6N7VBJ-q5nv_WpSnJQE9yHcySAXhIW5bbZsqB6mN9FR-fHQy0hcDzAbM-7VKVSYiHOhnI6CVWRFveosV3tu-f9tHttJUmOTDHTIFGeA_lvisggHkHuGhn80qc71ZlUKzfuKkRyFiVhheFA9ra4tYgJsrpDmbLFD00kcVIGmBP6Nxg1Hzt93lGdxaxD65dpCsdHg0FO95T80Ckeff4hPsdUzTbKJJvGlDFPs6p3NevziKRpWQeeL7RK5_aIgMlPCODuYkEO7V2bqaUxaYhzlZjBPs_uZ3rq6wwWfpJD6GmeaLNv0UMQO9IofBQcIraO7y7wKsdUmO-iv7BSUQ0Cy3WjCV0E2hclv3WOn_SrMn0805tsQ\/","lyrics_copyright":"Lyrics
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.059396982192993},"body":{"lyrics":{"lyrics_id":11054663,"explicit":1,"lyrics_body":"Yayo,
+        yayo\nMula-la\nYayo\n\nBitch better have my money!\nY''all should know me
+        well enough\nBitch better have my money!\nPlease don''t call me on my bluff\nPay
+        me what you owe me\nBallin'' bigger than LeBron\nBitch, give me your money\nWho
+        y''all think y''all frontin'' on?\nLike bra, bra, bra\n\nLouis XIII, and it''s
+        all on me, nigga, you just bought a shot\nKamikaze, if you think that you
+        gon'' knock me off the top\nShit, your wife in the backseat of my brand new
+        foreign car\nDon''t act like you forgot\n\nI call the shots, shots, shots\nLike
+        bra, bra, bra\nPay me what you owe me, don''t act like you forgot\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_11054663\/su_0\/rs_0\/tr_3vUCAOqGaCtdcbAFad8AUydNSa1jkojXA_j1eYEKqTWRgm9XLnQSzOOCHzmAUWQ0FYk4eQR-LmqoQK7uMl_SZ0oUnW2t8P0-FjAzcbGRvfphRMKuzZUT6n7BH6gyTnbWxPVthHQa-kxgoO-NDJE6SHf8b4AG4apGTD2xxxikfD9vqojJZS4S5P1cmL4OrMRShYsnwu6Xzf6mpBHBwzGUaysEkIUr-CqYNR_zORcimjU6zZ6UfzG92xyDHD0L61AcF_lp7K1D5iF0Dmx5loK9SosGxTCnbFxEc7LwAcJvw6wqCcH2uDMZXAVhI1wwJlg854PNi4Y1wMShefTwVMgxebG15jD6p0T_pSq9VN3zL7iYr4xB1q8K3fw37RgoQbqvUSy-lrNAfn5ZsVMazXmEEmLrAKHTZ6qmvDOujH0jpnU5An2r6hujeAilHwVxO8zMgC7cQ6oQM2b9DDbAIw\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_11054663\/su_0\/rs_0\/tr_3vUCAA_dkRtTvNjOTReV3aJsBfMQN87zmiCX5ArYdr_WCSa0X2irdy02wRI2ha0TRLMxwIoJKN85HqiiilqtJAPIl-lUd-LwgNGyG-VCEVl4cia4D4IcbXVPqNGav5sqElPe0cGyycnHThUsfIYwgVDHrk3sLQazFlOC7eSDwEawErh3FNFuli4DgqVqwD6qo9X5CGDRCaHnPKbGBTPoNcsTZ_G3dnHgniavRtgfwDsLT4DVDO5Mt_lb_Zwz6_CLXEuScmgIy0s4AOxYgtWGaZYFkzj0pBFRzfOFXuKd-jYq_vmBGZx15uLr7ybBdYvWCXZZU3fIr_cc-BRxm8zbwZQNmoQFHa8Fa8uHe9aIoWThGWwyGuo4rtAJL61YnxckqVGqngeOVVcyIRtG3YvYDsJ8URrNjggFe1hjuj6kkFp3hjHOsZhhprLbn9pkSqyvzlmgCkgNhEeIxP-XoQ\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-06-29T19:46:34Z"}}}}'
+        30% of the lyrics are returned.","updated_time":"2019-03-13T13:54:54Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:14 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:28 GMT
 - request:
     method: post
     uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
-        Yellow diamonds in the light
-        And we're standing side by side
-        As your shadow crosses mine
-        What it takes to come alive
+        Yayo, yayo
+        Mula-la
+        Yayo
 
-        It's the way I'm feeling, I just can't deny
-        But I've gotta let it go
+        Bitch better have my money!
+        Y'all should know me well enough
+        Bitch better have my money!
+        Please don't call me on my bluff
+        Pay me what you owe me
+        Ballin' bigger than LeBron
+        Bitch, give me your money
+        Who y'all think y'all frontin' on?
+        Like bra, bra, bra
 
-        We found love in a hopeless place
-        We found love in a hopeless place
-        We found love in a hopeless place
-        We found love in a hopeless place
+        Louis XIII, and it's all on me, nigga, you just bought a shot
+        Kamikaze, if you think that you gon' knock me off the top
+        Shit, your wife in the backseat of my brand new foreign car
+        Don't act like you forgot
 
+        I call the shots, shots, shots
+        Like bra, bra, bra
+        Pay me what you owe me, don't act like you forgot
         ...(1409618830612)
     headers:
       Authorization:
@@ -1375,7 +1386,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '1704'
+      - '2456'
       X-Powered-By:
       - Servlet/3.1
       Access-Control-Allow-Origin:
@@ -1399,29 +1410,36 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - d2938465c97bda8762137da186498033
+      - '09e65a65e53cf3bbb4a3dc3bbc8c9376'
       X-Dp-Watson-Tran-Id:
-      - d2938465c97bda8762137da186498033
+      - '09e65a65e53cf3bbb4a3dc3bbc8c9376'
       X-Edgeconnect-Midmile-Rtt:
-      - '0'
+      - '2'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '334'
+      - '274'
       Date:
-      - Fri, 10 Jan 2020 06:12:14 GMT
+      - Fri, 10 Jan 2020 19:13:28 GMT
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"document_tone":{"tones":[{"score":0.814261,"tone_id":"joy","tone_name":"Joy"},{"score":0.519176,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.51835,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"Yellow
-        diamonds in the light","tones":[]},{"sentence_id":1,"text":"And we''re standing
-        side by side","tones":[]},{"sentence_id":2,"text":"As your shadow crosses
-        mine","tones":[]},{"sentence_id":3,"text":"What it takes to come alive","tones":[{"score":0.681939,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"It''s
-        the way I''m feeling, I just can''t deny","tones":[{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"But
-        I''ve gotta let it go","tones":[]},{"sentence_id":7,"text":"","tones":[]},{"sentence_id":8,"text":"We
-        found love in a hopeless place","tones":[{"score":0.820362,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"We
-        found love in a hopeless place","tones":[{"score":0.820362,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":10,"text":"We
-        found love in a hopeless place","tones":[{"score":0.820362,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":11,"text":"We
-        found love in a hopeless place","tones":[{"score":0.820362,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":12,"text":"","tones":[]},{"sentence_id":13,"text":"...(1409618830612)","tones":[]}]}'
+      string: '{"document_tone":{"tones":[{"score":0.628332,"tone_id":"anger","tone_name":"Anger"},{"score":0.571918,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"Yayo,
+        yayo","tones":[]},{"sentence_id":1,"text":"Mula-la","tones":[]},{"sentence_id":2,"text":"Yayo","tones":[]},{"sentence_id":3,"text":"","tones":[]},{"sentence_id":4,"text":"Bitch
+        better have my money!","tones":[{"score":0.828587,"tone_id":"anger","tone_name":"Anger"}]},{"sentence_id":5,"text":"Y''all
+        should know me well enough","tones":[]},{"sentence_id":6,"text":"Bitch better
+        have my money!","tones":[{"score":0.828587,"tone_id":"anger","tone_name":"Anger"}]},{"sentence_id":7,"text":"Please
+        don''t call me on my bluff","tones":[]},{"sentence_id":8,"text":"Pay me what
+        you owe me","tones":[]},{"sentence_id":9,"text":"Ballin'' bigger than LeBron","tones":[]},{"sentence_id":10,"text":"Bitch,
+        give me your money","tones":[{"score":0.699409,"tone_id":"anger","tone_name":"Anger"}]},{"sentence_id":11,"text":"Who
+        y''all think y''all frontin'' on?","tones":[]},{"sentence_id":12,"text":"Like
+        bra, bra, bra","tones":[{"score":0.88939,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":13,"text":"","tones":[]},{"sentence_id":14,"text":"Louis
+        XIII, and it''s all on me, nigga, you just bought a shot","tones":[{"score":0.690069,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":15,"text":"Kamikaze,
+        if you think that you gon'' knock me off the top","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":16,"text":"Shit,
+        your wife in the backseat of my brand new foreign car","tones":[{"score":0.705823,"tone_id":"anger","tone_name":"Anger"}]},{"sentence_id":17,"text":"Don''t
+        act like you forgot","tones":[{"score":0.673952,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.882284,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":18,"text":"","tones":[]},{"sentence_id":19,"text":"I
+        call the shots, shots, shots","tones":[]},{"sentence_id":20,"text":"Like bra,
+        bra, bra","tones":[{"score":0.88939,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":21,"text":"Pay
+        me what you owe me, don''t act like you forgot","tones":[{"score":0.534646,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.653099,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":22,"text":"...(1409618830612)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:12:14 GMT
+  recorded_at: Fri, 10 Jan 2020 19:13:28 GMT
 recorded_with: VCR 5.0.0
