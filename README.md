@@ -33,7 +33,7 @@ The purpose of this project was to practice OAuth, Database Design, Background W
 
 ## Tech/Framework Used
 
-The CodeSongs Microservice is written in Sinatra, uses a postgresql database, and is hosted on Heroku with the Travis CI integration tool.
+The CodeSongs Microservice is written in Ruby with Sinatra, uses a postgresql database, and is hosted on Heroku with the Travis CI integration tool.
 
 ### Gems
 The following Ruby Gems are used in this project:
