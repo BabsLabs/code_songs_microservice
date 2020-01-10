@@ -14,7 +14,7 @@ class YouTubeService
       req.params['maxResults'] = 1
       req.params['order'] ='relevance'
       req.params['type'] ='video'
-      req.params['q'] = "#{song_title} #{artist_name}"
+      req.params['q'] = "#{@song_title}, #{@artist_name}"
       req.params['key'] = ENV['YOUTUBE_API_TOKEN']
       req.headers['Accept'] = 'application/json'
     end
@@ -31,8 +31,8 @@ class YouTubeService
     end
   end
 
-  private
-  attr_reader :song_title, :artist_name
+  # private
+  # attr_reader :song_title, :artist_name
 
 
 end

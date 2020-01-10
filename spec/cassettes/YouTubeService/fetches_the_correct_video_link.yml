@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Who%20Will%20Save%20Your%20Soul,%20Jewel&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Purple%20Rain,%20Prince&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:10:14 GMT
+      - Fri, 10 Jan 2020 06:54:11 GMT
       Date:
-      - Fri, 10 Jan 2020 06:10:14 GMT
+      - Fri, 10 Jan 2020 06:54:11 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BSlPdNeeeIQ-iul8AXbF18fNNM0"'
       Vary:
       - Origin
       - X-Origin
@@ -50,7 +50,7 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BSlPdNeeeIQ-iul8AXbF18fNNM0\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
@@ -60,44 +60,44 @@ http_interactions:
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BazV24ZGWgdZsXIa3ZBzhV25mU0\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/u1S1tNw7yFTix2agCXw3s6A4gNo\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0wBDDAZkNtk"
+            "videoId": "TvnYmWpD_T8"
            },
            "snippet": {
-            "publishedAt": "2009-10-27T02:47:38.000Z",
-            "channelId": "UCqny-wGJIaPfAkwPp_OlYKA",
-            "title": "Jewel - Who Will Save Your Soul (Official Music Video)",
-            "description": "\"Who Will Save Your Soul\" from the album 'Pieces Of You' - stream/download: https://Jewel.lnk.to/piecesofyou Subscribe to Jewel's channel: ...",
+            "publishedAt": "2016-04-22T16:26:04.000Z",
+            "channelId": "UCPzbKgAJ6gj0xMVgMHIV2gQ",
+            "title": "Prince - Purple Rain (Official Video)",
+            "description": "I do not own this video nor do I claim anything off it therefore I couldn't find the official video anywhere so here it is! Been listening to this song over the past ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/default.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Jewel",
+            "channelTitle": "The Codfather",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:10:15 GMT
+  recorded_at: Fri, 10 Jan 2020 06:54:12 GMT
 - request:
     method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Who%20Will%20Save%20Your%20Soul,%20Jewel&type=video
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Purple%20Rain,%20Prince&type=video
     body:
       encoding: US-ASCII
       string: ''
@@ -114,13 +114,13 @@ http_interactions:
       message: OK
     headers:
       Expires:
-      - Fri, 10 Jan 2020 06:10:15 GMT
+      - Fri, 10 Jan 2020 06:54:12 GMT
       Date:
-      - Fri, 10 Jan 2020 06:10:15 GMT
+      - Fri, 10 Jan 2020 06:54:12 GMT
       Cache-Control:
       - private, max-age=120, must-revalidate, no-transform
       Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA"'
+      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BSlPdNeeeIQ-iul8AXbF18fNNM0"'
       Vary:
       - Origin
       - X-Origin
@@ -145,7 +145,7 @@ http_interactions:
       string: |
         {
          "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/HH9ghjDLHCJNc8nl4aRzZD4QiAA\"",
+         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BSlPdNeeeIQ-iul8AXbF18fNNM0\"",
          "nextPageToken": "CAEQAA",
          "regionCode": "US",
          "pageInfo": {
@@ -155,39 +155,39 @@ http_interactions:
          "items": [
           {
            "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/BazV24ZGWgdZsXIa3ZBzhV25mU0\"",
+           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/u1S1tNw7yFTix2agCXw3s6A4gNo\"",
            "id": {
             "kind": "youtube#video",
-            "videoId": "0wBDDAZkNtk"
+            "videoId": "TvnYmWpD_T8"
            },
            "snippet": {
-            "publishedAt": "2009-10-27T02:47:38.000Z",
-            "channelId": "UCqny-wGJIaPfAkwPp_OlYKA",
-            "title": "Jewel - Who Will Save Your Soul (Official Music Video)",
-            "description": "\"Who Will Save Your Soul\" from the album 'Pieces Of You' - stream/download: https://Jewel.lnk.to/piecesofyou Subscribe to Jewel's channel: ...",
+            "publishedAt": "2016-04-22T16:26:04.000Z",
+            "channelId": "UCPzbKgAJ6gj0xMVgMHIV2gQ",
+            "title": "Prince - Purple Rain (Official Video)",
+            "description": "I do not own this video nor do I claim anything off it therefore I couldn't find the official video anywhere so here it is! Been listening to this song over the past ...",
             "thumbnails": {
              "default": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/default.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/default.jpg",
               "width": 120,
               "height": 90
              },
              "medium": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/mqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/mqdefault.jpg",
               "width": 320,
               "height": 180
              },
              "high": {
-              "url": "https://i.ytimg.com/vi/0wBDDAZkNtk/hqdefault.jpg",
+              "url": "https://i.ytimg.com/vi/TvnYmWpD_T8/hqdefault.jpg",
               "width": 480,
               "height": 360
              }
             },
-            "channelTitle": "Jewel",
+            "channelTitle": "The Codfather",
             "liveBroadcastContent": "none"
            }
           }
          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 06:10:16 GMT
+  recorded_at: Fri, 10 Jan 2020 06:54:12 GMT
 recorded_with: VCR 5.0.0
