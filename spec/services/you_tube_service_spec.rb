@@ -17,7 +17,7 @@ describe YouTubeService do
     song_title = 'White Christmas'
     artist_name = 'Michael Bublé'
     youtube_service = YouTubeService.new(song_title, artist_name)
-
-    expect(youtube_service.name_sanitizer(artist_name)).to eq("Michael Bubl")
+    response = youtube_service.get_youtube_link
+    expect(response).to eq("https://www.youtube.com/embed/30TkClWvT5k")
   end
 end

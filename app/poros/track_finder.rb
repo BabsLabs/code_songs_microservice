@@ -48,8 +48,8 @@ class TrackFinder
   end
 
   def found_link(song_title, artist_name)
-    service = YouTubeService.new(song_title, artist_name)
-    service.get_youtube_link
+    @service ||= YouTubeService.new(song_title, artist_name)
+    @service.get_youtube_link
   end
 
 end
