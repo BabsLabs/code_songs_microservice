@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/repos/ap2322/battleship/commits?access_token=<GITHUB_TEST_TOKEN>
+    uri: https://api.github.com/repos/ap2322/battleship/commits
     body:
       encoding: US-ASCII
       string: ''
@@ -21,41 +21,28 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 10 Jan 2020 19:12:58 GMT
+      - Thu, 14 May 2020 20:04:49 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
       Status:
       - 200 OK
-      X-Ratelimit-Limit:
-      - '5000'
-      X-Ratelimit-Remaining:
-      - '4998'
-      X-Ratelimit-Reset:
-      - '1578687178'
       Cache-Control:
-      - private, max-age=60, s-maxage=60
+      - public, max-age=60, s-maxage=60
       Vary:
-      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept, Accept-Encoding, Accept, X-Requested-With
       Etag:
       - W/"89e80e901b06dc96007e9a7d1f9110cd"
       Last-Modified:
       - Thu, 29 Aug 2019 00:24:05 GMT
-      X-Oauth-Scopes:
-      - public_repo, read:user, repo:status
-      X-Accepted-Oauth-Scopes:
-      - ''
       X-Github-Media-Type:
       - github.v3; format=json
       Link:
-      - <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=2>;
-        rel="next", <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=3>;
-        rel="last"
+      - <https://api.github.com/repositories/203263628/commits?page=2>; rel="next",
+        <https://api.github.com/repositories/203263628/commits?page=3>; rel="last"
       Access-Control-Expose-Headers:
       - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
         X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
-        X-GitHub-Media-Type
+        X-GitHub-Media-Type, Deprecation, Sunset
       Access-Control-Allow-Origin:
       - "*"
       Strict-Transport-Security:
@@ -70,8 +57,18 @@ http_interactions:
       - origin-when-cross-origin, strict-origin-when-cross-origin
       Content-Security-Policy:
       - default-src 'none'
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '55'
+      X-Ratelimit-Reset:
+      - '1589490035'
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
       X-Github-Request-Id:
-      - CC03:6FBF:40ECE8:AE0173:5E18CCBA
+      - 11F5:628A:8BE01:F065B:5EBDA461
     body:
       encoding: ASCII-8BIT
       string: '[{"sha":"d64692f5ebd125c807f9c1d60994e53d02ea118f","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmQ2NDY5MmY1ZWJkMTI1YzgwN2Y5YzFkNjA5OTRlNTNkMDJlYTExOGY=","commit":{"author":{"name":"Alice
@@ -215,10 +212,10 @@ http_interactions:
         Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:10Z"},"message":"Fix
         player shot methods and added tests\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"42cd945753b82c49d4090a07f3ad4b484b95e93f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/42cd945753b82c49d4090a07f3ad4b484b95e93f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","html_url":"https://github.com/ap2322/battleship/commit/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"7cd64e4753128b4a3263c875dd1c1060ae149af7","url":"https://api.github.com/repos/ap2322/battleship/commits/7cd64e4753128b4a3263c875dd1c1060ae149af7","html_url":"https://github.com/ap2322/battleship/commit/7cd64e4753128b4a3263c875dd1c1060ae149af7"}]}]'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:12:58 GMT
+  recorded_at: Thu, 14 May 2020 20:04:49 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: 'Merge pull request #24 from ap2322/cleanup_ap2Clean up comments and
@@ -253,7 +250,7 @@ http_interactions:
         Fix player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>. '
     headers:
       Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -278,7 +275,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -294,15 +291,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 489f7b1ff38f4fcf1804ac33b57fdce1
+      - f1c175b57078594fa5f18c7aa5d89be0
       X-Dp-Watson-Tran-Id:
-      - 489f7b1ff38f4fcf1804ac33b57fdce1
+      - f1c175b57078594fa5f18c7aa5d89be0
       X-Edgeconnect-Midmile-Rtt:
-      - '2'
+      - '30'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '1144'
+      - '662'
       Date:
-      - Fri, 10 Jan 2020 19:12:59 GMT
+      - Thu, 14 May 2020 20:04:50 GMT
       Connection:
       - keep-alive
     body:
@@ -347,7 +344,7 @@ http_interactions:
         results methods for player and computerCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[{"score":0.587989,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":30,"text":"Fix
         player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:00 GMT
+  recorded_at: Thu, 14 May 2020 20:04:51 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.search?apikey=<MUSIX_MATCH_TOKEN>&f_artist_id=38620990&f_has_lyrics=true&page=1&page_size=5&s_track_rating=desc
@@ -369,13 +366,12 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '982'
+      - '970'
       Accept-Ranges:
       - bytes
       - bytes
       - bytes
       Age:
-      - '0'
       - '0'
       - '0'
       Content-Type:
@@ -390,34 +386,34 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 19:13:00 GMT
+      - Thu, 14 May 2020 20:04:51 GMT
       X-Served-By:
-      - cache-den19651-DEN
+      - cache-den19632-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578683580.137222,VS0,VE159
+      - S1589486691.279858,VS0,VE66
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.049453973770142,"available":283},"body":{"track_list":[{"track":{"track_id":124985077,"track_name":"Shape
-        of You","track_name_translation_list":[],"track_rating":99,"commontrack_id":69032569,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":56482,"album_id":25422950,"album_name":"\u00f7
-        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1048,"music_genre_parent_id":17,"music_genre_name":"House","music_genre_name_extended":"Dance
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.010192155838013,"available":282},"body":{"track_list":[{"track":{"track_id":124985077,"track_name":"Shape
+        of You","track_name_translation_list":[],"track_rating":99,"commontrack_id":69032569,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":57169,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Shape-of-You\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","restricted":0,"updated_time":"2020-02-12T15:58:29Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1048,"music_genre_parent_id":17,"music_genre_name":"House","music_genre_name_extended":"Dance
         \/ House","music_genre_vanity":"Dance-House"}},{"music_genre":{"music_genre_id":1183,"music_genre_parent_id":24,"music_genre_name":"Dancehall","music_genre_name_extended":"Reggae
-        \/ Dancehall","music_genre_vanity":"Reggae-Dancehall"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":17,"music_genre_parent_id":34,"music_genre_name":"Dance","music_genre_name_extended":"Dance","music_genre_vanity":"Dance"}}]}}},{"track":{"track_id":124985078,"track_name":"Perfect","track_name_translation_list":[],"track_rating":99,"commontrack_id":69182670,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":44756,"album_id":25422950,"album_name":"\u00f7
-        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1022,"music_genre_parent_id":5,"music_genre_name":"Classical
-        Crossover","music_genre_name_extended":"Classical \/ Classical Crossover","music_genre_vanity":"Classical-Classical-Crossover"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109263,"track_name":"Thinking
-        Out Loud","track_name_translation_list":[],"track_rating":98,"commontrack_id":39539742,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":151588,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
-        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1143,"music_genre_parent_id":15,"music_genre_name":"Soul","music_genre_name_extended":"R&B\/Soul
-        \/ Soul","music_genre_vanity":"R-B-Soul-Soul"}}]}}},{"track":{"track_id":170774806,"track_name":"South
-        of the Border","track_name_translation_list":[],"track_rating":97,"commontrack_id":95699196,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":131,"album_id":32562576,"album_name":"No.6
-        Collaborations Project","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/South-of-the-Border\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-07-30T14:55:38Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":73109257,"track_name":"Photograph","track_name_translation_list":[],"track_rating":95,"commontrack_id":39539736,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":153298,"album_id":19624170,"album_name":"x","artist_id":38620990,"artist_name":"Ed
-        Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618830612","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":1289,"music_genre_parent_id":34,"music_genre_name":"Folk","music_genre_name_extended":"Folk","music_genre_vanity":"Folk"}}]}}}]}}}'
+        \/ Dancehall","music_genre_vanity":"Reggae-Dancehall"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":17,"music_genre_parent_id":34,"music_genre_name":"Dance","music_genre_name_extended":"Dance","music_genre_vanity":"Dance"}}]}}},{"track":{"track_id":124985078,"track_name":"Perfect","track_name_translation_list":[],"track_rating":99,"commontrack_id":69182670,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":45996,"album_id":25422950,"album_name":"\u00f7
+        (Deluxe)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Perfect\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","restricted":0,"updated_time":"2020-02-13T13:45:20Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1022,"music_genre_parent_id":5,"music_genre_name":"Classical
+        Crossover","music_genre_name_extended":"Classical \/ Classical Crossover","music_genre_vanity":"Classical-Classical-Crossover"}},{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}}]}}},{"track":{"track_id":84361925,"track_name":"Thinking
+        Out Loud","track_name_translation_list":[],"track_rating":96,"commontrack_id":39539742,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":152063,"album_id":20900266,"album_name":"x
+        (Deluxe Edition)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Thinking-Out-Loud\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1143,"music_genre_parent_id":15,"music_genre_name":"Soul","music_genre_name_extended":"R&B\/Soul
+        \/ Soul","music_genre_vanity":"R-B-Soul-Soul"}}]}}},{"track":{"track_id":84361920,"track_name":"Photograph","track_name_translation_list":[],"track_rating":93,"commontrack_id":39539736,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":153748,"album_id":20900266,"album_name":"x
+        (Deluxe Edition)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/Photograph\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","restricted":0,"updated_time":"2020-02-18T17:10:54Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":14,"music_genre_parent_id":34,"music_genre_name":"Pop","music_genre_name_extended":"Pop","music_genre_vanity":"Pop"}},{"music_genre":{"music_genre_id":1289,"music_genre_parent_id":34,"music_genre_name":"Folk","music_genre_name_extended":"Folk","music_genre_vanity":"Folk"}}]}}},{"track":{"track_id":84361930,"track_name":"I
+        See Fire","track_name_translation_list":[],"track_rating":82,"commontrack_id":13868117,"instrumental":0,"explicit":0,"has_lyrics":1,"has_subtitles":1,"has_richsync":1,"num_favourite":23632,"album_id":20900266,"album_name":"x
+        (Deluxe Edition)","artist_id":38620990,"artist_name":"Ed Sheeran","track_share_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/I-See-Fire?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","track_edit_url":"https:\/\/www.musixmatch.com\/lyrics\/Ed-Sheeran\/I-See-Fire\/edit?utm_source=application&utm_campaign=api&utm_medium=babslabs%3A1409618905462","restricted":0,"updated_time":"2019-05-29T08:30:02Z","primary_genres":{"music_genre_list":[{"music_genre":{"music_genre_id":1289,"music_genre_parent_id":34,"music_genre_name":"Folk","music_genre_name_extended":"Folk","music_genre_vanity":"Folk"}}]}}}]}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:00 GMT
+  recorded_at: Thu, 14 May 2020 20:04:51 GMT
 - request:
     method: get
     uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Shape%20of%20You,%20Ed%20Sheeran&type=video
@@ -436,39 +432,36 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Expires:
-      - Fri, 10 Jan 2020 19:13:00 GMT
-      Date:
-      - Fri, 10 Jan 2020 19:13:00 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/vTpJ1MJFkfS5br4bKX-LsJ3kL5E"'
-      Vary:
-      - Origin
-      - X-Origin
       Content-Type:
       - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Thu, 14 May 2020 20:04:52 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
       X-Frame-Options:
       - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
+      X-Content-Type-Options:
+      - nosniff
       Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJPT0ZmM1p3MmpEYnh4SHNqSjNsOHUxVThkejQvdlRwSjFNSkZrZlM1YnI0YktYLUxzSjNrTDVFXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMTAwMDAwMCwKICAicmVzdWx0c1BlclBhZ2UiOiAxCiB9LAogIml0ZW1zIjogWwogIHsKICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAiZXRhZyI6ICJcIk9PRmYzWncyakRieHhIc2pKM2w4dTFVOGR6NC9RYlUwREVRNVg2ZkNDVV9ibjlGWEN5Vjg3S1FcIiIsCiAgICJpZCI6IHsKICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgInZpZGVvSWQiOiAiSkd3V05HSmR2eDgiCiAgIH0sCiAgICJzbmlwcGV0IjogewogICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMDEtMzBUMTA6NTc6NTAuMDAwWiIsCiAgICAiY2hhbm5lbElkIjogIlVDMEMtdzBZakdwcURYR0I4SUhiNjYyQSIsCiAgICAidGl0bGUiOiAiRWQgU2hlZXJhbiAtIFNoYXBlIG9mIFlvdSBbT2ZmaWNpYWwgVmlkZW9dIiwKICAgICJkZXNjcmlwdGlvbiI6ICJUaWNrZXRzIGZvciB0aGUgRGl2aWRlIHRvdXIgaGVyZSAtIGh0dHA6Ly93d3cuZWRzaGVlcmFuLmNvbS90b3VyIFN0cmVhbSBvciBEb3dubG9hZCBTaGFwZSBPZiBZb3U6IGh0dHBzOi8vYXRsYW50aS5jci8yc2luZ2xlcyDDty4gT3V0IE5vdzogLi4uIiwKICAgICJ0aHVtYm5haWxzIjogewogICAgICJkZWZhdWx0IjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvSkd3V05HSmR2eDgvZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAxMjAsCiAgICAgICJoZWlnaHQiOiA5MAogICAgIH0sCiAgICAgIm1lZGl1bSI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0pHd1dOR0pkdng4L21xZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiAzMjAsCiAgICAgICJoZWlnaHQiOiAxODAKICAgICB9LAogICAgICJoaWdoIjogewogICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvSkd3V05HSmR2eDgvaHFkZWZhdWx0LmpwZyIsCiAgICAgICJ3aWR0aCI6IDQ4MCwKICAgICAgImhlaWdodCI6IDM2MAogICAgIH0KICAgIH0sCiAgICAiY2hhbm5lbFRpdGxlIjogIkVkIFNoZWVyYW4iLAogICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiCiAgIH0KICB9CiBdCn0K
+        ewogICJraW5kIjogInlvdXR1YmUjc2VhcmNoTGlzdFJlc3BvbnNlIiwKICAiZXRhZyI6ICJpNzhPQU8tYjM1bXZsVmVpNFdrcUdEV0xnQ00iLAogICJuZXh0UGFnZVRva2VuIjogIkNBRVFBQSIsCiAgInJlZ2lvbkNvZGUiOiAiVVMiLAogICJwYWdlSW5mbyI6IHsKICAgICJ0b3RhbFJlc3VsdHMiOiAxMDAwMDAwLAogICAgInJlc3VsdHNQZXJQYWdlIjogMQogIH0sCiAgIml0ZW1zIjogWwogICAgewogICAgICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICAgICJldGFnIjogIkJiM1pVWDNYRkpsM1ZRUDVmTWRhVjdwUUNaayIsCiAgICAgICJpZCI6IHsKICAgICAgICAia2luZCI6ICJ5b3V0dWJlI3ZpZGVvIiwKICAgICAgICAidmlkZW9JZCI6ICJKR3dXTkdKZHZ4OCIKICAgICAgfSwKICAgICAgInNuaXBwZXQiOiB7CiAgICAgICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMDEtMzBUMTA6NTc6NTBaIiwKICAgICAgICAiY2hhbm5lbElkIjogIlVDMEMtdzBZakdwcURYR0I4SUhiNjYyQSIsCiAgICAgICAgInRpdGxlIjogIkVkIFNoZWVyYW4gLSBTaGFwZSBvZiBZb3UgW09mZmljaWFsIFZpZGVvXSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIlRpY2tldHMgZm9yIHRoZSBEaXZpZGUgdG91ciBoZXJlIC0gaHR0cDovL3d3dy5lZHNoZWVyYW4uY29tL3RvdXIgU3RyZWFtIG9yIERvd25sb2FkIFNoYXBlIE9mIFlvdTogaHR0cHM6Ly9hdGxhbnRpLmNyLzJzaW5nbGVzIMO3LiBPdXQgTm93OiAuLi4iLAogICAgICAgICJ0aHVtYm5haWxzIjogewogICAgICAgICAgImRlZmF1bHQiOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9KR3dXTkdKZHZ4OC9kZWZhdWx0LmpwZyIsCiAgICAgICAgICAgICJ3aWR0aCI6IDEyMCwKICAgICAgICAgICAgImhlaWdodCI6IDkwCiAgICAgICAgICB9LAogICAgICAgICAgIm1lZGl1bSI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0pHd1dOR0pkdng4L21xZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAzMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiAxODAKICAgICAgICAgIH0sCiAgICAgICAgICAiaGlnaCI6IHsKICAgICAgICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL0pHd1dOR0pkdng4L2hxZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiA0ODAsCiAgICAgICAgICAgICJoZWlnaHQiOiAzNjAKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgICJjaGFubmVsVGl0bGUiOiAiRWQgU2hlZXJhbiIsCiAgICAgICAgImxpdmVCcm9hZGNhc3RDb250ZW50IjogIm5vbmUiLAogICAgICAgICJwdWJsaXNoVGltZSI6ICIyMDE3LTAxLTMwVDEwOjU3OjUwWiIKICAgICAgfQogICAgfQogIF0KfQo=
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:00 GMT
+  recorded_at: Thu, 14 May 2020 20:04:52 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985077
@@ -490,13 +483,12 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1611'
+      - '1610'
       Accept-Ranges:
       - bytes
       - bytes
       - bytes
       Age:
-      - '0'
       - '0'
       - '0'
       Content-Type:
@@ -511,42 +503,42 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 19:13:01 GMT
+      - Thu, 14 May 2020 20:04:52 GMT
       X-Served-By:
-      - cache-den19640-DEN
+      - cache-den19643-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578683581.904503,VS0,VE296
+      - S1589486693.778108,VS0,VE101
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.18576502799988},"body":{"lyrics":{"lyrics_id":16284845,"explicit":0,"lyrics_body":"The
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.04472804069519},"body":{"lyrics":{"lyrics_id":20806532,"explicit":0,"lyrics_body":"The
         club isn''t the best place to find a lover\nSo the bar is where I go\nMe and
-        my friends at the table doing shots\nDrinking fast, and then we talk slow\n\nAnd
-        you come over and start up a conversation with just me\nAnd trust me, I''ll
-        give it a chance now\nTake my hand, stop\nPut \"Van the Man\" on the jukebox\nAnd
+        my friends at the table doing shots\nDrinking fast, and then we talk slow\nYou
+        come over and start up a conversation with just me\nAnd trust me, I''ll give
+        it a chance now\nTake my hand, stop\nPut \"Van the Man\" on the jukebox\nAnd
         then we start to dance\nAnd now I''m singing like\n\nGirl, you know I want
         your love\nYour love was handmade for somebody like me\nCome on now, follow
-        my lead\nI may be crazy, don''t mind me\n\nSay: \"Boy, let''s not talk too
-        much\nGrab on my waist and put that body on me\"\nCome on now, follow my lead\nCome,
+        my lead\nI may be crazy, don''t mind me\nSay \"Boy, let''s not talk too much\nGrab
+        on my waist and put that body on me\"\nCome on now, follow my lead\nCome,
         come on now, follow my lead\n\nI''m in love with the shape of you\nWe push
         and pull like a magnet do\nAlthough my heart is falling too\nI''m in love
         with your body\nLast night you were in my room\nAnd now my bed sheets smell
-        like you\nEvery day discovering something brand new\n\nOh, I''m in love with
-        your body\nOh-i-oh-i-oh-i-oh-i\nOh, I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\nOh,
-        I''m in love with your body\nOh-i-oh-i-oh-i-oh-i\n...\n\n******* This Lyrics
-        is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAHQqx5457ANb0fRxnVuNHL_4ytPK61duYmgs4co3eq7vYC5xnS0q60wh8hbMVp3b2JOITadbgnar6upZyi_wRyX2Cl8JTjFm7QJRfDx3SmIUXmUvSUd2xeYDUkitbDiV5s50ve1GvusAgpXBgluYr6TqAF46Fk3UYZUJV829O7lq-SJeMxDWtHI6r5wjDYgtV87exBB4Bu-KxTrQBTMwNZQ1wiBDrGnqfna10OSTCKY5mRRr6xtZvDOO4MXb9_6gO79tJTuKtjzDuJfN-3b2ZMH0ObIukIizNx63jE5bolistSG2YWQSJ5iBmb2VkZJRZjb_fITGYmy19n7WglUYvMSsMjy_hqMQaiCW-7wRJLFVy9WfJTtGDlenATiZc00qrC2-C6M4stWhT5XaTNxlfeOBVB5ix_2Yf5NEbygcH-S6wo_I-YPINKa7k4-r67H8A82IHw8\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16284845\/su_0\/rs_0\/tr_3vUCAEee0oBnrEOsMdqVAFyEZg_do6D_syU4In55rj1jwqmC0rNHyYKB_GjreTf66tGMtyl4C2NhL9VRLQp82kqpfjOPvujNCu2EHGgFZZidfywlV6q07gX8dE6eeZA26-_f2f1fiG-cU5WOGxp7V92c8iGCqOLsnwuddtJMAtYtPE_0uSM0uLP41QiPPWxLhG0fWpH1dXcIBweZGlx8K-x0JASZ87zmlhrifrcH4RLWYUHUOfQnUVlo0rC0MAHdKFkCHphIh1d-9jAaEPA_d3eol02Eozbjy_HFICAfYWCdNffFn9HGqD7HNeasLroc50YDre4bMBj5UbhKg1hWD0DKPVhreC2-dYeTRyFWOGHvTGMHGP4PTBq07O13-4xoYeA_Qx9AJ3oiTjgunnzMDqdTvJNgWA7x5pLcyk0wbPQfxaEVd_dK5rXjikooxivtgHS5F21_TFo\/","lyrics_copyright":"Lyrics
+        like you\nEvery day discovering something brand new\nOh, I''m in love with
+        your body\n\nOh I, oh I, oh I, oh I\nOh, I''m in love with your body\nOh I,
+        oh I, oh I, oh I\nOh, I''m in love with your body\nOh I, oh I, oh I, oh I\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20806532\/su_0\/rs_0\/tr_3vUCAF167tu8QpQPuMAG8_7TwKqcyjIZHhfI3nza3ind3Y3W0KQokMb2v1fxVBYtMkduuA12_LStWZG0z96rfEKEmd3MdgzIGYi29SWW7lDZ6NylqUmqMZT8j_Tp68-t6hE8sEKm_JpZTXYmrmiAKgZFq8PINtjsLm_bBheEdViJz3cGM2vzz2TEPkybMqLp3ZO867Na6g5cmcyVKMVzee_MzlWAsdss6vgNy5p-L3J3VkUWFRKxOMWEHR6czbBVBWiRqpP7CsXx-LNuDUNjCLhtY-YYjEMlp1hyZh2abwWNhQ8zmRY6umITlVIngvSwracgX66xKSTNUK8SrrUA0h5lrrQsVFHSkPsdIUZuSZFUMcE1fatX_8ohAIJL_ofQ5UmYRu2wuqDSHjC6x5tVzDFG5k3wMRr_phy8Znt5zlFbp01F_GRmeGHFVP3KP7Li0hzfaxoyNg\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20806532\/su_0\/rs_0\/tr_3vUCAPGKF9efAuXmWBVoRRNnK16aYA3XI1nZCN_dlhU5xmRV2WmV68G-DYfLEp0Lk0j6q2qL9rNzjKNEkRY5gAniIeKel6QBDTKDIyBaPDrYETsDehgLjzz3-IAr_d64KhbgtMXQZqJJgWf1xN9MUXXsyWxqlH1c7Z_-InYb_6263NY-7onqLfzphZlHJC7evY60sLUXb6qA6hLWMiCEdqljch-Fu5CBccRmjRXDtxGWdsNT6z8bpFpmQ_xDUCyXEuXK_ZY84jdTBOIaQCuYX3rHfMGUvjT8nx7N8m08sKyGxYPy2RFks8VIUNisihCEZxQ_VDKhbdwmLy-6GjRVxr9quc8XWwaMZTleRXE0GUSK4vGRbMQcA1AOesM0Mn0S5uhffoU8p1f13gHNpQlKPm62DhVgQh8nohkB7zcApugLmq--G6IRF2c3L25lCKJdmh8kr4j43g\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-07-09T12:36:32Z"}}}}'
+        30% of the lyrics are returned.","updated_time":"2020-02-12T15:58:27Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:01 GMT
+  recorded_at: Thu, 14 May 2020 20:04:52 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -554,8 +546,7 @@ http_interactions:
         So the bar is where I go
         Me and my friends at the table doing shots
         Drinking fast, and then we talk slow
-
-        And you come over and start up a conversation with just me
+        You come over and start up a conversation with just me
         And trust me, I'll give it a chance now
         Take my hand, stop
         Put "Van the Man" on the jukebox
@@ -566,8 +557,7 @@ http_interactions:
         Your love was handmade for somebody like me
         Come on now, follow my lead
         I may be crazy, don't mind me
-
-        Say: "Boy, let's not talk too much
+        Say "Boy, let's not talk too much
         Grab on my waist and put that body on me"
         Come on now, follow my lead
         Come, come on now, follow my lead
@@ -579,17 +569,17 @@ http_interactions:
         Last night you were in my room
         And now my bed sheets smell like you
         Every day discovering something brand new
+        Oh, I'm in love with your body
 
+        Oh I, oh I, oh I, oh I
         Oh, I'm in love with your body
-        Oh-i-oh-i-oh-i-oh-i
+        Oh I, oh I, oh I, oh I
         Oh, I'm in love with your body
-        Oh-i-oh-i-oh-i-oh-i
-        Oh, I'm in love with your body
-        Oh-i-oh-i-oh-i-oh-i
-        ...(1409618830612)
+        Oh I, oh I, oh I, oh I
+        ...(1409618905462)
     headers:
       Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -606,7 +596,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '4381'
+      - '4306'
       X-Powered-By:
       - Servlet/3.1
       Access-Control-Allow-Origin:
@@ -614,7 +604,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -630,49 +620,52 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - a7f6fe55902a0542493f99657150bbeb
+      - 52b36148513689aefc41734f1e5a6586
       X-Dp-Watson-Tran-Id:
-      - a7f6fe55902a0542493f99657150bbeb
+      - 52b36148513689aefc41734f1e5a6586
       X-Edgeconnect-Midmile-Rtt:
-      - '1'
+      - '24'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '390'
+      - '347'
       Date:
-      - Fri, 10 Jan 2020 19:13:01 GMT
+      - Thu, 14 May 2020 20:04:53 GMT
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"document_tone":{"tones":[{"score":0.754031,"tone_id":"joy","tone_name":"Joy"},{"score":0.767326,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"The
+      string: '{"document_tone":{"tones":[{"score":0.639884,"tone_id":"joy","tone_name":"Joy"},{"score":0.736661,"tone_id":"tentative","tone_name":"Tentative"}]},"sentences_tone":[{"sentence_id":0,"text":"The
         club isn''t the best place to find a lover","tones":[{"score":0.563139,"tone_id":"joy","tone_name":"Joy"},{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":1,"text":"So
         the bar is where I go","tones":[{"score":0.636466,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":2,"text":"Me
         and my friends at the table doing shots","tones":[]},{"sentence_id":3,"text":"Drinking
-        fast, and then we talk slow","tones":[{"score":0.61847,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"And
-        you come over and start up a conversation with just me","tones":[{"score":0.75152,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"And
-        trust me, I''ll give it a chance now","tones":[{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":7,"text":"Take
-        my hand, stop","tones":[]},{"sentence_id":8,"text":"Put \"Van the Man\" on
-        the jukebox","tones":[]},{"sentence_id":9,"text":"And then we start to dance","tones":[{"score":0.858888,"tone_id":"joy","tone_name":"Joy"},{"score":0.944551,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":10,"text":"And
-        now I''m singing like","tones":[{"score":0.744003,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":11,"text":"","tones":[]},{"sentence_id":12,"text":"Girl,
-        you know I want your love","tones":[{"score":0.72995,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":13,"text":"Your
-        love was handmade for somebody like me","tones":[{"score":0.910752,"tone_id":"joy","tone_name":"Joy"},{"score":0.961411,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":14,"text":"Come
-        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":15,"text":"I
-        may be crazy, don''t mind me","tones":[{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":16,"text":"","tones":[]},{"sentence_id":17,"text":"Say:
-        \"Boy, let''s not talk too much","tones":[]},{"sentence_id":18,"text":"Grab
-        on my waist and put that body on me\"","tones":[]},{"sentence_id":19,"text":"Come
-        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":20,"text":"Come,
-        come on now, follow my lead","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":21,"text":"","tones":[]},{"sentence_id":22,"text":"I''m
-        in love with the shape of you","tones":[{"score":0.89589,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":23,"text":"We
-        push and pull like a magnet do","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":24,"text":"Although
-        my heart is falling too","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":25,"text":"I''m
-        in love with your body","tones":[{"score":0.935092,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":26,"text":"Last
-        night you were in my room","tones":[]},{"sentence_id":27,"text":"And now my
-        bed sheets smell like you","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":28,"text":"Every
-        day discovering something brand new","tones":[{"score":0.650502,"tone_id":"joy","tone_name":"Joy"},{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":29,"text":"","tones":[]},{"sentence_id":30,"text":"Oh,
-        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":31,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":32,"text":"Oh,
-        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":33,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":34,"text":"Oh,
-        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":35,"text":"Oh-i-oh-i-oh-i-oh-i","tones":[]},{"sentence_id":36,"text":"...(1409618830612)","tones":[]}]}'
+        fast, and then we talk slow","tones":[{"score":0.61847,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.920855,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"You
+        come over and start up a conversation with just me","tones":[{"score":0.786991,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":5,"text":"And
+        trust me, I''ll give it a chance now","tones":[{"score":0.856622,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":6,"text":"Take
+        my hand, stop","tones":[]},{"sentence_id":7,"text":"Put \"Van the Man\" on
+        the jukebox","tones":[]},{"sentence_id":8,"text":"And then we start to dance","tones":[{"score":0.858888,"tone_id":"joy","tone_name":"Joy"},{"score":0.944551,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"And
+        now I''m singing like","tones":[{"score":0.744003,"tone_id":"joy","tone_name":"Joy"},{"score":0.822231,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":10,"text":"","tones":[]},{"sentence_id":11,"text":"Girl,
+        you know I want your love","tones":[{"score":0.72995,"tone_id":"joy","tone_name":"Joy"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":12,"text":"Your
+        love was handmade for somebody like me","tones":[{"score":0.910752,"tone_id":"joy","tone_name":"Joy"},{"score":0.961411,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":13,"text":"Come
+        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"I
+        may be crazy, don''t mind me","tones":[{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":15,"text":"Say
+        \"Boy, let''s not talk too much","tones":[]},{"sentence_id":16,"text":"Grab
+        on my waist and put that body on me\"","tones":[]},{"sentence_id":17,"text":"Come
+        on now, follow my lead","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":18,"text":"Come,
+        come on now, follow my lead","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":19,"text":"","tones":[]},{"sentence_id":20,"text":"I''m
+        in love with the shape of you","tones":[{"score":0.89589,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":21,"text":"We
+        push and pull like a magnet do","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":22,"text":"Although
+        my heart is falling too","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":23,"text":"I''m
+        in love with your body","tones":[{"score":0.935092,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":24,"text":"Last
+        night you were in my room","tones":[]},{"sentence_id":25,"text":"And now my
+        bed sheets smell like you","tones":[{"score":0.615352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":26,"text":"Every
+        day discovering something brand new","tones":[{"score":0.650502,"tone_id":"joy","tone_name":"Joy"},{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":27,"text":"Oh,
+        I''m in love with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":28,"text":"","tones":[]},{"sentence_id":29,"text":"Oh
+        I, oh I, oh I, oh I","tones":[]},{"sentence_id":30,"text":"Oh, I''m in love
+        with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":31,"text":"Oh
+        I, oh I, oh I, oh I","tones":[]},{"sentence_id":32,"text":"Oh, I''m in love
+        with your body","tones":[{"score":0.818305,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":33,"text":"Oh
+        I, oh I, oh I, oh I","tones":[]},{"sentence_id":34,"text":"...(1409618905462)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:01 GMT
+  recorded_at: Thu, 14 May 2020 20:04:53 GMT
 - request:
     method: get
     uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Perfect,%20Ed%20Sheeran&type=video
@@ -691,39 +684,36 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Expires:
-      - Fri, 10 Jan 2020 19:13:02 GMT
-      Date:
-      - Fri, 10 Jan 2020 19:13:02 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/8l4wkQ4xz2uF3gzxYajaqth5dWE"'
-      Vary:
-      - Origin
-      - X-Origin
       Content-Type:
       - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Thu, 14 May 2020 20:04:54 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
       X-Frame-Options:
       - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
+      X-Content-Type-Options:
+      - nosniff
       Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        ewogImtpbmQiOiAieW91dHViZSNzZWFyY2hMaXN0UmVzcG9uc2UiLAogImV0YWciOiAiXCJPT0ZmM1p3MmpEYnh4SHNqSjNsOHUxVThkejQvOGw0d2tRNHh6MnVGM2d6eFlhamFxdGg1ZFdFXCIiLAogIm5leHRQYWdlVG9rZW4iOiAiQ0FFUUFBIiwKICJyZWdpb25Db2RlIjogIlVTIiwKICJwYWdlSW5mbyI6IHsKICAidG90YWxSZXN1bHRzIjogMTAwMDAwMCwKICAicmVzdWx0c1BlclBhZ2UiOiAxCiB9LAogIml0ZW1zIjogWwogIHsKICAgImtpbmQiOiAieW91dHViZSNzZWFyY2hSZXN1bHQiLAogICAiZXRhZyI6ICJcIk9PRmYzWncyakRieHhIc2pKM2w4dTFVOGR6NC8xejBzb1NyX19XdEk1RXE3MmZSUXJIMU5BMXdcIiIsCiAgICJpZCI6IHsKICAgICJraW5kIjogInlvdXR1YmUjdmlkZW8iLAogICAgInZpZGVvSWQiOiAiVURETVl3X0labkUiCiAgIH0sCiAgICJzbmlwcGV0IjogewogICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMTEtMjlUMTE6NTM6MTMuMDAwWiIsCiAgICAiY2hhbm5lbElkIjogIlVDdlIyUjdqMjE4dHplanRUc2JfWDZSdyIsCiAgICAidGl0bGUiOiAiUGVyZmVjdCAtIEVkIFNoZWVyYW4gKEx5cmljcykiLAogICAgImRlc2NyaXB0aW9uIjogIkxlYXJuIGhvdyB0byBzaW5nIGluIG9ubHkgMzAgZGF5cyB3aXRoIHRoZXNlIGVhc3ksIGZ1biB2aWRlbyBsZXNzb25zISBodHRwczovL3d3dy4zMGRheXNpbmdlci5jb20vYS84MzI4L0JGemFFdm11IC0tIFBlcmZlY3QgLSBFZCBTaGVlcmFuIChMeXJpY3MpIOKWtu+4j0NoZWNrIC4uLiIsCiAgICAidGh1bWJuYWlscyI6IHsKICAgICAiZGVmYXVsdCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL1VERE1Zd19JWm5FL2RlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMTIwLAogICAgICAiaGVpZ2h0IjogOTAKICAgICB9LAogICAgICJtZWRpdW0iOiB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9VRERNWXdfSVpuRS9tcWRlZmF1bHQuanBnIiwKICAgICAgIndpZHRoIjogMzIwLAogICAgICAiaGVpZ2h0IjogMTgwCiAgICAgfSwKICAgICAiaGlnaCI6IHsKICAgICAgInVybCI6ICJodHRwczovL2kueXRpbWcuY29tL3ZpL1VERE1Zd19JWm5FL2hxZGVmYXVsdC5qcGciLAogICAgICAid2lkdGgiOiA0ODAsCiAgICAgICJoZWlnaHQiOiAzNjAKICAgICB9CiAgICB9LAogICAgImNoYW5uZWxUaXRsZSI6ICJEb3BlTHlyaWNzIiwKICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIgogICB9CiAgfQogXQp9Cg==
+        ewogICJraW5kIjogInlvdXR1YmUjc2VhcmNoTGlzdFJlc3BvbnNlIiwKICAiZXRhZyI6ICJkczBkcjVlYnVhR1o0OVd1SW9vdzk4bG14Y3MiLAogICJuZXh0UGFnZVRva2VuIjogIkNBRVFBQSIsCiAgInJlZ2lvbkNvZGUiOiAiVVMiLAogICJwYWdlSW5mbyI6IHsKICAgICJ0b3RhbFJlc3VsdHMiOiAxMDAwMDAwLAogICAgInJlc3VsdHNQZXJQYWdlIjogMQogIH0sCiAgIml0ZW1zIjogWwogICAgewogICAgICAia2luZCI6ICJ5b3V0dWJlI3NlYXJjaFJlc3VsdCIsCiAgICAgICJldGFnIjogIk9BYU5MbGlSV2FhZ1pZaEJQeTl1ZXVuTTlfTSIsCiAgICAgICJpZCI6IHsKICAgICAgICAia2luZCI6ICJ5b3V0dWJlI3ZpZGVvIiwKICAgICAgICAidmlkZW9JZCI6ICJVRERNWXdfSVpuRSIKICAgICAgfSwKICAgICAgInNuaXBwZXQiOiB7CiAgICAgICAgInB1Ymxpc2hlZEF0IjogIjIwMTctMTEtMjlUMTE6NTM6MTNaIiwKICAgICAgICAiY2hhbm5lbElkIjogIlVDdlIyUjdqMjE4dHplanRUc2JfWDZSdyIsCiAgICAgICAgInRpdGxlIjogIlBlcmZlY3QgLSBFZCBTaGVlcmFuIChMeXJpY3MpIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiTGVhcm4gaG93IHRvIHNpbmcgaW4gb25seSAzMCBkYXlzIHdpdGggdGhlc2UgZWFzeSwgZnVuIHZpZGVvIGxlc3NvbnMhIGh0dHBzOi8vd3d3LjMwZGF5c2luZ2VyLmNvbS9hLzgzMjgvQkZ6YUV2bXUgLS0gUGVyZmVjdCAtIEVkIFNoZWVyYW4gKEx5cmljcykg4pa277iPQ2hlY2sgLi4uIiwKICAgICAgICAidGh1bWJuYWlscyI6IHsKICAgICAgICAgICJkZWZhdWx0IjogewogICAgICAgICAgICAidXJsIjogImh0dHBzOi8vaS55dGltZy5jb20vdmkvVURETVl3X0labkUvZGVmYXVsdC5qcGciLAogICAgICAgICAgICAid2lkdGgiOiAxMjAsCiAgICAgICAgICAgICJoZWlnaHQiOiA5MAogICAgICAgICAgfSwKICAgICAgICAgICJtZWRpdW0iOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9VRERNWXdfSVpuRS9tcWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogMzIwLAogICAgICAgICAgICAiaGVpZ2h0IjogMTgwCiAgICAgICAgICB9LAogICAgICAgICAgImhpZ2giOiB7CiAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9VRERNWXdfSVpuRS9ocWRlZmF1bHQuanBnIiwKICAgICAgICAgICAgIndpZHRoIjogNDgwLAogICAgICAgICAgICAiaGVpZ2h0IjogMzYwCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICAiY2hhbm5lbFRpdGxlIjogIkRvcGVMeXJpY3MiLAogICAgICAgICJsaXZlQnJvYWRjYXN0Q29udGVudCI6ICJub25lIiwKICAgICAgICAicHVibGlzaFRpbWUiOiAiMjAxNy0xMS0yOVQxMTo1MzoxM1oiCiAgICAgIH0KICAgIH0KICBdCn0K
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:02 GMT
+  recorded_at: Thu, 14 May 2020 20:04:54 GMT
 - request:
     method: get
     uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=124985078
@@ -751,9 +741,8 @@ http_interactions:
       - bytes
       - bytes
       Age:
-      - '0'
-      - '0'
-      - '0'
+      - '48'
+      - '48'
       Content-Type:
       - text/plain; charset=utf-8
       Server:
@@ -766,20 +755,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 19:13:02 GMT
+      - Thu, 14 May 2020 20:04:54 GMT
       X-Served-By:
-      - cache-den19630-DEN
+      - cache-den19634-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578683582.436247,VS0,VE167
+      - S1589486695.838700,VS0,VE52
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.053294897079468},"body":{"lyrics":{"lyrics_id":16448653,"explicit":0,"lyrics_body":"I
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.046740055084229},"body":{"lyrics":{"lyrics_id":20816812,"explicit":0,"lyrics_body":"I
         found a love for me\nOh darling, just dive right in and follow my lead\nWell,
         I found a girl, beautiful and sweet\nOh, I never knew you were the someone
         waiting for me\n''Cause we were just kids when we fell in love\nNot knowing
@@ -787,14 +776,14 @@ http_interactions:
         your heart is all I own\nAnd in your eyes, you''re holding mine\n\nBaby, I''m
         dancing in the dark with you between my arms\nBarefoot on the grass, listening
         to our favourite song\nWhen you said you looked a mess, I whispered underneath
-        my breath\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCAHMMk-QEpi7in--qrVGMeY7gtg34fyKqhnby2yUgfu4BEjXkaoqkZm-929rotrEhqTcLxtwtsL6lfwa4n12kopZz5rMtAtTmVMXbNoaP6duacGOh5Zke-x-75FrLrYxG4LfFmLqPfhQHGAVtpGqH7wYxbdoThAKlQB5gCXFm3x5UNOFGSNrqQoau1AQSnleyipm4sm4wya1OQf2Gth3CcpMeK8B1EEmA1MmW6Ze1lBwqywRP7vITfkVIdhdQwes1ol2bV-7u7Cf0sJwBBgTT86hkYMzQfZxzSnZqtimm4MtAHmkIyfkcrjkApg5SRayzHRJSND_hCd7y-7oW2f6K7Iiag2Bl5KUgvawymjJi6W0i0vLWejNKflumunN3Snimj3P-Zw-4zRWXfZ68W22shehKEjWyEf9ZyLdP2qF_k_h7QZ953fmFVF0M4imS9g0\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_16448653\/su_0\/rs_0\/tr_3vUCAKbCo6ZA1CeG2nHjzD9G_PMrhqpm0ocy7amLH3J-G6IVQH-iSuazx_nyucvRu7cP7001Ti-STw2YyDzvgIFYVGSzSPc8JUSsAWJeZuDJMW9Oo4ATYp2E2MiKjOx61UiNnkyZ07FZFY69nVjunKF357DUPVEOj0xFswOoTM2YDFrpuKc8ScR1Ok-bQVTHkD6nsYUIeo5HWzSc917LR5Q9H2Vk57UZ_AZl2UrbPPUGki2CtcYuojFa8wJkl5JwRwSZHVoPvNRVjDYCArsFD0h9YHitN-tjFHi1YXL0VUrprrkOXgtwbRY5p_iO7Qryn3RpgUoM3EmO40lFWERiYWW8O16mEC-xlFafqNCkIz8bDbm3x_AftJIMC9YfVYKQMYh8VdeLdlxBCUhI307ssXtj_u7kk1PDuqFN9uoMlP5dUT7udPyWrePVSKZ69N1Mye8\/","lyrics_copyright":"Lyrics
+        my breath\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20816812\/su_0\/rs_0\/tr_3vUCAM376KCvkrKEKVWjIJwwixYV9pRXmTnwf_Qa1bXeKaz_c9bjsliVMNDI6sqZ_0laRmvNTwddln1DBqdQGhvPv495NGwLysCMhSbCmICRCYYDpM_D0kCRt5EBokOadzFgNMmvyCpR6bxEpTTCJwbJFXzE7b8UVq4Rr6xbDN-kM_X8_IFbSE5tmmed4fjXGWDQ817CchZ59ImaIOhTJUmvzb8Q14gxQZnLiuSmwWlI7HNBwtdKBLEnvjzKpteX_Yx-8x6VEXVt7DTI4K5Em8T_QAjwVmv3S2n0iJn3VpY-tWk6xlZTQimdneG2ydtyz3UeO2VmgxjQZIr6EoXDjrJDxRaSMctEGS2WJo7ZDXvCCqiOO_GiDnYhVmLLdXSI4MHPPLnhUZlXK3jnR5lOcBfaIPm_PIXMWUJFNfzo3EcxjwtDY26gPtdTv2wjaNJHhQ\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20816812\/su_0\/rs_0\/tr_3vUCABuWZa5kx-YEo5vZebce51HxAip2UdbTdUOiuTxYhe09p1a-mP9btDA3JE8ach5LFJi4aA0J2xDy00gPaqbA1AHqFgN4-yUV8YOp7dNsIYuAm7RNjIpKD1QIcAqmonZJ338-q454FmWWGw5VIkadvviG-vgC0AY2h3D9ZVa2dFFe3w1AXbbeCuHR0k-ktqcAPsiRKlhbjY1H3z5Xm4saskEciWQrNFkzYVAFdOHMYz9YsHUEyXh6iyJk3Qkre0mQAcaZdSpriGun60ZJD9EWaoxVANNpFdESR0lxiNQrqZCj3w6mtPYjTyHjJHGv76hIsgA81bYSCU9HjJ-GqMPsvvQQKKleqceakRGz-OVS3E0fT6c4KYechaNBnh9g5FG-jO3Gj7KZ0fhRN1Q2oVZnrV28X9Uqj8PZd5PsGgACAURe5nCyeTesg3HugQd0Zg\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:38Z"}}}}'
+        30% of the lyrics are returned.","updated_time":"2020-02-13T13:45:18Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:02 GMT
+  recorded_at: Thu, 14 May 2020 20:04:54 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -811,10 +800,10 @@ http_interactions:
         Baby, I'm dancing in the dark with you between my arms
         Barefoot on the grass, listening to our favourite song
         When you said you looked a mess, I whispered underneath my breath
-        ...(1409618830612)
+        ...(1409618905462)
     headers:
       Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -839,7 +828,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -855,15 +844,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - d7268a063c0ca3fd15359a6e69930092
+      - 95c7d8b37870edf8c0350c2567e1e47b
       X-Dp-Watson-Tran-Id:
-      - d7268a063c0ca3fd15359a6e69930092
+      - 95c7d8b37870edf8c0350c2567e1e47b
       X-Edgeconnect-Midmile-Rtt:
-      - '7'
+      - '30'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '366'
+      - '412'
       Date:
-      - Fri, 10 Jan 2020 19:13:03 GMT
+      - Thu, 14 May 2020 20:04:55 GMT
       Connection:
       - keep-alive
     body:
@@ -880,9 +869,9 @@ http_interactions:
         in your eyes, you''re holding mine","tones":[]},{"sentence_id":9,"text":"","tones":[]},{"sentence_id":10,"text":"Baby,
         I''m dancing in the dark with you between my arms","tones":[{"score":0.552853,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":11,"text":"Barefoot
         on the grass, listening to our favourite song","tones":[{"score":0.771437,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":12,"text":"When
-        you said you looked a mess, I whispered underneath my breath","tones":[]},{"sentence_id":13,"text":"...(1409618830612)","tones":[]}]}'
+        you said you looked a mess, I whispered underneath my breath","tones":[]},{"sentence_id":13,"text":"...(1409618905462)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:03 GMT
+  recorded_at: Thu, 14 May 2020 20:04:56 GMT
 - request:
     method: get
     uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Thinking%20Out%20Loud,%20Ed%20Sheeran&type=video
@@ -901,86 +890,84 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Expires:
-      - Fri, 10 Jan 2020 19:13:03 GMT
-      Date:
-      - Fri, 10 Jan 2020 19:13:03 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/b8cZxsCaGh63o0hbZC5_SouT7Ko"'
-      Vary:
-      - Origin
-      - X-Origin
       Content-Type:
       - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Thu, 14 May 2020 20:04:56 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
       X-Frame-Options:
       - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
+      X-Content-Type-Options:
+      - nosniff
       Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: |
         {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/b8cZxsCaGh63o0hbZC5_SouT7Ko\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/kuimDtnYD9P85ldxVm9kSF7FlsA\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "lp-EO5I60KA"
-           },
-           "snippet": {
-            "publishedAt": "2014-10-07T13:57:37.000Z",
-            "channelId": "UC0C-w0YjGpqDXGB8IHb662A",
-            "title": "Ed Sheeran - Thinking Out Loud [Official Video]",
-            "description": "Tickets for the Divide tour here - http://www.edsheeran.com/tour The official video for 'Thinking Out Loud', Ed learnt to dance! 'x', available to buy via iTunes ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/lp-EO5I60KA/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/lp-EO5I60KA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/lp-EO5I60KA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "Ed Sheeran",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
+          "kind": "youtube#searchListResponse",
+          "etag": "fymRcPtszIcZD7tGlXjFRMEjI7M",
+          "nextPageToken": "CAEQAA",
+          "regionCode": "US",
+          "pageInfo": {
+            "totalResults": 1000000,
+            "resultsPerPage": 1
+          },
+          "items": [
+            {
+              "kind": "youtube#searchResult",
+              "etag": "XR139jp8xYoBFfyqVU2b5Vbe84U",
+              "id": {
+                "kind": "youtube#video",
+                "videoId": "lp-EO5I60KA"
+              },
+              "snippet": {
+                "publishedAt": "2014-10-07T13:57:37Z",
+                "channelId": "UC0C-w0YjGpqDXGB8IHb662A",
+                "title": "Ed Sheeran - Thinking Out Loud [Official Video]",
+                "description": "Tickets for the Divide tour here - http://www.edsheeran.com/tour The official video for 'Thinking Out Loud', Ed learnt to dance! 'x', available to buy via iTunes ...",
+                "thumbnails": {
+                  "default": {
+                    "url": "https://i.ytimg.com/vi/lp-EO5I60KA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                  },
+                  "medium": {
+                    "url": "https://i.ytimg.com/vi/lp-EO5I60KA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                  },
+                  "high": {
+                    "url": "https://i.ytimg.com/vi/lp-EO5I60KA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                  }
+                },
+                "channelTitle": "Ed Sheeran",
+                "liveBroadcastContent": "none",
+                "publishTime": "2014-10-07T13:57:37Z"
+              }
+            }
+          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:03 GMT
+  recorded_at: Thu, 14 May 2020 20:04:56 GMT
 - request:
     method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109263
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=84361925
     body:
       encoding: US-ASCII
       string: ''
@@ -1007,7 +994,6 @@ http_interactions:
       Age:
       - '0'
       - '0'
-      - '0'
       Content-Type:
       - text/plain; charset=utf-8
       Server:
@@ -1020,20 +1006,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 19:13:03 GMT
+      - Thu, 14 May 2020 20:04:57 GMT
       X-Served-By:
-      - cache-den19627-DEN
+      - cache-den19629-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578683584.663510,VS0,VE181
+      - S1589486697.898498,VS0,VE104
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.069874048233032},"body":{"lyrics":{"lyrics_id":15923957,"explicit":0,"lyrics_body":"When
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.046053886413574},"body":{"lyrics":{"lyrics_id":15923957,"explicit":0,"lyrics_body":"When
         your legs don''t work like they used to before\nAnd I can''t sweep you off
         of your feet\nWill your mouth still remember the taste of my love?\nWill your
         eyes still smile from your cheeks?\n\nAnd, darling, I will be loving you till
@@ -1042,14 +1028,14 @@ http_interactions:
         a hand\nWell, me, I fall in love with you every single day\nAnd I just wanna
         tell you I am\n\nSo, honey, now\nTake me into your loving arms\nKiss me under
         the light of a thousand stars\nPlace your head on my beating heart\n...\n\n*******
-        This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAKdM6qd_kn0b9thgmfLswAKtIv0Ky7Co1iVYqoN7YqBaIBbF2kr_9GEDIENN0DdRXki6SScf2xIF67aUbb1KVJ81S2DHlh-0WV6CgknET6R8d2VjnUe_t1FCEBfS8b_fyihHGO8rguSfV5-NgTh_GZ9AXU0Pt5lfXHIEtYkOK7imGO2xP6vYMsKhU-XDE1Hv4gG5RuxQBYNn0sSuCupcvBs2Jndsg9KkW-2sYA5Rn3KzFW59Ov3ajPrwGc1qAziK8eokFxkaN_51A7YuW7iXyR9bwnFBwaNNkh4JBvFjiTMMl0NHpswZMTTfXo1NQ4wtgs8LQO2eZqiEvJq07VkXRNnvEyelyEwi0ZSDHiQYReo7iKgLcbPUSMCzpj8nfrpWgtHjiby0vh_q9Dvtxg6TyZUtwloGuSGyuZagnhxq1YGEyAIeiJFcuXi41A4YSeMO0LEmVvvS634s3w\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAJE8Se_suTHl3hSQ96Fo2alUMseQdbolXITHliOIsGJ-yKJpjrco9hc25J8u4cfdt-44yF_euJOmYwTIM0xIm95QWfs1mIEwstcUbiOh8TLaNYANFT8z2A-10s7ZBLSZDs8vc-dulEhiInWnrScPMQ-Nmw0TICcnUc2UmJODmFTzCZID9EkNPsfzlKB5FoEeUWgYK5_ZvqhY2YLiXKOqcV2dYop11BH0jhyXZLdOfel4IwyNLl87rpHOg24qBM4H9-Q5aHyLkMujaOQa1spG5W5r1eou0izY4j0CTvXU9I1TkeTjwcbRMPhVbGJ5YxeYHJrniLbFYrLEezYadHZuupeOG6E_xyVGP3LmGiYL-OZr_xX8TBsfwKVu8IJxIhTHjed2brA-r5WH2fpko5hmXQWsd1eJ_TPUEgCBsjLXosaEuvy3KVKDoVVqI_3yJit7wcbM18jPJADttQ\/","lyrics_copyright":"Lyrics
+        This Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCAJCXKUjcNnJhEdMr50dms1Tr2DkMmqQEtWTsoMo7kgE_DtqTOu5W8LpyB4aqmPJkAFN7vu8T9beShKScCf0EmhMNKuCLVihTxDocGCRsvilT9eIcIFcUdoVwabnIyyzmFT2OtH8i_wo1PBF5tsnY9rBhBfhvULT9aV5Wt2HnDNoP4W2zGOF48pCnb9ctaIhDj7KW7EGKS6M_I9dL3zdFuX-C0qw0ct5Xz4Eye0oP3O5evYXxtslLWgfkmKDW3UeVr7hMoUG3YHGiCwVchM8TWfsD05bgEMd9M7T1Tq59GQZBxcbs-ZAthcewgsUFhFYtCp5B0TYxpY4pOHc0YC6RFgcsNMovxnLUg1GceqSZ3KCiHkVrB3NFaQQXzaW_uZ-F5fN1RsBzS_ByWh952lfSmwWV7YV0hUSygDEkSjcVpOUB8_hB5bW_aJaf1mMEBIyRu_HrfoH-fA9C\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_15923957\/su_0\/rs_0\/tr_3vUCABvv-9Y2EAh7ritBNx-Ij0GrADiA9bT3SsOeqmKFQytpPvMbWpR1ajkODfDYDWDCTiOIdRREK1Af3bytJAbnQnFSJo3WH2H5rj7JuYkPMNgCqSFbYplKNoxF2zxlrTflzbysmIhOgUxpcOHRU1wokc4Gu3Y5YzmV6-cVCG4OJcUinlGYCCsm80zGP1kWTCAcYaV7Gx3hyOLUMxoSvQ7A-QzcIl51ZOHhw2Rd48gwRgrxUtnIUjaCbBznkc19WmaLmdFt7KO5bTNRMwWlU7d8eXWF-4h-dL5C-BZnSweKnTO_xdlh78azLFDQpidTOkBvd-xraLPcohEkMA9qUGvLm_z33CJpxkng91bdaMgQW2IEvAcfCc_RyD8OLn3pxB-7IDPdWcCFvDBGgSPOWr3I0RuuGnULMPjtcrwokkOHn0lNJ-yGK4mhF5Z5Hmq63zXTNLj0zv4CgTbO\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:42Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:03 GMT
+  recorded_at: Thu, 14 May 2020 20:04:57 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -1069,10 +1055,10 @@ http_interactions:
         Take me into your loving arms
         Kiss me under the light of a thousand stars
         Place your head on my beating heart
-        ...(1409618830612)
+        ...(1409618905462)
     headers:
       Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -1097,7 +1083,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -1113,15 +1099,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 608c8b8b052dd2595ed69c2e20f50622
+      - c353354c55ee05b9f9a0cf4d43b7ca7f
       X-Dp-Watson-Tran-Id:
-      - 608c8b8b052dd2595ed69c2e20f50622
+      - c353354c55ee05b9f9a0cf4d43b7ca7f
       X-Edgeconnect-Midmile-Rtt:
-      - '6'
+      - '20'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '367'
+      - '363'
       Date:
-      - Fri, 10 Jan 2020 19:13:04 GMT
+      - Thu, 14 May 2020 20:04:57 GMT
       Connection:
       - keep-alive
     body:
@@ -1140,278 +1126,9 @@ http_interactions:
         honey, now","tones":[]},{"sentence_id":12,"text":"Take me into your loving
         arms","tones":[{"score":0.705407,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":13,"text":"Kiss
         me under the light of a thousand stars","tones":[{"score":0.769288,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":14,"text":"Place
-        your head on my beating heart","tones":[{"score":0.67238,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":15,"text":"...(1409618830612)","tones":[]}]}'
+        your head on my beating heart","tones":[{"score":0.67238,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":15,"text":"...(1409618905462)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:04 GMT
-- request:
-    method: get
-    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=South%20of%20the%20Border,%20Ed%20Sheeran&type=video
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.0.0
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Expires:
-      - Fri, 10 Jan 2020 19:13:04 GMT
-      Date:
-      - Fri, 10 Jan 2020 19:13:04 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/R8k2Ej_5tiELyH1iau8hPuT3dmM"'
-      Vary:
-      - Origin
-      - X-Origin
-      Content-Type:
-      - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
-      Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: ASCII-8BIT
-      string: |
-        {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/R8k2Ej_5tiELyH1iau8hPuT3dmM\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 574743,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/bLHMk5G3K_FdXqC_KALNjaJQG0s\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "UPOT2tgY9QQ"
-           },
-           "snippet": {
-            "publishedAt": "2019-10-04T18:30:26.000Z",
-            "channelId": "UC0C-w0YjGpqDXGB8IHb662A",
-            "title": "Ed Sheeran - South of the Border (feat. Camila Cabello &amp; Cardi B) [Official Video]",
-            "description": "Download or Stream No.6 Collaborations Project - out now: https://atlanti.cr/No6 Subscribe to Ed's channel: http://bit.ly/SubscribeToEdSheeran Follow Ed on.",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/UPOT2tgY9QQ/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/UPOT2tgY9QQ/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/UPOT2tgY9QQ/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "Ed Sheeran",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
-        }
-    http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:04 GMT
-- request:
-    method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=170774806
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.0.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '1637'
-      Accept-Ranges:
-      - bytes
-      - bytes
-      - bytes
-      Age:
-      - '0'
-      - '0'
-      - '0'
-      Content-Type:
-      - text/plain; charset=utf-8
-      Server:
-      - nginx
-      Via:
-      - 1.1 varnish
-      - 1.1 varnish
-      X-Restarts:
-      - '0'
-      X-Varnish-Instance:
-      - api
-      Date:
-      - Fri, 10 Jan 2020 19:13:05 GMT
-      X-Served-By:
-      - cache-den19625-DEN
-      X-Cache:
-      - MISS
-      X-Cache-Hits:
-      - '0'
-      X-Timer:
-      - S1578683585.889522,VS0,VE255
-      Vary:
-      - Accept-Encoding
-    body:
-      encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.14369297027588},"body":{"lyrics":{"lyrics_id":19481077,"explicit":0,"lyrics_body":"She
-        got the mmm, brown eyes, caramel thighs\nLong hair, no wedding ring, hey\nI
-        saw you lookin'' from across the way\nAnd now I really wanna know your name\n\nShe
-        got the mmm, white dress, but when she''s wearin'' less\nMan, you know that
-        she drives me crazy\nThe mmm, brown eyes, beautiful smile\nYou know I love
-        watching you do your thing\n\nI love her hips, curves, lips say the words\n\"Te
-        amo, mami, ah, te amo, mami\"\nI kiss her, this love is like a dream\n\nSo
-        join me in this bed that I''m in\nAnd push up on me and sweat, darling\nSo
-        I''m gonna put my time in\nI won''t stop until the angels sing\n\nJump in
-        that water, be free\nCome South of the border with me\nJump in that water,
-        be free\nCome South of the border with me\n\nHe got that mmm, green eyes,
-        givin'' me signs\nThat he really wants to know my name, hey\nI saw you lookin''
-        from across the way\nAnd suddenly, I''m glad I came, ay\n\nVen para ac\u00e1
-        quiero bailar, toma mi mano\nQuiero sentir tu cuerpo en mi, est\u00e1s temblando\nMmm,
-        green eyes, takin'' your time\n...\n\n******* This Lyrics is NOT for Commercial
-        use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCAE9b2srmi_0AfzHwMd_NT7-xvOZyBa8h2_kusru8d9QIx0_YIADiUKXTNFlrlPOpwrVdcctN9XqHcZHfkQl5u0XoDJ6iIe2uSJUDZ9eIywGIRbbiiWgkEvaLmRJb_ZF-tpeSaPIDDCDODXNbZk_laJVhkplgW_a9dblnrW4bcqfoZpzUKYcanmgFsyhhrCDKRQri9Y1Cz9jZFuCf5Rnw6wx_IiKeo6CN_v_LPGKoATn7d6q3SsAcrsZFQ0DeiP6U7YdEvCmAG3weB2TQlNUHyU6Btxt5_SFU27zlHJfk7nMfFxVnYiqkUBnYU6iPiUvCTZDeckUqZAtKrnTFGoF6OFTe-czbKbgX_oIDdtQuHtga8806_IjkOt-c5ebftdDV3YgaZJdBRF4nP56PYf2ZC27oYux-NW4R4RN47W9EIL-UKnU4jgRWfFgncw2-aQp3ki9dxRbeAfySZRg\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19481077\/su_0\/rs_0\/tr_3vUCAFLB-jsVQC4g3T_aiYely08Rz-ddJCtUwVFYcgR138bhdnyToyRF5Zd9zgKW6y8Rz_YWM3wcThfCVwbq2m5WPDk93jliZPryZsJkGgYeOk0LDwhytQCC5XaegFHeDqMp7UDDcUA1DMSLjqB-a7jpekaD6Hgx_In-upBqbEjYKJxWTxmhbDdsKN-ZnJJfVgEHJfPr5LJissh5eDjiEi9xw73T05brHhioMamoqbNMn-jxATYyn6B2U54p3dy0G1EYiE2Bi43fgCnOwHCsmnfTX-2NXb8TDfI0hnoAc0XVQSZU_QlIwjAeKSPAv4u04AKxL6lHFyECanAmETNJpVvcdmo0VvChFehD5zLGOpRV_7Xmz7J1iqd6zfBbgv7fI2qylnc5OSPTXouQ6E7iZYWUg7WX6B7J1LGlBb7HExcJzTde6QT0RMekpTNSlKJ7TWShPJ3LkEqQ3WJQqGE\/","lyrics_copyright":"Lyrics
-        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-07-30T14:55:37Z"}}}}'
-    http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:05 GMT
-- request:
-    method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
-    body:
-      encoding: UTF-8
-      string: |-
-        She got the mmm, brown eyes, caramel thighs
-        Long hair, no wedding ring, hey
-        I saw you lookin' from across the way
-        And now I really wanna know your name
-
-        She got the mmm, white dress, but when she's wearin' less
-        Man, you know that she drives me crazy
-        The mmm, brown eyes, beautiful smile
-        You know I love watching you do your thing
-
-        I love her hips, curves, lips say the words
-        "Te amo, mami, ah, te amo, mami"
-        I kiss her, this love is like a dream
-
-        So join me in this bed that I'm in
-        And push up on me and sweat, darling
-        So I'm gonna put my time in
-        I won't stop until the angels sing
-
-        Jump in that water, be free
-        Come South of the border with me
-        Jump in that water, be free
-        Come South of the border with me
-
-        He got that mmm, green eyes, givin' me signs
-        That he really wants to know my name, hey
-        I saw you lookin' from across the way
-        And suddenly, I'm glad I came, ay
-
-        Ven para acá quiero bailar, toma mi mano
-        Quiero sentir tu cuerpo en mi, estás temblando
-        Mmm, green eyes, takin' your time
-        ...(1409618830612)
-    headers:
-      Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
-      User-Agent:
-      - Faraday v1.0.0
-      Content-Type:
-      - text/plain
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '3023'
-      X-Powered-By:
-      - Servlet/3.1
-      Access-Control-Allow-Origin:
-      - "*"
-      X-Service-Api-Version:
-      - null; 2017-09-21
-      X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
-      Cache-Control:
-      - no-store
-      Pragma:
-      - no-cache
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Content-Type-Options:
-      - nosniff
-      Content-Security-Policy:
-      - default-src 'none'
-      Content-Language:
-      - en-US
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains;
-      X-Global-Transaction-Id:
-      - d91d886b2658419136bc1ea0252cb12f
-      X-Dp-Watson-Tran-Id:
-      - d91d886b2658419136bc1ea0252cb12f
-      X-Edgeconnect-Midmile-Rtt:
-      - '5'
-      X-Edgeconnect-Origin-Mex-Latency:
-      - '336'
-      Date:
-      - Fri, 10 Jan 2020 19:13:05 GMT
-      Connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkb2N1bWVudF90b25lIjp7InRvbmVzIjpbeyJzY29yZSI6MC44ODk5NDYsInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LCJzZW50ZW5jZXNfdG9uZSI6W3sic2VudGVuY2VfaWQiOjAsInRleHQiOiJTaGUgZ290IHRoZSBtbW0sIGJyb3duIGV5ZXMsIGNhcmFtZWwgdGhpZ2hzIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoxLCJ0ZXh0IjoiTG9uZyBoYWlyLCBubyB3ZWRkaW5nIHJpbmcsIGhleSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MiwidGV4dCI6Ikkgc2F3IHlvdSBsb29raW4nIGZyb20gYWNyb3NzIHRoZSB3YXkiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjMsInRleHQiOiJBbmQgbm93IEkgcmVhbGx5IHdhbm5hIGtub3cgeW91ciBuYW1lIiwidG9uZXMiOlt7InNjb3JlIjowLjUzODUzMywidG9uZV9pZCI6InNhZG5lc3MiLCJ0b25lX25hbWUiOiJTYWRuZXNzIn1dfSx7InNlbnRlbmNlX2lkIjo0LCJ0ZXh0IjoiIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjo1LCJ0ZXh0IjoiU2hlIGdvdCB0aGUgbW1tLCB3aGl0ZSBkcmVzcywgYnV0IHdoZW4gc2hlJ3Mgd2VhcmluJyBsZXNzIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjo2LCJ0ZXh0IjoiTWFuLCB5b3Uga25vdyB0aGF0IHNoZSBkcml2ZXMgbWUgY3JhenkiLCJ0b25lcyI6W3sic2NvcmUiOjAuNzYyMzU2LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjcsInRleHQiOiJUaGUgbW1tLCBicm93biBleWVzLCBiZWF1dGlmdWwgc21pbGUiLCJ0b25lcyI6W3sic2NvcmUiOjAuOTM3NzAzLCJ0b25lX2lkIjoiam95IiwidG9uZV9uYW1lIjoiSm95In1dfSx7InNlbnRlbmNlX2lkIjo4LCJ0ZXh0IjoiWW91IGtub3cgSSBsb3ZlIHdhdGNoaW5nIHlvdSBkbyB5b3VyIHRoaW5nIiwidG9uZXMiOlt7InNjb3JlIjowLjgxMTU5NiwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9LHsic2NvcmUiOjAuNzI0MjM2LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjksInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjEwLCJ0ZXh0IjoiSSBsb3ZlIGhlciBoaXBzLCBjdXJ2ZXMsIGxpcHMgc2F5IHRoZSB3b3JkcyIsInRvbmVzIjpbeyJzY29yZSI6MC43MzczNDEsInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LHsic2VudGVuY2VfaWQiOjExLCJ0ZXh0IjoiXCJUZSBhbW8sIG1hbWksIGFoLCB0ZSBhbW8sIG1hbWlcIiIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MTIsInRleHQiOiJJIGtpc3MgaGVyLCB0aGlzIGxvdmUgaXMgbGlrZSBhIGRyZWFtIiwidG9uZXMiOlt7InNjb3JlIjowLjkxODU5OSwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9LHsic2NvcmUiOjAuNTUzOCwidG9uZV9pZCI6InRlbnRhdGl2ZSIsInRvbmVfbmFtZSI6IlRlbnRhdGl2ZSJ9XX0seyJzZW50ZW5jZV9pZCI6MTMsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjE0LCJ0ZXh0IjoiU28gam9pbiBtZSBpbiB0aGlzIGJlZCB0aGF0IEknbSBpbiIsInRvbmVzIjpbeyJzY29yZSI6MC43MjIzNjksInRvbmVfaWQiOiJqb3kiLCJ0b25lX25hbWUiOiJKb3kifV19LHsic2VudGVuY2VfaWQiOjE1LCJ0ZXh0IjoiQW5kIHB1c2ggdXAgb24gbWUgYW5kIHN3ZWF0LCBkYXJsaW5nIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoxNiwidGV4dCI6IlNvIEknbSBnb25uYSBwdXQgbXkgdGltZSBpbiIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MTcsInRleHQiOiJJIHdvbid0IHN0b3AgdW50aWwgdGhlIGFuZ2VscyBzaW5nIiwidG9uZXMiOlt7InNjb3JlIjowLjc0ODUxNiwidG9uZV9pZCI6ImpveSIsInRvbmVfbmFtZSI6IkpveSJ9XX0seyJzZW50ZW5jZV9pZCI6MTgsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjE5LCJ0ZXh0IjoiSnVtcCBpbiB0aGF0IHdhdGVyLCBiZSBmcmVlIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyMCwidGV4dCI6IkNvbWUgU291dGggb2YgdGhlIGJvcmRlciB3aXRoIG1lIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyMSwidGV4dCI6Ikp1bXAgaW4gdGhhdCB3YXRlciwgYmUgZnJlZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjIsInRleHQiOiJDb21lIFNvdXRoIG9mIHRoZSBib3JkZXIgd2l0aCBtZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjMsInRleHQiOiIiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI0LCJ0ZXh0IjoiSGUgZ290IHRoYXQgbW1tLCBncmVlbiBleWVzLCBnaXZpbicgbWUgc2lnbnMiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI1LCJ0ZXh0IjoiVGhhdCBoZSByZWFsbHkgd2FudHMgdG8ga25vdyBteSBuYW1lLCBoZXkiLCJ0b25lcyI6W3sic2NvcmUiOjAuOTAxODk0LCJ0b25lX2lkIjoiYW5hbHl0aWNhbCIsInRvbmVfbmFtZSI6IkFuYWx5dGljYWwifV19LHsic2VudGVuY2VfaWQiOjI2LCJ0ZXh0IjoiSSBzYXcgeW91IGxvb2tpbicgZnJvbSBhY3Jvc3MgdGhlIHdheSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MjcsInRleHQiOiJBbmQgc3VkZGVubHksIEknbSBnbGFkIEkgY2FtZSwgYXkiLCJ0b25lcyI6W119LHsic2VudGVuY2VfaWQiOjI4LCJ0ZXh0IjoiIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjoyOSwidGV4dCI6IlZlbiBwYXJhIGFjw6EgcXVpZXJvIGJhaWxhciwgdG9tYSBtaSBtYW5vIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjozMCwidGV4dCI6IlF1aWVybyBzZW50aXIgdHUgY3VlcnBvIGVuIG1pLCBlc3TDoXMgdGVtYmxhbmRvIiwidG9uZXMiOltdfSx7InNlbnRlbmNlX2lkIjozMSwidGV4dCI6Ik1tbSwgZ3JlZW4gZXllcywgdGFraW4nIHlvdXIgdGltZSIsInRvbmVzIjpbXX0seyJzZW50ZW5jZV9pZCI6MzIsInRleHQiOiIuLi4oMTQwOTYxODgzMDYxMikiLCJ0b25lcyI6W119XX0=
-    http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:05 GMT
+  recorded_at: Thu, 14 May 2020 20:04:57 GMT
 - request:
     method: get
     uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=Photograph,%20Ed%20Sheeran&type=video
@@ -1430,86 +1147,84 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Expires:
-      - Fri, 10 Jan 2020 19:13:06 GMT
-      Date:
-      - Fri, 10 Jan 2020 19:13:06 GMT
-      Cache-Control:
-      - private, max-age=120, must-revalidate, no-transform
-      Etag:
-      - '"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/WQ1-m7hPsg8pugVSL_qXlyoq6_E"'
-      Vary:
-      - Origin
-      - X-Origin
       Content-Type:
       - application/json; charset=UTF-8
-      X-Content-Type-Options:
-      - nosniff
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Thu, 14 May 2020 20:04:58 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
       X-Frame-Options:
       - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      Server:
-      - GSE
+      X-Content-Type-Options:
+      - nosniff
       Alt-Svc:
-      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
-        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
-        ma=2592000
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: |
         {
-         "kind": "youtube#searchListResponse",
-         "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/WQ1-m7hPsg8pugVSL_qXlyoq6_E\"",
-         "nextPageToken": "CAEQAA",
-         "regionCode": "US",
-         "pageInfo": {
-          "totalResults": 1000000,
-          "resultsPerPage": 1
-         },
-         "items": [
-          {
-           "kind": "youtube#searchResult",
-           "etag": "\"OOFf3Zw2jDbxxHsjJ3l8u1U8dz4/H-pYmqTmfulme4BRTSrEJd25uW4\"",
-           "id": {
-            "kind": "youtube#video",
-            "videoId": "qgmXPCX4VzU"
-           },
-           "snippet": {
-            "publishedAt": "2017-09-19T13:25:26.000Z",
-            "channelId": "UCvR2R7j218tzejtTsb_X6Rw",
-            "title": "Photograph - Ed Sheeran (Lyrics)",
-            "description": "Learn how to sing in only 30 days with these easy, fun video lessons! https://www.30daysinger.com/a/8328/BFzaEvmu -- Photograph - Ed Sheeran (Lyrics) ...",
-            "thumbnails": {
-             "default": {
-              "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/default.jpg",
-              "width": 120,
-              "height": 90
-             },
-             "medium": {
-              "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-             },
-             "high": {
-              "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-             }
-            },
-            "channelTitle": "DopeLyrics",
-            "liveBroadcastContent": "none"
-           }
-          }
-         ]
+          "kind": "youtube#searchListResponse",
+          "etag": "oQlTfcLqkGTnZJZT1UF1FUmeQqo",
+          "nextPageToken": "CAEQAA",
+          "regionCode": "US",
+          "pageInfo": {
+            "totalResults": 1000000,
+            "resultsPerPage": 1
+          },
+          "items": [
+            {
+              "kind": "youtube#searchResult",
+              "etag": "62x4V_Sw3Iw90cUDWJMcLS4zn14",
+              "id": {
+                "kind": "youtube#video",
+                "videoId": "qgmXPCX4VzU"
+              },
+              "snippet": {
+                "publishedAt": "2017-09-19T13:25:26Z",
+                "channelId": "UCvR2R7j218tzejtTsb_X6Rw",
+                "title": "Photograph - Ed Sheeran (Lyrics)",
+                "description": "Learn how to sing in only 30 days with these easy, fun video lessons! https://www.30daysinger.com/a/8328/BFzaEvmu -- Photograph - Ed Sheeran (Lyrics) ...",
+                "thumbnails": {
+                  "default": {
+                    "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/default.jpg",
+                    "width": 120,
+                    "height": 90
+                  },
+                  "medium": {
+                    "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                  },
+                  "high": {
+                    "url": "https://i.ytimg.com/vi/qgmXPCX4VzU/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                  }
+                },
+                "channelTitle": "DopeLyrics",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-09-19T13:25:26Z"
+              }
+            }
+          ]
         }
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:06 GMT
+  recorded_at: Thu, 14 May 2020 20:04:58 GMT
 - request:
     method: get
-    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=73109257
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=84361920
     body:
       encoding: US-ASCII
       string: ''
@@ -1528,15 +1243,14 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1391'
+      - '1383'
       Accept-Ranges:
       - bytes
       - bytes
       - bytes
       Age:
-      - '0'
-      - '0'
-      - '0'
+      - '48'
+      - '48'
       Content-Type:
       - text/plain; charset=utf-8
       Server:
@@ -1549,52 +1263,52 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Fri, 10 Jan 2020 19:13:06 GMT
+      - Thu, 14 May 2020 20:04:58 GMT
       X-Served-By:
-      - cache-den19620-DEN
+      - cache-den19643-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578683586.224025,VS0,VE167
+      - S1589486699.729629,VS0,VE51
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.058545112609863},"body":{"lyrics":{"lyrics_id":11792584,"explicit":0,"lyrics_body":"Loving
-        can hurt\nLoving can hurt sometimes\nBut it''s the only thing\nThat I know.\n\nAnd
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.033231973648071},"body":{"lyrics":{"lyrics_id":20900586,"explicit":0,"lyrics_body":"Loving
+        can hurt\nLoving can hurt sometimes\nBut it''s the only thing\nThat I know\n\nAnd
         when it gets hard\nYou know it can get hard sometimes\nIt is the only thing
-        that makes us feel alive.\n\nWe keep this love in a photograph\nWe make these
+        that makes us feel alive\n\nWe keep this love in a photograph\nWe make these
         memories for ourselves\nWhere our eyes are never closing\nHearts are never
-        broken\nAnd time''s forever frozen still.\n\nSo you can keep me\nInside the
+        broken\nAnd time''s forever frozen still\n\nSo you can keep me\nInside the
         pocket\nOf your ripped jeans\nHoldin'' me closer\nTill our eyes meet\nYou
-        won''t ever be alone\nWait for me to come home.\n\nLoving can heal\n...\n\n*******
-        This Lyrics is NOT for Commercial use *******\n(1409618830612)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAA7SM6MprzPcZTDwx2ht-ACbVVOzqcuIXS8V_cZbUhwSO6VgRbzglf7u8Ryd19QRBHlaUEHSn38o1SgsEqbtaCzK_ZSui7gyIV0riOJtXMVcEp5w3CL4-J3PihNAnhqIYSimM-B244sPMi7iDozEkH64fehTZe4qTijIMMmAz6KnDB6h6TN5CkPUJSAhez6zUF2ouDp9uaokQMYJzRuRUDp3O5V5EcLeDKkHFxob4UZ_QZPvqX0D82KhHZ0_HWYOVOe-AAfsuXMYh92ihlNd8MMVvmCz4YJpVghnAfPMWXQ19bpx9gJP8Wu9JGqdL_kRs7l99k15_o93SJW8ZjFvB4M47Pc4pkJn7eiQUm3ri4leKPgdm8z0WqQfLh6yrFCFtwZaI86Ad_zwAQHOu7ZkbgpFjKhxn8rtfe8BICF0r2F5QdIuB41SQF5ZrnZ0NFG-Vhk\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_11792584\/su_0\/rs_0\/tr_3vUCAIA-ScQV9OXrPAHcCOW4bCs9gvCOeLQV00FEJhxtj5_LHuQSvhiFqpCYYwa8IiHO5voG1vDt-wf_Ip9nSfiSpxhuU0hfqfWY_ai7OzpZuPVWHZtB5HB8ZgMTB_KGqLoGDgsMACgGtDhMa8dxXTXqw83sa4hWJ_v5LCOk02Ak4y5yWPRnd-Lq21MwpIdmAK1JyBYuVNG2iMp1s0YkPFLur-x8jVbLeCyHz2KMbCS6FF0O6VAOiIm6UikECl19S_zEBPlIwWNUSC13wTwJkwLmWQpbt14XUK0HUoAKGbzq5Rpi5TKJqvJeUjsZnFVxMpAS5Iu1gH-up4UlWidHgmxDNAxFk1O00tZqR74lcWdFkeq7y8GA61UHZPTMCOs7bWAtB67NTyeYoB9aZo5cK3pPo-Ar19UoDXXx6LMwRcR6nOb4OTcLFBV97-AvE5yiOPZ5Kw0\/","lyrics_copyright":"Lyrics
+        won''t ever be alone\nWait for me to come home\n\nLoving can heal\n...\n\n*******
+        This Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20900586\/su_0\/rs_0\/tr_3vUCAI9CJlRTIr9QYL31RVQQuDMcYzzTdLeLgl-sxqPRV3oou6NkQ-GWe-fxv9mXM0gqpgxVoi5yaxYQTOO7TY9ysq8bDXR4nIcjwLBvaIK6NcztT1_EcXDXnE8T2-N-zTriDtoyqPygpVsn4q3aF2FcsCQhQj35f-1Bb3WJBBIZ8zp_65GUzeY0d9QOxGtucahjWXHbIeCs1-wyQlqriiN0boVijF0oTf-lLx9daLNUbwjuNMPVwkeWjJ4axfza8tw5W5ugfPiMHWQKFdLHQreLk4-voFf04w_qDlUi2SoX9N4zbpJp2wPinrYUlBTo8S58RLjYKeikVSVVu9MSD2b9mTgtbC2cUUXlBvh3m1MBVoDP5PbfTTGK6IPml7loGjJW2a__EU-RQQr8JcDiWoUhbsm2DhmspZSZ_bY9XTaCurv0PvbBXk7dvvdlY3-I7gyeLA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20900586\/su_0\/rs_0\/tr_3vUCAAV-gT--_oyM_uz6zLTi7DykXeeD4dz7y1abiQpe7q4jmmQ6mqpAKbJt9C5NWIDaBD4rlbVFNfDC06v_0et-bW63gbr3v60moRsk06ELcyvOxFLozFQu95Gm3THWJJSjbNarzE49uV9fqPLr73JcFGQiZ-It-ABTBwMu68YH3oPpHIkJbeTUMWO82Ml1Kslgj_B9XdjvgQZAxqx2cO341AKMyMVvmgveXp5_phRw2MjNuiFHOXfUc5oTG8i0VTCDIyv2q3ZWU7xTSFUiYt36GoZqytfgOnYYy3DeH1Th4xyqGcmjqpPRxLAAFSzo2dGrpoobuucRaxk3KWoHcGU_ryKe1NfDLkDeauv6bRKpnD6Z2ur9EyvlsBo7W9qfNxpZqB28uO-_-P6VndDHA3I2XqdUuErdnKINDTnPKXkVHsajS5MDjDi3yOaAMWeaq5JAxg\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
-        30% of the lyrics are returned.","updated_time":"2019-03-13T11:56:49Z"}}}}'
+        30% of the lyrics are returned.","updated_time":"2020-02-18T17:10:52Z"}}}}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:06 GMT
+  recorded_at: Thu, 14 May 2020 20:04:58 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
         Loving can hurt
         Loving can hurt sometimes
         But it's the only thing
-        That I know.
+        That I know
 
         And when it gets hard
         You know it can get hard sometimes
-        It is the only thing that makes us feel alive.
+        It is the only thing that makes us feel alive
 
         We keep this love in a photograph
         We make these memories for ourselves
         Where our eyes are never closing
         Hearts are never broken
-        And time's forever frozen still.
+        And time's forever frozen still
 
         So you can keep me
         Inside the pocket
@@ -1602,13 +1316,13 @@ http_interactions:
         Holdin' me closer
         Till our eyes meet
         You won't ever be alone
-        Wait for me to come home.
+        Wait for me to come home
 
         Loving can heal
-        ...(1409618830612)
+        ...(1409618905462)
     headers:
       Authorization:
-      - Basic YXBpa2V5OnFPV1ZnN0NsNmRoa3hvZF9hUmRmTm1KUWMzTnU0SGI0dTRkNnRHcDZIWURT
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -1625,7 +1339,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '2773'
+      - '2929'
       X-Powered-By:
       - Servlet/3.1
       Access-Control-Allow-Origin:
@@ -1633,7 +1347,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -1649,15 +1363,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - f56016b34c5a674e70699ce31d219329
+      - da0e40810b87847c6a1fefb6d4c7bd9d
       X-Dp-Watson-Tran-Id:
-      - f56016b34c5a674e70699ce31d219329
+      - da0e40810b87847c6a1fefb6d4c7bd9d
       X-Edgeconnect-Midmile-Rtt:
-      - '3'
+      - '25'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '320'
+      - '302'
       Date:
-      - Fri, 10 Jan 2020 19:13:06 GMT
+      - Thu, 14 May 2020 20:04:59 GMT
       Connection:
       - keep-alive
     body:
@@ -1666,20 +1380,292 @@ http_interactions:
         can hurt","tones":[{"score":0.713751,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":1,"text":"Loving
         can hurt sometimes","tones":[{"score":0.81679,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.984352,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":2,"text":"But
         it''s the only thing","tones":[{"score":0.687768,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":3,"text":"That
-        I know.","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"And
-        when it gets hard","tones":[{"score":0.692321,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":5,"text":"You
-        know it can get hard sometimes","tones":[{"score":0.669571,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"It
-        is the only thing that makes us feel alive.","tones":[{"score":0.633257,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":7,"text":"We
-        keep this love in a photograph","tones":[{"score":0.913335,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":8,"text":"We
-        make these memories for ourselves","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":9,"text":"Where
-        our eyes are never closing","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":10,"text":"Hearts
-        are never broken","tones":[{"score":0.717268,"tone_id":"joy","tone_name":"Joy"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":11,"text":"And
-        time''s forever frozen still.","tones":[{"score":0.772051,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":12,"text":"So
-        you can keep me","tones":[]},{"sentence_id":13,"text":"Inside the pocket","tones":[]},{"sentence_id":14,"text":"Of
-        your ripped jeans","tones":[{"score":0.802931,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":15,"text":"Holdin''
-        me closer","tones":[]},{"sentence_id":16,"text":"Till our eyes meet","tones":[{"score":0.531514,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":17,"text":"You
-        won''t ever be alone","tones":[{"score":0.785487,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.650466,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":18,"text":"Wait
-        for me to come home.","tones":[]},{"sentence_id":19,"text":"Loving can heal","tones":[{"score":0.743301,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"...(1409618830612)","tones":[]}]}'
+        I know","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"And
+        when it gets hard","tones":[{"score":0.692321,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":6,"text":"You
+        know it can get hard sometimes","tones":[{"score":0.669571,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"},{"score":0.91961,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":7,"text":"It
+        is the only thing that makes us feel alive","tones":[{"score":0.633257,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":8,"text":"","tones":[]},{"sentence_id":9,"text":"We
+        keep this love in a photograph","tones":[{"score":0.913335,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":10,"text":"We
+        make these memories for ourselves","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":11,"text":"Where
+        our eyes are never closing","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":12,"text":"Hearts
+        are never broken","tones":[{"score":0.717268,"tone_id":"joy","tone_name":"Joy"},{"score":0.898327,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":13,"text":"And
+        time''s forever frozen still","tones":[{"score":0.772051,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.961633,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":14,"text":"","tones":[]},{"sentence_id":15,"text":"So
+        you can keep me","tones":[]},{"sentence_id":16,"text":"Inside the pocket","tones":[]},{"sentence_id":17,"text":"Of
+        your ripped jeans","tones":[{"score":0.802931,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":18,"text":"Holdin''
+        me closer","tones":[]},{"sentence_id":19,"text":"Till our eyes meet","tones":[{"score":0.531514,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":20,"text":"You
+        won''t ever be alone","tones":[{"score":0.785487,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.650466,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":21,"text":"Wait
+        for me to come home","tones":[]},{"sentence_id":22,"text":"","tones":[]},{"sentence_id":23,"text":"Loving
+        can heal","tones":[{"score":0.743301,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":24,"text":"...(1409618905462)","tones":[]}]}'
     http_version: 
-  recorded_at: Fri, 10 Jan 2020 19:13:07 GMT
+  recorded_at: Thu, 14 May 2020 20:04:59 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/youtube/v3/search?key=<YOUTUBE_API_TOKEN>&maxResults=1&order=relevance&part=snippet&q=I%20See%20Fire,%20Ed%20Sheeran&type=video
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Thu, 14 May 2020 20:05:00 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "kind": "youtube#searchListResponse",
+          "etag": "j39ST1pje13jhd40w1pnPqhS2T0",
+          "nextPageToken": "CAEQAA",
+          "regionCode": "US",
+          "pageInfo": {
+            "totalResults": 1000000,
+            "resultsPerPage": 1
+          },
+          "items": [
+            {
+              "kind": "youtube#searchResult",
+              "etag": "vgSnxXZQ_X5ZDyWACxXREhQZe-I",
+              "id": {
+                "kind": "youtube#video",
+                "videoId": "2fngvQS_PmQ"
+              },
+              "snippet": {
+                "publishedAt": "2013-11-27T16:23:36Z",
+                "channelId": "UC652Yb8KmRVVaOtEZzF6eMg",
+                "title": "Ed Sheeran - I See Fire (Music Video)",
+                "description": "Music video for \"I See Fire\" Performed by Ed Sheeran Buy on iTunes: http://smarturl.it/smaugi See The Hobbit: The Desolation of Smaug in theaters December ...",
+                "thumbnails": {
+                  "default": {
+                    "url": "https://i.ytimg.com/vi/2fngvQS_PmQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                  },
+                  "medium": {
+                    "url": "https://i.ytimg.com/vi/2fngvQS_PmQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                  },
+                  "high": {
+                    "url": "https://i.ytimg.com/vi/2fngvQS_PmQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                  }
+                },
+                "channelTitle": "CLS Videos",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-11-27T16:23:36Z"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Thu, 14 May 2020 20:05:00 GMT
+- request:
+    method: get
+    uri: https://api.musixmatch.com/ws/1.1/track.lyrics.get?apikey=<MUSIX_MATCH_TOKEN>&track_id=84361930
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1396'
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      Age:
+      - '0'
+      - '0'
+      Content-Type:
+      - text/plain; charset=utf-8
+      Server:
+      - nginx
+      Via:
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Restarts:
+      - '0'
+      X-Varnish-Instance:
+      - api
+      Date:
+      - Thu, 14 May 2020 20:05:00 GMT
+      X-Served-By:
+      - cache-den19638-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1589486701.819496,VS0,VE100
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.04285192489624},"body":{"lyrics":{"lyrics_id":19203076,"explicit":0,"lyrics_body":"Oh,
+        misty eye of the mountain below\nKeep careful watch of my brothers'' souls\nAnd
+        should the sky be filled with fire and smoke\nKeep watching over Durin''s
+        sons\n\nIf this is to end in fire\nThen we should all burn together\nWatch
+        the flames climb high into the night\n\nCalling out for the rope\nStand by
+        and we will\nWatch the flames burn on and on\nThe mountain side, hey\n\nAnd
+        if we should die tonight\nThen we should all die together\nRaise a glass of
+        wine for the last time\n\nCalling out for the rope\nPrepare as we will\nWatch
+        the flames burn on and on\nThe mountain side\nDesolation comes upon the sky\n\nNow
+        I see fire\nInside the mountain\n...\n\n******* This Lyrics is NOT for Commercial
+        use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_19203076\/su_0\/rs_0\/tr_3vUCAMxtqBgHbgCNsCsJPp_plUxakYL5-oHOt7exemTcwiyT3yxLWHC0N1srCmnj6O1In7gSn1pWpaRhJOkyz4N7DhOBTGsKtue8NJBM1mnj5hpOLBhG1RZmkRxE1w5xlFPFXMdx00cdAk7ZZAkFSg0rIrw_VaeqLODUUAZ8x8DoHdMqQ-Ep7_2Bj2T2_pb4xIdIDutsCvbWYyjvHdj_62mx6wCtM3WIrO9NiHIG0jy0iI9XcFM21lkHdvQOa_Mm1uPz3yM1XofmTh1eQWsA4zNIeuR7gx6MWFCCELpbDKPRlaE246HGrUDM9feDZVRdLadizHy9ZO3_x4y5fJiRCbJ29ucASVwnxg2H7EjH2_FUtnHA4EhkIa7lGk5CRZ3RsHbl-uDVF1v0vcO1npd2ofO6U9ZCnxXbtG8hmfIa4fqPfObrNJVCIH2L5thMc5jiRdpjDA\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_19203076\/su_0\/rs_0\/tr_3vUCABdmLWrr5Sf7KxyIcVz16H7tjjYlWAEC92n9id-9cK0Vi8Hvc3vvrijwTb148QIFbFcS8iWJTsK28Xquanfny-wTEkcF7HDISdiFjFHqvtANmZGYAcdpoh_XEzTI0QqSqnQT3xhzvoOv5sbXCZrM7SATCG07sr5IG-02s05r7yfTGI1dC1iSYQMxb5ul8rWiZVmB8-tZ5rK9BiG84Q89VdVhXejtCxlA8_IiBZGhy3gGbGz7VsSaVfeqVh-yh5TtU37nFsStshiCDgUVRf6dmtfGgkKlx8cWsIS5PVPMDklJ0P1QSC676UhNDsbjC24XtR1Bce3V_qrCjgU-nFOEVH8F6k1Cgwq46nIG77SEbKrXrUhw5xOc2F3X_zjxvargE6rSgVOA3e_scroypDE0ptmDXXCS9_zsjtPOLd8VIjMj6LSf4Ebcy_lgrEszuT3nIA\/","lyrics_copyright":"Lyrics
+        powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
+        30% of the lyrics are returned.","updated_time":"2019-07-01T15:33:57Z"}}}}'
+    http_version: 
+  recorded_at: Thu, 14 May 2020 20:05:00 GMT
+- request:
+    method: post
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    body:
+      encoding: UTF-8
+      string: |-
+        Oh, misty eye of the mountain below
+        Keep careful watch of my brothers' souls
+        And should the sky be filled with fire and smoke
+        Keep watching over Durin's sons
+
+        If this is to end in fire
+        Then we should all burn together
+        Watch the flames climb high into the night
+
+        Calling out for the rope
+        Stand by and we will
+        Watch the flames burn on and on
+        The mountain side, hey
+
+        And if we should die tonight
+        Then we should all die together
+        Raise a glass of wine for the last time
+
+        Calling out for the rope
+        Prepare as we will
+        Watch the flames burn on and on
+        The mountain side
+        Desolation comes upon the sky
+
+        Now I see fire
+        Inside the mountain
+        ...(1409618905462)
+    headers:
+      Authorization:
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
+      User-Agent:
+      - Faraday v1.0.0
+      Content-Type:
+      - text/plain
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2472'
+      X-Powered-By:
+      - Servlet/3.1
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Service-Api-Version:
+      - null; 2017-09-21
+      X-Service-Build-Number:
+      - '2020-04-27T05:01:52'
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Language:
+      - en-US
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      X-Global-Transaction-Id:
+      - e0501181f873d04ce1cea413c97da7e0
+      X-Dp-Watson-Tran-Id:
+      - e0501181f873d04ce1cea413c97da7e0
+      X-Edgeconnect-Midmile-Rtt:
+      - '23'
+      X-Edgeconnect-Origin-Mex-Latency:
+      - '231'
+      Date:
+      - Thu, 14 May 2020 20:05:01 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"document_tone":{"tones":[{"score":0.726613,"tone_id":"confident","tone_name":"Confident"}]},"sentences_tone":[{"sentence_id":0,"text":"Oh,
+        misty eye of the mountain below","tones":[]},{"sentence_id":1,"text":"Keep
+        careful watch of my brothers'' souls","tones":[{"score":0.56174,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":2,"text":"And
+        should the sky be filled with fire and smoke","tones":[]},{"sentence_id":3,"text":"Keep
+        watching over Durin''s sons","tones":[]},{"sentence_id":4,"text":"","tones":[]},{"sentence_id":5,"text":"If
+        this is to end in fire","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":6,"text":"Then
+        we should all burn together","tones":[{"score":0.942582,"tone_id":"confident","tone_name":"Confident"},{"score":0.715667,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":7,"text":"Watch
+        the flames climb high into the night","tones":[]},{"sentence_id":8,"text":"","tones":[]},{"sentence_id":9,"text":"Calling
+        out for the rope","tones":[]},{"sentence_id":10,"text":"Stand by and we will","tones":[]},{"sentence_id":11,"text":"Watch
+        the flames burn on and on","tones":[]},{"sentence_id":12,"text":"The mountain
+        side, hey","tones":[]},{"sentence_id":13,"text":"","tones":[]},{"sentence_id":14,"text":"And
+        if we should die tonight","tones":[{"score":0.846852,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":15,"text":"Then
+        we should all die together","tones":[{"score":0.919473,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.942582,"tone_id":"confident","tone_name":"Confident"},{"score":0.620279,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":16,"text":"Raise
+        a glass of wine for the last time","tones":[{"score":0.537473,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":17,"text":"","tones":[]},{"sentence_id":18,"text":"Calling
+        out for the rope","tones":[]},{"sentence_id":19,"text":"Prepare as we will","tones":[]},{"sentence_id":20,"text":"Watch
+        the flames burn on and on","tones":[]},{"sentence_id":21,"text":"The mountain
+        side","tones":[]},{"sentence_id":22,"text":"Desolation comes upon the sky","tones":[{"score":0.653117,"tone_id":"joy","tone_name":"Joy"}]},{"sentence_id":23,"text":"","tones":[]},{"sentence_id":24,"text":"Now
+        I see fire","tones":[]},{"sentence_id":25,"text":"Inside the mountain","tones":[]},{"sentence_id":26,"text":"...(1409618905462)","tones":[]}]}'
+    http_version: 
+  recorded_at: Thu, 14 May 2020 20:05:01 GMT
 recorded_with: VCR 5.0.0

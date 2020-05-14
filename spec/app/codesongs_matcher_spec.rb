@@ -7,8 +7,8 @@ describe "when the endpoint '/codesongs_matcher' is hit" do
     get '/codesongs_matcher', params, headers
 
     expect(last_response).to be_ok
-    # expect(last_response.body).to be_a JSON
-    expected_output = "{\"songs\":[{\"title\":\"Shape of You\",\"link\":\"https://www.youtube.com/embed/JGwWNGJdvx8\"},{\"title\":\"Thinking Out Loud\",\"link\":\"https://www.youtube.com/embed/lp-EO5I60KA\"},{\"title\":\"Photograph\",\"link\":\"https://www.youtube.com/embed/qgmXPCX4VzU\"},{\"title\":\"Perfect\",\"link\":\"https://www.youtube.com/embed/UDDMYw_IZnE\"},{\"title\":\"South of the Border\",\"link\":\"https://www.youtube.com/embed/UPOT2tgY9QQ\"}]}"
+    
+    expected_output = "{\"songs\":[{\"title\":\"Shape of You\",\"link\":\"https://www.youtube.com/embed/JGwWNGJdvx8\"},{\"title\":\"Thinking Out Loud\",\"link\":\"https://www.youtube.com/embed/lp-EO5I60KA\"},{\"title\":\"Photograph\",\"link\":\"https://www.youtube.com/embed/qgmXPCX4VzU\"},{\"title\":\"Perfect\",\"link\":\"https://www.youtube.com/embed/UDDMYw_IZnE\"}]}"
     expect(last_response.body).to eq expected_output
   end
 

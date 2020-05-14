@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.github.com/repos/ap2322/battleship/commits?access_token=<GITHUB_TEST_TOKEN>
+    uri: https://api.github.com/repos/ap2322/battleship/commits
     body:
       encoding: US-ASCII
       string: ''
@@ -21,41 +21,28 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 08 Jan 2020 23:30:20 GMT
+      - Thu, 14 May 2020 20:15:13 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
       Status:
       - 200 OK
-      X-Ratelimit-Limit:
-      - '5000'
-      X-Ratelimit-Remaining:
-      - '4997'
-      X-Ratelimit-Reset:
-      - '1578529810'
       Cache-Control:
-      - private, max-age=60, s-maxage=60
+      - public, max-age=60, s-maxage=60
       Vary:
-      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept, Accept-Encoding, Accept, X-Requested-With
       Etag:
       - W/"89e80e901b06dc96007e9a7d1f9110cd"
       Last-Modified:
       - Thu, 29 Aug 2019 00:24:05 GMT
-      X-Oauth-Scopes:
-      - public_repo, read:user, repo:status
-      X-Accepted-Oauth-Scopes:
-      - ''
       X-Github-Media-Type:
       - github.v3; format=json
       Link:
-      - <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=2>;
-        rel="next", <https://api.github.com/repositories/203263628/commits?access_token=<GITHUB_TEST_TOKEN>&page=3>;
-        rel="last"
+      - <https://api.github.com/repositories/203263628/commits?page=2>; rel="next",
+        <https://api.github.com/repositories/203263628/commits?page=3>; rel="last"
       Access-Control-Expose-Headers:
       - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
         X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
-        X-GitHub-Media-Type
+        X-GitHub-Media-Type, Deprecation, Sunset
       Access-Control-Allow-Origin:
       - "*"
       Strict-Transport-Security:
@@ -70,8 +57,18 @@ http_interactions:
       - origin-when-cross-origin, strict-origin-when-cross-origin
       Content-Security-Policy:
       - default-src 'none'
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '52'
+      X-Ratelimit-Reset:
+      - '1589490035'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '10768'
       X-Github-Request-Id:
-      - FCB5:5E59:429646:A2EDA2:5E16660C
+      - 0B8C:199F:1B74E:48E0F:5EBDA6D3
     body:
       encoding: ASCII-8BIT
       string: '[{"sha":"d64692f5ebd125c807f9c1d60994e53d02ea118f","node_id":"MDY6Q29tbWl0MjAzMjYzNjI4OmQ2NDY5MmY1ZWJkMTI1YzgwN2Y5YzFkNjA5OTRlNTNkMDJlYTExOGY=","commit":{"author":{"name":"Alice
@@ -215,10 +212,10 @@ http_interactions:
         Isaacson","email":"isaacson.zm@gmail.com","date":"2019-08-26T22:53:10Z"},"message":"Fix
         player shot methods and added tests\n\nCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>","tree":{"sha":"42cd945753b82c49d4090a07f3ad4b484b95e93f","url":"https://api.github.com/repos/ap2322/battleship/git/trees/42cd945753b82c49d4090a07f3ad4b484b95e93f"},"url":"https://api.github.com/repos/ap2322/battleship/git/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a","html_url":"https://github.com/ap2322/battleship/commit/b0cb01845cce4ec7b9781549f6ad83d040549d1a","comments_url":"https://api.github.com/repos/ap2322/battleship/commits/b0cb01845cce4ec7b9781549f6ad83d040549d1a/comments","author":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"committer":{"login":"zacisaacson","id":50255174,"node_id":"MDQ6VXNlcjUwMjU1MTc0","avatar_url":"https://avatars2.githubusercontent.com/u/50255174?v=4","gravatar_id":"","url":"https://api.github.com/users/zacisaacson","html_url":"https://github.com/zacisaacson","followers_url":"https://api.github.com/users/zacisaacson/followers","following_url":"https://api.github.com/users/zacisaacson/following{/other_user}","gists_url":"https://api.github.com/users/zacisaacson/gists{/gist_id}","starred_url":"https://api.github.com/users/zacisaacson/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zacisaacson/subscriptions","organizations_url":"https://api.github.com/users/zacisaacson/orgs","repos_url":"https://api.github.com/users/zacisaacson/repos","events_url":"https://api.github.com/users/zacisaacson/events{/privacy}","received_events_url":"https://api.github.com/users/zacisaacson/received_events","type":"User","site_admin":false},"parents":[{"sha":"7cd64e4753128b4a3263c875dd1c1060ae149af7","url":"https://api.github.com/repos/ap2322/battleship/commits/7cd64e4753128b4a3263c875dd1c1060ae149af7","html_url":"https://github.com/ap2322/battleship/commit/7cd64e4753128b4a3263c875dd1c1060ae149af7"}]}]'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 23:30:17 GMT
+  recorded_at: Thu, 14 May 2020 20:15:15 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: 'Merge pull request #24 from ap2322/cleanup_ap2Clean up comments and
@@ -253,7 +250,7 @@ http_interactions:
         Fix player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>. '
     headers:
       Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -278,7 +275,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -294,15 +291,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 585cf8143425f565f8a84993800278a4
+      - 171afc5b228cb7ddd4e0196087b501fb
       X-Dp-Watson-Tran-Id:
-      - 585cf8143425f565f8a84993800278a4
+      - 171afc5b228cb7ddd4e0196087b501fb
       X-Edgeconnect-Midmile-Rtt:
-      - '1'
+      - '18'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '641'
+      - '499'
       Date:
-      - Wed, 08 Jan 2020 23:30:21 GMT
+      - Thu, 14 May 2020 20:15:16 GMT
       Connection:
       - keep-alive
     body:
@@ -347,5 +344,5 @@ http_interactions:
         results methods for player and computerCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[{"score":0.587989,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":30,"text":"Fix
         player shot methods and added testsCo-authored-by: Alice Post <26877629+ap2322@users.noreply.github.com>.","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 23:30:18 GMT
+  recorded_at: Thu, 14 May 2020 20:15:16 GMT
 recorded_with: VCR 5.0.0
