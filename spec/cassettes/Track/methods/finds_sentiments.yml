@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1618'
+      - '1620'
       Accept-Ranges:
       - bytes
       - bytes
@@ -41,20 +41,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Wed, 08 Jan 2020 18:14:33 GMT
+      - Thu, 14 May 2020 20:15:02 GMT
       X-Served-By:
-      - cache-den19645-DEN
+      - cache-den19635-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578507273.975080,VS0,VE179
+      - S1589487303.777992,VS0,VE104
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.12148094177246},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.045932054519653},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
         uh-huh (Yeah, Rihanna)\nUh-huh, uh-huh (Good girl, gone bad)\nUh-huh, uh-huh
         (Take three, action)\nUh-huh, uh-huh (Hov)\n\nNo clouds in my stones\nLet
         it rain, I hydroplane in the bank\nComin'' down like the Dow Jones\nWhen the
@@ -68,14 +68,14 @@ http_interactions:
         be here forever\nSaid I''ll always be your friend\nTook an oath, I''ma stick
         it out to the end\nNow that it''s raining more than ever\nKnow that we''ll
         still have each other\nYou can stand under my umbrella\n...\n\n******* This
-        Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAJ_3zzEBPn4PO28Gq22qpiI03zhuGpW_BMnjTXRQCcUeJlAXEFNbLB4dl2Svb1rmzgt025rvhCUVBBH1VNVDe7ggH0QKhDVzvoPct4VtUexmuxwhohUa51SBvCvTHTfz4seD5CytBR9F_IQX7JxQFn9-Ya8S_ttxTx_g-uQH-lIeS6gg-kKFjYci54w1jjRNnBizxh4iQYdYUiuqolNdebP5TJDCFAGwNwEA7K5sjkTL-sLvOfFnO-Xt5wbehNhg8eS-ognCdH27CVmRG-qosVCOeR-Ay9BJ4hekvcJ7jArBYMb9TLD7hteefDKM3jgHGjHXMPPe8nGkh9PEFGBlhBvGqY6b3TN-ihxU-LXh07Q2s164OMkGB5Nh7laxTvVMXGQ8eix8Gy3d9F5ATxdZiOiZ4dX7ecccifqySN1eq8yvii--6JOx-LHw\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAFaG4aQnvi596oecgpn9tJ-2NO7cut0gXCYn_mtozcNaj2eqx8b4oX1MeE2zXepWsn-uMk1oLwkdwHo7GbhgQAnOJQhjC_pQxMFatSOc1XFkQwowiKtKXg37CXo_YpBBCYllKqvYrvvFd65zM-4ZhnhOnKej1JCrwsDkaU84VwUoaRAqNifQ_8hBvJfQWt-KbW9YHGnEQ51HBAM74PvjH3X17mw9o0cdKPvceOFrDUmsymhzLvK2ZdnB8gD8ycqWHfU8WtpPNWg8ixi0susY89lKXZ8UfqtHAp-7FWq8uv9Kg7eufXLxK7rfYwSvtmbpKB-p-NwLoqiN5FTu0Bi2tGmqEenu-24sw3bdOqyUws--ufMIvrkANt307DUdAJc61Bar46zwnm9ZYBbYABmtjG1Mx9gUmPyH7XNVEUMda5PuMa8MknP1Jvhs\/","lyrics_copyright":"Lyrics
+        Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCACkfPdmADbeAYIOX69GWXWAc6Jta-wktJE9YIUkuVkIRjDv4rkq_DlA74VIeRpnNUtvLRmw-XJbhMlbQpnzIKWyF4E1g0vjLLMetmCIEMqOexO77gmAcAHa92a18EzbbZ3CY3oN5JfelJyFOaqC1Ae0ATJ86f8KO2XJbc6h3UdZn7vR8mL2mBIfUMJyFL5YPDTNDkS2DT2P2QaN6E_xntUiZWYzvQwPmy6RLN6NwT5lDTYdTpPkrVhCHDwgcMAv7JdTg15fsr3M6drn41-8bJIUDsIGVIkzFWC4qtaj2bBWkDuYQZ0kahKdzLOq4ykeOBxVLRh1Izu6vV4sVNrGW7kZTU3WOCaFjzAnZs1QS-zZ9KMYGV5jyiaCCTWn60oPsbPihuaMLrFCHqBoxO9WxenGfbTMhIYKtcL3NsKhqPiXASDaW7w0cWg\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAIrnhf6wQWahzfnv8xsVlSV5-0JTWHC3ykvIe9S5gmqVgS4T-5oSv8Ghe8CeK8gsna-lbdFMaUL6nusi7zI8WkBGVkCpWIDM2XloIgUP96pqLXkmKFEP5hzA0KGFS-YPJzmJ_6zhbU58WjGa_6rpe7M_Vmf9FHFmcWH8aX6MiTqC6zhXfPCtjj_806labuBgEFuKBv-UMNqDUcXG6OZxV0mtmDzzVLBsXUnf3khQErYXkNeejJv-dIFAD7C2r2QSuv1t5iNK97xMOLdi_xO53zfNmYOEj64kJFwxXIoee-aDxnHIbKibHaE9Tp1_OHFVFHI3J2w8kcCN1HYN73jyJjYiuc9XuFCL-8qtbvkt7d81dGh-oY2RBaor5etUfw1Kh42iiLWhJiStE_shGgDWIyViFhDUUZM98DWeORFcWhb7pRlWiwXnEw\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2020-01-08T08:12:42Z"}}}}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 18:14:30 GMT
+  recorded_at: Thu, 14 May 2020 20:15:02 GMT
 - request:
     method: post
-    uri: https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
+    uri: https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/<WATSON_INSTANCE>/v3/tone?version=2017-09-21
     body:
       encoding: UTF-8
       string: |-
@@ -115,10 +115,10 @@ http_interactions:
         Now that it's raining more than ever
         Know that we'll still have each other
         You can stand under my umbrella
-        ...(1409618832280)
+        ...(1409618905462)
     headers:
       Authorization:
-      - Basic YXBpa2V5OjhNSjVBcGI0cnBtQ0ZQMGdDNlF1QUdrOEZlNWNrejBjVlRrb0RzRWhjUjhE
+      - Basic YXBpa2V5Om9wMVh3LTRPZmNjOTJWMlNjY2x1R1FRNGFPMGh0RXpOTU80a0pUQUJseno1
       User-Agent:
       - Faraday v1.0.0
       Content-Type:
@@ -143,7 +143,7 @@ http_interactions:
       X-Service-Api-Version:
       - null; 2017-09-21
       X-Service-Build-Number:
-      - '2020-01-06T06:04:45'
+      - '2020-04-27T05:01:52'
       Cache-Control:
       - no-store
       Pragma:
@@ -159,15 +159,15 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains;
       X-Global-Transaction-Id:
-      - 0c64c9e6514286adb1907830bf6d3035
+      - c460fd0689c3c132da43af90d030488a
       X-Dp-Watson-Tran-Id:
-      - 0c64c9e6514286adb1907830bf6d3035
+      - c460fd0689c3c132da43af90d030488a
       X-Edgeconnect-Midmile-Rtt:
-      - '3'
+      - '19'
       X-Edgeconnect-Origin-Mex-Latency:
-      - '370'
+      - '342'
       Date:
-      - Wed, 08 Jan 2020 18:14:33 GMT
+      - Thu, 14 May 2020 20:15:03 GMT
       Connection:
       - keep-alive
     body:
@@ -186,7 +186,7 @@ http_interactions:
         know me (You know me)","tones":[{"score":0.955445,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":14,"text":"In
         anticipation for precipitation","tones":[]},{"sentence_id":15,"text":"Stack
         chips for the rainy day","tones":[]},{"sentence_id":16,"text":"Jay, Rain Man
-        is back, with Little Miss Sunshine","tones":[{"score":0.571853,"tone_id":"sadness","tone_name":"Sadness"},{"score":0.521903,"tone_id":"fear","tone_name":"Fear"}]},{"sentence_id":17,"text":"Rihanna,
+        is back, with Little Miss Sunshine","tones":[{"score":0.521903,"tone_id":"fear","tone_name":"Fear"},{"score":0.571853,"tone_id":"sadness","tone_name":"Sadness"}]},{"sentence_id":17,"text":"Rihanna,
         where you at?","tones":[]},{"sentence_id":18,"text":"You have my heart","tones":[]},{"sentence_id":19,"text":"And
         we''ll never be worlds apart","tones":[{"score":0.80026,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":20,"text":"Maybe
         in magazines","tones":[{"score":0.994446,"tone_id":"tentative","tone_name":"Tentative"}]},{"sentence_id":21,"text":"But
@@ -201,7 +201,7 @@ http_interactions:
         an oath, I''ma stick it out to the end","tones":[{"score":0.842108,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":32,"text":"Now
         that it''s raining more than ever","tones":[{"score":0.751512,"tone_id":"confident","tone_name":"Confident"}]},{"sentence_id":33,"text":"Know
         that we''ll still have each other","tones":[{"score":0.801827,"tone_id":"analytical","tone_name":"Analytical"}]},{"sentence_id":34,"text":"You
-        can stand under my umbrella","tones":[]},{"sentence_id":35,"text":"...(1409618832280)","tones":[]}]}'
+        can stand under my umbrella","tones":[]},{"sentence_id":35,"text":"...(1409618905462)","tones":[]}]}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 18:14:31 GMT
+  recorded_at: Thu, 14 May 2020 20:15:03 GMT
 recorded_with: VCR 5.0.0

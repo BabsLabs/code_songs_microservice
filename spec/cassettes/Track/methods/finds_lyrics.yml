@@ -29,6 +29,7 @@ http_interactions:
       Age:
       - '0'
       - '0'
+      - '0'
       Content-Type:
       - text/plain; charset=utf-8
       Server:
@@ -41,20 +42,20 @@ http_interactions:
       X-Varnish-Instance:
       - api
       Date:
-      - Wed, 08 Jan 2020 17:52:30 GMT
+      - Thu, 14 May 2020 20:15:02 GMT
       X-Served-By:
-      - cache-den19633-DEN
+      - cache-den19621-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1578505951.643132,VS0,VE246
+      - S1589487302.458559,VS0,VE107
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: '{"message":{"header":{"status_code":200,"execute_time":0.18624401092529},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
+      string: '{"message":{"header":{"status_code":200,"execute_time":0.045905828475952},"body":{"lyrics":{"lyrics_id":20292097,"explicit":0,"lyrics_body":"Uh-huh,
         uh-huh (Yeah, Rihanna)\nUh-huh, uh-huh (Good girl, gone bad)\nUh-huh, uh-huh
         (Take three, action)\nUh-huh, uh-huh (Hov)\n\nNo clouds in my stones\nLet
         it rain, I hydroplane in the bank\nComin'' down like the Dow Jones\nWhen the
@@ -68,9 +69,9 @@ http_interactions:
         be here forever\nSaid I''ll always be your friend\nTook an oath, I''ma stick
         it out to the end\nNow that it''s raining more than ever\nKnow that we''ll
         still have each other\nYou can stand under my umbrella\n...\n\n******* This
-        Lyrics is NOT for Commercial use *******\n(1409618832280)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAAzL48SXkQFrWBUW62g-knMavFaEqwKQ0SKUEzjOzPW23KIshxWo6w2-RFSMqCJXjwfLbtLEqSVEzFo0tYdpIRcV84ag_eauot_EGDNku-hev1wafvZzue-8q-2X7qgZwsuIDgrstMjWQKEqamLbdwl5uX9rnK8zFkaEz6ZWV-RNtplrNfbxPCU0eUisP2CJldMLIcTFs9k4yRW-dZyxfE1kOIKWQ7m-dSH_rxrVf0fh2lEZ45_rVTar8inKy88KCgjZy8FIa6Lw0SM2qJ2MOFs7sfU888T8ZZkhllWnJPVWs4wFkAbAUqczxwTzKWyKFdvDB3m-eccIGK4-01fodL_JkNRNYw3KJHfjGHJ5KNIOdrlW1kUu5P83iiCJgk0ypFOWh-PU3vHHgJ8ttP_L2c9xgUPpRCwaZinEE1ya8tR9MieyAwD-Vfrn\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAPMkElxJOQ__rtBZQcnUb9wjA_Scr3yKbLMDJfRvbdjyjuPXckysMQ3EqGJ7eEml1IDw2dPsUeZimNkXUxKFnDc_VRKH8jNTutyiXPdXnN4ecCXOBSLR5RrND8Qqjn9x8FNzZL0WJlGH7Cwpn2xIiOUFK90BcjTuOgPwkqr2ECUXBD2fp5ZLJrQT3dogfCd7akKqUx4Ern3l5f2In-QARFgYdqov0rPMat0ajm_7AkRvVhQfaS-RML-O_9wor8UtzG6Nyl24edPKfKBdVFh7RQN6-YLzVp3snKsq1ixnFVqD-eCuUs1qh40CV19uRXG6PWWWz8bhNhE_8s1fkmoFF4Ot6qj-VUjPytc1qCiX2jmjChUSfGS1_AUYdoZ9g6GPgUsYfzWgJtulLt06fWSskBnNVMBxZeVT5yZ7OiIBmpcDrizW3jadquvO\/","lyrics_copyright":"Lyrics
+        Lyrics is NOT for Commercial use *******\n(1409618905462)","script_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_js\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAOn_4T37NWvXslHGG03hb51dOVnpzNbntZfVU6qQng-Fq291APpOhRoHjxthX3pSrAoeD26D3a0hSxUih9jH6sL8VFTkw6i4v53yRYG5V94MXTAZLm1ZpEjB1KG2ZGc5inFucQrOLWs_Q1yTq5U6UPz7tirm2jY_hBgfT9hbAHqSw5Dvzf2N-RuNZajH2N_mIo5lOvdTfvt75rAcedRFiLCpIVZF_nZfPRM6Grf1jk873J2pCntSAlcTYfTjrDSmWKYsbuu9-HtNT1XphwlXNpK-rLUvFecpJUbjxQPS0b9eKL6jBnUP4_KXWAN2cz4jqD3RqU_t5iQeHuzgm_xKDpuAS49KKdCY7nQu-i8VtwnYz-ROiEnR7tJhDxxseIXSqEBeNVxmoNiAw4G6lKoJ8DSwHdHvpr6PBtDtHUY7JFLb-ryGAHdu9Q\/","pixel_tracking_url":"https:\/\/tracking.musixmatch.com\/t1.0\/m_img\/e_1\/sn_0\/l_20292097\/su_0\/rs_0\/tr_3vUCAP6Z22MkZ5eTPhPdlmixBetRNsGTEkk_eBzVz7psJZIda1OrUI8P8B0JRHqMfxhpbwvu76mv7QsUoQy3MhGQV0xQdS8ppVKYA4tQH_6VO-7RbB9JsQsiF-IQeaG3vD_C_as47PzP_tff0NRqK8P_YfOBburME9KlPWysNE1qLBY9L-YEMEh523ovN_-qeYWHIYIwF5er6I2KR6HA-wo1ggwd2DCgM8BEoEcbFSotuYgRtFzXD9UL_yRU9Jpzl_N-MpX9_8ImZfsNhawl1o9vQjeuBv6l5K18pTn4rX0wiM-rB4VYAAx6EJHaJPEkKFjk4HRbutV7PWSU_VXrTcmFvWSxH2telkpFVws3sfqf_aC9boyvgTlSh0H6XXOY5Jg4Bbik2rHTKSHl_2kz_HfuksSP7MYQnw6_skstbBpkQyjxfOaogToZ0g\/","lyrics_copyright":"Lyrics
         powered by www.musixmatch.com. This Lyrics is NOT for Commercial use and only
         30% of the lyrics are returned.","updated_time":"2020-01-08T08:12:42Z"}}}}'
     http_version: 
-  recorded_at: Wed, 08 Jan 2020 17:52:28 GMT
+  recorded_at: Thu, 14 May 2020 20:15:02 GMT
 recorded_with: VCR 5.0.0
