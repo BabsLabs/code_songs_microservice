@@ -13,6 +13,7 @@ class WatsonService
       req.params['version'] = '2017-09-21'
       req.body = @text
     end
+    raise "watson error" if response.body.to_s == "{:code=>403, :error=>\"Forbidden\"}"
     parsed_response = JSON.parse(response.body, symbolize_names: true)
   end
 
