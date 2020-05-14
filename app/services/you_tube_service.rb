@@ -18,7 +18,7 @@ class YouTubeService
       req.params['key'] = ENV['YOUTUBE_API_TOKEN']
       req.headers['Accept'] = 'application/json'
     end
-
+    
     parsed_response = JSON.parse(response.body, symbolize_names: true)
     video_id = parsed_response[:items][0][:id][:videoId]
 
@@ -30,9 +30,5 @@ class YouTubeService
       f.adapter Faraday.default_adapter
     end
   end
-
-  # private
-  # attr_reader :song_title, :artist_name
-
-
+  
 end
